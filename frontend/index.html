@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CV Search</h1>
+    <nav>
+      <button class="tab active" data-tab="recruiter">Recrutador</button>
+      <button class="tab" data-tab="apply">Candidatura</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="recruiter" class="panel">
+      <div class="columns">
+        <div class="column">
+          <h2>Pesquisa semântica</h2>
+          <p class="subtitle">pgvector, embeddings</p>
+          <form id="semantic-form">
+            <input id="semantic-input" type="text" placeholder="Descreva o candidato que procura" required>
+            <button type="submit">Pesquisar</button>
+          </form>
+          <p id="semantic-status" class="status"></p>
+          <div id="semantic-results"></div>
+        </div>
+
+        <div class="column">
+          <h2>Pesquisa tradicional</h2>
+          <p class="subtitle">PostgreSQL full-text, palavras-chave</p>
+          <form id="keyword-form">
+            <input id="keyword-input" type="text" placeholder="Descreva o candidato que procura" required>
+            <button type="submit">Pesquisar</button>
+          </form>
+          <p id="keyword-status" class="status"></p>
+          <div id="keyword-results"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="panel" hidden>
+      <h2>Candidatura</h2>
+      <p class="subtitle">Envie um CV em PDF para ver o texto extraído</p>
+      <form id="upload-form">
+        <input id="upload-file" type="file" accept=".pdf,application/pdf" required>
+        <button type="submit">Enviar CV</button>
+      </form>
+      <p id="upload-status" class="status"></p>
+      <div id="upload-result" class="info-box" hidden>
+        <h3>Texto extraído</h3>
+        <p id="upload-meta" class="meta"></p>
+        <pre id="upload-content"></pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
