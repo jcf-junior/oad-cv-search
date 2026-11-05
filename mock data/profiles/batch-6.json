@@ -1,0 +1,1796 @@
+[
+  {
+    "archetype": "security",
+    "language": "en",
+    "misleading": false,
+    "name": "Tobiasz Wierzbicki",
+    "headline": "Senior Application Security Engineer",
+    "email": "tobiasz.wierzbicki@example.com",
+    "location": "Wrocław, Poland",
+    "summary": "Application security engineer with twelve years in secure software delivery, the last six leading a small AppSec team. I embed threat modelling and code review into how product squads work, and I care more about fixing root causes than about long vulnerability reports. Outside work I run a local meetup on secure development and write short internal guides for new engineers.",
+    "skills": [
+      "Threat modelling (STRIDE)",
+      "SAST/DAST tuning",
+      "Semgrep",
+      "Burp Suite",
+      "OWASP ASVS",
+      "Secure code review (Java, Go)",
+      "OAuth2/OIDC",
+      "Secrets management",
+      "Bug bounty triage",
+      "Security champions programme"
+    ],
+    "experience": [
+      {
+        "role": "Lead Application Security Engineer",
+        "company": "Brightwell Payments",
+        "period": "2019 – Present",
+        "bullets": [
+          "Built a security champions network of 28 developers; critical findings reaching production fell by 61% in two years.",
+          "Introduced threat modelling workshops for every new payment feature, reviewing roughly 40 designs per year.",
+          "Tuned Semgrep rules and static analysis gates in the build pipeline, cutting false positives from 70% to under 20%.",
+          "Ran the private bug bounty programme, triaging 300+ reports and agreeing remediation SLAs with engineering leads.",
+          "Published a developer-friendly secure coding handbook with worked Java and Go examples, now part of every engineer's onboarding. Partnered with legal and compliance to map PCI requirements onto concrete engineering tasks."
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "company": "Norvik Systems",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Performed manual code reviews of Java services handling authentication and session management.",
+          "Ran quarterly penetration tests against internal web apps and wrote clear remediation guidance for developers.",
+          "Rolled out a central secrets vault and retired hard-coded credentials across 60 repositories.",
+          "Reported findings in the team backlog rather than PDFs, which doubled the fix rate within one sprint.",
+          "Evaluated three static analysis products and recommended the one that best fitted our monorepo."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Lumora Software",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Developed Java back-end services for logistics customers.",
+          "Fixed injection and access-control flaws found in customer audits and learned secure coding on the job.",
+          "Earned a reputation for explaining injection attacks with live demos during lunch sessions."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Wrocław Polytechnic Institute (fictional)",
+        "period": "2010 – 2012"
+      },
+      {
+        "degree": "BSc Informatics",
+        "institution": "Wrocław Polytechnic Institute (fictional)",
+        "period": "2007 – 2010"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)",
+      "German (B1)"
+    ],
+    "certifications": [
+      "CSSLP",
+      "Offensive Security Web Expert (OSWE)"
+    ]
+  },
+  {
+    "archetype": "security",
+    "language": "en",
+    "misleading": false,
+    "name": "Chidinma Okonkwo-Eze",
+    "headline": "Cloud Security Engineer",
+    "email": "chidinma.okonkwo-eze@example.net",
+    "location": "London, United Kingdom",
+    "summary": "Cloud security engineer focused on AWS and Azure guardrails. I turn compliance requirements into automated, preventive controls and help engineering teams ship safely without waiting on a manual review. Previously a SOC analyst, so I know what detection looks like from the receiving end. I mentor two junior colleagues and speak at community security meetups about cloud misconfigurations.",
+    "skills": [
+      "AWS Organizations & SCPs",
+      "Azure Policy",
+      "GuardDuty",
+      "Security Hub",
+      "IAM least privilege",
+      "Checkov",
+      "CloudFormation",
+      "Policy as code (OPA)",
+      "SIEM (Splunk)",
+      "ISO 27001",
+      "CIS Benchmarks",
+      "Python"
+    ],
+    "experience": [
+      {
+        "role": "Cloud Security Engineer",
+        "company": "Harrowgate Retail Group",
+        "period": "2021 – Present",
+        "bullets": [
+          "Designed service control policies and account guardrails across 120 AWS accounts, blocking public storage by default.",
+          "Added Checkov scanning of CloudFormation templates to the delivery pipelines, catching misconfigurations before deployment.",
+          "Reduced mean time to remediate high-severity cloud findings from 19 days to 4.",
+          "Wrote an IAM review playbook adopted by all platform squads.",
+          "Automated evidence collection for ISO 27001 audits, saving the compliance team roughly 15 days of work each cycle. Partnered with finance to tag and review accounts, uncovering several forgotten test environments with open access."
+        ]
+      },
+      {
+        "role": "Security Operations Analyst",
+        "company": "Tessellate Telecom",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Monitored alerts in Splunk, investigated incidents and escalated confirmed compromises.",
+          "Built detection rules for suspicious API key use that raised the true-positive rate noticeably.",
+          "Contributed to the incident response runbooks and ran tabletop exercises twice a year.",
+          "Tuned noisy alerts by adding context from asset inventory, which let the team focus on real incidents.",
+          "Presented a lessons-learned review of a credential leak to senior management."
+        ]
+      },
+      {
+        "role": "IT Support Analyst",
+        "company": "Oyelaran Technologies",
+        "period": "2016 – 2018",
+        "bullets": [
+          "First-line support for 400 users, account lifecycle and endpoint hygiene.",
+          "Moved into security after automating the leaver process in Python.",
+          "Learned scripting and basic networking, which later became the foundation for cloud work."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Information Technology",
+        "institution": "University of Ibadan Heights (fictional)",
+        "period": "2012 – 2016"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (native)",
+      "French (A2)"
+    ],
+    "certifications": [
+      "AWS Certified Security – Specialty",
+      "CISSP (Associate)"
+    ]
+  },
+  {
+    "archetype": "security",
+    "language": "pt",
+    "misleading": false,
+    "name": "Rúben Taveirinha",
+    "headline": "Engenheiro de Segurança Aplicacional",
+    "email": "ruben.taveirinha@example.org",
+    "location": "Braga, Portugal",
+    "summary": "Engenheiro de segurança com nove anos de experiência em aplicações web e APIs. Trabalho lado a lado com as equipas de desenvolvimento para encontrar vulnerabilidades cedo, explicar o risco em linguagem simples e acompanhar a correção até ao fim. Gosto de partilhar o que aprendo em conferências e comunidades de segurança em Portugal.",
+    "skills": [
+      "Testes de intrusão web",
+      "OWASP Top 10",
+      "Burp Suite",
+      "Revisão de código (C#, TypeScript)",
+      "Modelação de ameaças",
+      "Análise estática (SonarQube)",
+      "Gestão de vulnerabilidades",
+      "JWT e OAuth2",
+      "Fortificação de APIs",
+      "RGPD"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro de Segurança Aplicacional",
+        "company": "Minhoteca Seguros",
+        "period": "2020 – Presente",
+        "bullets": [
+          "Realizo testes de intrusão a portais de clientes e APIs de parceiros, com cerca de 25 relatórios por ano.",
+          "Criei uma lista de verificação de segurança para revisões de código que passou a ser usada por seis equipas.",
+          "Integrei a análise estática no processo de entrega e reduzi para metade as vulnerabilidades repetidas.",
+          "Dou formações trimestrais a programadores sobre injeção, controlo de acessos e gestão de sessões.",
+          "Defini métricas simples de risco, como tempo médio de correção por gravidade, e apresento-as todos os meses à direção. Colaborei com o apoio ao cliente para identificar padrões de fraude nas contas online."
+        ]
+      },
+      {
+        "role": "Consultor de Segurança",
+        "company": "Atlântica Consultoria Digital",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Auditei aplicações web de clientes da banca e da energia e recomendei correções priorizadas.",
+          "Apoiei a preparação para auditorias de conformidade com o RGPD.",
+          "Desenvolvi ferramentas internas em Python para automatizar a recolha de evidências.",
+          "Participei em dezenas de reuniões de apresentação de resultados e treinei jovens consultores em testes web.",
+          "Criei modelos de relatório reutilizáveis que reduziram o tempo de escrita em cerca de 30%."
+        ]
+      },
+      {
+        "role": "Programador Júnior",
+        "company": "Soluções Cávado",
+        "period": "2015 – 2016",
+        "bullets": [
+          "Desenvolvimento de funcionalidades em C# e correção de defeitos em aplicações internas.",
+          "Aprendi com os colegas mais velhos as boas práticas de validação de dados de entrada e tratamento de erros.",
+          "Participei em revisões de arquitetura e propus validações de entrada mais rigorosas nos formulários públicos da empresa."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática",
+        "institution": "Universidade do Minho Alto (fictícia)",
+        "period": "2013 – 2015"
+      },
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade do Minho Alto (fictícia)",
+        "period": "2010 – 2013"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Espanhol (B1)"
+    ],
+    "certifications": [
+      "eWPT",
+      "Certified Ethical Hacker"
+    ]
+  },
+  {
+    "archetype": "security",
+    "language": "en",
+    "misleading": false,
+    "name": "Siobhán Ní Bhriain",
+    "headline": "Security Operations Analyst",
+    "email": "siobhan.nibhriain@example.org",
+    "location": "Cork, Ireland",
+    "summary": "Junior SOC analyst, two years into a security career after a degree in cybersecurity. I enjoy the detective side of incident triage and am steadily learning to write detections instead of just following them. I keep a home lab where I practise log analysis and write up small investigations to sharpen my reporting skills. I am looking for a team that teaches threat hunting. Calm under pressure, I write clear handover notes and enjoy explaining incidents to non-technical colleagues.",
+    "skills": [
+      "Alert triage",
+      "Microsoft Sentinel",
+      "KQL queries",
+      "Phishing analysis",
+      "MITRE ATT&CK",
+      "Wireshark",
+      "Windows event logs",
+      "Incident documentation",
+      "Basic Python"
+    ],
+    "experience": [
+      {
+        "role": "Security Operations Analyst",
+        "company": "Corriboy Managed Services",
+        "period": "2024 – Present",
+        "bullets": [
+          "Triage around 60 alerts per shift in Microsoft Sentinel and escalate genuine incidents with clear timelines.",
+          "Wrote 15 KQL detection rules for credential stuffing and impossible-travel sign-ins.",
+          "Analysed reported phishing emails and cut average response time to 25 minutes.",
+          "Shadow senior analysts during incident calls and prepare post-incident summaries for customers.",
+          "Maintain a shared knowledge base of triage steps for common alert types, used by the whole shift. Joined a capture-the-flag team and placed in the top ten in two regional competitions."
+        ]
+      },
+      {
+        "role": "Security Intern",
+        "company": "Dunmore Credit Union",
+        "period": "2023 – 2024",
+        "bullets": [
+          "Helped review firewall logs and maintain the vulnerability scan schedule.",
+          "Documented the account recovery process and flagged two weaknesses to the IT manager.",
+          "Wrote a short guide on spotting business email compromise, circulated to all branch staff.",
+          "Assisted external auditors by gathering access logs and screenshots on request.",
+          "Learned to read firewall and proxy logs with guidance from the IT manager."
+        ]
+      },
+      {
+        "role": "Part-time IT Assistant",
+        "company": "Cork Community Library Network",
+        "period": "2021 – 2023",
+        "bullets": [
+          "Supported staff and public computers, handled password resets and removed malware from shared machines.",
+          "Set up automatic updates and basic backups, and wrote a one-page security guide for volunteers.",
+          "Studied full-time alongside this role and completed a final-year project on phishing awareness."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Cybersecurity and Digital Forensics",
+        "institution": "Munster Technological College (fictional)",
+        "period": "2019 – 2023"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (fluent)"
+    ],
+    "certifications": [
+      "CompTIA Security+",
+      "Microsoft SC-200"
+    ]
+  },
+  {
+    "archetype": "security",
+    "language": "en",
+    "misleading": false,
+    "name": "Lukas Hartmannsdorf",
+    "headline": "Principal Penetration Tester",
+    "email": "lukas.hartmannsdorf@example.net",
+    "location": "Munich, Germany",
+    "summary": "Offensive security specialist with fifteen years of experience breaking into networks, web applications and mobile apps for a living. I write reports that engineers actually read and I mentor juniors in red team tradecraft. I publish tooling and blog posts on attack techniques and speak regularly at industry conferences. I value honest reporting and constructive collaboration with defenders.",
+    "skills": [
+      "Network and web penetration testing",
+      "Active Directory attacks",
+      "Red teaming",
+      "Cobalt Strike",
+      "Burp Suite",
+      "Mobile app testing (Android, iOS)",
+      "Social engineering",
+      "Exploit development",
+      "Report writing",
+      "Purple team exercises"
+    ],
+    "experience": [
+      {
+        "role": "Principal Penetration Tester",
+        "company": "Eisenfeld Security",
+        "period": "2017 – Present",
+        "bullets": [
+          "Led more than 80 engagements for banks and manufacturers, including 12 full-scope red team operations.",
+          "Developed an internal Active Directory attack methodology now used by the whole 15-person team.",
+          "Coach junior testers and review every report before it reaches the client.",
+          "Presented findings to executive boards and translated technical risk into business impact.",
+          "Maintain a library of custom tools for lateral movement and detection evasion testing, shared with the blue team after each exercise. Advise clients on remediation roadmaps, prioritising fixes that remove whole classes of attack."
+        ]
+      },
+      {
+        "role": "Senior Security Consultant",
+        "company": "Wallner & Partner IT",
+        "period": "2012 – 2017",
+        "bullets": [
+          "Web and mobile application tests for insurance and automotive customers.",
+          "Discovered and responsibly disclosed several vulnerabilities in commercial software.",
+          "Created the firm's standard testing checklist for REST APIs.",
+          "Taught a university course on web security for two semesters.",
+          "Built a lab environment with intentionally vulnerable applications for training."
+        ]
+      },
+      {
+        "role": "Network Administrator",
+        "company": "Kaltenbach Maschinenbau",
+        "period": "2009 – 2012",
+        "bullets": [
+          "Managed firewalls, VPN access and Windows domain for a 300-person manufacturer.",
+          "Responded to a ransomware incident for the first time and supported the recovery team over a weekend.",
+          "Documented the network topology and wrote the first disaster recovery plan, tested with two full restore exercises.",
+          "Learned to write shell scripts and manage Linux servers, which proved useful for offensive work."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom Informatik",
+        "institution": "Technische Hochschule Isarland (fictional)",
+        "period": "2004 – 2009"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C2)"
+    ],
+    "certifications": [
+      "OSCP",
+      "OSCE",
+      "GXPN"
+    ]
+  },
+  {
+    "archetype": "security",
+    "language": "pt",
+    "misleading": false,
+    "name": "Inês Valverde Cordeiro",
+    "headline": "Analista de Governação, Risco e Conformidade",
+    "email": "ines.cordeiro@example.net",
+    "location": "Lisboa, Portugal",
+    "summary": "Profissional de segurança da informação com sete anos de experiência em governação, risco e conformidade. Ajudo as organizações a transformar normas e requisitos legais em políticas claras, controlos medíveis e auditorias sem surpresas. Sou conhecida por escrever documentos curtos e claros, que as equipas técnicas e de negócio leem de facto.",
+    "skills": [
+      "ISO 27001",
+      "NIS2",
+      "RGPD",
+      "Avaliação de risco",
+      "Gestão de fornecedores",
+      "Auditoria interna",
+      "Políticas de segurança",
+      "Planos de continuidade de negócio",
+      "Sensibilização para a segurança",
+      "Excel avançado"
+    ],
+    "experience": [
+      {
+        "role": "Analista Sénior de GRC",
+        "company": "Tejo Energia Digital",
+        "period": "2021 – Presente",
+        "bullets": [
+          "Mantenho o sistema de gestão de segurança da informação e conduzi duas auditorias de certificação sem não conformidades graves.",
+          "Lidero a avaliação de risco de 45 fornecedores críticos, com questionários e planos de ação.",
+          "Preparei a organização para os requisitos da NIS2 com um plano a 18 meses.",
+          "Organizei campanhas de simulação de phishing e formações com mais de 90% de adesão.",
+          "Organizei registos centralizados de ativos e de riscos, com responsáveis nomeados e revisões trimestrais. Apresento mensalmente indicadores de segurança ao comité de direção, com recomendações concretas."
+        ]
+      },
+      {
+        "role": "Analista de Conformidade",
+        "company": "Banco Mondego (fictício)",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Revi contratos e tratamentos de dados pessoais para garantir o cumprimento do RGPD.",
+          "Participei em auditorias internas e no registo de incidentes de segurança.",
+          "Atualizei o catálogo de políticas e simplifiquei a linguagem para os colaboradores.",
+          "Coordenei a resposta a pedidos de titulares de dados dentro dos prazos legais.",
+          "Colaborei com jurídico e compras na revisão de cláusulas de proteção de dados em contratos."
+        ]
+      },
+      {
+        "role": "Técnica de Apoio Administrativo",
+        "company": "Câmara Municipal Ficcional",
+        "period": "2016 – 2018",
+        "bullets": [
+          "Apoio documental a projetos de qualidade e arquivo digital.",
+          "Aprendi o funcionamento dos serviços públicos e a importância de procedimentos bem documentados.",
+          "Mantive o arquivo digital organizado e ajudei a preparar documentação para auditorias externas de qualidade."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Segurança da Informação",
+        "institution": "Instituto Superior do Tejo (fictício)",
+        "period": "2014 – 2016"
+      },
+      {
+        "degree": "Licenciatura em Gestão de Sistemas de Informação",
+        "institution": "Instituto Superior do Tejo (fictício)",
+        "period": "2011 – 2014"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Francês (B1)"
+    ],
+    "certifications": [
+      "ISO 27001 Lead Auditor",
+      "CISM"
+    ]
+  },
+  {
+    "archetype": "security",
+    "language": "en",
+    "misleading": false,
+    "name": "Arjun Venkataraghavan",
+    "headline": "Product Security Engineer",
+    "email": "arjun.venkataraghavan@example.com",
+    "location": "Bengaluru, India",
+    "summary": "Product security engineer with eight years across SaaS companies. I build secure defaults into the frameworks developers already use, review architecture for abuse cases and run the vulnerability disclosure process. I enjoy teaching and have run internal workshops on secure design for more than 200 engineers. I am drawn to problems where design and security intersect.",
+    "skills": [
+      "Secure design reviews",
+      "Supply chain security (SBOM, SCA)",
+      "Container image scanning",
+      "Admission policies for k8s clusters",
+      "Dependency management",
+      "Fuzzing",
+      "Go",
+      "Python",
+      "IAM design",
+      "Vulnerability disclosure"
+    ],
+    "experience": [
+      {
+        "role": "Senior Product Security Engineer",
+        "company": "Kavyanet Cloud Software",
+        "period": "2020 – Present",
+        "bullets": [
+          "Created hardened service templates adopted by 70 microservices, with authentication and logging enabled by default.",
+          "Set up SBOM generation and dependency scanning, shortening patch time for critical libraries from 30 days to 6.",
+          "Wrote admission policies for our k8s clusters that reject unsigned or root containers.",
+          "Reviewed 100+ architecture proposals and documented recurring abuse cases in an internal wiki.",
+          "Introduced a lightweight security review checklist that fits inside pull request templates and takes under ten minutes. Run a monthly office hour where any developer can bring a design question."
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "company": "Pinnacle Billing Labs",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Built a fuzzing harness for the invoice parser in Go that found 9 memory and logic bugs.",
+          "Handled inbound vulnerability reports and coordinated fixes with developers.",
+          "Ran onboarding sessions on secure coding for new hires.",
+          "Triaged 150 reports from researchers and published a security.txt and clear disclosure policy.",
+          "Partnered with legal to define response times for external researchers."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Sundial Analytics",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Developed Python data services and wrote unit tests for ingestion code.",
+          "Wrote the first set of unit and integration tests for the ingestion pipeline.",
+          "Took part in on-call rotations for the data platform and wrote short runbooks for the most common alerts.",
+          "Learned about secure coding mistakes by reading CVE reports and reproducing them in a lab."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BTech Computer Science",
+        "institution": "Deccan Institute of Technology (fictional)",
+        "period": "2011 – 2015"
+      }
+    ],
+    "languages": [
+      "English (C2)",
+      "Hindi (native)",
+      "Kannada (fluent)"
+    ],
+    "certifications": [
+      "GIAC GWEB"
+    ]
+  },
+  {
+    "archetype": "product_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Oluwaseun Adebayo-Clarke",
+    "headline": "Senior Product Manager, Payments",
+    "email": "oluwaseun.adebayo-clarke@example.org",
+    "location": "Manchester, United Kingdom",
+    "summary": "Product manager with ten years in fintech, focused on payments and onboarding. I work from customer problems, define outcomes with engineering and design, and measure success with a small set of honest metrics rather than a long feature list. I am comfortable presenting to boards and regulators as well as to engineers and designers. I enjoy mentoring and am active in two product communities.",
+    "skills": [
+      "Product discovery",
+      "Roadmapping",
+      "OKRs",
+      "A/B testing",
+      "SQL",
+      "Stakeholder management",
+      "Pricing experiments",
+      "Jira",
+      "Amplitude",
+      "User story mapping"
+    ],
+    "experience": [
+      {
+        "role": "Senior Product Manager",
+        "company": "Cobalt Pay",
+        "period": "2020 – Present",
+        "bullets": [
+          "Own the merchant onboarding roadmap; redesigned the flow and raised completed signups from 38% to 57%.",
+          "Launched instant payouts in three markets, generating £4.2m additional annual revenue.",
+          "Run weekly discovery interviews with merchants and feed findings directly into quarterly planning.",
+          "Manage two product managers and coach them on prioritisation.",
+          "Work with compliance to design features that meet strong customer authentication rules without hurting conversion. Defined the product vision and strategy for payments, shared with all 90 colleagues in the division."
+        ]
+      },
+      {
+        "role": "Product Manager",
+        "company": "Fenwick Money Services",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Shipped a mobile wallet from concept to 200,000 users with a team of nine.",
+          "Defined fraud-friction trade-offs together with the risk team and cut false declines by 18%.",
+          "Wrote clear specs and acceptance criteria for engineering squads.",
+          "Partnered with partner banks in four countries and negotiated integration timelines.",
+          "Created a shared metrics dashboard that replaced six separate spreadsheets."
+        ]
+      },
+      {
+        "role": "Business Analyst",
+        "company": "Fenwick Money Services",
+        "period": "2014 – 2016",
+        "bullets": [
+          "Documented processes and requirements for card services migration.",
+          "Learned the basics of card processing, settlement and reconciliation while documenting migration requirements.",
+          "Partnered with the operations team to automate manual reconciliation steps, saving roughly two person-days every week.",
+          "Learned how card schemes and acquirers work while preparing migration documentation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA Economics",
+        "institution": "University of Mersey Vale (fictional)",
+        "period": "2010 – 2013"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Yoruba (conversational)"
+    ],
+    "certifications": [
+      "Pragmatic Product Certificate"
+    ]
+  },
+  {
+    "archetype": "product_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Greta Lindqvist-Marsh",
+    "headline": "Product Manager",
+    "email": "greta.lindqvist-marsh@example.net",
+    "location": "Gothenburg, Sweden",
+    "summary": "Mid-level product manager building B2B software for logistics. I like turning messy operational workflows into simple tools, and I spend a lot of time on warehouse floors watching how people actually work. I am an advocate of short feedback loops and love shipping small improvements every week. I am happiest when my work removes a real pain for users.",
+    "skills": [
+      "Customer discovery",
+      "Backlog prioritisation",
+      "Roadmap communication",
+      "Wireframing (Figma)",
+      "Data analysis",
+      "Agile (Scrum)",
+      "Release planning",
+      "Competitor analysis"
+    ],
+    "experience": [
+      {
+        "role": "Product Manager",
+        "company": "Nordlast Logistics Tech",
+        "period": "2021 – Present",
+        "bullets": [
+          "Manage the warehouse picking app used by 3,500 operators daily across eight countries.",
+          "Cut average pick time by 14% after observing floor workflows and removing three redundant screens.",
+          "Prioritise a backlog of 150 items with sales, support and engineering using weighted scoring.",
+          "Coordinate releases with customer success and write release notes customers genuinely read.",
+          "Introduced a monthly customer advisory group of ten logistics managers who test prototypes before release. Defined pricing tiers for the planning module together with sales leadership."
+        ]
+      },
+      {
+        "role": "Associate Product Manager",
+        "company": "Skogsvik Systems",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Supported two product managers with research, specs and dashboards.",
+          "Ran usability tests with 30 customers and summarised results for leadership.",
+          "Took over the reporting module and grew its weekly active use by 40%.",
+          "Presented quarterly product reviews to executives and handled trade-off conversations with sales.",
+          "Collected usage data from the app and shared it in a weekly digest for the whole company."
+        ]
+      },
+      {
+        "role": "Customer Support Specialist",
+        "company": "Skogsvik Systems",
+        "period": "2016 – 2018",
+        "bullets": [
+          "Handled technical support tickets and logged recurring feature requests.",
+          "Wrote the first public help centre articles and training videos for new customers.",
+          "Visited customer sites each quarter and wrote up summaries that influenced the next planning cycle.",
+          "Learned the shipping and customs domain by working directly with customers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Industrial Management",
+        "institution": "Chalmers Fjord University (fictional)",
+        "period": "2014 – 2016"
+      },
+      {
+        "degree": "BSc Business Administration",
+        "institution": "Chalmers Fjord University (fictional)",
+        "period": "2011 – 2014"
+      }
+    ],
+    "languages": [
+      "Swedish (native)",
+      "English (C1)",
+      "German (A2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "product_manager",
+    "language": "pt",
+    "misleading": false,
+    "name": "Tomé Vasconcelos Pimenta",
+    "headline": "Gestor de Produto",
+    "email": "tome.pimenta@example.com",
+    "location": "Porto, Portugal",
+    "summary": "Gestor de produto com seis anos de experiência em plataformas de comércio eletrónico. Gosto de ouvir clientes, definir prioridades com dados e trabalhar de perto com as equipas de engenharia e design para entregar valor em ciclos curtos. Considero-me um comunicador claro e gosto de documentar as decisões de produto para toda a empresa. Procuro sempre decisões baseadas em dados e feedback de clientes.",
+    "skills": [
+      "Descoberta de produto",
+      "Priorização de backlog",
+      "Roadmap",
+      "Testes A/B",
+      "Google Analytics",
+      "Figma",
+      "SQL básico",
+      "Scrum",
+      "Entrevistas a utilizadores"
+    ],
+    "experience": [
+      {
+        "role": "Gestor de Produto",
+        "company": "Mercado Douro Online",
+        "period": "2021 – Presente",
+        "bullets": [
+          "Responsável pelo checkout e pagamentos de uma loja online com 1,2 milhões de visitas por mês.",
+          "Simplifiquei o checkout em três passos e aumentei a taxa de conversão em 11%.",
+          "Defini o roadmap trimestral com as áreas de marketing, operações e tecnologia.",
+          "Realizo testes A/B todas as quinzenas e partilho os resultados numa reunião aberta.",
+          "Trabalho com a equipa de apoio ao cliente para transformar reclamações frequentes em melhorias priorizadas. Escolhi e integrei um novo fornecedor de pagamentos em parceria com a equipa financeira."
+        ]
+      },
+      {
+        "role": "Analista de Produto",
+        "company": "Cestaria Digital",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Analisei o comportamento de compra e propus melhorias à pesquisa de produtos.",
+          "Escrevi requisitos para a aplicação móvel e acompanhei o seu lançamento.",
+          "Criei um painel de métricas de produto partilhado com todas as equipas.",
+          "Participei em dezenas de sessões de teste de usabilidade com clientes."
+        ]
+      },
+      {
+        "role": "Analista de Marketing Digital",
+        "company": "Agência Foz Criativa",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Gestão de campanhas pagas e relatórios de desempenho.",
+          "Aprendi a medir o retorno das campanhas e a ler dados de tráfego.",
+          "Otimizei as campanhas de remarketing e reduzi o custo de aquisição de clientes em cerca de 15%.",
+          "Aprendi a gerir orçamentos e a negociar com fornecedores de publicidade online."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Gestão",
+        "institution": "Universidade Atlântica do Norte (fictícia)",
+        "period": "2015 – 2017"
+      },
+      {
+        "degree": "Licenciatura em Economia",
+        "institution": "Universidade Atlântica do Norte (fictícia)",
+        "period": "2012 – 2015"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "product_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Declan Fogarty-Hale",
+    "headline": "Director of Product",
+    "email": "declan.fogarty-hale@example.com",
+    "location": "Dublin, Ireland",
+    "summary": "Product leader with sixteen years in enterprise software and healthcare, now directing a group of eight product managers. I set strategy, build healthy product teams and protect them from reactive roadmaps. I mentor product leaders across the wider industry and contribute to a regional product community. I prefer simple strategies that teams can remember.",
+    "skills": [
+      "Product strategy",
+      "Portfolio planning",
+      "P&L ownership",
+      "Team leadership",
+      "Market sizing",
+      "Regulatory-aware product (HIPAA, MDR)",
+      "Executive communication",
+      "Hiring and coaching",
+      "Pricing and packaging"
+    ],
+    "experience": [
+      {
+        "role": "Director of Product",
+        "company": "Mercer Health Informatics",
+        "period": "2018 – Present",
+        "bullets": [
+          "Lead eight product managers across three clinical software lines with combined revenue of €85m.",
+          "Introduced outcome-based roadmaps and quarterly business reviews, replacing feature-promise lists.",
+          "Led the repackaging of three modules into one subscription, increasing net revenue retention to 118%.",
+          "Hired and developed five product managers, two of whom were promoted to senior.",
+          "Introduced a product operating model with clear decision rights, reducing escalations to the executive team. Represent product in board reviews and in conversations with regulators and key hospital customers."
+        ]
+      },
+      {
+        "role": "Group Product Manager",
+        "company": "Liffey Enterprise Software",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Managed the workflow automation suite and a team of four product managers.",
+          "Negotiated roadmap trade-offs with large customers and sales leadership.",
+          "Closed a strategic partnership that opened the UK public sector.",
+          "Managed relationships with eight strategic accounts and used their feedback to shape roadmap priorities.",
+          "Led a cross-company initiative to simplify pricing and cut quote times by 40%."
+        ]
+      },
+      {
+        "role": "Product Owner",
+        "company": "Liffey Enterprise Software",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Owned backlog for the reporting engine, working with two Scrum teams.",
+          "Worked closely with developers to improve release quality and sprint ceremonies.",
+          "Worked with clinicians to describe workflow needs and turned them into estimated, prioritised epics.",
+          "Learned the details of clinical workflow and integration standards while writing requirements."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA",
+        "institution": "Trinity Shore Business School (fictional)",
+        "period": "2012 – 2014"
+      },
+      {
+        "degree": "BSc Computer Applications",
+        "institution": "Dublin Midlands University (fictional)",
+        "period": "2006 – 2010"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B2)"
+    ],
+    "certifications": [
+      "SAFe Product Owner/Product Manager"
+    ]
+  },
+  {
+    "archetype": "product_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Priyanka Subramaniam",
+    "headline": "Product Manager, Growth",
+    "email": "priyanka.subramaniam@example.net",
+    "location": "Chennai, India",
+    "summary": "Growth-focused product manager who has spent four years working on consumer apps. I run experiments quickly, read the data carefully and care about retention more than vanity metrics. I enjoy mentoring new joiners and am looking for a role with wider product ownership and international exposure. I am at my best when a vague problem needs a hypothesis, a fast test and a clear decision.",
+    "skills": [
+      "Growth experimentation",
+      "Funnel analysis",
+      "Retention cohorts",
+      "SQL",
+      "Mixpanel",
+      "Push notification strategy",
+      "Product requirement documents",
+      "Cross-functional leadership",
+      "Excel and Looker Studio"
+    ],
+    "experience": [
+      {
+        "role": "Product Manager, Growth",
+        "company": "Tamarind Learning App",
+        "period": "2022 – Present",
+        "bullets": [
+          "Own activation and retention for a learning app with 2.4 million monthly active users.",
+          "Ran 60+ experiments in two years; a redesigned first lesson improved day-7 retention by 9 points.",
+          "Wrote SQL to build cohort dashboards and trained the team to use them.",
+          "Align engineering, design and content teams on a shared growth backlog.",
+          "Collaborate with data science to personalise lesson recommendations; completion rate rose by 12%. Run weekly experiment reviews open to the whole company and keep a public log of results."
+        ]
+      },
+      {
+        "role": "Associate Product Manager",
+        "company": "Quickloom Commerce",
+        "period": "2021 – 2022",
+        "bullets": [
+          "Documented requirements for a wishlist feature and managed its launch.",
+          "Interviewed 25 shoppers and synthesised insights for the roadmap.",
+          "Learned to run A/B tests and interpret statistical significance with the data team.",
+          "Presented final-quarter learnings to the head of product.",
+          "Supported launch coordination with marketing and customer care teams."
+        ]
+      },
+      {
+        "role": "Business Analyst Intern",
+        "company": "Marina Fintech Solutions",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Analysed customer support tickets and categorised the top twenty complaints for the product team.",
+          "Built Excel dashboards on loan application drop-offs used in weekly reviews.",
+          "Shadowed product managers in discovery interviews and sprint ceremonies."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA (Product Management)",
+        "institution": "Chola Institute of Management (fictional)",
+        "period": "2019 – 2021"
+      },
+      {
+        "degree": "BE Electronics",
+        "institution": "Madras Coastal Engineering College (fictional)",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "English (C1)",
+      "Tamil (native)",
+      "Hindi (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "product_manager",
+    "language": "en",
+    "misleading": true,
+    "name": "Ewan Pettigrew",
+    "headline": "Product Manager",
+    "email": "ewan.pettigrew@example.org",
+    "location": "Edinburgh, United Kingdom",
+    "summary": "Product manager for consumer subscription products with seven years of experience. I focus on customer research, pricing and clear roadmaps. Technically curious: I attended a Kubernetes workshop for product people and am familiar with Terraform and CI/CD concepts, mainly so I can follow engineering conversations. Hobbies include long-distance running and volunteering as a mentor for early-career product people. I like data and curiosity in equal measure.",
+    "skills": [
+      "Roadmapping",
+      "Customer interviews",
+      "Pricing and packaging",
+      "Subscription metrics",
+      "Stakeholder management",
+      "SQL (basic)",
+      "Jira",
+      "Confluence",
+      "Agile ceremonies",
+      "Technical vocabulary: Kubernetes, Terraform, CI/CD, microservices, APIs, cloud"
+    ],
+    "experience": [
+      {
+        "role": "Product Manager",
+        "company": "Thistledown Media",
+        "period": "2020 – Present",
+        "bullets": [
+          "Own the subscription product for a digital magazine group with 310,000 paying readers.",
+          "Tested three price points and lifted annual plan uptake by 22%.",
+          "Reduced cancellations by 8% through a redesigned pause-subscription flow.",
+          "Run sprint planning and demos; engineering owns all deployments and infrastructure.",
+          "Collaborate with data analysts on churn models and review their results with finance and marketing. Manage relationships with payment and email vendors and track contract renewals."
+        ]
+      },
+      {
+        "role": "Associate Product Manager",
+        "company": "Granton Digital Publishing",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Wrote requirements and user stories for the reader app and newsletter tools.",
+          "Analysed engagement data and reported weekly to the editorial board.",
+          "Coordinated launches with marketing and customer care.",
+          "Presented the product roadmap to the editorial leadership team every quarter.",
+          "Introduced a single page product brief used by all squads."
+        ]
+      },
+      {
+        "role": "Content Operations Coordinator",
+        "company": "Granton Digital Publishing",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Managed publishing calendars and editorial workflow.",
+          "Learned the basics of editorial systems and digital subscriptions on the job.",
+          "Built and cleaned the newsletter subscriber lists and produced weekly reports on open and click rates for the editors.",
+          "Learned how editorial teams plan content and handle deadlines."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MA Media and Communication",
+        "institution": "University of Forth Valley (fictional)",
+        "period": "2013 – 2015"
+      },
+      {
+        "degree": "BA English",
+        "institution": "University of Forth Valley (fictional)",
+        "period": "2009 – 2013"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "French (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "product_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Marta Kowalczewska",
+    "headline": "Product Manager, Internal Tools",
+    "email": "marta.kowalczewska@example.com",
+    "location": "Kraków, Poland",
+    "summary": "Product manager for internal tooling and automation. I started as a support lead, so I design software for the people who have to use it eight hours a day. Practical, calm and strongly user-centred. I prefer plain language, short documents and regular demos to keep users close to the work. I am also a keen advocate for accessible software.",
+    "skills": [
+      "Internal product management",
+      "Process mapping",
+      "Requirements writing",
+      "Workflow automation",
+      "User research",
+      "Change management",
+      "Adoption metrics",
+      "Airtable",
+      "Retool"
+    ],
+    "experience": [
+      {
+        "role": "Product Manager, Internal Tools",
+        "company": "Vistula Insurance Group",
+        "period": "2019 – Present",
+        "bullets": [
+          "Manage a portfolio of six internal tools used by 1,800 claims handlers.",
+          "Replaced a spreadsheet-based approval process with a web workflow; handling time fell from 3 days to 6 hours.",
+          "Run training sessions and office hours to drive adoption, reaching 92% regular use.",
+          "Work with two developers and a designer; I prioritise with a monthly steering group.",
+          "Created a feedback loop with claims handlers through monthly user groups and a simple suggestion form. Evaluated three vendor solutions and recommended building the simple ones in-house."
+        ]
+      },
+      {
+        "role": "Customer Support Team Lead",
+        "company": "Vistula Insurance Group",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Led a team of 12 agents and handled escalations.",
+          "Documented recurring pain points and began shaping requests for the IT department.",
+          "Mapped support processes, found bottlenecks and proposed practical fixes.",
+          "Trained 30 new agents each year on systems and policies."
+        ]
+      },
+      {
+        "role": "Customer Service Agent",
+        "company": "Pomorze Telecom",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Handled customer calls and complaints for mobile subscribers.",
+          "Was the person colleagues asked when they needed help understanding the billing system.",
+          "Recorded recurring complaints in a simple log, which later became the basis for a process improvement project.",
+          "Learned to read call statistics and handle difficult customers calmly.",
+          "Trained two colleagues in the new CRM and received a team award for customer care."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA Management",
+        "institution": "Jagiellon Plains University (fictional)",
+        "period": "2009 – 2012"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (B2+)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "engineering_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Rafael Ibáñez-Corbalán",
+    "headline": "Engineering Manager",
+    "email": "rafael.ibanez-corbalan@example.com",
+    "location": "Valencia, Spain",
+    "summary": "Engineering manager with eleven years in software, six of them leading teams. I focus on team health, predictable delivery and growing people. I stay close enough to the code to review designs but I do not try to be the best developer in the room. Away from work I coach a youth basketball team, which keeps my feedback skills sharp. I enjoy mentoring first-time managers.",
+    "skills": [
+      "Team leadership",
+      "1:1s and career growth",
+      "Hiring and onboarding",
+      "Delivery planning",
+      "Technical design review",
+      "Incident management",
+      "Budgeting",
+      "OKRs",
+      "Java and Kotlin background"
+    ],
+    "experience": [
+      {
+        "role": "Engineering Manager",
+        "company": "Turia Mobility",
+        "period": "2020 – Present",
+        "bullets": [
+          "Lead two squads (11 engineers) building ride-booking back-end services.",
+          "Reduced cycle time from 9 days to 4 by limiting work in progress and improving code review habits.",
+          "Hired 8 engineers with a structured, bias-aware interview process.",
+          "Introduced blameless post-incident reviews that cut repeat incidents by a third.",
+          "Run quarterly career conversations and maintain a growth plan for every engineer in my teams. Work with product to protect 20% of capacity for technical debt and reliability work."
+        ]
+      },
+      {
+        "role": "Tech Lead",
+        "company": "Levante Software Studio",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Led a team of five building payment integrations in Java.",
+          "Mentored three junior developers, two of whom became leads.",
+          "Owned estimation and negotiated scope with product.",
+          "Taught two junior engineers to run production incidents and own on-call handovers.",
+          "Reviewed every major design proposal, focusing on clarity and trade-offs."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Levante Software Studio",
+        "period": "2013 – 2016",
+        "bullets": [
+          "Developed Java REST services and batch jobs for retail clients.",
+          "Wrote the first coding guidelines for the studio.",
+          "Participated in on-call rotations and helped stabilise a legacy batch system after a difficult release.",
+          "Learned to estimate and plan releases while building payment integrations for small retailers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Software Engineering",
+        "institution": "Universidad Politécnica del Turia (fictional)",
+        "period": "2011 – 2013"
+      },
+      {
+        "degree": "BSc Computer Engineering",
+        "institution": "Universidad Politécnica del Turia (fictional)",
+        "period": "2007 – 2011"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "English (C1)",
+      "Catalan (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "engineering_manager",
+    "language": "pt",
+    "misleading": false,
+    "name": "Gonçalo Ventura-Sarmento",
+    "headline": "Gestor de Engenharia",
+    "email": "goncalo.ventura-sarmento@example.net",
+    "location": "Coimbra, Portugal",
+    "summary": "Gestor de engenharia com catorze anos de experiência, dos quais oito a liderar equipas de produto. Acredito em equipas autónomas, objetivos claros e feedback frequente. Ajudo os engenheiros a crescer e protejo o foco da equipa. Gosto de criar ambientes onde as pessoas se sentem seguras para propor ideias e assumir riscos. Falo com clareza e escuto com atenção.",
+    "skills": [
+      "Liderança de equipas",
+      "Gestão de desempenho",
+      "Recrutamento",
+      "Planeamento de entregas",
+      "Gestão de orçamento",
+      "Comunicação com stakeholders",
+      "Cultura de engenharia",
+      "Mentoria",
+      "Scrum e Kanban"
+    ],
+    "experience": [
+      {
+        "role": "Gestor de Engenharia",
+        "company": "Mondego Health Tech",
+        "period": "2019 – Presente",
+        "bullets": [
+          "Giro três equipas e 19 engenheiros numa plataforma de telemedicina.",
+          "Reduzi a rotatividade da equipa de 22% para 7% com planos de carreira e conversas regulares.",
+          "Estabeleci metas trimestrais e uma rotina de revisão que aumentou a previsibilidade das entregas.",
+          "Contratei 12 pessoas em dois anos, incluindo engenheiros seniores.",
+          "Criei um programa de integração que reduziu para metade o tempo até à primeira entrega de novos engenheiros. Negoceio prioridades com produto e com a direção clínica."
+        ]
+      },
+      {
+        "role": "Líder Técnico",
+        "company": "Vouga Sistemas de Informação",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Liderei uma equipa de seis programadores em aplicações para o setor público.",
+          "Defini práticas de revisão de código e de testes que reduziram defeitos em produção.",
+          "Mentorei programadores júnior.",
+          "Organizei sessões de partilha técnica mensais e um dia de inovação trimestral.",
+          "Dei apoio à contratação de fornecedores externos e geri um orçamento de 1,4 milhões de euros."
+        ]
+      },
+      {
+        "role": "Programador",
+        "company": "Vouga Sistemas de Informação",
+        "period": "2011 – 2014",
+        "bullets": [
+          "Desenvolvimento de aplicações web em Java e Oracle.",
+          "Participei em projetos de modernização de sistemas para câmaras municipais e serviços de saúde.",
+          "Participei na migração de dados de sistemas antigos e escrevi documentação técnica para os utilizadores.",
+          "Aprendi com programadores mais experientes a escrever código limpo e a rever o trabalho dos outros."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática",
+        "institution": "Universidade de Coimbra Nova (fictícia)",
+        "period": "2009 – 2011"
+      },
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade de Coimbra Nova (fictícia)",
+        "period": "2006 – 2009"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "engineering_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Hannelore Brandstetter",
+    "headline": "Head of Engineering",
+    "email": "hannelore.brandstetter@example.org",
+    "location": "Vienna, Austria",
+    "summary": "Head of Engineering with nineteen years of experience and a track record of scaling teams from 10 to 60. I work on organisation design, engineering strategy and the relationship between technology and the business board. I am an active mentor in women-in-tech programmes and a regular speaker at engineering leadership events. I value candour, clear decisions and teams that can disagree productively.",
+    "skills": [
+      "Organisation design",
+      "Engineering strategy",
+      "Managing managers",
+      "Technology budgeting",
+      "Vendor negotiations",
+      "Hiring at scale",
+      "Roadmap alignment",
+      "Engineering metrics (DORA)",
+      "Executive reporting",
+      "Succession planning",
+      "Change management"
+    ],
+    "experience": [
+      {
+        "role": "Head of Engineering",
+        "company": "Danubia Commerce",
+        "period": "2017 – Present",
+        "bullets": [
+          "Lead 60 engineers in seven teams, supported by five engineering managers.",
+          "Restructured into product-aligned teams, doubling release frequency while keeping change failure rate under 10%.",
+          "Own a technology budget of €9m and renegotiated vendor contracts to save €1.1m a year.",
+          "Partner with the CEO and CPO on the three-year technology strategy.",
+          "Introduced engineering levels and a transparent promotion process across all teams. Report on delivery and reliability to the executive committee every month, using DORA metrics."
+        ]
+      },
+      {
+        "role": "Engineering Manager",
+        "company": "Wiener Digital Services",
+        "period": "2011 – 2017",
+        "bullets": [
+          "Managed a team of 14 developers building a logistics platform.",
+          "Introduced quarterly planning and technical debt budgeting.",
+          "Led the migration of a monolithic order system to a modular architecture over two years.",
+          "Hired and trained three new engineering managers.",
+          "Negotiated service levels with two outsourcing partners and reduced external contractor spend by 20%."
+        ]
+      },
+      {
+        "role": "Senior Developer",
+        "company": "Alpenglow Software",
+        "period": "2005 – 2011",
+        "bullets": [
+          "Developed C++ and Java components for telecom billing systems.",
+          "Led a small team on a major rewrite.",
+          "Gained experience of large release cycles and customer escalations in telecom software.",
+          "Contributed to proposals and technical estimates for key telecom customers.",
+          "Mentored four junior developers in design and code quality."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "DI Software Engineering",
+        "institution": "Technical University of Vienna Heights (fictional)",
+        "period": "1999 – 2005"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C2)",
+      "Italian (B1)"
+    ],
+    "certifications": [
+      "Certified Scrum Master"
+    ]
+  },
+  {
+    "archetype": "engineering_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Nnamdi Ikpeazu",
+    "headline": "Engineering Manager",
+    "email": "nnamdi.ikpeazu@example.net",
+    "location": "Lagos, Nigeria",
+    "summary": "Newly appointed engineering manager, two years into the role after seven as a developer. I lead a small mobile and API team in the fintech space and am learning every day about coaching, prioritisation and saying no politely. I enjoy writing documentation and sharing what I learn, and I seek mentors who have grown from lead to director. I am comfortable in a fast-moving environment.",
+    "skills": [
+      "People management",
+      "Sprint planning",
+      "Code review culture",
+      "Mobile and API delivery",
+      "Stakeholder updates",
+      "Mentoring",
+      "Recruitment interviews",
+      "Node.js background"
+    ],
+    "experience": [
+      {
+        "role": "Engineering Manager",
+        "company": "Eko Remit",
+        "period": "2023 – Present",
+        "bullets": [
+          "Lead a team of six engineers working on a remittance app and its API.",
+          "Hold fortnightly 1:1s and set growth goals; two engineers were promoted in my first year.",
+          "Improved sprint predictability from 60% to 85% of committed work delivered.",
+          "Interview candidates and onboard new hires with a 30-60-90 day plan.",
+          "Run a monthly learning session where team members present new tools or ideas. Work with product on quarterly planning and shield the team from last-minute scope changes. Completed an internal management training programme and a coaching course."
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Eko Remit",
+        "period": "2019 – 2023",
+        "bullets": [
+          "Built Node.js payment services and mentored two junior engineers.",
+          "Led the integration with three banking partners.",
+          "Reduced app crashes by 35% by introducing a stricter release checklist.",
+          "Gave regular feedback to junior colleagues during pair programming."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ajegunle Digital Works",
+        "period": "2016 – 2019",
+        "bullets": [
+          "Developed web applications and REST APIs for small business clients.",
+          "Learned about version control, testing and deployment practices from senior colleagues.",
+          "Fixed defects, wrote tests and learned code review habits from the senior engineers on the team.",
+          "Participated in daily stand-ups and helped decide on estimates for each task.",
+          "Joined a hackathon team that built a prototype invoicing tool in a weekend."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Lagos Lagoon (fictional)",
+        "period": "2011 – 2015"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "engineering_manager",
+    "language": "en",
+    "misleading": false,
+    "name": "Callum Drummond-Reid",
+    "headline": "Senior Engineering Manager",
+    "email": "callum.drummond-reid@example.org",
+    "location": "Glasgow, United Kingdom",
+    "summary": "Engineering manager who values clear expectations, honest feedback and sustainable pace. Thirteen years in software, nine of them in management, mostly in data-heavy products. Known for turning around struggling teams. Outside work I volunteer as a mentor for graduates changing careers into technology. I prefer plain communication over jargon.",
+    "skills": [
+      "Team turnaround",
+      "Performance management",
+      "Roadmap delivery",
+      "Cross-team dependency management",
+      "Risk management",
+      "Recruitment",
+      "Agile coaching",
+      "Python and SQL background",
+      "Hands-on code reviews",
+      "Capacity planning",
+      "Stakeholder communication"
+    ],
+    "experience": [
+      {
+        "role": "Senior Engineering Manager",
+        "company": "Clydeside Analytics",
+        "period": "2019 – Present",
+        "bullets": [
+          "Manage 14 engineers across data ingestion and reporting products.",
+          "Took over a team with 40% attrition; attrition fell below 8% within 18 months.",
+          "Cut the delivery backlog by a third through a clearer intake process and explicit capacity planning.",
+          "Agree quarterly commitments with product and customer success leaders.",
+          "Run monthly engineering reviews to identify risks early and escalate with options rather than problems. Partner with HR on hiring plans and compensation reviews. Share a monthly written update on progress, risks and hiring."
+        ]
+      },
+      {
+        "role": "Engineering Manager",
+        "company": "Strathmore Software",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Led a team of nine building a customer reporting portal.",
+          "Brought automated testing coverage from 20% to 70%.",
+          "Coached two engineers into their first leadership roles.",
+          "Helped the organisation adopt regular retrospectives and a lightweight incident process.",
+          "Interviewed over 60 candidates and trained others in structured interviewing."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Strathmore Software",
+        "period": "2011 – 2014",
+        "bullets": [
+          "Python and SQL development for reporting features.",
+          "Built early reporting dashboards and learned how customers actually used the product.",
+          "Wrote and maintained automated tests and took part in release reviews with the customer support team.",
+          "Pair-programmed with newer colleagues and helped them present their first demos.",
+          "Learned the product domain by sitting with support staff during busy periods."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Software Engineering",
+        "institution": "Glasgow Caledonia University (fictional)",
+        "period": "2007 – 2011"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Scottish Gaelic (basic)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "business_analyst",
+    "language": "en",
+    "misleading": false,
+    "name": "Shreya Kulkarnibhat",
+    "headline": "Senior Business Analyst",
+    "email": "shreya.kulkarnibhat@example.com",
+    "location": "Pune, India",
+    "summary": "Business analyst with nine years in banking and insurance. I bridge business stakeholders and delivery teams by turning vague needs into clear, testable requirements and by keeping documentation useful rather than heavy. I mentor junior analysts and enjoy facilitating workshops that move stakeholders from disagreement to decisions. I take pride in documents that people actually use.",
+    "skills": [
+      "Requirements elicitation",
+      "Process modelling (BPMN)",
+      "User stories and acceptance criteria",
+      "Gap analysis",
+      "SQL",
+      "UAT coordination",
+      "Workshop facilitation",
+      "Power BI",
+      "Jira and Confluence"
+    ],
+    "experience": [
+      {
+        "role": "Senior Business Analyst",
+        "company": "Sahyadri Insurance Tech",
+        "period": "2019 – Present",
+        "bullets": [
+          "Lead requirements for a claims modernisation programme involving 5 teams and 40 stakeholders.",
+          "Mapped 25 end-to-end processes in BPMN and identified savings worth about 12% of handling cost.",
+          "Write acceptance criteria and support UAT with business users.",
+          "Use SQL to validate data migration and spot defects before go-live.",
+          "Maintain a living requirements catalogue linked to test cases, which cut late-found gaps by 30%. Present status and risks to the steering committee every fortnight."
+        ]
+      },
+      {
+        "role": "Business Analyst",
+        "company": "Deccan Retail Bank",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Gathered requirements for a mobile banking enhancement used by 1.5 million customers.",
+          "Ran workshops with operations, compliance and IT.",
+          "Produced weekly Power BI reports for programme leadership.",
+          "Reviewed regulatory changes with compliance and translated them into system requirements.",
+          "Trained five new analysts on documentation standards."
+        ]
+      },
+      {
+        "role": "Associate Analyst",
+        "company": "Deccan Retail Bank",
+        "period": "2014 – 2015",
+        "bullets": [
+          "Supported reporting and documentation for the loans team.",
+          "Gained exposure to credit scoring and collections processes.",
+          "Prepared monthly management information packs and cleaned data from legacy loan systems before reporting.",
+          "Supported a UAT cycle for a new loan portal and tracked 120 defects to closure.",
+          "Learned the bank's business domain, from account opening to collections."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA Information Systems",
+        "institution": "Pune Valley School of Management (fictional)",
+        "period": "2012 – 2014"
+      },
+      {
+        "degree": "BCom",
+        "institution": "Pune Valley University (fictional)",
+        "period": "2009 – 2012"
+      }
+    ],
+    "languages": [
+      "English (C1)",
+      "Marathi (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": [
+      "CBAP",
+      "PSM I"
+    ]
+  },
+  {
+    "archetype": "business_analyst",
+    "language": "pt",
+    "misleading": false,
+    "name": "Beatriz Anjos-Calheiros",
+    "headline": "Analista de Negócio",
+    "email": "beatriz.anjos-calheiros@example.org",
+    "location": "Faro, Portugal",
+    "summary": "Analista de negócio com cinco anos de experiência em turismo e hotelaria. Gosto de perceber como as pessoas trabalham, documentar processos e propor melhorias simples que a equipa realmente adota. Aprendo depressa, comunico com clareza e tenho especial gosto por ajudar equipas não técnicas a trabalhar com tecnologia. Estou sempre disponível para aprender novas ferramentas e processos.",
+    "skills": [
+      "Levantamento de requisitos",
+      "Mapeamento de processos",
+      "Histórias de utilizador",
+      "Análise de dados em Excel",
+      "Power BI",
+      "Entrevistas e workshops",
+      "Testes de aceitação",
+      "Gestão de alterações"
+    ],
+    "experience": [
+      {
+        "role": "Analista de Negócio",
+        "company": "Algarve Resorts Group (fictício)",
+        "period": "2021 – Presente",
+        "bullets": [
+          "Levanto requisitos para o novo sistema de reservas usado por 14 unidades hoteleiras.",
+          "Mapeei os processos de check-in e faturação e identifiquei três passos duplicados que foram eliminados.",
+          "Construí relatórios em Power BI sobre ocupação e receita por quarto.",
+          "Coordeno os testes de aceitação com a receção e a contabilidade.",
+          "Preparei materiais de formação e manuais para a equipa de receção em seis línguas. Faço a ponte entre os fornecedores de software e as equipas operacionais dos hotéis."
+        ]
+      },
+      {
+        "role": "Analista Júnior",
+        "company": "Sol e Mar Viagens",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Analisei dados de vendas e preparei relatórios mensais para a direção.",
+          "Documentei requisitos para melhorias no site de reservas.",
+          "Criei um modelo de análise de custos por canal de venda, usado em reuniões comerciais.",
+          "Apresentei propostas de melhoria diretamente à administração."
+        ]
+      },
+      {
+        "role": "Estagiária de Gestão",
+        "company": "Sol e Mar Viagens",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Apoio administrativo e recolha de dados de clientes.",
+          "Aprendi a trabalhar com folhas de cálculo complexas e a validar dados antes de os partilhar.",
+          "Organizei ficheiros de reservas e ajudei na resposta a pedidos de clientes em português e inglês.",
+          "Aprendi a trabalhar com sistemas de reservas e a dar apoio a utilizadores em momentos de pressão."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Gestão de Sistemas de Informação",
+        "institution": "Universidade do Sul Atlântico (fictícia)",
+        "period": "2016 – 2018"
+      },
+      {
+        "degree": "Licenciatura em Gestão",
+        "institution": "Universidade do Sul Atlântico (fictícia)",
+        "period": "2013 – 2016"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Alemão (A2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "business_analyst",
+    "language": "en",
+    "misleading": true,
+    "name": "Dariusz Nowaczyk",
+    "headline": "Business Analyst",
+    "email": "dariusz.nowaczyk@example.net",
+    "location": "Gdańsk, Poland",
+    "summary": "Business analyst with six years in retail and e-commerce. I gather requirements, map processes and report on sales performance. I work with technical teams every day and keep up with the vocabulary, including Kubernetes, Terraform and CI/CD, although I have no hands-on experience with them. Outside work I volunteer with a local board-game club and enjoy hiking. I am organised, detail-oriented and good at explaining numbers.",
+    "skills": [
+      "Requirements gathering",
+      "Process mapping",
+      "Excel (pivot tables, lookups)",
+      "SQL (SELECT queries)",
+      "Tableau",
+      "UAT",
+      "Business cases",
+      "Agile",
+      "Buzzwords from job ads: Kubernetes, Terraform, CI/CD, DevOps, AWS, microservices, cloud-native"
+    ],
+    "experience": [
+      {
+        "role": "Business Analyst",
+        "company": "Baltic Basket Retail",
+        "period": "2020 – Present",
+        "bullets": [
+          "Gather and document requirements for pricing, promotions and loyalty features.",
+          "Built Tableau dashboards on sales and basket size used in weekly management meetings.",
+          "Coordinate user acceptance testing with store operations and the e-commerce team.",
+          "Estimate benefits for business cases; the loyalty redesign was projected at 3% uplift in repeat purchases.",
+          "Work closely with the IT team on release scheduling and write test scenarios for each new version. Maintain a glossary of business terms and system names shared with new colleagues."
+        ]
+      },
+      {
+        "role": "Junior Business Analyst",
+        "company": "Gdynia Online Marketplace",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Wrote user stories for the seller portal and refined backlog items with the product owner.",
+          "Prepared monthly Excel reports on returns and delivery delays.",
+          "Presented findings from customer survey analysis to the marketplace management team.",
+          "Helped negotiate service levels with two logistics partners."
+        ]
+      },
+      {
+        "role": "Sales Operations Assistant",
+        "company": "Gdynia Online Marketplace",
+        "period": "2016 – 2018",
+        "bullets": [
+          "Maintained product data and supported campaign planning.",
+          "Learned about marketplace operations and seller onboarding.",
+          "Prepared promotional price files and checked them against catalogue data before every campaign launch.",
+          "Trained store staff on the new promotion tool and collected feedback for improvements.",
+          "Learned to build lookup tables and validate data in spreadsheets."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Management and Finance",
+        "institution": "Gdańsk Bay University (fictional)",
+        "period": "2013 – 2016"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "business_analyst",
+    "language": "en",
+    "misleading": false,
+    "name": "Fiona Gallagher-Moran",
+    "headline": "Lead Business Analyst",
+    "email": "fiona.gallagher-moran@example.com",
+    "location": "Belfast, United Kingdom",
+    "summary": "Lead business analyst with fourteen years of experience in public sector and utilities programmes. I specialise in complex stakeholder environments, benefits tracking and requirements that survive procurement and audit. I coach teams in plain-English documentation and believe good analysis should shorten meetings, not lengthen them. I enjoy complex programmes where careful analysis makes a difference.",
+    "skills": [
+      "Stakeholder analysis",
+      "Business case development",
+      "Benefits realisation",
+      "Requirements traceability",
+      "Process improvement (Lean)",
+      "Procurement support",
+      "Data analysis",
+      "Coaching analysts",
+      "MS Visio",
+      "Jira",
+      "Risk and issue logs",
+      "Workshop facilitation"
+    ],
+    "experience": [
+      {
+        "role": "Lead Business Analyst",
+        "company": "Ulster Water Services",
+        "period": "2018 – Present",
+        "bullets": [
+          "Lead a team of four analysts on a customer billing replacement worth £18m.",
+          "Wrote the requirements and evaluation criteria used to select the supplier among six bidders.",
+          "Track benefits across three workstreams and report monthly to the programme board.",
+          "Facilitate workshops with 12 departments to settle conflicting requirements.",
+          "Chair a monthly community of practice for analysts across three departments. Review all programme documents before they go to the board, checking for gaps and ambiguity. Escalate risks early with options and costs."
+        ]
+      },
+      {
+        "role": "Senior Business Analyst",
+        "company": "Lagan Council Digital",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Redesigned citizen service processes, reducing average case time by 27%.",
+          "Produced traceability matrices for audit.",
+          "Mentored new analysts.",
+          "Supported three audits without major findings thanks to consistent traceability.",
+          "Facilitated lessons-learned sessions after major releases."
+        ]
+      },
+      {
+        "role": "Business Analyst",
+        "company": "Foyle Housing Association",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Documented requirements for a housing repairs system.",
+          "Learned the basics of public sector funding and grant reporting.",
+          "Ran stakeholder interviews and wrote the functional specification used by the supplier to build the system.",
+          "Prepared monthly progress reports for the housing board.",
+          "Supported tenant consultation events and summarised their feedback for decision makers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Business Information Systems",
+        "institution": "Queen's Lagan University (fictional)",
+        "period": "2006 – 2010"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (basic)"
+    ],
+    "certifications": [
+      "BCS Business Analysis Practitioner"
+    ]
+  },
+  {
+    "archetype": "business_analyst",
+    "language": "en",
+    "misleading": false,
+    "name": "Emeka Onwuachi",
+    "headline": "Business Analyst, Data",
+    "email": "emeka.onwuachi@example.org",
+    "location": "Abuja, Nigeria",
+    "summary": "Business analyst working at the border between business and data. Four years in telecoms, specialising in reporting needs, KPIs and data quality. I translate what managers say they want into what the data can really show. I am studying for a data analytics certificate and want to grow into a data product role. I document carefully and challenge assumptions politely.",
+    "skills": [
+      "KPI definition",
+      "Data quality analysis",
+      "SQL",
+      "Power BI",
+      "Requirements documentation",
+      "Stakeholder interviews",
+      "Telecom billing domain",
+      "Process documentation",
+      "Stakeholder communication",
+      "Excel",
+      "Agile delivery"
+    ],
+    "experience": [
+      {
+        "role": "Business Analyst, Data",
+        "company": "Sahel Mobile Networks",
+        "period": "2022 – Present",
+        "bullets": [
+          "Define and document 60 KPIs for the commercial team and agree calculation rules with finance.",
+          "Wrote SQL to reconcile billing and usage data, finding about 2% revenue leakage.",
+          "Built Power BI reports for regional sales managers in four states.",
+          "Gather requirements for a new customer self-service portal.",
+          "Created a data dictionary and data quality checklist adopted by the BI team. Meet weekly with regional managers to refine dashboard requirements. Present data findings to the commercial director each quarter with clear recommendations and caveats."
+        ]
+      },
+      {
+        "role": "Junior Business Analyst",
+        "company": "Abuja Digital Solutions",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Documented processes and requirements for a mobile money project.",
+          "Supported UAT cycles and logged defects.",
+          "Helped train 50 field agents on the new mobile money app.",
+          "Wrote test scripts and tracked defects to closure with developers.",
+          "Mapped the mobile money onboarding journey and proposed three changes that reduced rejected registrations."
+        ]
+      },
+      {
+        "role": "Data Entry and Reporting Clerk",
+        "company": "Garki Commercial Bank (fictional)",
+        "period": "2019 – 2020",
+        "bullets": [
+          "Reconciled daily transaction reports and flagged inconsistencies to the supervisor.",
+          "Learned SQL and Excel automation to replace manual report preparation.",
+          "Prepared training notes for new clerks on reporting standards."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Statistics",
+        "institution": "University of Abuja Plateau (fictional)",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Hausa (conversational)"
+    ],
+    "certifications": []
+  }
+]

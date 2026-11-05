@@ -1,0 +1,1967 @@
+[
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Kamil Drozdowski",
+    "headline": "Senior Data Engineer",
+    "email": "kamil.drozdowski@example.com",
+    "location": "Gdansk, Poland",
+    "summary": "Data engineer with twelve years of experience building batch and streaming platforms for retail and logistics. I design lakehouse layouts, own data quality contracts and mentor junior colleagues. Happiest when a messy source system becomes a trusted, documented dataset that analysts actually use. I also enjoy writing design documents and running blameless post-incident reviews for data outages. My career began in software development, which still shapes how I write maintainable pipeline code and clear tests.",
+    "skills": [
+      "Apache Spark",
+      "PySpark",
+      "Airflow",
+      "Delta Lake",
+      "Kafka",
+      "Scala",
+      "Python",
+      "SQL",
+      "Parquet",
+      "Data modelling",
+      "Great Expectations",
+      "AWS Glue",
+      "S3"
+    ],
+    "experience": [
+      {
+        "role": "Senior Data Engineer",
+        "company": "Baltivo Logistics",
+        "period": "2019 – Present",
+        "bullets": [
+          "Rebuilt the nightly warehouse load on Spark and Delta Lake, cutting runtime from 7 hours to 55 minutes.",
+          "Introduced data contracts and Great Expectations checks; incident count on core tables dropped by 70%.",
+          "Led a team of four engineers and ran the on-call rota for the ingestion layer.",
+          "Migrated 140 legacy cron-based ETL scripts into Airflow DAGs with retries and alerting.",
+          "Standardised Parquet file sizing and partition pruning rules, which halved scan costs on the largest fact tables."
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "company": "Nordgate Retail Systems",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Wrote Scala jobs that aggregated 2 TB of daily till transactions into sales marts.",
+          "Replaced a hand-maintained Hadoop cluster with managed Spark on cloud storage.",
+          "Supported analysts with ad hoc SQL and dimensional models.",
+          "Presented quarterly roadmap updates to the head of analytics and the logistics operations directors.",
+          "Supported analysts during peak season, scaling ingestion jobs for promotion weeks without any missed deadlines."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Gdynia Software Works",
+        "period": "2011 – 2014",
+        "bullets": [
+          "Developed reporting back ends in Java and PostgreSQL for freight customers.",
+          "Wrote nightly SQL jobs and fixed performance problems reported by users.",
+          "Learned version control and code review discipline from a strong senior team.",
+          "Improved query response times for customer portals by adding indexes and rewriting slow joins.",
+          "Joined weekly code reviews and wrote the team's first coding standard document."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Pomorze Technical University",
+        "period": "2009 – 2014"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)",
+      "German (B1)"
+    ],
+    "certifications": [
+      "Databricks Certified Data Engineer Professional"
+    ]
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Ananya Venkataraghavan",
+    "headline": "Analytics Engineer",
+    "email": "ananya.venkataraghavan@example.com",
+    "location": "Bengaluru, India",
+    "summary": "Analytics engineer focused on turning raw event data into clean, tested models. Three years of experience with dbt and a cloud warehouse, working closely with product and finance stakeholders. I care about naming conventions, documentation and fast feedback loops. Outside work I write short internal guides on testing strategies for transformation code and review colleagues' models. I am comfortable working directly with stakeholders and translating vague questions into precise metrics definitions.",
+    "skills": [
+      "dbt",
+      "Snowflake",
+      "SQL",
+      "Python",
+      "Fivetran",
+      "Looker",
+      "Git",
+      "Dimensional modelling",
+      "Data testing",
+      "Airbyte",
+      "Jinja",
+      "Metabase"
+    ],
+    "experience": [
+      {
+        "role": "Analytics Engineer",
+        "company": "Lumenpath Software",
+        "period": "2022 – Present",
+        "bullets": [
+          "Own a dbt project of 300+ models; added schema and freshness tests that caught bad loads before dashboards broke.",
+          "Reduced Snowflake spend by 28% through incremental models and clustering review.",
+          "Built a metrics layer so finance and product share one definition of active customer.",
+          "Review pull requests and run a fortnightly modelling clinic.",
+          "Partnered with the growth team to define funnel and retention models used in weekly business reviews."
+        ]
+      },
+      {
+        "role": "Junior Data Analyst",
+        "company": "Kestrel Insurance Tech",
+        "period": "2021 – 2022",
+        "bullets": [
+          "Wrote SQL reports for claims operations.",
+          "Automated weekly spreadsheets with Python scripts, saving about six hours a week.",
+          "Learned the company data stack quickly, shadowing senior engineers and taking over two recurring reports within three months.",
+          "Reconciled revenue figures between billing exports and the warehouse, documenting every difference found.",
+          "Introduced pull request templates and lightweight documentation standards, which improved onboarding for four new colleagues."
+        ]
+      },
+      {
+        "role": "Data Analytics Intern",
+        "company": "Orchid Retail Labs",
+        "period": "2020 (4 months)",
+        "bullets": [
+          "Built SQL queries for sales dashboards and learned version control basics.",
+          "Presented a small churn analysis to the marketing team.",
+          "Cleaned vendor spreadsheets and documented assumptions.",
+          "Built a revenue reconciliation notebook that finance still uses each month-end.",
+          "Collaborated with a senior analyst to rewrite slow Excel models in SQL."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BTech Information Technology",
+        "institution": "Deccan Institute of Technology",
+        "period": "2017 – 2021"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Hindi (native)",
+      "Kannada (native)"
+    ],
+    "certifications": [
+      "SnowPro Core"
+    ]
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "pt",
+    "misleading": false,
+    "name": "Rúben Calheiros",
+    "headline": "Engenheiro de Dados Sénior",
+    "email": "ruben.calheiros@example.com",
+    "location": "Porto, Portugal",
+    "summary": "Engenheiro de dados com mais de dez anos de experiência em plataformas de streaming e processamento em tempo real, sobretudo na banca e telecomunicações. Gosto de arquiteturas simples, bem monitorizadas e fáceis de operar por quem fica de piquete. Fora do trabalho, partilho conhecimento em encontros de engenharia de dados e escrevo documentação técnica interna. Tenho experiência a trabalhar com equipas de segurança, operações e negócio, e valorizo contratos de dados claros entre produtores e consumidores.",
+    "skills": [
+      "Apache Kafka",
+      "Flink",
+      "Kafka Connect",
+      "Java",
+      "Python",
+      "Debezium",
+      "PostgreSQL",
+      "Avro",
+      "Schema Registry",
+      "Elasticsearch",
+      "Grafana"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro de Dados Sénior",
+        "company": "Banco Atlântida Digital",
+        "period": "2018 – Atualidade",
+        "bullets": [
+          "Desenhei o pipeline de eventos de pagamentos em Kafka e Flink, com latência inferior a dois segundos de ponta a ponta.",
+          "Implementei captura de alterações com Debezium a partir de 25 bases de dados transacionais.",
+          "Defini regras de evolução de esquemas com Avro e Schema Registry, evitando quebras entre equipas.",
+          "Coordenei a migração do processamento noturno para streaming contínuo.",
+          "Criei painéis de latência e de atraso de consumidores em Grafana, usados pela equipa de piquete para diagnóstico rápido."
+        ]
+      },
+      {
+        "role": "Engenheiro de Software",
+        "company": "Telenorte Comunicações",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Desenvolvi jobs de agregação de registos de chamadas em Java.",
+          "Mantive o cluster Elasticsearch usado para pesquisa de faturação.",
+          "Participei em revisões de arquitetura e ajudei a escolher as tecnologias de mensagens para novos projetos.",
+          "Reduzi o tempo de resposta de consultas de pesquisa de faturação em 40% depois de reorganizar os índices.",
+          "Realizei formações internas sobre Kafka e boas práticas de modelação de eventos para cerca de trinta programadores."
+        ]
+      },
+      {
+        "role": "Programador Júnior",
+        "company": "Soluções Cedofeita",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Desenvolvi módulos de integração em Java para sistemas de faturação.",
+          "Escrevi consultas SQL e procedimentos armazenados para relatórios.",
+          "Aprendi práticas de revisão de código e testes automáticos.",
+          "Corrigi problemas de desempenho em consultas de pesquisa e reduzi o consumo de memória do serviço.",
+          "Participei em turnos de apoio e documentei procedimentos de resolução de incidentes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática",
+        "institution": "Universidade do Douro Interior",
+        "period": "2008 – 2013"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Fionnuala Brennock",
+    "headline": "Junior Data Engineer",
+    "email": "fionnuala.brennock@example.com",
+    "location": "Cork, Ireland",
+    "summary": "Recent graduate working on my first data engineering role. I build and maintain small ETL jobs, learning how to make them reliable. Eager to learn orchestration and cloud data services from a strong team. I keep a small notebook of lessons learned from production incidents, and I am happy to be paired with a mentor. I am a careful, curious learner who asks good questions, writes things down and enjoys small, well tested improvements.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Airflow",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "Azure Data Factory",
+      "CSV and JSON parsing",
+      "Excel"
+    ],
+    "experience": [
+      {
+        "role": "Junior Data Engineer",
+        "company": "Harbourline Health Analytics",
+        "period": "2024 – Present",
+        "bullets": [
+          "Maintain 20 Airflow DAGs that load hospital scheduling data into PostgreSQL.",
+          "Fixed a recurring duplicate-row bug by adding idempotent upserts.",
+          "Wrote documentation for each pipeline and a runbook for failed loads.",
+          "Added row count and null checks after each load step, alerting the team channel when thresholds are breached.",
+          "Contributed to code reviews and learned to explain pipeline failures clearly to non-technical colleagues."
+        ]
+      },
+      {
+        "role": "Data Intern",
+        "company": "Corrib Energy Services",
+        "period": "2023 (6 months)",
+        "bullets": [
+          "Cleaned meter reading files with Pandas.",
+          "Built a simple dashboard for consumption trends.",
+          "Presented my findings to the energy analysts and incorporated their feedback into a second version.",
+          "Learned Git workflow, code review etiquette and basic testing under the guidance of a senior engineer.",
+          "Completed a rotation with the data science team and prepared training datasets for a readmission model."
+        ]
+      },
+      {
+        "role": "Part-time Support Analyst",
+        "company": "Lee Valley Computers",
+        "period": "2021 – 2023",
+        "bullets": [
+          "Answered customer support tickets while studying and learned basic scripting.",
+          "Wrote small Python utilities to rename and sort files for the repair team.",
+          "Documented common faults in the knowledge base.",
+          "Researched open health data sources and compared formats for a team proof of concept.",
+          "Documented data cleaning decisions so that colleagues could repeat the analysis."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Data Science",
+        "institution": "Munster Coastal University",
+        "period": "2020 – 2024"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Jonas Reichenbach",
+    "headline": "Lead Data Platform Engineer",
+    "email": "jonas.reichenbach@example.com",
+    "location": "Hamburg, Germany",
+    "summary": "Lead engineer for a lakehouse platform on Azure serving about 200 analysts and data scientists. I combine hands-on engineering with budget ownership and vendor discussions. Prefer measured, reviewable change over heroics. Our platform team runs jobs on AKS with Bicep templates, but my focus is the data layer itself. Before moving into data platforms I spent years in business intelligence, so I understand reports from the consumer's side as well as the engineer's.",
+    "skills": [
+      "Azure Databricks",
+      "Delta Live Tables",
+      "Azure Data Lake",
+      "Synapse",
+      "PySpark",
+      "SQL",
+      "Unity Catalog",
+      "Purview",
+      "Azure DevOps",
+      "Bicep",
+      "Power BI",
+      "Delta Sharing"
+    ],
+    "experience": [
+      {
+        "role": "Lead Data Platform Engineer",
+        "company": "Fjordmark Industrie AG",
+        "period": "2020 – Present",
+        "bullets": [
+          "Established medallion architecture with Unity Catalog governance across six business units.",
+          "Cut compute cost by 35% via job clusters, auto-termination and workload tagging.",
+          "Hired and coached a team of five; defined the interview process.",
+          "Introduced Azure DevOps release gates for notebook and pipeline promotion.",
+          "Partnered with the security team on encryption, masking rules and audit logging for personal data."
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "company": "Elbtal Versicherung",
+        "period": "2015 – 2020",
+        "bullets": [
+          "Built Informatica and later Spark based loads for the actuarial data mart.",
+          "Designed row-level security for sensitive policyholder data.",
+          "Introduced code reviews and a shared style guide for ETL development across a team of eight.",
+          "Delivered a customer master data project that merged four source systems into one trusted record.",
+          "Presented progress reports to steering committees and managed vendor relationships."
+        ]
+      },
+      {
+        "role": "BI Developer",
+        "company": "Alster Consulting",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Delivered SSIS packages and cubes for mid-sized clients.",
+          "Gave regular workshops on dimensional modelling to business analysts.",
+          "Maintained scheduled refresh processes for the finance reporting suite.",
+          "Gathered requirements for dashboards in workshops and translated them into dimensional models.",
+          "Trained client staff to maintain their own reports and documentation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom Wirtschaftsinformatik",
+        "institution": "Hochschule Nordwest",
+        "period": "2007 – 2012"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C2)"
+    ],
+    "certifications": [
+      "Azure Data Engineer Associate"
+    ]
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Adaeze Nwosu-Ibe",
+    "headline": "Data Engineer",
+    "email": "adaeze.nwosu-ibe@example.com",
+    "location": "Lagos, Nigeria",
+    "summary": "Data engineer who builds event pipelines for a fintech serving mobile money users. I enjoy cost-aware design on BigQuery and making ingestion robust against flaky upstream APIs. Four years of production experience. I am active in the local data community and mentor graduates through a women in tech programme. I like clear data contracts with upstream teams and writing alerts that tell people exactly what to fix.",
+    "skills": [
+      "Google BigQuery",
+      "Pub/Sub",
+      "Dataflow",
+      "Apache Beam",
+      "Python",
+      "SQL",
+      "Cloud Composer",
+      "dbt",
+      "Cloud Functions",
+      "Looker Studio",
+      "Data lineage",
+      "Cloud Storage"
+    ],
+    "experience": [
+      {
+        "role": "Data Engineer",
+        "company": "Kobo Pay Technologies",
+        "period": "2021 – Present",
+        "bullets": [
+          "Streamed about 5 million daily transactions through Pub/Sub and Beam into partitioned BigQuery tables.",
+          "Built a reconciliation job that flagged ledger mismatches within ten minutes.",
+          "Tuned queries and table layouts, bringing monthly warehouse cost down by 40%.",
+          "Created alerting for late and malformed events.",
+          "Wrote runbooks and a postmortem template so incidents on the pipelines are resolved consistently."
+        ]
+      },
+      {
+        "role": "Junior Data Engineer",
+        "company": "Savanna Telecom Data",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Developed Python ingestion scripts for usage records.",
+          "Supported the BI team with SQL views.",
+          "Learned the telecom billing domain and presented usage trends to the commercial team each quarter.",
+          "Reduced file ingestion errors by validating schemas before loading.",
+          "Moved a cluster of ad hoc scripts into scheduled, monitored jobs with automatic retry behaviour."
+        ]
+      },
+      {
+        "role": "Software Engineering Intern",
+        "company": "Lekki Systems Limited",
+        "period": "2018 (6 months)",
+        "bullets": [
+          "Built a small Flask API and wrote automated tests for it.",
+          "Assisted senior developers with database migrations.",
+          "Documented endpoints for the mobile team.",
+          "Handled data requests from analysts and finance staff, keeping a short turnaround log.",
+          "Collaborated with a mobile team to define a consistent event schema."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Computer Engineering",
+        "institution": "University of Ogbomoso Heights",
+        "period": "2014 – 2019"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (native)",
+      "French (A2)"
+    ],
+    "certifications": [
+      "Google Professional Data Engineer"
+    ]
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "pt",
+    "misleading": false,
+    "name": "Inês Valadares Quintão",
+    "headline": "Engenheira de Dados",
+    "email": "ines.quintao@example.com",
+    "location": "Braga, Portugal",
+    "summary": "Engenheira de dados com cinco anos de experiência em armazéns de dados na cloud. Trabalho com equipas de negócio para transformar pedidos vagos em modelos fiáveis. Aprecio documentação clara e testes automáticos. Participo também em grupos de estudo sobre modelação de dados e partilho boas práticas com a comunidade local. Sou organizada, comunicativa e gosto de resolver problemas de qualidade de dados na origem, em colaboração com quem produz os dados.",
+    "skills": [
+      "Amazon Redshift",
+      "Airflow",
+      "Python",
+      "SQL",
+      "AWS Glue",
+      "S3",
+      "dbt",
+      "Modelação dimensional",
+      "Git",
+      "Tableau",
+      "Looker"
+    ],
+    "experience": [
+      {
+        "role": "Engenheira de Dados",
+        "company": "Retalhos Minho Online",
+        "period": "2021 – Atualidade",
+        "bullets": [
+          "Reconstruí o armazém de dados em Redshift, reduzindo o tempo das consultas mais pesadas de 40 para 6 minutos.",
+          "Orquestrei mais de 60 fluxos em Airflow com alertas por correio eletrónico e Slack.",
+          "Adicionei testes dbt às tabelas de faturação, eliminando relatórios com valores errados.",
+          "Formei dois colegas juniores em boas práticas de SQL.",
+          "Participei na seleção de ferramentas de ingestão e redigi os critérios de qualidade dos dados."
+        ]
+      },
+      {
+        "role": "Analista de Dados",
+        "company": "Cávado Seguros",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Criei relatórios em Tableau para a equipa comercial.",
+          "Automatizei extrações semanais com scripts Python.",
+          "Aprendi o domínio de seguros e apresentei análises trimestrais à direção.",
+          "Reduzi o tempo de preparação de relatórios regulatórios de dois dias para duas horas.",
+          "Criei um catálogo de dados simples com descrições de tabelas e responsáveis, consultado diariamente pelos analistas."
+        ]
+      },
+      {
+        "role": "Estagiária de Análise de Dados",
+        "company": "Barcelos Têxteis",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Limpei folhas de cálculo de produção e criei os primeiros relatórios em SQL.",
+          "Aprendi controlo de versões com Git.",
+          "Apresentei uma análise de desperdício à administração.",
+          "Automatizei a validação de ficheiros enviados por parceiros, reduzindo pedidos de correção manual.",
+          "Colaborei com a equipa de infraestrutura na gestão de acessos aos dados."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade do Minho Ocidental",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)",
+      "Espanhol (A2)"
+    ],
+    "certifications": [
+      "AWS Certified Data Analytics – Specialty"
+    ]
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Lucas Brandolini Tavares",
+    "headline": "Senior Big Data Engineer",
+    "email": "lucas.tavares@example.com",
+    "location": "Sao Paulo, Brazil",
+    "summary": "Big data specialist with fifteen years behind me, from Hadoop clusters to modern lakehouse stacks. I have lived through several migrations and know which ones were worth it. Practical, documentation-minded, and comfortable dealing with legacy systems. I like documenting architecture decisions and teaching teams to work with open table formats and distributed queries. I favour shared knowledge, code review and automated tests on every data flow.",
+    "skills": [
+      "Hadoop",
+      "Hive",
+      "Spark",
+      "Iceberg",
+      "Trino",
+      "Airflow",
+      "Scala",
+      "Python",
+      "HDFS",
+      "Parquet",
+      "Ranger",
+      "SQL tuning",
+      "dbt"
+    ],
+    "experience": [
+      {
+        "role": "Senior Big Data Engineer",
+        "company": "Banco Paulistano de Crédito",
+        "period": "2017 – Present",
+        "bullets": [
+          "Led migration of a 600 TB Hive warehouse to Iceberg tables queried through Trino.",
+          "Decommissioned two on-premise Hadoop clusters, saving roughly 1.2 million BRL per year.",
+          "Defined partitioning and compaction standards adopted by twelve teams.",
+          "Introduced column-level access policies and audit trails for data subject to privacy regulation.",
+          "Gave internal talks on table formats and published migration guidelines for other business units."
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "company": "Cafezal Agro Analytics",
+        "period": "2012 – 2017",
+        "bullets": [
+          "Wrote MapReduce then Spark jobs for crop yield models.",
+          "Maintained Oozie workflows.",
+          "Trained fifteen analysts to write efficient Spark and Hive queries.",
+          "Tuned Spark jobs through broadcast joins and better file layouts, saving about 30% of runtime.",
+          "Supported the data science team with feature extracts."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Tupi Sistemas",
+        "period": "2009 – 2012",
+        "bullets": [
+          "Built reporting modules in Java and Oracle PL/SQL.",
+          "Learned SQL tuning on large Oracle tables and wrote stored procedures for monthly closing.",
+          "Built Oozie workflows and Hive scripts for yield reports.",
+          "Documented every dataset and owner in a shared wiki."
+        ]
+      },
+      {
+        "role": "Systems Analyst Trainee",
+        "company": "Mata Atlântica Software",
+        "period": "2008 – 2009",
+        "bullets": [
+          "Tested software releases and wrote bug reports.",
+          "Maintained a SQL database for internal tools.",
+          "Provided first-line support to users.",
+          "Monitored overnight batch jobs and escalated failures to the right team."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Southern Plateau Federal University",
+        "period": "2004 – 2008"
+      }
+    ],
+    "languages": [
+      "Portuguese (native)",
+      "English (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Sanjana Kulshreshtha",
+    "headline": "Data Engineer",
+    "email": "sanjana.kulshreshtha@example.com",
+    "location": "Pune, India",
+    "summary": "Data engineer with seven years in e-commerce, mostly building ingestion frameworks and reusable libraries. I like config-driven pipelines and small, sharp tools. Wrote an internal Spark testing helper now used by three teams. I mentor new joiners and run a monthly internal talk about data quality practices. I enjoy simplifying complicated workflows and writing documentation that new colleagues actually read.",
+    "skills": [
+      "PySpark",
+      "AWS EMR",
+      "Kinesis",
+      "Airflow",
+      "Python",
+      "Hive",
+      "Presto",
+      "SQL",
+      "pytest",
+      "Parquet",
+      "Redshift Spectrum",
+      "Helm charts for job deployment",
+      "Airflow plugins"
+    ],
+    "experience": [
+      {
+        "role": "Senior Data Engineer",
+        "company": "Bazaarnest Commerce",
+        "period": "2020 – Present",
+        "bullets": [
+          "Designed a config-driven ingestion framework: onboarding a new source went from two weeks to two days.",
+          "Processed 800 million clickstream events daily on EMR with Spark Structured Streaming.",
+          "Built a PySpark unit testing library with fixtures for common transformations.",
+          "Deployed batch jobs on the shared platform's k8s cluster using Helm charts supplied by the platform team.",
+          "Collaborated with data scientists to deliver feature tables for recommendation models, with documented freshness guarantees."
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "company": "Mandi Fresh Foods",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Loaded supplier feeds into Hive tables.",
+          "Optimised slow joins and skewed partitions.",
+          "Created a metadata catalogue so teams could find and trust supplier datasets.",
+          "Helped migrate on-premise Hive tables to cloud storage in under four months.",
+          "Cut daily supplier loads from three hours to forty minutes through partition tuning and incremental processing."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Konkan Infosystems",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Developed Java web services and SQL reports for a logistics client.",
+          "Fixed production defects and wrote unit tests.",
+          "Learned agile practices in a team of twelve developers.",
+          "Added data quality checks to critical tables and alerted owners automatically.",
+          "Supported ad hoc analyst requests with fast, clean extracts."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BE Computer Engineering",
+        "institution": "Sahyadri College of Engineering",
+        "period": "2013 – 2017"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Hindi (native)",
+      "Marathi (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_engineer",
+    "language": "en",
+    "misleading": false,
+    "name": "Ewan Mackillop",
+    "headline": "Data Engineer",
+    "email": "ewan.mackillop@example.com",
+    "location": "Glasgow, United Kingdom",
+    "summary": "Pragmatic data engineer. Python, SQL, Postgres. Small team, short feedback loops. I document everything, keep dependencies minimal and favour boring tools that stay running for years. Short feedback loops matter more to me than fashionable stacks. I am steady under pressure and happy to take on unglamorous work, such as backfills, data fixes and documentation.",
+    "skills": [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "Luigi",
+      "Redshift",
+      "Docker",
+      "Metabase",
+      "Bash",
+      "REST APIs",
+      "Cron",
+      "Excel macros"
+    ],
+    "experience": [
+      {
+        "role": "Data Engineer",
+        "company": "Thistle Mobility",
+        "period": "2018 – Present",
+        "bullets": [
+          "Own nightly loads from six partner APIs into Postgres, which gave analysts a dependable morning dataset and let me retire three brittle shell scripts for good.",
+          "Wrote Metabase models for the ops team, with the retry logic and run history stored in Postgres so anyone on the team can audit a failed night.",
+          "Handled vendor file format changes and backfills, and wrote a one-page guide for the support desk explaining which dashboards were safe to trust.",
+          "Documented every job in the team wiki.",
+          "Cut the overnight load window from three hours to forty minutes by loading in parallel and tuning indexes."
+        ]
+      },
+      {
+        "role": "ETL Developer",
+        "company": "Clydeside Utilities",
+        "period": "2015 – 2018",
+        "bullets": [
+          "Maintained SQL Server Integration Services packages.",
+          "Moved reports from Excel macros to scheduled SQL.",
+          "Supported month-end close runs.",
+          "Rewrote slow stored procedures for cost reports and added basic unit tests.",
+          "Trained two colleagues on SQL window functions and query plans."
+        ]
+      },
+      {
+        "role": "Support Analyst",
+        "company": "Forth Valley Software",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Resolved customer queries about reporting software and logged defects.",
+          "Wrote small SQL scripts to diagnose data problems.",
+          "Learned the basics of database administration.",
+          "Maintained scheduled loads for the finance data mart and chased missing source files each month-end.",
+          "Replaced fragile manual imports with validated, repeatable scripts."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Software Engineering",
+        "institution": "Strathmore Highlands University",
+        "period": "2011 – 2015"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Scottish Gaelic (A2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": false,
+    "name": "Priyanka Natarajan",
+    "headline": "NLP Research Engineer",
+    "email": "priyanka.natarajan@example.com",
+    "location": "Chennai, India",
+    "summary": "NLP engineer with six years of experience in text classification, retrieval and large language model fine-tuning. I turn research papers into production services and measure everything with proper offline and online evaluation. I publish internal technical write-ups and mentor interns on experiment design and reproducibility. I am equally comfortable reading papers and reading production logs, and I care about reproducible experiments.",
+    "skills": [
+      "PyTorch",
+      "Transformers",
+      "Hugging Face",
+      "spaCy",
+      "Text classification",
+      "Embeddings",
+      "Vector search",
+      "LoRA fine-tuning",
+      "Python",
+      "scikit-learn",
+      "MLflow",
+      "Weights & Biases",
+      "FAISS"
+    ],
+    "experience": [
+      {
+        "role": "NLP Research Engineer",
+        "company": "Verbatim Cloud Labs",
+        "period": "2021 – Present",
+        "bullets": [
+          "Fine-tuned a multilingual encoder for support ticket routing, lifting macro F1 from 0.71 to 0.86, and wrote the documentation that new team members use to reproduce the benchmark.",
+          "Built an embedding based retrieval service for knowledge base answers serving 90 queries per second, which allowed the product team to ship the feature without adding GPU capacity.",
+          "Set up evaluation harnesses with human-labelled test sets and drift monitoring.",
+          "Ran LoRA experiments for domain adaptation of a 7B parameter model.",
+          "Reduced inference cost by 55% through distillation of a large classifier into a compact student model."
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "company": "Tamarind Fintech",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Trained fraud models with gradient boosting and calibrated thresholds with the risk team.",
+          "Prototyped named entity extraction for KYC documents.",
+          "Built an end-to-end text analytics prototype and presented it to executives, which led to a funded product team.",
+          "Cleaned and labelled 40,000 documents with domain experts.",
+          "Introduced experiment tracking and model cards, giving risk and product teams a shared view of performance."
+        ]
+      },
+      {
+        "role": "Research Intern",
+        "company": "Madras Language Technologies",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Experimented with word embeddings and sequence models for sentiment analysis.",
+          "Wrote evaluation scripts and reported results weekly.",
+          "Contributed to a conference paper on low-resource language tagging.",
+          "Created data augmentation scripts that improved recall on rare document types.",
+          "Worked with annotators and reviewers to refine labelling guidelines."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MTech Artificial Intelligence",
+        "institution": "Coromandel Institute of Technology",
+        "period": "2016 – 2018"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Tamil (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "pt",
+    "misleading": false,
+    "name": "Gonçalo Pestana",
+    "headline": "Cientista de Dados",
+    "email": "goncalo.pestana@example.com",
+    "location": "Lisboa, Portugal",
+    "summary": "Cientista de dados com quatro anos de experiência em previsão de procura e otimização de preços para retalho. Gosto de explicar resultados a quem decide e de validar modelos antes de os pôr em produção. Sou curioso por natureza e gosto de partilhar o que aprendo em seminários internos sobre estatística aplicada. Gosto de problemas concretos de negócio, de código limpo e de documentação que permita a outros repetir a minha análise.",
+    "skills": [
+      "Python",
+      "Séries temporais",
+      "Prophet",
+      "XGBoost",
+      "scikit-learn",
+      "SQL",
+      "Estatística bayesiana",
+      "Jupyter",
+      "MLflow",
+      "Power BI",
+      "Testes A/B",
+      "R"
+    ],
+    "experience": [
+      {
+        "role": "Cientista de Dados",
+        "company": "Mercearia Tejo Digital",
+        "period": "2022 – Atualidade",
+        "bullets": [
+          "Desenvolvi modelos de previsão de vendas por loja, reduzindo o erro médio absoluto em 18%.",
+          "Desenhei e analisei testes A/B de preços em 40 lojas.",
+          "Criei painéis em Power BI para a direção comercial.",
+          "Registei experiências em MLflow para reprodutibilidade.",
+          "Colaborei com os gestores de categoria para traduzir previsões em decisões de encomenda, reduzindo roturas de stock em 12%."
+        ]
+      },
+      {
+        "role": "Analista Quantitativo Júnior",
+        "company": "Aliança Seguradora",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Modelei probabilidade de cancelamento de apólices com regressão logística.",
+          "Limpei e documentei conjuntos de dados históricos.",
+          "Apresentei resultados à administração e aprendi a comunicar incerteza de forma clara.",
+          "Construí um modelo de segmentação de clientes com métodos de agrupamento.",
+          "Participei em reuniões semanais com a equipa de operações para acompanhar o desempenho das previsões e ajustar parâmetros."
+        ]
+      },
+      {
+        "role": "Monitor de Estatística",
+        "company": "Universidade Atlântica de Lisboa",
+        "period": "2017 – 2019",
+        "bullets": [
+          "Apoiei turmas de estatística e probabilidades como monitor.",
+          "Corrigi trabalhos práticos em R.",
+          "Preparei material de apoio para os estudantes.",
+          "Automatizei relatórios mensais de risco com scripts em Python e SQL.",
+          "Ajudei a validar dados de sinistros antes de cada análise."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Matemática Aplicada",
+        "institution": "Universidade Atlântica de Lisboa",
+        "period": "2018 – 2020"
+      },
+      {
+        "degree": "Licenciatura em Matemática",
+        "institution": "Universidade Atlântica de Lisboa",
+        "period": "2015 – 2018"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": false,
+    "name": "Katarzyna Mroczkowska",
+    "headline": "Computer Vision Engineer",
+    "email": "katarzyna.mroczkowska@example.com",
+    "location": "Krakow, Poland",
+    "summary": "Computer vision engineer working on defect detection for manufacturing lines. Eight years in applied machine learning, comfortable with the full loop from data labelling to edge deployment on small devices. I enjoy working with factory engineers and prefer pragmatic models that can run reliably in a noisy environment. I value reproducible training pipelines, honest evaluation and good communication between data, hardware and production teams.",
+    "skills": [
+      "PyTorch",
+      "OpenCV",
+      "YOLO",
+      "Segmentation",
+      "ONNX",
+      "TensorRT",
+      "Python",
+      "C++",
+      "Data labelling",
+      "Model quantisation",
+      "Albumentations",
+      "Docker"
+    ],
+    "experience": [
+      {
+        "role": "Senior Computer Vision Engineer",
+        "company": "Optiforge Manufacturing Tech",
+        "period": "2019 – Present",
+        "bullets": [
+          "Trained a segmentation model detecting surface defects with 97% recall on production images, and the same approach was later reused by two other production lines without major changes.",
+          "Exported models through ONNX and TensorRT to run at 30 frames per second on edge GPUs, which meant the models could run offline on the shop floor, away from any network.",
+          "Designed the annotation guidelines and QA process for a team of six labellers, and agreed the acceptance criteria with quality engineers before training began.",
+          "Reduced false rejects by 45% through targeted hard negative mining.",
+          "Presented model performance to plant managers every month and adjusted thresholds based on their feedback."
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "company": "Wawel Imaging Systems",
+        "period": "2016 – 2019",
+        "bullets": [
+          "Built classical and CNN based pipelines for medical image triage.",
+          "Wrote C++ preprocessing modules.",
+          "Developed a classification model that cut manual review of scans by 60%.",
+          "Documented data collection protocols for radiologists.",
+          "Optimised image preprocessing in C++, reducing latency per scan from 120 ms to 45 ms."
+        ]
+      },
+      {
+        "role": "Research Assistant",
+        "company": "Krakow Polytechnic Institute",
+        "period": "2013 – 2016",
+        "bullets": [
+          "Worked on feature extraction for industrial inspection images.",
+          "Wrote MATLAB and later Python prototypes.",
+          "Co-authored two workshop papers.",
+          "Evaluated open datasets for transfer learning and compared several backbone architectures.",
+          "Presented results to clinicians and incorporated their feedback."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Automation and Robotics",
+        "institution": "Krakow Polytechnic Institute",
+        "period": "2014 – 2016"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": false,
+    "name": "Declan Fitzmaurice",
+    "headline": "Forecasting Data Scientist",
+    "email": "declan.fitzmaurice@example.com",
+    "location": "Dublin, Ireland",
+    "summary": "I build demand and load forecasts for energy and utilities. Over eleven years I have moved from spreadsheets and R scripts to probabilistic models in production. Plain-spoken about uncertainty. I like clear communication, reproducible analysis and a good code review. I enjoy mentoring early-career analysts and translating statistical caveats into decisions that business leaders can use.",
+    "skills": [
+      "R",
+      "Python",
+      "Probabilistic forecasting",
+      "Statsmodels",
+      "LightGBM",
+      "Hierarchical models",
+      "Stan",
+      "SQL",
+      "Quantile regression",
+      "Shiny",
+      "Prophet"
+    ],
+    "experience": [
+      {
+        "role": "Principal Data Scientist",
+        "company": "Emerald Grid Analytics",
+        "period": "2018 – Present",
+        "bullets": [
+          "Own the national day-ahead load forecast; error improved from 3.4% to 2.6% MAPE, and published weekly accuracy tables so that the trading desk could see when to trust the numbers.",
+          "Introduced quantile forecasts so traders can size risk explicitly, which let analysts rerun history after any code change and spot unintended regressions.",
+          "Mentor three data scientists and review all modelling changes, and trained the operations team to read prediction intervals rather than single point values.",
+          "Built a backtesting framework that replays five years of data to compare candidate models fairly.",
+          "Collaborate with the engineering team to put models into scheduled production jobs with automatic quality checks."
+        ]
+      },
+      {
+        "role": "Statistician",
+        "company": "Liffey Water Authority",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Modelled consumption and leak probability with generalised additive models.",
+          "Published internal method notes.",
+          "Wrote an internal handbook on forecasting methods for non-specialists.",
+          "Reported monthly forecast accuracy to senior engineers and executives.",
+          "Developed demand models for customer billing, replacing a manual spreadsheet process."
+        ]
+      },
+      {
+        "role": "Research Assistant",
+        "company": "Eastern Atlantic University",
+        "period": "2011 – 2013",
+        "bullets": [
+          "Ran survey analysis in R.",
+          "Presented findings at a regional statistics conference.",
+          "Taught undergraduate tutorials on time series.",
+          "Created a shared R package for common data cleaning tasks, used by the whole department."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Statistics",
+        "institution": "Eastern Atlantic University",
+        "period": "2009 – 2011"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": false,
+    "name": "Adaeze Nwachukwu",
+    "headline": "Machine Learning Engineer",
+    "email": "adaeze.nwachukwu@example.com",
+    "location": "Abuja, Nigeria",
+    "summary": "Machine learning engineer building recommendation systems for a media app. Five years of experience including ranking, feature stores and online experimentation. I like measurable product impact. I enjoy mentoring and have given talks about ranking metrics at local meetups. I value clean data, honest A/B test design and clear explanations of what a model can and cannot do.",
+    "skills": [
+      "Recommender systems",
+      "Two-tower models",
+      "TensorFlow",
+      "PyTorch",
+      "Feature store",
+      "Spark",
+      "Python",
+      "Online A/B testing",
+      "Ranking metrics",
+      "Redis",
+      "SQL",
+      "PySpark"
+    ],
+    "experience": [
+      {
+        "role": "Machine Learning Engineer",
+        "company": "Kuvu Media",
+        "period": "2021 – Present",
+        "bullets": [
+          "Shipped a two-tower retrieval model that raised daily watch time by 6.5% in an A/B test, and followed up with a holdout analysis to confirm the gain was not a novelty effect.",
+          "Designed feature pipelines and an online feature store with Redis for sub-20 ms reads, which supported both batch training and real-time serving with the same feature definitions.",
+          "Defined ranking metrics (NDCG, coverage) and automated weekly evaluation reports, and published the results in a short report that the whole product team could read.",
+          "Collaborated with product managers to prioritise experiments.",
+          "Mentor two junior engineers and run the weekly paper reading group."
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "company": "Harmattan Retail Group",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Built a basket-based product recommender with matrix factorisation.",
+          "Deployed batch scoring to the web store.",
+          "Tracked recommendation click-through and conversion, improving the add-to-basket rate by 9%.",
+          "Wrote a data validation layer for incoming event logs.",
+          "Worked closely with the product team to define success metrics before every experiment."
+        ]
+      },
+      {
+        "role": "Data Analyst Intern",
+        "company": "Lagos Digital Commerce",
+        "period": "2018 (6 months)",
+        "bullets": [
+          "Built weekly reports in SQL and Excel for the marketing team.",
+          "Learned Python for data cleaning and exploratory analysis.",
+          "Presented a customer segmentation study.",
+          "Built a dashboard tracking campaign performance and customer segments.",
+          "Cleaned messy sales data from regional offices and documented definitions."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Statistics",
+        "institution": "Federal University of the Niger Plains",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": true,
+    "name": "Lars Hendriksson",
+    "headline": "Junior Data Analyst",
+    "email": "lars.hendriksson@example.com",
+    "location": "Aarhus, Denmark",
+    "summary": "Data analyst with two years of experience in survey statistics and reporting. I enjoy regression, visualisation and explaining numbers to non-technical colleagues. Currently learning machine learning basics through online courses. Outside work I volunteer teaching spreadsheet skills to local community groups. I am a careful, curious analyst who enjoys clear charts and honest statistics.",
+    "skills": [
+      "Python",
+      "pandas",
+      "scikit-learn (introductory)",
+      "R",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Linear regression",
+      "Hypothesis testing",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Docker",
+      "AWS",
+      "Jenkins",
+      "Agile"
+    ],
+    "experience": [
+      {
+        "role": "Junior Data Analyst",
+        "company": "Jutland Market Research",
+        "period": "2023 – Present",
+        "bullets": [
+          "Produce monthly survey reports and dashboards for retail clients, and added short plain-language summaries so that account managers could use the findings directly.",
+          "Fit simple regression models to explain customer satisfaction scores, and checked model assumptions with residual plots before sharing anything with clients.",
+          "Clean and merge panel data in pandas; automate recurring reports with scripts, and set up reusable scripts so the same report can be rebuilt each month in minutes.",
+          "Attended a one-day Kubernetes workshop and I am familiar with Terraform and CI/CD concepts through our data team's wiki.",
+          "Meet clients to clarify requirements and present findings in plain language."
+        ]
+      },
+      {
+        "role": "Research Intern",
+        "company": "Aarhus Social Science Institute",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Coded open-ended survey answers and ran descriptive statistics.",
+          "Helped prepare figures for a published report.",
+          "Learned R and Python for data cleaning during the internship.",
+          "Supported a team of four researchers with data management.",
+          "Presented a preliminary analysis of household budgets to a group of academics."
+        ]
+      },
+      {
+        "role": "Student Assistant",
+        "company": "Aarhus Nordic University",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Graded statistics assignments and held weekly exercise sessions.",
+          "Maintained a shared dataset for a research group.",
+          "Learned LaTeX and reproducible reporting with R Markdown.",
+          "Created charts for a policy brief that was shared with local government.",
+          "Learned good practice for data documentation and sharing."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Statistics",
+        "institution": "Aarhus Nordic University",
+        "period": "2020 – 2022"
+      },
+      {
+        "degree": "BSc Economics",
+        "institution": "Aarhus Nordic University",
+        "period": "2017 – 2020"
+      }
+    ],
+    "languages": [
+      "Danish (native)",
+      "English (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": false,
+    "name": "Isabela Cordeiro Rangel",
+    "headline": "Applied Scientist",
+    "email": "isabela.rangel@example.com",
+    "location": "Rio de Janeiro, Brazil",
+    "summary": "Applied scientist in credit risk. I build scorecards and gradient boosted models, then fight to get them explained, approved and monitored. Seven years in lending. I like working closely with the risk and legal teams and explaining models to people without a technical background. I value transparent models, good documentation and constant dialogue with the business.",
+    "skills": [
+      "Credit scoring",
+      "XGBoost",
+      "Logistic regression",
+      "SHAP",
+      "Python",
+      "SQL",
+      "Model monitoring",
+      "Survival analysis",
+      "Scorecards",
+      "Population stability index",
+      "Python"
+    ],
+    "experience": [
+      {
+        "role": "Applied Scientist",
+        "company": "Carioca Credit Bank",
+        "period": "2019 – Present",
+        "bullets": [
+          "Rebuilt the consumer default model, raising Gini from 0.52 to 0.61, which the model risk committee praised for the clarity of its documentation and validation tests.",
+          "Created SHAP-based explanations accepted by the regulator's model review, which the model risk committee reviews monthly with the whole team.",
+          "Set up monthly stability and drift monitoring for 14 production models, and agreed the alert thresholds with business owners so that alarms were actionable.",
+          "Partnered with compliance to document model assumptions, limitations and validation outcomes for audits.",
+          "Mentor two analysts and review their notebooks."
+        ]
+      },
+      {
+        "role": "Credit Analyst",
+        "company": "Guanabara Financeira",
+        "period": "2016 – 2019",
+        "bullets": [
+          "Built scorecards in SAS then Python.",
+          "Analysed portfolio performance by vintage.",
+          "Reduced manual credit review volume by 25% through an automatic pre-screening score.",
+          "Trained junior colleagues in SQL and basic statistics.",
+          "Prepared quarterly portfolio reviews for senior managers and highlighted emerging risk segments."
+        ]
+      },
+      {
+        "role": "Estagiária de Estatística",
+        "company": "Instituto de Pesquisa Fluminense",
+        "period": "2014 – 2015",
+        "bullets": [
+          "Analysed survey data in R and prepared weekly reports.",
+          "Learned data cleaning and sampling methods.",
+          "Presented results to senior researchers.",
+          "Learned model governance procedures and helped prepare validation reports.",
+          "Collaborated with the collections team to prioritise contacts using simple scores."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Statistics",
+        "institution": "Bahia State University",
+        "period": "2014 – 2016"
+      }
+    ],
+    "languages": [
+      "Portuguese (native)",
+      "English (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "data_scientist_ml",
+    "language": "en",
+    "misleading": false,
+    "name": "Wolfgang Staudinger",
+    "headline": "Staff ML Engineer",
+    "email": "wolfgang.staudinger@example.com",
+    "location": "Munich, Germany",
+    "summary": "Staff engineer bridging data science and production systems for a mobility company. Fourteen years of experience; I own model serving, monitoring and the team's engineering standards. I deploy to the shared k8s platform maintained by colleagues. I enjoy mentoring, writing design docs, and reviewing code for the whole group. My preference is small, testable services, strong observability and engineering practices that scientists find easy to follow.",
+    "skills": [
+      "PyTorch",
+      "Model serving",
+      "Triton",
+      "MLflow",
+      "Python",
+      "Feature engineering",
+      "Spark",
+      "Time series",
+      "Monitoring",
+      "Rust (basic)",
+      "gRPC",
+      "Docker"
+    ],
+    "experience": [
+      {
+        "role": "Staff ML Engineer",
+        "company": "Isarway Mobility",
+        "period": "2017 – Present",
+        "bullets": [
+          "Built the ETA prediction service handling 4,000 requests per second at p99 under 40 ms, and wrote the migration guide that the other teams followed during their own rollout.",
+          "Standardised model packaging and registry workflow with MLflow across eight teams, with automatic rollback if latency or error rates crossed agreed thresholds.",
+          "Introduced shadow deployments and drift alerts; two regressions were caught before launch, and documented the trade-offs openly so that new engineers could challenge them.",
+          "Release services onto the internal k8s platform via templates from the platform team.",
+          "Mentor six engineers and chair the model review board before any launch."
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "company": "Bavarian Telematics",
+        "period": "2012 – 2017",
+        "bullets": [
+          "Developed driver behaviour scoring models.",
+          "Wrote Spark feature jobs on telemetry.",
+          "Reduced telemetry processing time by 70% by rewriting feature jobs in Spark.",
+          "Presented driver scoring results to the insurance partners.",
+          "Collaborated with product managers on pricing and driver incentive experiments."
+        ]
+      },
+      {
+        "role": "Research Engineer",
+        "company": "Munich Applied Research Centre",
+        "period": "2010 – 2012",
+        "bullets": [
+          "Worked on Kalman filtering for positioning.",
+          "Published two papers on filtering methods and presented at a conference.",
+          "Implemented a signal processing library in C++ that was reused across several projects.",
+          "Supervised master's theses on filtering and sensor fusion."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Dr. rer. nat. Physics",
+        "institution": "Technische Hochschule Südbayern",
+        "period": "2006 – 2010"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "dba",
+    "language": "en",
+    "misleading": false,
+    "name": "Rajesh Subramaniam",
+    "headline": "Senior Oracle Database Administrator",
+    "email": "rajesh.subramaniam@example.com",
+    "location": "Hyderabad, India",
+    "summary": "Oracle DBA with sixteen years of experience running mission-critical databases in banking. I specialise in RAC, Data Guard and performance tuning, and I write careful runbooks. Calm during incidents. I am methodical, document every change and enjoy training junior administrators. I work well with application teams, auditors and vendors, and I always test recovery procedures before I trust them.",
+    "skills": [
+      "Oracle 19c",
+      "RAC",
+      "Data Guard",
+      "RMAN",
+      "Exadata",
+      "AWR analysis",
+      "SQL tuning",
+      "PL/SQL",
+      "Shell scripting",
+      "Backup and recovery",
+      "Patching",
+      "Automation"
+    ],
+    "experience": [
+      {
+        "role": "Senior DBA",
+        "company": "Charminar Bank Technology",
+        "period": "2014 – Present",
+        "bullets": [
+          "Administer 120 Oracle databases across RAC clusters with 99.99% availability, and documented the failover steps so that any DBA on call could carry them out confidently.",
+          "Implemented Data Guard standby with tested switchover in under four minutes, and shared the tuning notes with the application team to prevent the same problem returning.",
+          "Tuned a settlement batch from 5 hours to 80 minutes using AWR and SQL plan baselines, with regular reports to risk and audit teams about patch status and exceptions.",
+          "Lead quarterly patching windows and disaster recovery drills.",
+          "Trained and mentored five junior DBAs in RAC administration and incident handling."
+        ]
+      },
+      {
+        "role": "Oracle DBA",
+        "company": "Deccan Insurance Group",
+        "period": "2009 – 2014",
+        "bullets": [
+          "Managed backups with RMAN and validated restores monthly.",
+          "Upgraded databases from 10g to 11g.",
+          "Planned and executed a data centre move with only 20 minutes of downtime.",
+          "Implemented database auditing for regulatory requirements.",
+          "Led proofs of concept for storage upgrades and presented cost comparisons to management."
+        ]
+      },
+      {
+        "role": "Junior DBA",
+        "company": "Godavari Software",
+        "period": "2007 – 2009",
+        "bullets": [
+          "Provided daily monitoring and user administration.",
+          "Learned Oracle administration from senior colleagues and prepared daily health check reports.",
+          "Maintained user accounts and storage monitoring.",
+          "Participated in on-call rotation and resolved tablespace, locking and backup incidents.",
+          "Wrote shell scripts that automated routine checks and reporting."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BTech Computer Science",
+        "institution": "Nizam Institute of Technology",
+        "period": "2003 – 2007"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Telugu (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": [
+      "Oracle Certified Professional 19c"
+    ]
+  },
+  {
+    "archetype": "dba",
+    "language": "en",
+    "misleading": false,
+    "name": "Hanna Lindqvist-Okoro",
+    "headline": "PostgreSQL Database Engineer",
+    "email": "hanna.okoro@example.com",
+    "location": "Gothenburg, Sweden",
+    "summary": "PostgreSQL specialist with nine years of experience. I focus on query performance, replication and safe schema changes for busy transactional systems. Comfortable reading execution plans at two in the morning. I like clear runbooks, careful capacity planning and working side by side with application developers. I mentor developers on how databases work, and I enjoy turning incident lessons into simple checklists.",
+    "skills": [
+      "PostgreSQL",
+      "Patroni",
+      "pgBackRest",
+      "Streaming replication",
+      "EXPLAIN ANALYZE",
+      "Partitioning",
+      "pgBouncer",
+      "Logical replication",
+      "Monitoring with Prometheus",
+      "Bash",
+      "Python",
+      "Ansible"
+    ],
+    "experience": [
+      {
+        "role": "Database Engineer",
+        "company": "Skarpa Booking Systems",
+        "period": "2019 – Present",
+        "bullets": [
+          "Run a 4 TB PostgreSQL estate with Patroni high availability and automated failover, which brought the busiest reporting queries well inside the agreed service levels.",
+          "Cut p95 query latency by 60% through index redesign and table partitioning, and rehearsed failover with the operations team every quarter, noting every surprise in the runbook.",
+          "Planned zero-downtime major version upgrades using logical replication, using canary rollouts and clear communication with the application teams affected.",
+          "Mentor developers on safe migrations and locking behaviour.",
+          "Built Grafana dashboards for replication lag, bloat and slow queries to catch problems early."
+        ]
+      },
+      {
+        "role": "Database Administrator",
+        "company": "Västra Energi",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Administered PostgreSQL and MySQL instances.",
+          "Introduced pgBackRest with point-in-time recovery.",
+          "Planned capacity growth and presented storage forecasts to management each year.",
+          "Migrated a reporting database from MySQL to PostgreSQL with minimal downtime.",
+          "Documented a restore procedure and rehearsed it twice a year with the operations team."
+        ]
+      },
+      {
+        "role": "Junior Database Technician",
+        "company": "Älvsborg Public Services",
+        "period": "2012 – 2014",
+        "bullets": [
+          "Monitored database servers and handled user requests.",
+          "Wrote scripts for backup verification.",
+          "Learned SQL optimisation under a senior administrator.",
+          "Created a monitoring script that alerted on long running transactions.",
+          "Worked with a supplier on a database upgrade project."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Information Systems",
+        "institution": "Gothenburg Coastal University",
+        "period": "2012 – 2014"
+      }
+    ],
+    "languages": [
+      "Swedish (native)",
+      "English (C2)",
+      "Yoruba (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "dba",
+    "language": "pt",
+    "misleading": false,
+    "name": "Armando Pimentel Caetano",
+    "headline": "Administrador de Bases de Dados",
+    "email": "armando.caetano@example.com",
+    "location": "Coimbra, Portugal",
+    "summary": "Administrador de bases de dados SQL Server com sete anos de experiência em ambiente hospitalar e de serviços públicos. Valorizo a disponibilidade, cópias de segurança testadas e documentação simples. Gosto de apoiar equipas clínicas e de trabalhar com fornecedores para resolver problemas de desempenho. Sou metódico e calmo em situações de pressão, e prefiro processos simples e testados a soluções complicadas.",
+    "skills": [
+      "SQL Server",
+      "Always On",
+      "T-SQL",
+      "SSIS",
+      "SSRS",
+      "Cópias de segurança e restauro",
+      "Ajuste de desempenho",
+      "Planos de manutenção",
+      "PowerShell",
+      "Auditoria",
+      "SQL Profiler"
+    ],
+    "experience": [
+      {
+        "role": "Administrador de Bases de Dados",
+        "company": "Hospital Regional do Mondego",
+        "period": "2019 – Atualidade",
+        "bullets": [
+          "Giro 45 instâncias SQL Server com grupos de disponibilidade Always On.",
+          "Reduzi o tempo de restauro de 6 horas para 90 minutos com cópias diferenciais e testes mensais.",
+          "Otimizei consultas críticas do sistema de urgências, melhorando o tempo de resposta em 50%.",
+          "Automatizei tarefas de manutenção com PowerShell.",
+          "Defini políticas de acesso e auditoria alinhadas com o RGPD."
+        ]
+      },
+      {
+        "role": "Técnico de Bases de Dados",
+        "company": "Câmara Municipal de Alva",
+        "period": "2016 – 2019",
+        "bullets": [
+          "Apoiei utilizadores e criei pacotes SSIS para integração de dados.",
+          "Elaborei relatórios em SSRS.",
+          "Migrei bases de dados de servidores antigos para versões suportadas, sem perda de dados.",
+          "Dei formação a utilizadores avançados sobre consultas em T-SQL.",
+          "Participei em projetos de integração de dados entre serviços municipais e plataformas nacionais."
+        ]
+      },
+      {
+        "role": "Estagiário de Informática",
+        "company": "Centro de Saúde de Tomar",
+        "period": "2015 – 2016",
+        "bullets": [
+          "Prestei apoio técnico a utilizadores e instalei software.",
+          "Aprendi administração básica de bases de dados.",
+          "Documentei procedimentos de cópias de segurança.",
+          "Dei apoio de segunda linha a aplicações internas e resolvi bloqueios em bases de dados.",
+          "Escrevi manuais de utilização para equipas administrativas."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Informática",
+        "institution": "Instituto Politécnico do Mondego",
+        "period": "2012 – 2016"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Database Administrator Associate"
+    ]
+  },
+  {
+    "archetype": "dba",
+    "language": "en",
+    "misleading": true,
+    "name": "Bartosz Gniewek",
+    "headline": "Database Administrator",
+    "email": "bartosz.gniewek@example.com",
+    "location": "Wroclaw, Poland",
+    "summary": "Database administrator with eight years of experience in MySQL and SQL Server for a regional retailer. I look after backups, user access and reporting databases. My day is mostly tickets, maintenance windows and tuning slow queries. I am keen to broaden my knowledge, and I keep up with industry trends by reading and attending internal talks. I prefer stable systems and clear documentation, and I enjoy helping colleagues understand what the database is doing.",
+    "skills": [
+      "MySQL",
+      "SQL Server",
+      "Backup and restore",
+      "Index tuning",
+      "T-SQL",
+      "Replication",
+      "User management",
+      "Monitoring",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Docker",
+      "Azure",
+      "Jenkins",
+      "Linux"
+    ],
+    "experience": [
+      {
+        "role": "Database Administrator",
+        "company": "Sudety Retail Group",
+        "period": "2018 – Present",
+        "bullets": [
+          "Maintain 30 MySQL and SQL Server databases supporting stores and the web shop.",
+          "Schedule and verify nightly backups; ran a successful full restore test every quarter.",
+          "Tuned reporting queries, reducing a slow sales report from 15 minutes to 2.",
+          "Our developers use Kubernetes, Terraform and CI/CD tooling, and I attended an internal overview session but do not operate them.",
+          "Document database procedures and train new colleagues on backup and permission policies."
+        ]
+      },
+      {
+        "role": "Junior DBA",
+        "company": "Odra Software House",
+        "period": "2015 – 2018",
+        "bullets": [
+          "Handled user requests and permission changes.",
+          "Wrote T-SQL maintenance scripts.",
+          "Migrated small databases to new servers during planned weekend windows.",
+          "Created reports for the support team about slow queries.",
+          "Worked with the store systems team to plan upgrades before the holiday sales period."
+        ]
+      },
+      {
+        "role": "IT Support Technician",
+        "company": "Wroclaw Computer Services",
+        "period": "2013 – 2015",
+        "bullets": [
+          "Installed and configured workstations and printers for small businesses.",
+          "Resolved user tickets and kept an inventory of hardware.",
+          "Learned SQL basics from a senior colleague.",
+          "Supported a small team of developers by creating test copies of production databases.",
+          "Documented hardware and licence inventories for audits."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Wroclaw Technical College",
+        "period": "2011 – 2015"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "embedded",
+    "language": "en",
+    "misleading": false,
+    "name": "Eoin Calloran",
+    "headline": "Senior Embedded Software Engineer",
+    "email": "eoin.calloran@example.com",
+    "location": "Galway, Ireland",
+    "summary": "Firmware engineer with twelve years of experience in medical and industrial devices. I write safety-conscious C, bring up new boards and debug at the register level. Prefer simple designs that can be certified. I enjoy mentoring and have a strong interest in verification and test automation for firmware. I enjoy simple, reviewable designs and careful documentation, including everything an auditor will ask for.",
+    "skills": [
+      "Embedded C",
+      "C++",
+      "ARM Cortex-M",
+      "FreeRTOS",
+      "I2C",
+      "SPI",
+      "UART",
+      "CAN bus",
+      "JTAG debugging",
+      "IEC 62304",
+      "Oscilloscope and logic analyser",
+      "Bootloaders",
+      "Python"
+    ],
+    "experience": [
+      {
+        "role": "Senior Firmware Engineer",
+        "company": "Corrib Medical Devices",
+        "period": "2016 – Present",
+        "bullets": [
+          "Developed infusion pump firmware in C on Cortex-M4 under IEC 62304 class C processes, and documented every residual risk with the quality team ahead of the notified body audit.",
+          "Wrote a secure bootloader with signed firmware updates over UART.",
+          "Cut standby current from 180 µA to 35 µA through sleep mode tuning.",
+          "Mentor two junior engineers and review all driver code.",
+          "Introduced automated unit tests and static analysis, reducing defects found in system test by 35%."
+        ]
+      },
+      {
+        "role": "Embedded Engineer",
+        "company": "Shannon Controls",
+        "period": "2012 – 2016",
+        "bullets": [
+          "Implemented Modbus and CAN stacks for industrial drives.",
+          "Created hardware-in-the-loop test rigs.",
+          "Developed a bench test framework in Python that cut regression testing from two days to four hours.",
+          "Collaborated with regulatory staff to support product audits.",
+          "Developed Modbus communication modules that are still deployed in customer plants."
+        ]
+      },
+      {
+        "role": "Graduate Engineer",
+        "company": "Lough Electronics",
+        "period": "2010 – 2012",
+        "bullets": [
+          "Wrote driver code for sensors and displays in C.",
+          "Learned schematic reading and debugging with oscilloscopes.",
+          "Supported production testing of a new product line.",
+          "Contributed to a safety review and implemented fixes for findings in the driver code.",
+          "Created test scripts to validate sensor accuracy on the production line."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Electronic Engineering",
+        "institution": "Western Atlantic University",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "embedded",
+    "language": "pt",
+    "misleading": false,
+    "name": "Mateus Figueiredo Sarmento",
+    "headline": "Engenheiro de Firmware",
+    "email": "mateus.sarmento@example.com",
+    "location": "Aveiro, Portugal",
+    "summary": "Engenheiro de firmware com cinco anos de experiência em dispositivos IoT alimentados a bateria. Desenvolvo drivers, comunicações sem fios e atualizações remotas. Gosto de medir o consumo antes de otimizar. Gosto de trabalhar com equipas de hardware e de aprender com problemas reais de campo. Escrevo código claro, meço consumo antes de otimizar e gosto de testar em hardware real, não apenas em simulação.",
+    "skills": [
+      "C",
+      "Zephyr RTOS",
+      "nRF52",
+      "Bluetooth Low Energy",
+      "LoRaWAN",
+      "MQTT",
+      "I2C e SPI",
+      "Consumo energético",
+      "Atualizações OTA",
+      "Python para testes",
+      "Git"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro de Firmware",
+        "company": "Ria Sensores IoT",
+        "period": "2021 – Atualidade",
+        "bullets": [
+          "Desenvolvi firmware em Zephyr para sensores de qualidade da água com autonomia de três anos.",
+          "Implementei atualizações OTA seguras sobre BLE e LoRaWAN.",
+          "Criei ferramentas de teste em Python que validam a leitura de sensores em bancada.",
+          "Reduzi o consumo médio em 30% ajustando temporizadores e modos de suspensão.",
+          "Colaborei com a equipa de hardware na escolha de componentes e na revisão de esquemas."
+        ]
+      },
+      {
+        "role": "Engenheiro Júnior de Sistemas Embebidos",
+        "company": "Vouga Automação",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Programei microcontroladores STM32 para quadros de controlo.",
+          "Apoiei a integração com protocolo Modbus.",
+          "Reduzi o tempo de arranque de um quadro de controlo em 40%.",
+          "Documentei interfaces e escrevi testes de integração.",
+          "Coordenei com fornecedores de módulos de comunicação e validei amostras antes da produção."
+        ]
+      },
+      {
+        "role": "Estagiário de Eletrónica",
+        "company": "Laboratório de Sistemas de Aveiro",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Montei protótipos e programei placas Arduino para recolha de dados.",
+          "Aprendi a usar osciloscópios e analisadores lógicos.",
+          "Escrevi relatórios técnicos de cada experiência.",
+          "Participei em testes de campo com sensores instalados em ribeiras e cursos de água.",
+          "Escrevi relatórios de teste e listas de problemas conhecidos para a equipa."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Eletrónica e de Telecomunicações",
+        "institution": "Universidade de Aveiro Norte",
+        "period": "2014 – 2019"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "embedded",
+    "language": "en",
+    "misleading": false,
+    "name": "Nkechi Umeadi",
+    "headline": "Embedded Systems Engineer",
+    "email": "nkechi.umeadi@example.com",
+    "location": "Enugu, Nigeria",
+    "summary": "Embedded engineer working on solar-powered metering and monitoring devices for off-grid communities. Four years in the field; I enjoy robust, low-power designs that survive heat, dust and unreliable networks. I am a hands-on problem solver who is not afraid of travelling to remote sites to diagnose devices. I enjoy working with limited hardware, patchy networks and practical constraints, and I document what I learn for the next engineer.",
+    "skills": [
+      "C",
+      "ESP32",
+      "STM32",
+      "MQTT",
+      "GSM modules",
+      "Low-power design",
+      "PCB debugging",
+      "Modbus",
+      "RS-485",
+      "Altium (reading schematics)",
+      "Git",
+      "Python"
+    ],
+    "experience": [
+      {
+        "role": "Embedded Systems Engineer",
+        "company": "Sunstream Energy Devices",
+        "period": "2021 – Present",
+        "bullets": [
+          "Wrote firmware for prepaid solar meters with GSM connectivity and local fallback when the network drops.",
+          "Added watchdog and brown-out handling that cut field resets by 80%.",
+          "Collaborated with hardware engineers on board revisions and field failure analysis.",
+          "Documented a repeatable flashing and test procedure for the factory.",
+          "Train field technicians to install and troubleshoot meters, and write simple guides in English and Igbo."
+        ]
+      },
+      {
+        "role": "Electronics Intern",
+        "company": "Eastern Power Systems",
+        "period": "2020 (8 months)",
+        "bullets": [
+          "Assisted with prototype testing and soldering.",
+          "Logged sensor data with Arduino based loggers.",
+          "Wrote firmware for a temperature logger used in a cold storage pilot.",
+          "Presented a final project that won a departmental prize.",
+          "Validated new component suppliers by building small test fixtures and comparing failure rates."
+        ]
+      },
+      {
+        "role": "Student Researcher",
+        "company": "University of Enugu Technology",
+        "period": "2019 – 2020",
+        "bullets": [
+          "Built a prototype energy monitor for a final year project.",
+          "Tested sensors and calibrated readings against a reference meter.",
+          "Wrote the thesis and presented results to a panel.",
+          "Helped build a solar charge controller prototype and tested it outdoors in various weather conditions.",
+          "Wrote weekly lab reports summarising test results."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Electrical and Electronic Engineering",
+        "institution": "University of Enugu Technology",
+        "period": "2015 – 2020"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "embedded",
+    "language": "en",
+    "misleading": false,
+    "name": "Jürgen Falkenrath",
+    "headline": "Principal Embedded Engineer",
+    "email": "jurgen.falkenrath@example.com",
+    "location": "Stuttgart, Germany",
+    "summary": "Embedded engineer with twenty years in automotive electronics, now a technical lead for body control and diagnostics software. I work with AUTOSAR, functional safety and a lot of paperwork. Terse communicator, thorough reviewer. I prefer clear requirements, careful reviews and well documented interfaces. I mentor newcomers in the importance of traceability and clean interfaces, and I like solving stubborn timing problems.",
+    "skills": [
+      "AUTOSAR Classic",
+      "C",
+      "ISO 26262",
+      "CAN and LIN",
+      "UDS diagnostics",
+      "MISRA C",
+      "Lauterbach debugging",
+      "Vector tools",
+      "Static analysis",
+      "Requirements traceability",
+      "Python"
+    ],
+    "experience": [
+      {
+        "role": "Principal Embedded Engineer",
+        "company": "Neckar Automotive Elektronik",
+        "period": "2013 – Present",
+        "bullets": [
+          "Lead six engineers delivering ASIL B body control software for two vehicle platforms, and kept every requirement linked to a design element and a test case for the assessors.",
+          "Implemented UDS diagnostic services and flash bootloader for ECUs, which has been used successfully in several series production vehicles since launch.",
+          "Introduced static analysis and MISRA checking; cut review findings by 40%, and checked the results against defined coding rules before every release.",
+          "Coordinate with suppliers and the test team on release planning and defect triage.",
+          "Present safety and software milestones to customers and external assessors."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Schwabia Fahrzeugtechnik",
+        "period": "2007 – 2013",
+        "bullets": [
+          "Developed CAN and LIN drivers for door modules.",
+          "Supported validation on test benches.",
+          "Developed diagnostic routines used by service garages worldwide.",
+          "Reduced build times by 50% by restructuring the software configuration.",
+          "Supported production start with the supplier, including flash tooling and end-of-line checks."
+        ]
+      },
+      {
+        "role": "Trainee Engineer",
+        "company": "Rheinland Mikrosysteme",
+        "period": "2005 – 2007",
+        "bullets": [
+          "Programmed 8-bit controllers in assembly and C.",
+          "Learned automotive protocols and tooling from senior colleagues.",
+          "Maintained test benches and logged results systematically."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom-Ingenieur Elektrotechnik",
+        "institution": "Hochschule Südwest",
+        "period": "1999 – 2005"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "ISTQB Foundation"
+    ]
+  }
+]

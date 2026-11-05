@@ -1,0 +1,88 @@
+name: Deploy
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        type: string
+        required: true
+      image:
+        type: string
+        required: true
+    secrets:
+      POSTGRES_PASSWORD:
+        required: true
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, linux]
+    permissions:
+      contents: read
+      packages: read
+    env:
+      API_IMAGE: ${{ inputs.image }}:${{ inputs.version }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Prepare deploy directory
+        env:
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+        run: |
+          set -euo pipefail
+          deploy_dir="$HOME/cv-search"
+          mkdir -p "$deploy_dir"
+          cp deploy/docker-compose.yml "$deploy_dir/docker-compose.yml"
+          rm -rf "$deploy_dir/migrations"
+          cp -r backend/migrations "$deploy_dir/migrations"
+          if [ ! -f "$deploy_dir/.env" ]; then
+            umask 077
+            printf '%s\n' \
+              "POSTGRES_USER=cvsearch" \
+              "POSTGRES_PASSWORD=${POSTGRES_PASSWORD}" \
+              "POSTGRES_DB=cvsearch" \
+              "OLLAMA_MODEL=bge-m3" > "$deploy_dir/.env"
+          fi
+
+      - uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Start database and Ollama
+        run: |
+          cd "$HOME/cv-search"
+          docker compose up -d --wait postgres ollama
+
+      - name: Ensure embedding model
+        run: |
+          cd "$HOME/cv-search"
+          model=$(grep '^OLLAMA_MODEL=' .env | cut -d= -f2)
+          if ! docker compose exec -T ollama ollama show "$model" > /dev/null 2>&1; then
+            docker compose exec -T ollama ollama pull "$model"
+          fi
+
+      - name: Deploy API
+        run: |
+          cd "$HOME/cv-search"
+          docker compose pull api
+          docker compose up -d --remove-orphans api
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://localhost:8080/ > /dev/null; then
+              echo "API is up"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "API did not become ready"
+          exit 1
+
+      - name: Show logs on failure
+        if: failure()
+        run: |
+          cd "$HOME/cv-search"
+          docker compose logs --tail=100
+
+      - name: Remove dangling images
+        if: success()
+        run: docker image prune -f

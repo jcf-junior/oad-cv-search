@@ -1,0 +1,53 @@
+name: Main
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "mock data/**"
+      - "**/*.md"
+
+concurrency:
+  group: main-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - id: version
+        run: echo "version=v0.1.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+
+  build-image:
+    needs: version
+    uses: ./.github/workflows/build-image.yml
+    permissions:
+      contents: read
+      packages: write
+    with:
+      version: ${{ needs.version.outputs.version }}
+
+  release:
+    needs: [version, build-image]
+    uses: ./.github/workflows/release.yml
+    permissions:
+      contents: write
+    with:
+      version: ${{ needs.version.outputs.version }}
+
+  deploy:
+    needs: [version, build-image, release]
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      packages: read
+    with:
+      version: ${{ needs.version.outputs.version }}
+      image: ${{ needs.build-image.outputs.image }}
+    secrets:
+      POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}

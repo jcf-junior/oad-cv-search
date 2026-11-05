@@ -1,0 +1,64 @@
+name: Release
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        type: string
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      VERSION: ${{ inputs.version }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: backend/go.mod
+
+      - name: Build and package
+        run: |
+          set -euo pipefail
+          mkdir -p dist stage
+          for target in linux/amd64 linux/arm64 windows/amd64 windows/arm64 darwin/amd64 darwin/arm64; do
+            goos="${target%/*}"
+            goarch="${target#*/}"
+            name="cv-search-${VERSION}-${goos}-${goarch}"
+            ext=""
+            if [ "$goos" = "windows" ]; then ext=".exe"; fi
+
+            mkdir -p "stage/${name}"
+            (cd backend && CGO_ENABLED=0 GOOS="$goos" GOARCH="$goarch" go build -trimpath -ldflags="-s -w" -o "../stage/${name}/cv-search${ext}" .)
+            cp -r frontend "stage/${name}/frontend"
+            cp -r backend/migrations "stage/${name}/migrations"
+
+            if [ "$goos" = "windows" ]; then
+              (cd stage && zip -qr "../dist/${name}.zip" "${name}")
+            else
+              tar -czf "dist/${name}.tar.gz" -C stage "${name}"
+            fi
+          done
+          (cd dist && sha256sum *.zip *.tar.gz > checksums.txt)
+
+      - name: Create release
+        run: |
+          set -euo pipefail
+          printf '%s\n' \
+            "Run with the frontend folder next to the binary:" \
+            "" \
+            '`FRONTEND_DIR=./frontend ./cv-search`' \
+            "" \
+            "Configuration is read from the environment: PORT, DATABASE_URL, OLLAMA_URL, OLLAMA_MODEL, FRONTEND_DIR." \
+            "The SQL migrations are in the migrations folder." > notes.md
+          gh release create "$VERSION" dist/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "$VERSION" \
+            --notes-file notes.md \
+            --generate-notes

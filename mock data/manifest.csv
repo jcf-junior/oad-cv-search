@@ -1,0 +1,151 @@
+folder,file,archetype,language,layout,misleading
+pdfs,Adaeze Nwachukwu.pdf,data_scientist_ml,en,single,False
+pdfs,Adaeze Nwosu-Ibe.pdf,data_engineer,en,single,False
+pdfs,Adaeze Okonkwo-Reyes.pdf,backend_go,en,single,False
+pdfs,Aishwarya Ramachandran.pdf,qa_automation,en,two_column,False
+pdfs,Alejandro Rueda.pdf,backend_java_dotnet,en,single,False
+pdfs,Amara Okonkwo-Pryce.pdf,qa_automation,en,single,False
+pdfs,Ananya Raghunathan.pdf,platform_devops,en,two_column,False
+pdfs,Ananya Venkataraghavan.pdf,data_engineer,en,single,False
+pdfs,Anjali Deshpande-Roark.pdf,mobile,en,table,False
+pdfs,Anjali Raghunathan.pdf,frontend,en,single,False
+pdfs,Aoife Brannigan.pdf,backend_python,en,single,False
+pdfs,Arjun Venkataraghavan.pdf,security,en,table,False
+pdfs,Armando Pimentel Caetano.pdf,dba,pt,single,False
+pdfs,Aurelio Bettencourt Maia.pdf,sysadmin,pt,single,False
+pdfs,Babatunde Ogunleye.pdf,backend_python,en,table,False
+pdfs,Bartholomew Achterberg.pdf,platform_devops,en,single,False
+pdfs,Bartholomew Ingleby-Shaw.pdf,frontend,en,single,True
+pdfs,Bartosz Gniewek.pdf,dba,en,single,True
+pdfs,Bartosz Kaczmarzyk.pdf,mobile,en,two_column,False
+pdfs,Bartosz Nowaczyk.pdf,backend_go,en,single,False
+pdfs,Beatriz Anjos-Calheiros.pdf,business_analyst,pt,table,False
+pdfs,Beatriz Calheiros.pdf,backend_go,pt,single,False
+pdfs,Bronagh McAlinden.pdf,sysadmin,en,single,False
+pdfs,Bronagh Tiernan-Doyle.pdf,fullstack,en,table,False
+pdfs,Callum Draycott.pdf,mobile,en,table,False
+pdfs,Callum Drummond-Reid.pdf,engineering_manager,en,single,False
+pdfs,Callum Pettigrew.pdf,platform_devops,en,single,False
+pdfs,Camila Rezende Tavares.pdf,backend_python,en,single,False
+pdfs,Carmen Idoate.pdf,backend_go,en,table,False
+pdfs,Chidinma Eze.pdf,backend_java_dotnet,en,two_column,False
+pdfs,Chidinma Okonkwo-Eze.pdf,security,en,table,False
+pdfs,Chidinma Okwuosa.pdf,platform_devops,en,single,False
+pdfs,Ciaran Mulvaney-Roche.pdf,frontend,en,single,False
+pdfs,Dariusz Nowaczyk.pdf,business_analyst,en,single,True
+pdfs,Declan Fairweather-Boyle.pdf,qa_automation,en,single,False
+pdfs,Declan Fitzmaurice.pdf,data_scientist_ml,en,table,False
+pdfs,Declan Fogarty-Hale.pdf,product_manager,en,single,False
+pdfs,Declan Moriarty.pdf,backend_java_dotnet,en,single,False
+pdfs,Deepak Ranganathan.pdf,sysadmin,en,two_column,False
+pdfs,Dieter Hollenbeck.pdf,platform_devops,en,single,False
+pdfs,Diogo Alvarenga.pdf,backend_go,pt,single,False
+pdfs,Elias Haraldsen.pdf,backend_go,en,single,True
+pdfs,Emeka Nwankwo-Lindqvist.pdf,platform_devops,en,table,False
+pdfs,Emeka Okonkwo-Bell.pdf,fullstack,en,single,False
+pdfs,Emeka Onwuachi.pdf,business_analyst,en,two_column,False
+pdfs,Eoin Calloran.pdf,embedded,en,single,False
+pdfs,Ewan Mackillop.pdf,data_engineer,en,single,False
+pdfs,Ewan Pettigrew.pdf,product_manager,en,single,True
+pdfs,Fiona Gallagher-Moran.pdf,business_analyst,en,two_column,False
+pdfs,Fionnuala Brannigan.pdf,platform_devops,en,single,False
+pdfs,Fionnuala Brennock.pdf,data_engineer,en,two_column,False
+pdfs,Folasade Adeyemi-Cross.pdf,frontend,en,table,False
+pdfs,Fredrik Lindqvist-Oyelaran.pdf,fullstack,en,single,False
+pdfs,Gareth Penhaligon.pdf,platform_devops,en,single,False
+pdfs,Gisela Pimenta Cardoso.pdf,sysadmin,pt,single,False
+pdfs,Goncalo Pestana Albuquerque.pdf,qa_automation,pt,single,False
+pdfs,Goncalo Pestana.pdf,data_scientist_ml,pt,single,False
+pdfs,Goncalo Ventura-Sarmento.pdf,engineering_manager,pt,single,False
+pdfs,Greta Lindqvist-Marsh.pdf,product_manager,en,single,False
+pdfs,Gunther Ahlfeld.pdf,backend_java_dotnet,en,single,False
+pdfs,Hanna Lindqvist-Okoro.pdf,dba,en,single,False
+pdfs,Hannah Pickersgill.pdf,backend_java_dotnet,en,single,False
+pdfs,Hannelore Brandstetter.pdf,engineering_manager,en,single,False
+pdfs,Hannelore Bruggemann.pdf,fullstack,en,single,False
+pdfs,Henrik Strandberg.pdf,sysadmin,en,two_column,False
+pdfs,Henrique Bastos Quintela.pdf,frontend,pt,single,False
+pdfs,Hildegard Vanterpool.pdf,qa_automation,en,single,True
+pdfs,Icaro Bezerra Nogueira.pdf,qa_automation,pt,table,False
+pdfs,Imogen Fairweather.pdf,backend_python,en,table,True
+pdfs,Ines Montenegro.pdf,backend_java_dotnet,pt,single,False
+pdfs,Ines Valadares Quintao.pdf,data_engineer,pt,table,False
+pdfs,Ines Valverde Cordeiro.pdf,security,pt,single,False
+pdfs,Isabela Cordeiro Rangel.pdf,data_scientist_ml,en,single,False
+pdfs,Isolde Verhoeven-Adeyinka.pdf,ux_designer,en,single,False
+pdfs,Jasper Vandenbroucke.pdf,platform_devops,en,two_column,False
+pdfs,Joachim Hartwig-Nowak.pdf,qa_automation,en,single,False
+pdfs,Joaquim Pestana Leal.pdf,fullstack,pt,single,False
+pdfs,Jonas Reichenbach.pdf,data_engineer,en,single,False
+pdfs,Jurgen Falkenrath.pdf,embedded,en,table,False
+pdfs,Kamil Drozdowski.pdf,data_engineer,en,two_column,False
+pdfs,Katarzyna Mroczkowska.pdf,data_scientist_ml,en,single,False
+pdfs,Katarzyna Wierzbicka.pdf,backend_python,en,single,False
+pdfs,Kavitha Subramaniam.pdf,platform_devops,en,single,False
+pdfs,Kavya Raghunathan.pdf,backend_go,en,single,False
+pdfs,Kwabena Osei-Lindgren.pdf,frontend,en,two_column,False
+pdfs,Larissa Fontenele Albuquerque.pdf,platform_devops,pt,table,False
+pdfs,Lars Hendriksson.pdf,data_scientist_ml,en,single,True
+pdfs,Lars Ostergaard-Weiss.pdf,platform_devops,en,single,False
+pdfs,Lourdes Echeverria-Pons.pdf,mobile,en,single,False
+pdfs,Lucan Hargreave-Okafor.pdf,frontend,en,table,False
+pdfs,Lucas Brandolini Tavares.pdf,data_engineer,en,single,False
+pdfs,Lukas Brandstetter.pdf,frontend,en,single,False
+pdfs,Lukas Hartmannsberger.pdf,backend_python,en,single,False
+pdfs,Lukas Hartmannsdorf.pdf,security,en,table,False
+pdfs,Margarida Telo Santa-Rita.pdf,ux_designer,pt,single,False
+pdfs,Marisol Quintanilla-Ruiz.pdf,platform_devops,en,two_column,False
+pdfs,Marta Kowalczewska.pdf,product_manager,en,two_column,False
+pdfs,Mateo Carrasquilla.pdf,fullstack,en,two_column,False
+pdfs,Mateus Figueiredo Sarmento.pdf,embedded,pt,single,False
+pdfs,Mateusz Gorecki.pdf,backend_go,en,two_column,False
+pdfs,Ngozi Eze-Hartmann.pdf,sysadmin,en,two_column,False
+pdfs,Ngozi Eze-Marchetti.pdf,mobile,en,single,True
+pdfs,Ngozi Whitlock-Ramanathan.pdf,ux_designer,en,single,False
+pdfs,Nkechi Umeadi.pdf,embedded,en,single,False
+pdfs,Nnamdi Eze-Whitcombe.pdf,qa_automation,en,two_column,False
+pdfs,Nnamdi Ikpeazu.pdf,engineering_manager,en,two_column,False
+pdfs,Oisin Callaghan.pdf,backend_go,en,single,False
+pdfs,Oluwaseun Adebayo-Clarke.pdf,product_manager,en,single,False
+pdfs,Oluwaseun Babatunde-Fenn.pdf,frontend,en,single,False
+pdfs,Piotr Halloran.pdf,frontend,en,table,False
+pdfs,Piotr Zalewski.pdf,sysadmin,en,single,False
+pdfs,Priyanka Deshmukh.pdf,backend_go,en,single,False
+pdfs,Priyanka Natarajan.pdf,data_scientist_ml,en,single,False
+pdfs,Priyanka Subramaniam.pdf,product_manager,en,two_column,False
+pdfs,Priyanka Venkataraghavan.pdf,platform_devops,en,single,False
+pdfs,Priyanka Venkataraman.pdf,fullstack,en,single,False
+pdfs,Rafael Ibanez-Corbalan.pdf,engineering_manager,en,single,False
+pdfs,Rafael Quintanilha.pdf,backend_java_dotnet,pt,single,False
+pdfs,Rafaela Quintanilla-Reyes.pdf,frontend,en,single,False
+pdfs,Rajesh Subramaniam.pdf,dba,en,table,False
+pdfs,Ravindra Chitnis.pdf,backend_python,en,two_column,False
+pdfs,Rohan Bhattacharjee-Doyle.pdf,ux_designer,en,single,False
+pdfs,Rosario Canelas Teodoro.pdf,platform_devops,pt,single,False
+pdfs,Ruairi Fennelly.pdf,backend_go,en,single,False
+pdfs,Ruben Calheiros.pdf,data_engineer,pt,single,False
+pdfs,Ruben Castanheira.pdf,mobile,pt,single,False
+pdfs,Ruben Taveirinha.pdf,security,pt,single,False
+pdfs,Sabine Oltmanns.pdf,backend_java_dotnet,en,single,False
+pdfs,Sanjana Kulshreshtha.pdf,data_engineer,en,two_column,False
+pdfs,Saoirse Callanan-Dube.pdf,qa_automation,en,single,False
+pdfs,Sebastian Aldecoa-Frey.pdf,ux_designer,en,table,False
+pdfs,Shreya Kulkarnibhat.pdf,business_analyst,en,single,False
+pdfs,Siobhan Gallagher-Doyle.pdf,platform_devops,en,two_column,False
+pdfs,Siobhan Ni Bhriain.pdf,security,en,single,False
+pdfs,Sofia Almeida Quintela.pdf,fullstack,pt,single,False
+pdfs,Szymon Przybylski.pdf,backend_java_dotnet,en,two_column,True
+pdfs,Thaisa Montenegro Vasconcelos.pdf,frontend,pt,single,False
+pdfs,Tiago Brandolini.pdf,backend_python,pt,single,False
+pdfs,Tiago Vasconcelos Peixoto.pdf,platform_devops,pt,single,False
+pdfs,Tobiasz Wierzbicki.pdf,security,en,single,False
+pdfs,Tomasz Wierzbicki.pdf,platform_devops,en,single,False
+pdfs,Tome Vasconcelos Pimenta.pdf,product_manager,pt,single,False
+pdfs,Vikram Chaudhry.pdf,backend_java_dotnet,en,two_column,False
+pdfs,Vinicius Albuquerque Tavares.pdf,ux_designer,pt,single,False
+pdfs,Winston Abernethy-Cole.pdf,sysadmin,en,table,False
+pdfs,Wojciech Przybylski.pdf,qa_automation,en,single,False
+pdfs,Wolfgang Staudinger.pdf,data_scientist_ml,en,single,False
+pdfs-scanned,Duarte Calheiros Brandao.pdf,platform_devops,pt,scanned,False
+pdfs-scanned,Lukas Brandtner.pdf,backend_go,en,scanned,False
+pdfs-scanned,Oluwaseun Adebanjo.pdf,platform_devops,en,scanned,False

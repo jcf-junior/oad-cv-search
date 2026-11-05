@@ -1,0 +1,1764 @@
+[
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": false,
+    "name": "Babatunde Ogunleye",
+    "headline": "Senior Python Engineer",
+    "email": "babatunde.ogunleye@example.com",
+    "location": "Lagos, Nigeria",
+    "summary": "Senior backend engineer with twelve years building payment and ledger services in Python. I care about correctness under load, boring technology and mentoring people into owning their services end to end, including on-call. Outside work I write internal engineering essays and speak at local developer meetups about reliability and clear ownership.",
+    "skills": [
+      "Python 3",
+      "Django",
+      "Django REST Framework",
+      "Celery",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "pytest",
+      "Sentry",
+      "Domain-driven design",
+      "Event sourcing",
+      "Structlog",
+      "OpenAPI"
+    ],
+    "experience": [
+      {
+        "role": "Principal Backend Engineer",
+        "company": "Kobo Ledger Systems",
+        "period": "2019 – Present",
+        "bullets": [
+          "Redesigned the settlement engine around an append-only ledger, cutting reconciliation errors from 1.2% to under 0.01%.",
+          "Moved 40 Celery task types to idempotent handlers with retry budgets; nightly batch window fell from 6h to 90 minutes.",
+          "Led a team of six; introduced design reviews and written runbooks, halving production incidents in a year.",
+          "Tuned PostgreSQL queries and partitioning for a 2 TB transactions table, p95 API latency down from 800 ms to 210 ms.",
+          "Chair the quarterly architecture forum and maintain the shared Python coding standard used by around sixty engineers."
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "company": "Naijapay Technologies",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Built merchant onboarding APIs in Django serving 300k requests per day.",
+          "Integrated four card processors and two bank transfer rails behind a single adapter interface.",
+          "Wrote the internal test harness that simulated processor outages; adopted by three other teams.",
+          "Drove migration from Python 2 to Python 3 across 120k lines with zero downtime.",
+          "Mentored two graduates who now lead their own services."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Ikeja Web Works",
+        "period": "2011 – 2014",
+        "bullets": [
+          "Maintained PHP and early Django client sites, fixed bugs and wrote reports for a logistics customer.",
+          "Automated invoice generation with Python scripts, saving the finance team two days a month.",
+          "Learned version control, code review and testing discipline from a patient senior team.",
+          "Introduced contract tests between the ledger and the payout service, which caught breaking changes before every release for two years.",
+          "Documented failure modes and recovery steps for each payment rail in a living runbook."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Ibadan Heights",
+        "period": "2007 – 2011"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Yoruba (native)",
+      "French (A2)"
+    ],
+    "certifications": [
+      "PCI DSS Awareness Training",
+      "Advanced Python Workshop, Lagos Dev Academy",
+      "Secure Coding for Payments, Kobo internal programme"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": false,
+    "name": "Katarzyna Wierzbicka",
+    "headline": "Backend Engineer (FastAPI)",
+    "email": "katarzyna.wierzbicka@example.org",
+    "location": "Wrocław, Poland",
+    "summary": "Mid-level backend developer focused on asynchronous APIs and data-intensive services. I enjoy clean typing, good observability and pragmatic trade-offs. Currently building recommendation endpoints for a retail platform. I read RFCs for fun and volunteer as a mentor in a local coding bootcamp for career changers, which sharpens how I explain design choices.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "asyncio",
+      "SQLAlchemy",
+      "Pydantic",
+      "PostgreSQL",
+      "MongoDB",
+      "Kafka",
+      "Docker",
+      "GitHub Actions",
+      "OpenTelemetry",
+      "mypy",
+      "Alembic",
+      "Pytest-cov"
+    ],
+    "experience": [
+      {
+        "role": "Backend Engineer",
+        "company": "Zawisza Retail Tech",
+        "period": "2021 – Present",
+        "bullets": [
+          "Built FastAPI services serving product recommendations at 1,500 requests per second with p99 under 120 ms.",
+          "Consumed Kafka topics for stock and price events and kept a denormalised read model in PostgreSQL.",
+          "Added OpenTelemetry tracing across seven services, which made slow dependency chains visible and fixable.",
+          "Wrote contract tests with schemathesis; breaking API changes caught before release.",
+          "Mentor two junior engineers and run the team's fortnightly typing and linting guild."
+        ]
+      },
+      {
+        "role": "Python Developer",
+        "company": "Odra Software House",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Delivered REST backends for logistics clients with Flask and later FastAPI.",
+          "Wrote ETL jobs to import supplier CSV and XML feeds, around 2 million rows a night.",
+          "Shipped through GitHub Actions workflows that ran linting, tests and image builds on every pull request.",
+          "Presented a lunchtime talk on database indexing that became an internal onboarding module.",
+          "Handled a customer escalation by tracing a memory leak to an unclosed connection pool."
+        ]
+      },
+      {
+        "role": "Part-time Python Developer",
+        "company": "Silesia Webworks",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Built reporting scripts and a small Flask dashboard alongside university studies.",
+          "Learned code review and agile planning in a team of four.",
+          "Documented data models for the analysts who consumed the exports.",
+          "Wrote a migration guide from Flask to FastAPI that three other squads used, including a checklist for dependency injection and testing.",
+          "Joined the on-call rota and wrote concise runbooks after each incident."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Wrocław Polytechnic of Applied Sciences",
+        "period": "2016 – 2018"
+      },
+      {
+        "degree": "BSc Informatics",
+        "institution": "Wrocław Polytechnic of Applied Sciences",
+        "period": "2013 – 2016"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)",
+      "German (A2)"
+    ],
+    "certifications": [
+      "Applied Async Python, online course",
+      "Data Modelling for Services, Odra Software House academy"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": false,
+    "name": "Ravindra Chitnis",
+    "headline": "Junior Python Developer",
+    "email": "ravindra.chitnis@example.net",
+    "location": "Pune, India",
+    "summary": "Junior developer with two years of experience writing Flask services and internal tools. Fast learner, comfortable reading other people's code and writing tests. Looking to grow into larger distributed systems. Outside work I contribute documentation fixes to open-source Python libraries and practise algorithm problems with colleagues every Friday.",
+    "skills": [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "MySQL",
+      "Redis",
+      "pytest",
+      "REST",
+      "Git",
+      "Linux",
+      "Postman",
+      "Jira",
+      "MySQL Workbench",
+      "Swagger"
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Sahyadri Insurance Services",
+        "period": "2023 – Present",
+        "bullets": [
+          "Develop and maintain Flask APIs for policy quotes used by around 200 branch agents.",
+          "Added Redis caching to the premium calculator, reducing response time from 2 s to 400 ms.",
+          "Write unit and integration tests with pytest; raised coverage of the claims module from 35% to 78%.",
+          "Fix production defects triaged by the support team.",
+          "Pair weekly with a senior engineer, who reviews every change and teaches me about database design and API versioning."
+        ]
+      },
+      {
+        "role": "Intern, Software Engineering",
+        "company": "Deccan Datacraft",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Built a Python script that reconciled customer exports from two systems.",
+          "Helped write documentation and API examples for the partner integration team.",
+          "Wrote a Python script that reconciled customer exports from two legacy systems, reducing manual spreadsheet work by about eight hours a week.",
+          "Documented each endpoint with examples and error codes, making it easier for the mobile team to integrate without asking questions.",
+          "Participated in code review and received feedback on naming and structure."
+        ]
+      },
+      {
+        "role": "Trainee Developer (part-time)",
+        "company": "Hadapsar Web Solutions",
+        "period": "2021 – 2022",
+        "bullets": [
+          "Built small Flask pages and fixed CSS issues during the final year of university.",
+          "Learned Git workflows, pull requests and basic debugging with the team lead.",
+          "Prepared test data and wrote simple SQL queries for the QA tester.",
+          "Joined daily stand-ups and learned to estimate work in small, testable slices."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BTech Information Technology",
+        "institution": "Pune Institute of Engineering Studies",
+        "period": "2018 – 2022"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Hindi (native)",
+      "Marathi (native)"
+    ],
+    "certifications": [
+      "Python Fundamentals Certificate, Pune Tech Institute",
+      "Introduction to SQL Optimisation, online course"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": false,
+    "name": "Aoife Brannigan",
+    "headline": "Staff Engineer, Data APIs",
+    "email": "aoife.brannigan@example.com",
+    "location": "Galway, Ireland",
+    "summary": "Staff engineer with fifteen years across analytics products and public APIs. I specialise in query-heavy Python backends, schema evolution and keeping systems understandable after the original authors leave. I write long design documents, short commit messages and, occasionally, a conference talk about avoiding accidental complexity. I mentor, review and write documentation.",
+    "skills": [
+      "Python",
+      "Django",
+      "Pandas",
+      "PostgreSQL",
+      "ClickHouse",
+      "Airflow",
+      "GraphQL (Graphene)",
+      "pytest",
+      "Hypothesis",
+      "API design",
+      "Technical writing",
+      "dbt",
+      "Sphinx"
+    ],
+    "experience": [
+      {
+        "role": "Staff Engineer",
+        "company": "Corrib Analytics",
+        "period": "2018 – Present",
+        "bullets": [
+          "Own the reporting API that serves 900 enterprise tenants; designed tenant-aware query planning that cut cost per request by 45%.",
+          "Defined the API deprecation policy and versioning strategy, adopted across eleven teams.",
+          "Services run on the company's Kubernetes platform; I rely on the platform team for deployments and keep my focus on application code.",
+          "Coached eight engineers through promotion cycles.",
+          "Present quarterly at a regional Python conference on query planning and data modelling."
+        ]
+      },
+      {
+        "role": "Senior Developer",
+        "company": "Shannon Data Labs",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Built a Django application for geospatial datasets with 50 million records.",
+          "Introduced property-based testing using Hypothesis, finding three long-standing rounding defects.",
+          "Replaced cron scripts with Airflow DAGs and alerting.",
+          "Raised the unit test count from 400 to over 3,000 with strict review rules for new code.",
+          "Mentored three junior engineers on database design and testing."
+        ]
+      },
+      {
+        "role": "Developer",
+        "company": "Lough Systems",
+        "period": "2009 – 2013",
+        "bullets": [
+          "Wrote Python and SQL for a utilities billing system.",
+          "Created data migration tooling used in five customer rollouts.",
+          "Introduced code review and a simple release checklist to a small team.",
+          "Received the company's customer-impact award in 2012.",
+          "Wrote a public guide on designing paginated APIs that is still used for onboarding new engineers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Applied Mathematics and Computing",
+        "institution": "University of Western Ireland",
+        "period": "2005 – 2009"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B2)"
+    ],
+    "certifications": [
+      "Advanced PostgreSQL Practitioner, Atlantic Database Guild",
+      "Technical Leadership Programme, Galway Management School"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "pt",
+    "misleading": false,
+    "name": "Tiago Brandolini",
+    "headline": "Programador Backend Python",
+    "email": "tiago.brandolini@example.org",
+    "location": "Braga, Portugal",
+    "summary": "Programador backend com seis anos de experiência em Django e PostgreSQL, sobretudo em plataformas de reservas e faturação. Gosto de código simples, bem testado e de equipas que partilham conhecimento. Fora do trabalho, participo em encontros de programadores em Braga e escrevo artigos curtos sobre boas práticas em Python.",
+    "skills": [
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Celery",
+      "Redis",
+      "pytest",
+      "Docker Compose",
+      "Swagger/OpenAPI",
+      "Git",
+      "Pandas",
+      "SQL avançado"
+    ],
+    "experience": [
+      {
+        "role": "Programador Backend Sénior",
+        "company": "Minho Reservas Online",
+        "period": "2020 – Presente",
+        "bullets": [
+          "Desenvolvi a API de reservas em Django REST Framework, com mais de 80 mil pedidos por dia em época alta.",
+          "Reduzi o tempo de geração de faturas de 14 para 3 minutos com tarefas Celery paralelas.",
+          "Defini a estratégia de testes automáticos, passando a cobertura de 40% para 85%.",
+          "Faço revisão de código e acompanho dois colegas mais novos.",
+          "Optimizei consultas lentas com índices parciais e análise do plano de execução, reduzindo a latência p95 de 900 ms para 250 ms."
+        ]
+      },
+      {
+        "role": "Programador Python",
+        "company": "Atlântico Soluções Digitais",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Implementei integrações com serviços de pagamento e faturação certificada.",
+          "Escrevi scripts de importação de dados de clientes para PostgreSQL.",
+          "Participei na migração de um monólito Django para módulos independentes.",
+          "Documentei as APIs com OpenAPI e criei exemplos para parceiros externos.",
+          "Reduzi o número de erros de produção em 35% com validação de dados mais rigorosa."
+        ]
+      },
+      {
+        "role": "Estagiário de Engenharia Informática",
+        "company": "Cávado Tech",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Apoiei a equipa na manutenção de uma aplicação interna de gestão de projetos.",
+          "Aprendi boas práticas de controlo de versões, revisão de código e testes automáticos.",
+          "Criei documentação técnica e guias de integração para parceiros, o que reduziu pedidos de suporte em cerca de 20%.",
+          "Participei em reuniões com clientes para esclarecer requisitos antes do desenvolvimento.",
+          "Ajudei a definir regras de nomenclatura e estrutura de projetos."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática",
+        "institution": "Universidade do Alto Minho Ocidental",
+        "period": "2015 – 2017"
+      },
+      {
+        "degree": "Licenciatura em Informática",
+        "institution": "Universidade do Alto Minho Ocidental",
+        "period": "2012 – 2015"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Espanhol (B1)"
+    ],
+    "certifications": [
+      "Curso Avançado de Django, Academia Digital do Minho",
+      "Boas Práticas de Segurança em Aplicações Web"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": false,
+    "name": "Lukas Hartmannsberger",
+    "headline": "Backend Developer, Async Python",
+    "email": "lukas.hartmannsberger@example.net",
+    "location": "Munich, Germany",
+    "summary": "Backend developer with eight years of experience in event-driven Python systems for mobility and IoT telemetry. I like explicit concurrency, small modules and honest estimates. Prefers measuring before optimising. I write down every design decision in short architecture notes, and I enjoy debugging unusual concurrency problems with a profiler and patience.",
+    "skills": [
+      "Python",
+      "asyncio",
+      "aiohttp",
+      "FastAPI",
+      "MQTT",
+      "TimescaleDB",
+      "PostgreSQL",
+      "Redis Streams",
+      "pytest-asyncio",
+      "Locust",
+      "Grafana",
+      "Protobuf",
+      "Pydantic",
+      "structlog"
+    ],
+    "experience": [
+      {
+        "role": "Senior Backend Developer",
+        "company": "Isar Mobility GmbH",
+        "period": "2019 – Present",
+        "bullets": [
+          "Built an asyncio ingestion service handling 25,000 vehicle messages per second on four small instances.",
+          "Modelled telemetry in TimescaleDB with continuous aggregates, making fleet dashboards load in under a second.",
+          "Created load tests with Locust and documented capacity limits for the product team.",
+          "Set up Grafana dashboards and alert rules that the whole team now uses.",
+          "Mentor a working student and review pull requests from two other teams."
+        ]
+      },
+      {
+        "role": "Python Developer",
+        "company": "Bavaria Sensorik",
+        "period": "2016 – 2019",
+        "bullets": [
+          "Developed MQTT bridges between factory devices and a Django admin portal.",
+          "Replaced a threaded poller with asyncio, cutting memory use by 60%.",
+          "Wrote the Protobuf schemas and versioning rules for device firmware messages.",
+          "Debugged a rare race condition in a polling loop that had been losing roughly one message in a million.",
+          "Presented results to the product owner every sprint with simple benchmarks."
+        ]
+      },
+      {
+        "role": "Working Student, Software Development",
+        "company": "Alpen Automation",
+        "period": "2014 – 2016",
+        "bullets": [
+          "Wrote Python test tools that replayed recorded sensor data against embedded firmware.",
+          "Created small Flask tools for the lab team to browse measurement runs.",
+          "Documented the test procedures in the team wiki.",
+          "Created a replay tool that fed recorded telemetry into staging, making regression testing of the ingestion service reproducible.",
+          "Documented the message contracts and error codes for partner teams."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Software Engineering",
+        "institution": "Technical University of Southern Bavaria",
+        "period": "2014 – 2016"
+      },
+      {
+        "degree": "BSc Informatics",
+        "institution": "Technical University of Southern Bavaria",
+        "period": "2011 – 2014"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "Advanced Python Concurrency, Isar Developer Days",
+      "Time-Series Data Modelling workshop"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": true,
+    "name": "Imogen Fairweather",
+    "headline": "Python Developer",
+    "email": "imogen.fairweather@example.com",
+    "location": "Bristol, England",
+    "summary": "Python developer with four years of experience writing Django views, serializers and reporting scripts for a membership charity. Mostly working on forms, admin screens and CSV exports. Keen to learn more about how our hosting works. Outside work I volunteer as a mentor in a code club for teenagers, and I like clear, friendly documentation.",
+    "skills": [
+      "Python",
+      "Django",
+      "SQL",
+      "HTML",
+      "CSS",
+      "jQuery",
+      "pytest",
+      "Git",
+      "Excel automation",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Docker",
+      "AWS",
+      "Jenkins",
+      "Ansible",
+      "Helm",
+      "Prometheus",
+      "Microservices",
+      "DevOps",
+      "REST APIs",
+      "Agile"
+    ],
+    "experience": [
+      {
+        "role": "Python Developer",
+        "company": "Severn Community Trust",
+        "period": "2022 – Present",
+        "bullets": [
+          "Maintain the Django membership portal used by 45,000 members.",
+          "Wrote monthly reporting scripts that export donation data to CSV for the finance team.",
+          "Fixed form validation and admin screen defects raised by the support desk.",
+          "Attended a one-day Kubernetes workshop and a Terraform and CI/CD concepts talk run by the hosting supplier; the supplier handles all deployments.",
+          "Mentor an apprentice developer through reading Django source and writing their first migrations."
+        ]
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Avon Digital Studio",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Built small Django sites and templates for local business clients.",
+          "Wrote CSS and jQuery for contact forms and image galleries.",
+          "Answered client change requests and updated content.",
+          "Learned to write tests with pytest and to read stack traces calmly under client pressure.",
+          "Sent monthly progress emails to clients and agreed priorities with them."
+        ]
+      },
+      {
+        "role": "Customer Support Analyst",
+        "company": "Bristol Software Supplies",
+        "period": "2019 – 2020",
+        "bullets": [
+          "Answered technical support tickets and documented recurring issues in the knowledge base.",
+          "Wrote small Python scripts to count and categorise tickets for the manager.",
+          "Moved to the web studio after showing initiative with automation.",
+          "Created a small Django management command that cleans up duplicated members, saving the membership team several hours each month.",
+          "Joined the trustees' accessibility review and fixed colour contrast problems on forms."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA Geography with Computing",
+        "institution": "University of the South West Coast",
+        "period": "2016 – 2019"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "French (A2)"
+    ],
+    "certifications": [
+      "Python Programming Certificate, Open Learning College",
+      "First Aid at Work (volunteer role)"
+    ]
+  },
+  {
+    "archetype": "backend_python",
+    "language": "en",
+    "misleading": false,
+    "name": "Camila Rezende Tavares",
+    "headline": "Python Backend Developer",
+    "email": "camila.tavares@example.org",
+    "location": "Recife, Brazil",
+    "summary": "Backend developer with three years of experience in fintech startups. Strong at API design, SQL and working closely with product. Always documenting decisions so the next person understands why, not just what. Outside work I volunteer in a women-in-tech community in Recife, running monthly beginner Python workshops. I value feedback and clear communication.",
+    "skills": [
+      "Python",
+      "Django",
+      "Celery",
+      "PostgreSQL",
+      "REST",
+      "OpenAPI",
+      "pytest",
+      "Docker",
+      "AWS SQS",
+      "AWS Lambda",
+      "Sentry",
+      "Git",
+      "Pandas",
+      "Postman"
+    ],
+    "experience": [
+      {
+        "role": "Backend Developer",
+        "company": "Capibaribe Pay",
+        "period": "2022 – Present",
+        "bullets": [
+          "Developed the PIX payment-request API in Django, handling around 120k transactions a day.",
+          "Moved webhooks to SQS with dead-letter queues, so lost callbacks dropped to zero.",
+          "Wrote ADRs for key design choices and ran fortnightly knowledge-sharing sessions.",
+          "Responsible for on-call rota twice a quarter.",
+          "Run code reviews and pair-programming sessions with two junior colleagues."
+        ]
+      },
+      {
+        "role": "Junior Python Developer",
+        "company": "Olinda Credito Digital",
+        "period": "2021 – 2022",
+        "bullets": [
+          "Created internal back-office endpoints and Lambda functions for document checks.",
+          "Optimised slow SQL reports by adding indexes and rewriting joins; reports ran 10x faster.",
+          "Wrote unit tests for the document-check flow and raised coverage from 20% to 70%.",
+          "Worked closely with the compliance team to turn regulatory changes into backlog items.",
+          "Introduced pull request templates and a short definition of done, which made reviews faster and more consistent."
+        ]
+      },
+      {
+        "role": "Intern, Software Development",
+        "company": "Boa Vista Sistemas",
+        "period": "2020 – 2021",
+        "bullets": [
+          "Fixed small defects in a Django back-office system and wrote SQL queries for reports.",
+          "Documented API endpoints and helped test releases before deployment.",
+          "Learned Git flow and agile ceremonies in a team of six.",
+          "Wrote SQL reports for the finance team and explained the figures in plain Portuguese.",
+          "Documented the webhook retry strategy for partner teams."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Information Systems",
+        "institution": "Federal University of Pernambuco Coast",
+        "period": "2017 – 2021"
+      }
+    ],
+    "languages": [
+      "Portuguese (native)",
+      "English (B2)",
+      "Spanish (A2)"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Python Avançado, escola online",
+      "Boas Práticas de APIs REST, workshop"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "en",
+    "misleading": false,
+    "name": "Priyanka Venkataraman",
+    "headline": "Full-Stack Engineer (React / Node.js)",
+    "email": "priyanka.venkataraman@example.com",
+    "location": "Bengaluru, India",
+    "summary": "Full-stack engineer with seven years of experience taking features from design discussion to production. I like TypeScript end to end, accessible interfaces and instrumenting what I build so I can see how people use it. I speak at local front-end meetups and I volunteer to review accessibility on community projects.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "NestJS",
+      "GraphQL",
+      "PostgreSQL",
+      "Jest",
+      "Cypress",
+      "Storybook",
+      "AWS S3",
+      "Datadog",
+      "Tailwind CSS",
+      "Playwright"
+    ],
+    "experience": [
+      {
+        "role": "Senior Full-Stack Engineer",
+        "company": "Lakshya Commerce",
+        "period": "2020 – Present",
+        "bullets": [
+          "Led the rebuild of the seller dashboard in React and Next.js, raising Lighthouse performance scores from 48 to 91.",
+          "Designed a NestJS GraphQL layer that combined five REST services and removed three client round trips.",
+          "Introduced Storybook and visual regression tests; design inconsistencies dropped sharply.",
+          "Mentored three junior developers and interviewed about forty candidates.",
+          "Run fortnightly performance clinics where developers profile their pages together."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Kaveri Retail Solutions",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Built a Node.js inventory service and a React admin console for 600 stores.",
+          "Wrote Cypress end-to-end tests covering checkout and refunds.",
+          "Added Datadog dashboards for order failures.",
+          "Migrated the checkout flow from jQuery to React with feature flags, with no drop in conversion.",
+          "Mentored two interns, one of whom was hired full time."
+        ]
+      },
+      {
+        "role": "Software Engineer Trainee",
+        "company": "Cauvery Soft Technologies",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Built small Java and JavaScript features while studying and learned the full development cycle.",
+          "Wrote unit tests and documented REST endpoints for the QA team.",
+          "Rotated through support and development to understand customer problems.",
+          "Implemented keyboard navigation and screen-reader support for the dashboard, passing an external accessibility audit.",
+          "Worked with product managers to cut a quarterly roadmap down to three measurable bets."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BE Computer Science",
+        "institution": "Mysore Institute of Technology and Science",
+        "period": "2013 – 2017"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Tamil (native)",
+      "Kannada (B2)"
+    ],
+    "certifications": [
+      "Advanced React Patterns, Bengaluru Frontend Guild",
+      "Web Accessibility Specialist, online programme"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "pt",
+    "misleading": false,
+    "name": "Joaquim Pestana Leal",
+    "headline": "Engenheiro Full-Stack",
+    "email": "joaquim.pestana@example.net",
+    "location": "Coimbra, Portugal",
+    "summary": "Engenheiro full-stack com cinco anos de experiência a desenvolver aplicações web para o setor da saúde e da educação. Trabalho confortavelmente no frontend e no backend e valorizo a comunicação clara com utilizadores. Gosto de trabalhar perto dos utilizadores finais e de ouvir feedback real antes de decidir o que construir a seguir.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "MongoDB",
+      "Jest",
+      "Docker",
+      "Figma",
+      "Scrum",
+      "Git",
+      "Sass"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro de Software",
+        "company": "Mondego Saúde Digital",
+        "period": "2021 – Presente",
+        "bullets": [
+          "Desenvolvi o portal do utente em React e Node.js, com mais de 60 mil utilizadores registados.",
+          "Implementei marcação de consultas com notificações por email e SMS e redução de 25% nas faltas.",
+          "Melhorei a acessibilidade do portal segundo as diretrizes WCAG 2.1 AA.",
+          "Participo nas cerimónias Scrum e na priorização com a equipa clínica.",
+          "Realizei testes de usabilidade com doentes e enfermeiros e transformei as conclusões em melhorias priorizadas."
+        ]
+      },
+      {
+        "role": "Programador Web",
+        "company": "Escola Aberta Plataformas",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Criei módulos de avaliação online em Node.js e MongoDB.",
+          "Corrigi falhas de desempenho no frontend e reduzi o tamanho dos pacotes JavaScript em 40%.",
+          "Escrevi testes automáticos com Jest para as rotas principais.",
+          "Participei na conceção da base de dados e documentei os endpoints da API para a equipa de integração.",
+          "Colaborei com designers na criação de protótipos em Figma e validei a viabilidade técnica antes do desenvolvimento."
+        ]
+      },
+      {
+        "role": "Estagiário Full-Stack",
+        "company": "Beira Tecnologias",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Desenvolvi pequenos componentes em React e rotas em Node.js durante o estágio curricular.",
+          "Aprendi práticas de controlo de versões e revisão de código com a equipa.",
+          "Escrevi documentação para novos colaboradores.",
+          "Escrevi documentação de API e guias de utilização para a equipa de suporte.",
+          "Apoiei a formação de novos colaboradores em React."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática",
+        "institution": "Universidade do Mondego Central",
+        "period": "2017 – 2019"
+      },
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade do Mondego Central",
+        "period": "2014 – 2017"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": [
+      "Curso de Acessibilidade Web, Instituto Digital do Centro",
+      "Fundamentos de Segurança Aplicacional"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "en",
+    "misleading": false,
+    "name": "Emeka Okonkwo-Bell",
+    "headline": "Lead Full-Stack Developer",
+    "email": "emeka.okonkwobell@example.org",
+    "location": "Manchester, England",
+    "summary": "Lead developer with fourteen years in product companies, mostly Ruby on Rails with React frontends. I enjoy turning vague requirements into shippable increments and keeping codebases healthy through steady refactoring. Away from the keyboard, I run a monthly engineering book club and support a local programme introducing teenagers to web development. I value pragmatism over fashion.",
+    "skills": [
+      "Ruby on Rails",
+      "Ruby",
+      "React",
+      "Redux",
+      "PostgreSQL",
+      "Sidekiq",
+      "RSpec",
+      "Elasticsearch",
+      "Stripe API",
+      "Heroku",
+      "Agile coaching",
+      "Capybara",
+      "Redis"
+    ],
+    "experience": [
+      {
+        "role": "Lead Developer",
+        "company": "Pennine Bookings Ltd",
+        "period": "2018 – Present",
+        "bullets": [
+          "Lead a team of seven building a two-sided marketplace; gross bookings grew from £4m to £19m during my tenure.",
+          "Planned the move from server-rendered views to a React frontend over eighteen months without a feature freeze.",
+          "Brought page load time on search from 3.5 s to 0.9 s using Elasticsearch and caching.",
+          "Own hiring and onboarding for the team.",
+          "Present quarterly metrics to the leadership team and translate business goals into technical roadmaps."
+        ]
+      },
+      {
+        "role": "Senior Rails Developer",
+        "company": "Mersey Media Apps",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Built subscription billing with Stripe and a self-service account area.",
+          "Introduced RSpec test conventions and pairing sessions.",
+          "Handled production support during a busy launch quarter.",
+          "Reduced Sidekiq queue latency from minutes to seconds by splitting queues and tuning concurrency.",
+          "Mentored four developers into senior roles."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Calder Creative",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Delivered PHP and early Rails sites for agency clients.",
+          "Learned the fundamentals of version control, testing and client communication in a busy agency.",
+          "Delivered more than thirty small sites.",
+          "Introduced weekly refactoring slots that reduced the average age of the most-changed files and the number of regressions.",
+          "Negotiated scope with stakeholders and kept a visible, honest delivery forecast."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Software Engineering",
+        "institution": "University of Northern Counties",
+        "period": "2006 – 2010"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (conversational)"
+    ],
+    "certifications": [
+      "Certified Scrum Master, Northern Agile Institute",
+      "Leading Engineering Teams, Manchester Business Academy"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "pt",
+    "misleading": false,
+    "name": "Sofia Almeida Quintela",
+    "headline": "Programadora Full-Stack (.NET / Angular)",
+    "email": "sofia.quintela@example.com",
+    "location": "Aveiro, Portugal",
+    "summary": "Programadora full-stack com mais de dez anos de experiência em software de gestão para a indústria e o retalho. Especializada em .NET e Angular, com gosto por arquitetura limpa e documentação que ajuda mesmo. Fora do trabalho, dou formações internas sobre boas práticas de código e participo em comunidades locais de programadores.",
+    "skills": [
+      "C#",
+      "ASP.NET Core",
+      "Entity Framework",
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "SQL Server",
+      "Azure DevOps",
+      "xUnit",
+      "Jasmine/Karma",
+      "Clean Architecture",
+      "Dapper",
+      "SignalR"
+    ],
+    "experience": [
+      {
+        "role": "Tech Lead",
+        "company": "Ria Industrial Software",
+        "period": "2018 – Presente",
+        "bullets": [
+          "Lidero uma equipa de cinco pessoas que mantém um ERP web usado em 90 fábricas.",
+          "Modularizei o frontend Angular em bibliotecas partilhadas, reduzindo o tempo de compilação em 55%.",
+          "Defini convenções de API em ASP.NET Core e uma biblioteca comum de validação.",
+          "Automatizei compilação e testes com pipelines do Azure DevOps.",
+          "Realizo entrevistas técnicas e acompanho a integração de novos colegas durante os primeiros três meses."
+        ]
+      },
+      {
+        "role": "Programadora Sénior",
+        "company": "Aveiro Retail Systems",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Desenvolvi o módulo de gestão de stocks e encomendas em C# e SQL Server.",
+          "Criei relatórios operacionais em Angular com gráficos interativos.",
+          "Apoiei a equipa de suporte em incidentes críticos.",
+          "Reduzi o tempo de resposta de consultas críticas de 5 s para menos de 1 s com índices e paginação eficiente.",
+          "Implementei autenticação e autorização por funções para mais de vinte perfis de utilizador."
+        ]
+      },
+      {
+        "role": "Programadora Júnior",
+        "company": "Lagoa Informática",
+        "period": "2011 – 2013",
+        "bullets": [
+          "Mantive aplicações web em ASP.NET Web Forms e migrei ecrãs para MVC.",
+          "Aprendi a trabalhar com requisitos reais de clientes e a escrever documentação técnica simples.",
+          "Criei guias de arquitetura e diagramas atualizados para facilitar a integração de novos programadores.",
+          "Colaborei com analistas de negócio para transformar requisitos em histórias de utilizador claras.",
+          "Participei em ações de formação interna sobre segurança web."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia de Sistemas de Informação",
+        "institution": "Universidade da Ria Aveirense",
+        "period": "2008 – 2011"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)",
+      "Francês (B1)"
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate",
+      "Curso de Arquitetura de Software, Instituto Tecnológico de Aveiro",
+      "Scrum Foundations"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "en",
+    "misleading": false,
+    "name": "Fredrik Lindqvist-Oyelaran",
+    "headline": "Full-Stack Developer (Vue / Laravel)",
+    "email": "fredrik.oyelaran@example.net",
+    "location": "Gothenburg, Sweden",
+    "summary": "Developer with six years of experience building web applications for non-profits and public bodies. Pragmatic with frameworks, fond of server-side rendering where it fits, and careful about data privacy. I like boring, maintainable stacks and I write short guides so that the next person can take over a project without a long handover. I enjoy working with small teams and direct customer contact.",
+    "skills": [
+      "PHP",
+      "Laravel",
+      "Vue.js",
+      "Inertia.js",
+      "Tailwind CSS",
+      "MySQL",
+      "Redis",
+      "PHPUnit",
+      "Playwright",
+      "Laravel Forge",
+      "GDPR",
+      "Pest",
+      "MariaDB"
+    ],
+    "experience": [
+      {
+        "role": "Full-Stack Developer",
+        "company": "Nordhavn Digital",
+        "period": "2020 – Present",
+        "bullets": [
+          "Build donation and volunteer-management platforms in Laravel and Vue for six charities.",
+          "Implemented GDPR tooling for consent records, data export and erasure requests.",
+          "Cut checkout abandonment by 18% after redesigning the payment flow with Tailwind components.",
+          "Write Playwright tests for critical journeys.",
+          "Mentor an apprentice and give monthly talks on privacy by design."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Västra Webbyrå",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Delivered Laravel sites and small APIs for municipal clients.",
+          "Built reusable Vue components and a shared style guide.",
+          "Provided second-line support for hosted customers.",
+          "Moved a legacy jQuery site to Vue components over six months while keeping the editors productive.",
+          "Wrote clear handover documentation for every project."
+        ]
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Kungsbacka Interactive",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Built WordPress themes and small PHP plugins for local businesses.",
+          "Learned Git, deployment by SFTP and later automated releases.",
+          "Answered client support emails and fixed layout issues across browsers.",
+          "Worked directly with charity staff to simplify their workflows, running short interviews and testing prototypes.",
+          "Set up automated backups and monitoring checks for hosted clients."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Gothenburg University of Applied Technology",
+        "period": "2014 – 2017"
+      }
+    ],
+    "languages": [
+      "Swedish (native)",
+      "English (C1)",
+      "Yoruba (B1)"
+    ],
+    "certifications": [
+      "Privacy and Data Protection Practitioner, Nordic Privacy Institute",
+      "Advanced Laravel Workshop"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "en",
+    "misleading": false,
+    "name": "Mateo Carrasquilla",
+    "headline": "Junior Full-Stack Developer",
+    "email": "mateo.carrasquilla@example.com",
+    "location": "Valencia, Spain",
+    "summary": "Junior developer with eighteen months of professional experience and a strong portfolio of side projects. I work with TypeScript on both sides of the stack and enjoy small teams where I can learn quickly and ship often. My goal is to grow into a role where I can contribute to architecture and learn from more experienced engineers.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Vitest",
+      "Vercel",
+      "Git",
+      "Zod",
+      "React Query",
+      "Docker"
+    ],
+    "experience": [
+      {
+        "role": "Junior Full-Stack Developer",
+        "company": "Turia Software Studio",
+        "period": "2025 – Present",
+        "bullets": [
+          "Implement features across Next.js frontends and Express APIs for small business clients.",
+          "Built a booking calendar with optimistic updates and server validation.",
+          "Wrote Vitest component tests and fixed accessibility issues flagged in audits.",
+          "Deploy previews on Vercel for client review.",
+          "Contributed to a shared component library and added dark mode support."
+        ]
+      },
+      {
+        "role": "Intern Developer",
+        "company": "Levante Apps",
+        "period": "2024 – 2025",
+        "bullets": [
+          "Created an admin panel for an events app using React and Prisma.",
+          "Paired with senior developers on bug fixes and code reviews.",
+          "Wrote automated tests for form validation after a customer reported inconsistent behaviour.",
+          "Completed a capstone project: a marketplace for local farmers' produce with payments and reviews.",
+          "Documented the setup steps for each project so new teammates could run it in under fifteen minutes."
+        ]
+      },
+      {
+        "role": "Freelance Web Developer",
+        "company": "Self-employed",
+        "period": "2023 – 2024",
+        "bullets": [
+          "Built landing pages and small online shops for three local businesses using React and a headless CMS.",
+          "Handled requirements, invoicing, hosting set-up and after-launch support on my own.",
+          "Learned to estimate honestly and to say no to scope that did not fit the budget."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Grado en Ingeniería Informática",
+        "institution": "Universidad Politécnica del Levante",
+        "period": "2020 – 2024"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "Valencian (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "Full-Stack JavaScript Bootcamp, Turia Code School",
+      "English for Software Teams, B2 certificate"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "en",
+    "misleading": false,
+    "name": "Bronagh Tiernan-Doyle",
+    "headline": "Senior Full-Stack Engineer",
+    "email": "bronagh.tiernandoyle@example.org",
+    "location": "Cork, Ireland",
+    "summary": "Senior engineer with eleven years of experience across Django backends and React frontends, mostly in healthcare analytics. I like measured delivery, thoughtful code review and software that clinicians actually enjoy using. I enjoy mentoring, writing clear documentation and visiting hospital wards to watch how the software is actually used. I enjoy collaborating with clinicians and data teams.",
+    "skills": [
+      "Python",
+      "Django",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Celery",
+      "D3.js",
+      "pytest",
+      "Cypress",
+      "HL7 FHIR",
+      "Accessibility",
+      "Redux Toolkit",
+      "OpenAPI"
+    ],
+    "experience": [
+      {
+        "role": "Senior Engineer",
+        "company": "Lee Valley Health Insights",
+        "period": "2017 – Present",
+        "bullets": [
+          "Developed a clinical dashboard in React and D3 used by 3,000 nurses and consultants.",
+          "Built Django services that ingest HL7 FHIR messages from hospital systems, around 400k a day.",
+          "Reduced the nightly cohort calculation from five hours to forty minutes by rewriting queries and chunking work in Celery.",
+          "Drive the accessibility checklist for every new screen.",
+          "Mentor four engineers and chair the architecture review group for the platform."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Munster Software Partners",
+        "period": "2013 – 2017",
+        "bullets": [
+          "Created internal tools and customer portals in Django and jQuery.",
+          "Led the adoption of automated browser tests with Cypress.",
+          "Worked directly with customers to refine requirements.",
+          "Delivered a patient portal pilot with 12,000 users and a satisfaction score of 4.6 out of 5.",
+          "Wrote the team's code review guidelines."
+        ]
+      },
+      {
+        "role": "Graduate Developer",
+        "company": "Atlantic Systems Group",
+        "period": "2012 – 2013",
+        "bullets": [
+          "Maintained a reporting web app and wrote SQL for ad-hoc requests.",
+          "Learned to write defensive code against messy hospital data feeds.",
+          "Collaborated with data scientists to expose model scores through a documented API, with monitoring for data drift.",
+          "Set up automated accessibility checks that run on each pull request.",
+          "Gave regular demos to clinical stakeholders."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Applications",
+        "institution": "University of Cork Coastal",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (C1)"
+    ],
+    "certifications": [
+      "Healthcare Interoperability Practitioner, Irish Health Informatics Society",
+      "Advanced TypeScript, online course"
+    ]
+  },
+  {
+    "archetype": "fullstack",
+    "language": "en",
+    "misleading": false,
+    "name": "Hannelore Brüggemann",
+    "headline": "Full-Stack Engineer (Elixir / LiveView)",
+    "email": "hannelore.bruggemann@example.net",
+    "location": "Leipzig, Germany",
+    "summary": "Full-stack engineer with nine years of experience building real-time collaboration tools. I favour functional languages, small teams and clear domain boundaries, and I enjoy explaining technical trade-offs to non-technical colleagues. I write blog posts on concurrency, speak at regional functional programming meetups and mentor people moving into Elixir from other stacks. I like collaborating closely with designers and product managers.",
+    "skills": [
+      "Elixir",
+      "Phoenix LiveView",
+      "Ecto",
+      "PostgreSQL",
+      "JavaScript",
+      "Alpine.js",
+      "WebSockets",
+      "ExUnit",
+      "Docker",
+      "Fly.io",
+      "Oban",
+      "Phoenix Channels"
+    ],
+    "experience": [
+      {
+        "role": "Senior Engineer",
+        "company": "Elbe Collaboration AG",
+        "period": "2019 – Present",
+        "bullets": [
+          "Built a real-time whiteboard with Phoenix LiveView supporting 2,000 concurrent sessions per node.",
+          "Designed presence and conflict-resolution logic using CRDT-inspired structures.",
+          "Replaced a legacy Rails admin with LiveView screens, delivering in half the estimated time.",
+          "Run weekly Elixir study sessions for the engineering department.",
+          "Mentor two engineers and organise the quarterly internal hackathon."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Saxonia Systems",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Developed Rails and JavaScript applications for insurance clients.",
+          "Introduced Ecto-based services for high-volume event processing.",
+          "Maintained the build and deployment scripts on Docker.",
+          "Wrote property-based tests that found several ordering bugs before release.",
+          "Worked closely with product designers on interaction prototypes."
+        ]
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Pleiße Medien",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Built PHP and JavaScript websites for regional media customers while finishing my degree.",
+          "Learned database design, Git workflows and client communication.",
+          "Created a small CMS plugin used by twelve newsrooms.",
+          "Wrote internal documentation and decision records that explain the supervision and failure strategy of the real-time layer.",
+          "Interviewed candidates and designed the take-home exercise for the team."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom Informatik",
+        "institution": "University of Applied Sciences Leipzig East",
+        "period": "2010 – 2015"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C2)",
+      "Polish (A2)"
+    ],
+    "certifications": [
+      "Functional Programming in Practice, Leipzig Developer Academy",
+      "Elixir Performance Workshop"
+    ]
+  },
+  {
+    "archetype": "mobile",
+    "language": "pt",
+    "misleading": false,
+    "name": "Rúben Castanheira",
+    "headline": "Programador Android Sénior",
+    "email": "ruben.castanheira@example.org",
+    "location": "Faro, Portugal",
+    "summary": "Programador Android com oito anos de experiência em aplicações de banca e turismo. Trabalho em Kotlin, Jetpack Compose e arquitetura limpa, com atenção ao desempenho em dispositivos mais antigos e à acessibilidade. Fora do trabalho, partilho conhecimento em encontros de programadores Android e dou formações internas sobre Compose. Valorizo a comunicação clara e o trabalho em equipa.",
+    "skills": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Android SDK",
+      "Coroutines e Flow",
+      "Room",
+      "Retrofit",
+      "Hilt",
+      "MVVM",
+      "Firebase Crashlytics",
+      "Espresso",
+      "Gradle",
+      "WorkManager",
+      "Detekt"
+    ],
+    "experience": [
+      {
+        "role": "Programador Android Sénior",
+        "company": "Algarve Mobile Banking",
+        "period": "2020 – Presente",
+        "bullets": [
+          "Lidero o desenvolvimento da aplicação bancária Android, com 700 mil utilizadores ativos.",
+          "Migrei os ecrãs principais de XML para Jetpack Compose e reduzi o tempo de arranque em 30%.",
+          "Implementei autenticação biométrica e armazenamento seguro de credenciais.",
+          "Reduzi a taxa de falhas de 1,8% para 0,3% com monitorização no Crashlytics.",
+          "Acompanho três programadores mais novos e faço revisão de todos os pedidos de alterações da equipa."
+        ]
+      },
+      {
+        "role": "Programador Android",
+        "company": "Sul Viagens Digitais",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Desenvolvi a aplicação de reservas de alojamento com mapas e modo offline.",
+          "Escrevi testes de interface com Espresso e testes unitários com JUnit.",
+          "Publiquei versões quinzenais na Play Store.",
+          "Reduzi o consumo de bateria da aplicação em 22% com otimização de tarefas em segundo plano.",
+          "Trabalhei com designers para implementar um sistema de design coerente."
+        ]
+      },
+      {
+        "role": "Estagiário",
+        "company": "Tavira Software",
+        "period": "2016 – 2017",
+        "bullets": [
+          "Apoiei a manutenção de uma aplicação de bilhética para eventos.",
+          "Aprendi a escrever código Kotlin limpo e a usar o Git em equipa.",
+          "Corrigi defeitos de interface e escrevi documentação.",
+          "Implementei acessibilidade com TalkBack e tamanhos de letra dinâmicos, cumprindo as diretrizes WCAG 2.1.",
+          "Escrevi documentação interna sobre arquitetura e convenções de código."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade do Algarve Atlântico",
+        "period": "2013 – 2016"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": [
+      "Curso Avançado de Kotlin, Academia Mobile do Sul",
+      "Segurança em Aplicações Móveis, workshop"
+    ]
+  },
+  {
+    "archetype": "mobile",
+    "language": "en",
+    "misleading": false,
+    "name": "Anjali Deshpande-Roark",
+    "headline": "Senior iOS Engineer",
+    "email": "anjali.deshpanderoark@example.com",
+    "location": "Dublin, Ireland",
+    "summary": "Senior iOS engineer with ten years of experience building consumer apps with millions of downloads. I care about smooth animations, thoughtful offline behaviour and small, well-tested modules that other engineers can reuse. I enjoy mentoring, speaking at mobile meetups and sharing practical lessons about shipping apps that people open every day. I enjoy collaborating with designers and product managers.",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "Combine",
+      "Core Data",
+      "Swift Concurrency",
+      "XCTest",
+      "Swift Package Manager",
+      "Fastlane",
+      "App Store Connect",
+      "TestFlight",
+      "Instruments",
+      "Alamofire"
+    ],
+    "experience": [
+      {
+        "role": "Senior iOS Engineer",
+        "company": "Liffey Fitness Technologies",
+        "period": "2019 – Present",
+        "bullets": [
+          "Own the iOS app for a fitness platform with 2.5 million installs and a 4.7 store rating.",
+          "Created a shared SwiftUI component library used by three apps, cutting new-screen delivery time by a third.",
+          "Rebuilt workout sync with Swift Concurrency and Core Data; sync conflicts dropped by 90%.",
+          "Automated beta builds and release notes with Fastlane.",
+          "Mentor three engineers and lead the iOS guild across the company."
+        ]
+      },
+      {
+        "role": "iOS Developer",
+        "company": "Wicklow Apps",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Built and maintained Objective-C and later Swift apps for retail and media clients.",
+          "Led the migration of a 200k-line app to Swift modules.",
+          "Introduced snapshot testing.",
+          "Delivered an offline-first catalogue feature that worked on trains and in weak signal areas.",
+          "Wrote the migration guide for the Swift upgrade."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Dalkey Mobile",
+        "period": "2013 – 2014",
+        "bullets": [
+          "Implemented UI screens and fixed defects on an events app.",
+          "Learned the App Store release process and basic UIKit patterns.",
+          "Introduced snapshot and UI tests for the core workout flow, reducing regression bugs reported after release.",
+          "Collaborated with designers on motion guidelines and haptic feedback.",
+          "Wrote short guides for new engineers on the architecture and release process."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Dublin Institute of Digital Technology",
+        "period": "2009 – 2013"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Hindi (B2)"
+    ],
+    "certifications": [
+      "Advanced iOS Architecture, Dublin Mobile Academy",
+      "Accessibility for Mobile Apps, online programme"
+    ]
+  },
+  {
+    "archetype": "mobile",
+    "language": "en",
+    "misleading": false,
+    "name": "Callum Draycott",
+    "headline": "Flutter Developer",
+    "email": "callum.draycott@example.net",
+    "location": "Leeds, England",
+    "summary": "Flutter developer with two years of experience creating cross-platform apps for startups. Enjoys rapid prototyping, clean widget structure and gathering feedback from real users early. I build personal apps in my spare time and release them to friends for honest feedback, which keeps my skills sharp and my attitude humble. I welcome feedback and enjoy collaborating with designers.",
+    "skills": [
+      "Dart",
+      "Flutter",
+      "Riverpod",
+      "Firebase",
+      "REST",
+      "SQLite",
+      "Flutter Test",
+      "Figma handoff",
+      "Git",
+      "Google Play Console",
+      "Bloc",
+      "GitHub Actions"
+    ],
+    "experience": [
+      {
+        "role": "Flutter Developer",
+        "company": "Aire Valley Labs",
+        "period": "2024 – Present",
+        "bullets": [
+          "Develop a cross-platform wellbeing app in Flutter with Riverpod, available on iOS and Android.",
+          "Implemented push notifications and in-app purchases with Firebase.",
+          "Improved list scrolling and image caching, lifting frame rate from 40 to a steady 60 fps.",
+          "Collaborate with designers through Figma and weekly demos.",
+          "Present demos to stakeholders and gather feedback from beta users every sprint."
+        ]
+      },
+      {
+        "role": "Junior Mobile Developer",
+        "company": "Pennant Interactive",
+        "period": "2023 – 2024",
+        "bullets": [
+          "Built screens and API integrations for a loyalty card app.",
+          "Wrote widget tests and fixed accessibility labels.",
+          "Learned the release process for both stores and handled screenshots and metadata.",
+          "Fixed a long-standing navigation bug on Android that crashed the app after rotation.",
+          "Wrote setup documentation and a contribution guide so that new developers could build the app on the first day."
+        ]
+      },
+      {
+        "role": "Placement Student, Mobile Development",
+        "company": "Calder Interactive",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Spent a year in industry building Flutter prototypes for clients.",
+          "Learned to write widget tests and use feature branches and pull requests.",
+          "Presented a working prototype to a client in my third month.",
+          "Tested on a shelf of old Android phones and fixed layout issues on small screens.",
+          "Helped the founders prioritise features using user interviews."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Games and Software Development",
+        "institution": "University of Leeds Metropolitan",
+        "period": "2019 – 2023"
+      }
+    ],
+    "languages": [
+      "English (native)"
+    ],
+    "certifications": [
+      "Flutter Development Bootcamp, Northern Code School",
+      "Introduction to UX Design, online course"
+    ]
+  },
+  {
+    "archetype": "mobile",
+    "language": "en",
+    "misleading": true,
+    "name": "Ngozi Eze-Marchetti",
+    "headline": "React Native Developer",
+    "email": "ngozi.ezemarchetti@example.org",
+    "location": "Turin, Italy",
+    "summary": "Mobile developer with five years of experience building React Native apps for hospitality and events. I focus on screens, navigation and forms, and enjoy polishing user interface details. Open to broader engineering topics. Outside work I mentor new developers in a local women-in-tech community and I like designing small, pleasant interactions.",
+    "skills": [
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "Redux Toolkit",
+      "React Navigation",
+      "Expo",
+      "REST",
+      "Jest",
+      "Detox",
+      "Figma",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Docker",
+      "AWS",
+      "Azure",
+      "Microservices",
+      "Sentry",
+      "Storybook"
+    ],
+    "experience": [
+      {
+        "role": "React Native Developer",
+        "company": "Piemonte Hospitality Apps",
+        "period": "2022 – Present",
+        "bullets": [
+          "Develop the guest app for a hotel group, used in 120 properties.",
+          "Built booking, check-in and digital key screens with React Navigation and Redux Toolkit.",
+          "Integrated push notifications and Apple and Google wallet passes.",
+          "Our backend team runs Kubernetes, Terraform and CI/CD; I am familiar with the concepts but do not work on them.",
+          "Mentor a junior developer and review the app's navigation and accessibility patterns."
+        ]
+      },
+      {
+        "role": "Mobile Developer",
+        "company": "Mole Eventi Digitali",
+        "period": "2019 – 2022",
+        "bullets": [
+          "Built an event ticketing app with QR scanning and offline mode.",
+          "Added Detox tests for purchase and entry flows.",
+          "Handled app store submissions and release notes.",
+          "Learned release management for iOS and Android, including provisioning and store policies.",
+          "Worked closely with designers on a consistent component set."
+        ]
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Torino Web Agency",
+        "period": "2017 – 2019",
+        "bullets": [
+          "Built responsive websites and React components for local hotels and restaurants.",
+          "Learned Git workflows and cross-browser debugging.",
+          "Supported clients by phone and email after launches.",
+          "Wrote documentation of the component library and ran short onboarding sessions for new developers.",
+          "Handled accessibility fixes for large text and screen readers after a customer audit."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Engineering",
+        "institution": "Polytechnic of Northern Italy",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "Italian (native)",
+      "English (C1)",
+      "Igbo (native)"
+    ],
+    "certifications": [
+      "Advanced React Native, online programme",
+      "Mobile UX Design Fundamentals"
+    ]
+  },
+  {
+    "archetype": "mobile",
+    "language": "en",
+    "misleading": false,
+    "name": "Bartosz Kaczmarzyk",
+    "headline": "Android Engineer",
+    "email": "bartosz.kaczmarzyk@example.com",
+    "location": "Kraków, Poland",
+    "summary": "Android engineer with six years of experience, recently working with Kotlin Multiplatform to share business logic with iOS. I like measured refactoring, modular architecture and testable code. I like sharing what I learn with the community, and I speak at Android meetups about multiplatform adoption and architecture trade-offs. I enjoy collaborating with iOS colleagues and product managers.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Multiplatform",
+      "Jetpack Compose",
+      "Coroutines",
+      "Ktor",
+      "SQLDelight",
+      "Koin",
+      "JUnit",
+      "Mockk",
+      "Gradle convention plugins",
+      "Bitrise",
+      "Retrofit",
+      "Detekt"
+    ],
+    "experience": [
+      {
+        "role": "Android Engineer",
+        "company": "Wisła Mobility",
+        "period": "2021 – Present",
+        "bullets": [
+          "Share networking and domain code between Android and iOS using Kotlin Multiplatform, saving roughly 35% of feature effort.",
+          "Introduced a modular architecture with Gradle convention plugins; clean build time down from 11 to 6 minutes.",
+          "Built Compose screens for a scooter-rental app with real-time map updates.",
+          "Set up Bitrise builds that run lint, tests and signed releases.",
+          "Mentor two junior engineers and run weekly code reading sessions."
+        ]
+      },
+      {
+        "role": "Android Developer",
+        "company": "Małopolska Software",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Developed Java and Kotlin apps for logistics drivers, including barcode scanning.",
+          "Implemented offline sync with Room and WorkManager.",
+          "Fixed memory leaks that caused crashes on low-end devices.",
+          "Improved barcode scanning speed by 40% by tuning camera configuration and image analysis.",
+          "Worked closely with warehouse staff to understand real device constraints."
+        ]
+      },
+      {
+        "role": "Junior Java Developer",
+        "company": "Podgórze Systems",
+        "period": "2016 – 2018",
+        "bullets": [
+          "Maintained Java backend services and small Android utilities while studying part-time.",
+          "Learned testing, Maven builds and code review.",
+          "Wrote SQL queries and basic reports for internal users.",
+          "Documented architectural decisions and the module graph in short markdown notes for the team.",
+          "Introduced screenshot tests for Compose components, catching layout regressions before review."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Kraków University of Technology and Science",
+        "period": "2016 – 2018"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "Kotlin Multiplatform Practitioner, Kraków Mobile Meetup workshop",
+      "Android Performance Tuning, online course"
+    ]
+  },
+  {
+    "archetype": "mobile",
+    "language": "en",
+    "misleading": false,
+    "name": "Lourdes Echeverría-Pons",
+    "headline": "iOS Developer (SwiftUI)",
+    "email": "lourdes.echeverria@example.org",
+    "location": "Seville, Spain",
+    "summary": "iOS developer with four years of experience in health and wellbeing apps. I enjoy SwiftUI, HealthKit and designing interfaces that remain clear for older users. Currently exploring on-device machine learning. Outside work I volunteer teaching smartphone basics to older neighbours, which keeps usability in focus for everything I build. I enjoy collaborating with clinicians and designers.",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "HealthKit",
+      "Core ML",
+      "Combine",
+      "CloudKit",
+      "XCTest",
+      "Xcode Cloud",
+      "Accessibility (VoiceOver)",
+      "Git",
+      "Swift Charts",
+      "SwiftData"
+    ],
+    "experience": [
+      {
+        "role": "iOS Developer",
+        "company": "Giralda Salud Digital",
+        "period": "2023 – Present",
+        "bullets": [
+          "Develop the iOS app for a chronic-care programme, integrating HealthKit data and Apple Watch complications.",
+          "Added VoiceOver and Dynamic Type support; accessibility audit findings fell from 41 to 3.",
+          "Prototyped an on-device Core ML model for activity classification.",
+          "Release through Xcode Cloud and TestFlight with clinical staff as testers.",
+          "Collaborate with clinicians and designers to run usability sessions with real patients."
+        ]
+      },
+      {
+        "role": "Junior iOS Developer",
+        "company": "Triana Apps",
+        "period": "2021 – 2023",
+        "bullets": [
+          "Built SwiftUI screens and CloudKit sync for a habit tracker.",
+          "Wrote XCTest unit tests and UI tests.",
+          "Supported the App Store review and update process.",
+          "Learned to submit and maintain apps on the App Store and respond to review feedback.",
+          "Helped define the habit tracker's notification strategy."
+        ]
+      },
+      {
+        "role": "Trainee Mobile Developer",
+        "company": "Guadalquivir Software",
+        "period": "2020 – 2021",
+        "bullets": [
+          "Built small iOS prototypes and fixed UI defects during the final year of my degree.",
+          "Learned Git, pull requests and basic unit testing with XCTest.",
+          "Documented screens and flows for the product owner.",
+          "Documented the HealthKit data model and permission strategy for the team and for compliance reviewers.",
+          "Wrote unit and snapshot tests for the main care plan flow."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Grado en Ingeniería del Software",
+        "institution": "Universidad de Andalucía del Sur",
+        "period": "2017 – 2021"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "English (B2)",
+      "Portuguese (B1)"
+    ],
+    "certifications": [
+      "Digital Health Fundamentals, Andalusia Health Informatics Network",
+      "Accessible Mobile Design, online course"
+    ]
+  }
+]

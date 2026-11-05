@@ -1,0 +1,10 @@
+.git
+.github
+mock data
+context.md
+cv.pdf
+**/.env
+backend/cv-search
+backend/cv-search.exe
+backend/docker-compose.yml
+backend/README.md

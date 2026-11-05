@@ -1,0 +1,2229 @@
+[
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Ciaran Mulvaney-Roche",
+    "headline": "Senior Frontend Engineer",
+    "email": "ciaran.mulvaney@example.com",
+    "location": "Dublin, Ireland",
+    "summary": "Frontend engineer with twelve years building data-heavy web applications. I specialise in React and TypeScript, design systems and performance work, and I enjoy mentoring junior developers. My recent focus has been cutting bundle sizes and making dashboards accessible to everyone, including keyboard and screen reader users. Outside work I contribute to open-source accessibility tooling and speak at local meetups about practical performance budgets for product teams.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Redux Toolkit",
+      "Storybook",
+      "Webpack",
+      "Vite",
+      "Jest",
+      "Playwright",
+      "WCAG 2.2",
+      "Web performance",
+      "GraphQL"
+    ],
+    "experience": [
+      {
+        "role": "Senior Frontend Engineer",
+        "company": "Lantern Analytics",
+        "period": "2020 – Present",
+        "bullets": [
+          "Led migration of a 400-component dashboard from class components to hooks, cutting render time by 38%.",
+          "Introduced route-level code splitting that reduced initial JavaScript from 1.4 MB to 520 KB.",
+          "Built the internal design system in Storybook, now used by six product squads.",
+          "Mentored four junior engineers through code review and pairing sessions.",
+          "Partner with product managers to define performance budgets that are checked on every merge request and reported weekly."
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Brackenfield Digital",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Delivered single-page apps for retail clients using React, Redux and REST APIs.",
+          "Raised Lighthouse accessibility scores from 62 to 96 across the flagship storefront.",
+          "Wrote unit and integration tests with Jest and React Testing Library.",
+          "Mentored two graduates who later became full-time engineers on the team.",
+          "Built reusable data-table and chart components adopted across three client projects."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Corncrake Media",
+        "period": "2013 – 2016",
+        "bullets": [
+          "Built marketing sites with jQuery, Sass and responsive layouts.",
+          "Maintained a custom CMS theme layer for twenty regional newspapers.",
+          "Introduced Sass partials and a living style guide that cut duplicated CSS across the regional news sites.",
+          "Handled day-to-day browser compatibility fixes for Internet Explorer 9 and early mobile Safari."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Westmarch",
+        "period": "2009 – 2013"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (conversational)"
+    ],
+    "certifications": [
+      "Web Accessibility Specialist (IAAP-style course)"
+    ]
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Anjali Raghunathan",
+    "headline": "Frontend Developer",
+    "email": "anjali.raghunathan@example.org",
+    "location": "Bengaluru, India",
+    "summary": "Three years of experience building responsive interfaces in Vue. I like turning Figma designs into pixel-accurate, reusable components, and I care about clean state management. Looking to grow into a lead role where I can shape component architecture and testing culture. I am comfortable with ambiguity, take feedback well and document what I learn so teammates can reuse it. Weekend hobby: contributing small fixes to Vue ecosystem libraries.",
+    "skills": [
+      "Vue 3",
+      "Pinia",
+      "JavaScript (ES2022)",
+      "Tailwind CSS",
+      "Vite",
+      "Cypress",
+      "Figma handoff",
+      "REST",
+      "Git",
+      "Responsive design",
+      "Accessibility basics",
+      "Component testing"
+    ],
+    "experience": [
+      {
+        "role": "Frontend Developer",
+        "company": "Kestrel Fintech Labs",
+        "period": "2022 – Present",
+        "bullets": [
+          "Built the customer onboarding flow in Vue 3 with Pinia; completion rate rose from 61% to 74%.",
+          "Created a library of 35 reusable components with Tailwind, documented for the whole team.",
+          "Wrote end-to-end specs in Cypress covering the sign-up and payment screens.",
+          "Collaborated daily with designers to refine spacing, typography and motion.",
+          "Profile slow screens with browser dev tools and lazy load heavy modules, improving first paint by around a third."
+        ]
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Papermill Studio",
+        "period": "2021 – 2022",
+        "bullets": [
+          "Implemented landing pages from Figma designs using HTML, CSS and vanilla JavaScript.",
+          "Fixed cross-browser layout bugs in Safari and older Edge versions.",
+          "Learned Vue on the job and migrated two legacy jQuery widgets.",
+          "Wrote a short internal guide on migrating jQuery plugins to Vue components.",
+          "Shadowed senior developers during releases and learned to read production error reports."
+        ]
+      },
+      {
+        "role": "Frontend Intern",
+        "company": "Bengal Tech Park Startups",
+        "period": "2020 – 2021",
+        "bullets": [
+          "Built small features for an internal admin panel using JavaScript, HTML and Bootstrap under supervision.",
+          "Tested layouts on different screen sizes and reported visual glitches to the team lead.",
+          "Presented a final demo of a feedback form to the whole engineering department.",
+          "Added loading and empty states to every screen after noticing users abandoning blank pages.",
+          "Presented demo videos to the team at the end of the internship."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech Information Technology (final-year project: a college events portal built in Vue)",
+        "institution": "Deccan Institute of Engineering",
+        "period": "2017 – 2021"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Hindi (native)",
+      "Kannada (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Piotr Halloran",
+    "headline": "Lead UI Engineer",
+    "email": "piotr.halloran@example.net",
+    "location": "Wrocław, Poland",
+    "summary": "Lead UI engineer with fifteen years across Angular and React. I own front-end architecture for a team of nine, balancing delivery speed with long-term maintainability. Strong believer in monorepos, strict typing and meaningful automated tests. Comfortable presenting trade-offs to product and executives. I value written decision records, clear ownership boundaries and sustainable pace. Previously organised a regional JavaScript conference attended by 400 people.",
+    "skills": [
+      "Angular 17",
+      "RxJS",
+      "NgRx",
+      "TypeScript",
+      "Nx monorepo",
+      "Micro-frontends",
+      "Module Federation",
+      "Karma",
+      "Jasmine",
+      "SCSS",
+      "Accessibility",
+      "Technical leadership",
+      "Code review",
+      "Performance budgets",
+      "Technical writing"
+    ],
+    "experience": [
+      {
+        "role": "Lead UI Engineer",
+        "company": "Oderbridge Software",
+        "period": "2019 – Present",
+        "bullets": [
+          "Architected a micro-frontend platform with Module Federation serving five independent teams.",
+          "Reduced regression bugs by 45% after introducing strict TypeScript settings and contract tests.",
+          "Run weekly architecture reviews and hiring interviews for the front-end guild.",
+          "Upgraded the codebase from AngularJS to modern Angular across eighteen months without downtime.",
+          "Defined coding standards, lint rules and review checklists that new joiners can follow from day one."
+        ]
+      },
+      {
+        "role": "Senior Front-End Developer",
+        "company": "Silesia Retail Systems",
+        "period": "2013 – 2019",
+        "bullets": [
+          "Developed point-of-sale web interfaces in Angular and RxJS used in 300 stores.",
+          "Optimised large data grids to handle 50,000 rows with virtual scrolling.",
+          "Coordinated an offline-first mode using service workers.",
+          "Partnered with UX to build a shared form library that replaced four divergent implementations.",
+          "Trained twelve developers on RxJS patterns during internal workshops."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Bernstein Interactive",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Built PHP-templated sites enhanced with jQuery and Backbone.",
+          "Handled cross-browser support for IE9 and wrote a small templating helper still used by the team.",
+          "Learned version control discipline and release tagging from a strict senior colleague.",
+          "Collected requirements from account managers and translated them into small, testable interface tickets.",
+          "Helped migrate hosting scripts and documented the manual release checklist for the team."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Software Engineering (thesis on component-based user interface frameworks)",
+        "institution": "Lower Silesian Technical University",
+        "period": "2005 – 2010"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)",
+      "German (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Folasade Adeyemi-Cross",
+    "headline": "Frontend Engineer, Accessibility",
+    "email": "folasade.adeyemi@example.com",
+    "location": "Manchester, United Kingdom",
+    "summary": "I build inclusive interfaces for public-sector and healthcare products. Six years with React, semantic HTML and assistive technology testing. I audit existing sites, fix the root causes, and train teams so accessibility stays part of every sprint rather than an afterthought. I also volunteer as a mentor for women entering tech and write a blog about accessibility fixes that cost little but help many users every single day.",
+    "skills": [
+      "React",
+      "Semantic HTML",
+      "ARIA",
+      "NVDA",
+      "VoiceOver",
+      "axe-core",
+      "TypeScript",
+      "CSS Grid",
+      "Gatsby",
+      "Jest",
+      "User research support",
+      "Inclusive design reviews",
+      "Colour contrast tooling",
+      "Plain language"
+    ],
+    "experience": [
+      {
+        "role": "Frontend Engineer",
+        "company": "Calder Health Digital",
+        "period": "2021 – Present",
+        "bullets": [
+          "Remediated 140 WCAG failures in the patient portal ahead of a regulatory audit.",
+          "Built accessible form components with proper focus management and error announcements.",
+          "Delivered a half-day accessibility workshop to forty colleagues.",
+          "Paired with researchers to test prototypes with screen reader users.",
+          "Maintain an internal checklist for developers, designers and content writers covering colour contrast, headings and keyboard order."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Marlowe Civic Tech",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Developed council service pages in Gatsby and React.",
+          "Introduced automated axe checks into the pull request process.",
+          "Reduced page weight by 55% through image optimisation and lazy loading.",
+          "Tested every council form with keyboard-only navigation and high-contrast mode before release.",
+          "Presented findings to non-technical managers using short recordings of real assistive technology use."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Pennine Web Cooperative",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Maintained HTML and CSS for charity websites and fixed layout issues reported by volunteers.",
+          "Added alternative text and heading structure to around two hundred legacy pages.",
+          "Learned the basics of JavaScript while supporting a small community newsletter tool.",
+          "Collaborated with a designer to simplify layouts for visitors using older phones and slow connections.",
+          "Reported colour contrast failures to the charity's brand team with concrete replacement values."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA Digital Media (dissertation on accessible interfaces for older adults)",
+        "institution": "University of Northern Pennine",
+        "period": "2014 – 2017"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Yoruba (conversational)"
+    ],
+    "certifications": [
+      "Certified Professional in Accessibility Core Competencies"
+    ]
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Lukas Brandstetter",
+    "headline": "Frontend Developer",
+    "email": "lukas.brandstetter@example.org",
+    "location": "Leipzig, Germany",
+    "summary": "Pragmatic frontend developer, nine years in agencies and product firms. I write straightforward JavaScript, prefer server-rendered pages where they fit, and reach for frameworks only when they earn their place. I like fast sites and small teams. I prefer plain tools, readable code and honest estimates. In my spare time I tinker with static site generators and write short tutorials in German.",
+    "skills": [
+      "JavaScript",
+      "Svelte",
+      "SvelteKit",
+      "HTML5",
+      "CSS",
+      "Alpine.js",
+      "Node.js",
+      "Rollup",
+      "Cypress",
+      "Lighthouse",
+      "SEO basics",
+      "Progressive enhancement",
+      "Sass",
+      "Gulp",
+      "Git"
+    ],
+    "experience": [
+      {
+        "role": "Frontend Developer",
+        "company": "Pappel Commerce",
+        "period": "2019 – Present",
+        "bullets": [
+          "Rebuilt the checkout in SvelteKit; time to interactive dropped from 4.2 s to 1.6 s.",
+          "Maintain a shared component package consumed by three storefronts.",
+          "Run monthly performance budgets and fix regressions before release.",
+          "Reviewed pull requests from two junior colleagues and paired on tricky accessibility and layout issues."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Studio Zwielicht",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Delivered about forty brochure and campaign sites for regional clients.",
+          "Introduced a Sass and Gulp workflow to replace hand-maintained stylesheets.",
+          "Built interactive maps and charts using D3.",
+          "Delivered training on semantic HTML for the content team and agency account managers.",
+          "Kept a shared snippet library that sped up new project setup from two days to half a day."
+        ]
+      },
+      {
+        "role": "Trainee Web Developer",
+        "company": "Elsterwerk Medien",
+        "period": "2013 – 2015",
+        "bullets": [
+          "Assisted with theme development and browser testing on WordPress sites.",
+          "Fixed bugs, wrote documentation and tested sites on old devices in the agency's device cabinet.",
+          "Learned version control and ticket-based work from the senior developers.",
+          "Answered client support emails about content changes and fixed small bugs within the same day.",
+          "Kept a handwritten log of browser quirks that later became the agency's compatibility wiki."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ausbildung Fachinformatiker Anwendungsentwicklung (final project: a regional tram timetable website)",
+        "institution": "Berufsschule Leipzig-Süd",
+        "period": "2012 – 2015"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "Google Fonts and typography short course",
+      "Web performance workshop, 2022"
+    ]
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Oluwaseun Babatunde-Fenn",
+    "headline": "Senior Web Developer",
+    "email": "seun.babatunde@example.net",
+    "location": "Lagos, Nigeria",
+    "summary": "Web developer with eleven years of experience delivering mobile-first interfaces for banks and payment companies in low-bandwidth markets. I focus on resilience, progressive web apps and keeping interfaces usable on cheap Android phones. I am proud of products that people in under-served areas rely on daily, and I enjoy teaching teammates how to test on realistic networks and devices.",
+    "skills": [
+      "React",
+      "Preact",
+      "PWA",
+      "Service workers",
+      "TypeScript",
+      "Workbox",
+      "Styled Components",
+      "Webpack",
+      "Jest",
+      "Lighthouse",
+      "i18n",
+      "Offline-first design",
+      "Redux",
+      "Responsive layouts",
+      "Browser dev tools"
+    ],
+    "experience": [
+      {
+        "role": "Senior Web Developer",
+        "company": "Zuma Pay",
+        "period": "2019 – Present",
+        "bullets": [
+          "Shipped a progressive web app that works offline for agents in rural areas; 200,000 active users.",
+          "Cut payload size by 60% so key screens load in under three seconds on 3G.",
+          "Standardised internationalisation for English, Hausa and Yoruba.",
+          "Led a team of three developers and reviewed every release.",
+          "Set up performance budgets and real-user monitoring so regressions on slow networks are visible within a day."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Harmattan Systems",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Built a loan application interface with React and Redux.",
+          "Replaced a jQuery front end with component-based architecture.",
+          "Tested on a device lab of twelve low-end phones.",
+          "Introduced code reviews and pair debugging sessions, which reduced production incidents on the loan product.",
+          "Wrote the team's guide for building forms that survive flaky connections."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Ikoyi Web Works",
+        "period": "2013 – 2015",
+        "bullets": [
+          "Produced responsive HTML and CSS templates from design mockups.",
+          "Maintained templates for banking campaign pages and fixed rendering issues in older Android browsers.",
+          "Helped migrate sites from table layouts to flexbox.",
+          "Collaborated with a designer on icon sets, spacing rules and a colour palette for small screens.",
+          "Presented progress to clients at weekly demos and recorded feedback in a shared tracker."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Engineering (final project: a community savings tracker)",
+        "institution": "University of Ogun Coast",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Yoruba (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "pt",
+    "misleading": false,
+    "name": "Henrique Bastos Quintela",
+    "headline": "Programador Frontend Sénior",
+    "email": "henrique.quintela@example.com",
+    "location": "Braga, Portugal",
+    "summary": "Programador frontend com dez anos de experiência em aplicações web de grande escala. Trabalho sobretudo com React e TypeScript, dou atenção à acessibilidade e à performance, e gosto de partilhar conhecimento através de revisões de código e formações internas. Gosto de documentar decisões técnicas e de manter bases de código simples. Fora do trabalho, organizo encontros de programadores em Braga. Valorizo equipas pequenas e comunicação direta.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Zustand",
+      "Styled Components",
+      "Testing Library",
+      "Cypress",
+      "Storybook",
+      "Acessibilidade",
+      "Core Web Vitals",
+      "GraphQL",
+      "Jest",
+      "Webpack",
+      "Design tokens",
+      "Revisão de código",
+      "Git",
+      "Agile",
+      "Design responsivo"
+    ],
+    "experience": [
+      {
+        "role": "Programador Frontend Sénior",
+        "company": "Minho Seguros Digital",
+        "period": "2020 – Atual",
+        "bullets": [
+          "Liderei a reescrita do portal de clientes em Next.js, reduzindo o tempo de carregamento em 45%.",
+          "Criei uma biblioteca de componentes partilhada por quatro equipas.",
+          "Defini regras de acessibilidade e formei oito colegas.",
+          "Acompanho programadores juniores em sessões semanais de pair programming.",
+          "Defino orçamentos de performance e acompanho os Core Web Vitals em dashboards semanais."
+        ]
+      },
+      {
+        "role": "Programador Web",
+        "company": "Atlântico Soluções Web",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Desenvolvi interfaces em React e Redux para plataformas de reservas.",
+          "Melhorei a cobertura de testes de 20% para 70%.",
+          "Integrei APIs REST e implementei autenticação no cliente.",
+          "Participei em entrevistas técnicas e ajudei a definir o processo de integração de novos programadores.",
+          "Escrevi guias internos sobre gestão de estado e estrutura de pastas."
+        ]
+      },
+      {
+        "role": "Programador Júnior",
+        "company": "Cávado Software",
+        "period": "2014 – 2016",
+        "bullets": [
+          "Implementei páginas responsivas em HTML, CSS e jQuery.",
+          "Corrigi problemas de compatibilidade entre navegadores e aprendi boas práticas de versionamento com Git.",
+          "Colaborei com designers na adaptação de layouts para telemóvel.",
+          "Participei em reuniões de planeamento e ajudei a estimar tarefas de interface para o sprint.",
+          "Escrevi testes simples com Jest para funções utilitárias e componentes de formulário."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática (projeto final: plataforma de reservas para restaurantes)",
+        "institution": "Universidade do Alto Cávado",
+        "period": "2011 – 2014"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Espanhol (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Rafaela Quintanilla-Reyes",
+    "headline": "Junior Frontend Developer",
+    "email": "rafaela.quintanilla@example.org",
+    "location": "Valencia, Spain",
+    "summary": "Junior developer with one and a half years of professional experience after a coding bootcamp. I work on React interfaces, fix bugs quickly and ask good questions. I want to deepen my CSS and testing skills in a supportive team. I am organised, curious and motivated by seeing real users benefit from my work. I keep a learning log and spend an hour every week on a small side project to practise new skills.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Sass",
+      "Git",
+      "Jest",
+      "Chakra UI",
+      "REST APIs",
+      "Figma",
+      "Debugging with dev tools",
+      "Agile ceremonies",
+      "Teamwork"
+    ],
+    "experience": [
+      {
+        "role": "Junior Frontend Developer",
+        "company": "Naranja Apps",
+        "period": "2023 – Present",
+        "bullets": [
+          "Implement new screens in React for a booking app used by 30 hotels.",
+          "Fixed over 90 UI bugs reported by customers.",
+          "Added unit tests for form validation helpers.",
+          "Take part in daily stand-ups and code reviews.",
+          "Review pull requests from teammates and have started pairing with the backend developers to understand API changes."
+        ]
+      },
+      {
+        "role": "Web Development Intern",
+        "company": "Turia Creative",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Converted Figma mockups into responsive pages.",
+          "Helped update an e-commerce theme and tested it across browsers.",
+          "Wrote a checklist for responsive testing on phones that the team now follows before releases.",
+          "Presented a short demo of my intern project to the whole company."
+        ]
+      },
+      {
+        "role": "Customer Support Agent (career change)",
+        "company": "Costa Levante Viajes",
+        "period": "2020 – 2021",
+        "bullets": [
+          "Handled booking enquiries from travellers and documented recurring problems in the website's checkout.",
+          "Wrote clear bug descriptions for the web team, which sparked my interest in development.",
+          "Learned HTML and CSS in the evenings through online courses before joining the bootcamp.",
+          "Learned to use browser developer tools to inspect network requests and debug layout problems.",
+          "Attended weekly knowledge sharing sessions on testing and design."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Full-Stack Web Bootcamp Certificate (tourism and hospitality management)",
+        "institution": "Mediterranean Code Academy",
+        "period": "2022"
+      },
+      {
+        "degree": "Grado en Turismo",
+        "institution": "Universidad de la Costa Levantina",
+        "period": "2016 – 2020"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "Valencian (native)",
+      "English (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": true,
+    "name": "Bartholomew Ingleby-Shaw",
+    "headline": "Frontend Developer",
+    "email": "bartholomew.ingleby@example.net",
+    "location": "Leeds, United Kingdom",
+    "summary": "Frontend developer of seven years who builds marketing sites and customer portals in React. I am a keen learner, enjoy working with designers, and like to keep a broad understanding of the wider technology landscape around the products I build. Colleagues describe me as dependable, friendly and detail-oriented, and I spend my spare time sketching interface ideas and following design blogs.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Sass",
+      "Webpack",
+      "Jest",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "Azure",
+      "Ansible",
+      "Jenkins",
+      "Prometheus",
+      "Microservices",
+      "Agile",
+      "Scrum",
+      "Framer Motion",
+      "Email templates",
+      "Figma"
+    ],
+    "experience": [
+      {
+        "role": "Frontend Developer",
+        "company": "Pennine Brand Agency",
+        "period": "2020 – Present",
+        "bullets": [
+          "Build responsive campaign sites and React portals for retail and travel clients.",
+          "Implement animations with CSS and Framer Motion on the main product pages.",
+          "Attended an internal Kubernetes workshop to understand how the hosting team deploys our builds.",
+          "Familiar with Terraform and CI/CD concepts from sitting in on platform team demos.",
+          "Review designs for feasibility with creative directors before pitches and estimate build effort for new sections."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Aire Valley Digital",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Created WordPress themes and React widgets for local businesses.",
+          "Improved image loading with lazy loading and responsive srcset attributes.",
+          "Fixed layout issues reported by testers on mobile browsers.",
+          "Trained the account team on how to preview and approve content changes in a staging environment.",
+          "Built a small library of Sass mixins reused across eleven client sites."
+        ]
+      },
+      {
+        "role": "Junior Web Designer",
+        "company": "Kirkgate Creative",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Produced HTML emails and landing pages for newsletters.",
+          "Assisted senior colleagues with email template testing across mail clients.",
+          "Learned the basics of JavaScript through weekly lunch sessions.",
+          "Produced mobile-friendly emails tested across mail clients and fixed numerous rendering issues.",
+          "Learned basic JavaScript animation and responsive image techniques from colleagues."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA Graphic Communication (dissertation on web typography and readability)",
+        "institution": "Leeds Moorland College",
+        "period": "2012 – 2015"
+      }
+    ],
+    "languages": [
+      "English (native)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Kwabena Osei-Lindgren",
+    "headline": "Frontend Architect",
+    "email": "kwabena.osei@example.com",
+    "location": "Gothenburg, Sweden",
+    "summary": "Frontend architect with sixteen years of experience, from jQuery spaghetti to modern component platforms. I design rendering strategies, standardise tooling and advise teams on frameworks. Achievement-driven, data-minded, and happiest when a migration lands without anyone noticing. I write architecture decision records, run brown-bag talks and mentor tech leads. Away from work I contribute to open-source bundler plugins.",
+    "skills": [
+      "React",
+      "Remix",
+      "TypeScript",
+      "Rendering strategies (SSR, ISR, CSR)",
+      "Turborepo",
+      "esbuild",
+      "Playwright",
+      "Design tokens",
+      "Bundle analysis",
+      "OpenTelemetry for browsers",
+      "Web Vitals",
+      "Architecture decision records",
+      "Browser internals",
+      "Technical mentoring"
+    ],
+    "experience": [
+      {
+        "role": "Frontend Architect",
+        "company": "Nordkust Mobility",
+        "period": "2018 – Present",
+        "bullets": [
+          "Defined a rendering and caching strategy that improved LCP by 41% on the booking flow.",
+          "Consolidated eleven repositories into one Turborepo, halving build times.",
+          "Created design tokens synced between Figma and code.",
+          "Coach tech leads on state management and testing pyramids.",
+          "Present quarterly frontend health reports covering bundle size, error rates and web vitals to engineering leadership."
+        ]
+      },
+      {
+        "role": "Senior Frontend Developer",
+        "company": "Älvdal Media",
+        "period": "2012 – 2018",
+        "bullets": [
+          "Built streaming-video player interfaces for connected TVs and browsers.",
+          "Moved the team from Backbone to React and ES modules.",
+          "Established visual regression testing.",
+          "Led hiring for six frontend roles and designed the technical assessment.",
+          "Set up error tracking and source map handling so production issues map to the right component and owner."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Fjällbacka Interactive",
+        "period": "2008 – 2012",
+        "bullets": [
+          "Delivered JavaScript widgets and Flash replacement projects.",
+          "Introduced Git branching rules and automated linting for a team of twelve developers.",
+          "Wrote a widely used internal library for cross-browser form validation.",
+          "Built small interactive prototypes with Flash and early JavaScript libraries for advertising campaigns.",
+          "Learned accessibility fundamentals while rebuilding a municipal website for a public client."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Interaction Design (thesis on responsive interfaces for in-car displays)",
+        "institution": "Gothenburg Institute of Technology",
+        "period": "2006 – 2008"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Swedish (C1)",
+      "Twi (native)"
+    ],
+    "certifications": [
+      "Advanced web performance training course"
+    ]
+  },
+  {
+    "archetype": "frontend",
+    "language": "pt",
+    "misleading": false,
+    "name": "Thaísa Montenegro Vasconcelos",
+    "headline": "Desenvolvedora Frontend Pleno",
+    "email": "thaisa.montenegro@example.org",
+    "location": "Recife, Brasil",
+    "summary": "Desenvolvedora frontend com cinco anos de experiência em produtos para o setor financeiro. Gosto de interfaces limpas, componentes reutilizáveis e testes automatizados. Atuo bem em squads ágeis e tenho facilidade para conversar com design e negócio. Prezo comunicação clara, entregas pequenas e frequentes e feedback rápido. Estou sempre aprendendo, e dou palestras internas sobre acessibilidade e performance.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Material UI",
+      "React Query",
+      "Jest",
+      "Cypress",
+      "Sass",
+      "Storybook",
+      "Git",
+      "Acessibilidade",
+      "Figma",
+      "Acessibilidade web",
+      "Design responsivo",
+      "Scrum"
+    ],
+    "experience": [
+      {
+        "role": "Desenvolvedora Frontend Pleno",
+        "company": "Capibaribe Pagamentos",
+        "period": "2021 – Atual",
+        "bullets": [
+          "Implementei o fluxo de abertura de conta, aumentando a conversão em 18%.",
+          "Padronizei componentes em Storybook para três squads.",
+          "Reduzi falhas de produção com testes de integração no Cypress.",
+          "Participo de refinamentos e estimativas com o time de produto.",
+          "Acompanho métricas de performance e erros no navegador e priorizo correções com o time de produto."
+        ]
+      },
+      {
+        "role": "Desenvolvedora Frontend Júnior",
+        "company": "Mangue Tecnologia",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Desenvolvi telas de dashboard em React para clientes corporativos.",
+          "Corrigi problemas de responsividade em tablets e celulares.",
+          "Documentei guias de estilo e boas práticas de CSS.",
+          "Participei de revisões de código diárias e ajudei a padronizar a estrutura de pastas dos projetos.",
+          "Implementei validações de formulário compartilhadas entre telas de cadastro e atualização de dados."
+        ]
+      },
+      {
+        "role": "Estagiária de Desenvolvimento Web",
+        "company": "Agreste Sistemas",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Criei páginas estáticas responsivas com HTML, CSS e JavaScript a partir de protótipos do time de design.",
+          "Corrigi bugs em um sistema interno de agendamento sob orientação de um desenvolvedor sênior.",
+          "Aprendi fluxo de trabalho com Git, pull requests e revisão de código.",
+          "Participei de reuniões diárias e ajudei a revisar tarefas do quadro de atividades.",
+          "Documentei o passo a passo para rodar o projeto localmente para novos estagiários."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bacharelado em Sistemas de Informação (trabalho de conclusão: sistema de agendamento para clínicas)",
+        "institution": "Universidade Federal do Agreste Pernambucano",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "frontend",
+    "language": "en",
+    "misleading": false,
+    "name": "Lucan Hargreave-Okafor",
+    "headline": "Creative Frontend Developer",
+    "email": "lucan.hargreave@example.net",
+    "location": "Bristol, United Kingdom",
+    "summary": "Creative developer who sits between design and engineering. Eight years building interactive experiences: product configurators, data visualisations and motion-rich landing pages. I enjoy WebGL, canvas and getting animation to feel right at 60 frames per second. I write about creative coding on my blog and run a small monthly meetup where developers and designers share experiments. I like prototypes that feel alive.",
+    "skills": [
+      "JavaScript",
+      "Three.js",
+      "GSAP",
+      "WebGL",
+      "Canvas",
+      "React Three Fiber",
+      "D3",
+      "GLSL",
+      "Vite",
+      "Web Audio API",
+      "Performance profiling",
+      "TypeScript",
+      "Shaders",
+      "Motion design",
+      "Figma"
+    ],
+    "experience": [
+      {
+        "role": "Creative Frontend Developer",
+        "company": "Severnside Interactive",
+        "period": "2020 – Present",
+        "bullets": [
+          "Built a 3D product configurator in Three.js that raised enquiries by 27%.",
+          "Profile and optimise animation frames to hold 60 fps on mid-range laptops.",
+          "Prototype ideas with designers in code before they reach sign-off.",
+          "Share reusable shader snippets and animation helpers across the studio's projects.",
+          "Estimate motion-heavy work with producers and flag when a visual idea needs a simpler fallback."
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Avonmouth Labs",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Produced interactive data stories for a news publisher with D3 and SVG.",
+          "Developed an in-browser audio visualiser using the Web Audio API.",
+          "Mentored two interns through their first public project.",
+          "Explored WebGL fallbacks so that experiences degrade gracefully on older phones.",
+          "Delivered conference talks about real-time graphics for non-specialist audiences."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Clifton Pixel Co",
+        "period": "2014 – 2016",
+        "bullets": [
+          "Built banner ads and microsites with HTML5 canvas and CSS animations.",
+          "Learned version control and agile ceremonies while working alongside senior developers.",
+          "Tested campaign pages on dozens of screens and fixed alignment bugs.",
+          "Hand-coded HTML emails and optimised image assets to reduce banner sizes for ad networks.",
+          "Joined weekly code reviews and picked up good habits in naming and structure."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Creative Computing (final project: a generative music visualiser)",
+        "institution": "University of the West Downs",
+        "period": "2011 – 2014"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "French (A2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Aishwarya Ramachandran",
+    "headline": "Senior Test Automation Engineer",
+    "email": "aishwarya.ramachandran@example.com",
+    "location": "Hyderabad, India",
+    "summary": "Test automation engineer with eleven years in fintech and insurance. I design maintainable automation frameworks, push quality checks into the build pipeline, and coach developers on testability. I prefer reliable, fast suites over large flaky ones. Away from the keyboard I mentor women moving into testing careers and speak at quality engineering meetups on reliable automation.",
+    "skills": [
+      "Selenium WebDriver",
+      "Playwright",
+      "Java",
+      "TestNG",
+      "REST Assured",
+      "Cucumber",
+      "Jenkins pipelines",
+      "Docker",
+      "SQL",
+      "Allure reports",
+      "Contract testing (Pact)",
+      "Gherkin",
+      "Flaky test analysis",
+      "Test data management"
+    ],
+    "experience": [
+      {
+        "role": "Senior Test Automation Engineer",
+        "company": "Godavari Insure Tech",
+        "period": "2019 – Present",
+        "bullets": [
+          "Rebuilt the UI regression suite in Playwright; run time fell from 3 hours to 25 minutes.",
+          "Added Pact contract tests between twelve services, catching breaking changes before release.",
+          "Set up Jenkins pipelines that block merges when smoke tests fail.",
+          "Reduced flaky test rate from 14% to under 2%.",
+          "Review test code in pull requests, apply the same standards as production code and keep dashboards of failure causes."
+        ]
+      },
+      {
+        "role": "Automation Engineer",
+        "company": "Charminar Software Services",
+        "period": "2014 – 2019",
+        "bullets": [
+          "Developed a Selenium and TestNG framework used by five projects.",
+          "Automated API checks with REST Assured and SQL data validation.",
+          "Trained twenty manual testers in basic scripting.",
+          "Created a reusable reporting layer that gave managers daily visibility into failures and trends.",
+          "Worked with developers to add unique test identifiers so locators stopped breaking."
+        ]
+      },
+      {
+        "role": "Test Engineer",
+        "company": "Musi Systems",
+        "period": "2012 – 2014",
+        "bullets": [
+          "Executed manual regression cycles and logged defects.",
+          "Wrote detailed test cases for loan and policy workflows, linked to requirements.",
+          "Logged and verified around 600 defects during two major releases.",
+          "Reported weekly status to the project manager and flagged risks to schedule early.",
+          "Took part in knowledge transfer sessions with developers to learn the business rules behind policy pricing."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech Computer Science (final project: an automated attendance system)",
+        "institution": "Telangana Institute of Technology",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Telugu (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": [
+      "ISTQB Advanced Test Automation Engineer"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Declan Fairweather-Boyle",
+    "headline": "QA Engineer",
+    "email": "declan.fairweather@example.org",
+    "location": "Belfast, United Kingdom",
+    "summary": "QA engineer, four years in, automating web and API tests for a SaaS product. I enjoy exploratory testing as much as scripting, and I write clear bug reports that developers actually act on. I am collaborative, methodical and happiest when a bug report I wrote leads to a quick fix. I am studying for my next ISTQB certificate in my own time. I welcome honest feedback and like small teams.",
+    "skills": [
+      "Cypress",
+      "JavaScript",
+      "Postman",
+      "Newman",
+      "GitHub Actions",
+      "Exploratory testing",
+      "Jira",
+      "TestRail",
+      "Basic SQL",
+      "Accessibility checks",
+      "Bug reporting",
+      "Cross-browser testing",
+      "Test case design",
+      "API testing",
+      "Agile",
+      "Defect triage",
+      "Test planning"
+    ],
+    "experience": [
+      {
+        "role": "QA Engineer",
+        "company": "Lagan Software",
+        "period": "2021 – Present",
+        "bullets": [
+          "Wrote 220 Cypress tests covering core user journeys.",
+          "Run Postman collections through Newman on every pull request using GitHub Actions.",
+          "Facilitate bug-bash sessions before each release.",
+          "Maintain test data setup scripts in JavaScript.",
+          "Suggest acceptance criteria during refinement so that edge cases are discussed before development starts."
+        ]
+      },
+      {
+        "role": "Junior QA Tester",
+        "company": "Foyle Digital",
+        "period": "2020 – 2021",
+        "bullets": [
+          "Executed manual test plans for a mobile banking web app.",
+          "Logged and triaged around 300 defects in Jira.",
+          "Learned Cypress and automated the top ten smoke checks.",
+          "Investigated a recurring payment failure and traced it to a timezone bug, saving several support hours a week.",
+          "Built a small tool to compare API responses across environments."
+        ]
+      },
+      {
+        "role": "Support Technician",
+        "company": "Antrim IT Services",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Resolved hardware and software tickets for small businesses and learned to reproduce faults systematically.",
+          "Wrote simple scripts to automate repetitive set-up tasks for new laptops.",
+          "Kept a knowledge base that cut repeat questions from clients.",
+          "Tested on laptops, tablets and phones, noting layout and input issues for each browser.",
+          "Took notes in daily stand-ups and followed up on open defects until closure."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Software Engineering (final project: a student timetable application)",
+        "institution": "Ulster Glens University",
+        "period": "2016 – 2020"
+      }
+    ],
+    "languages": [
+      "English (native)"
+    ],
+    "certifications": [
+      "ISTQB Foundation Level",
+      "Cypress official training course"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Joachim Hartwig-Nowak",
+    "headline": "Test Automation Architect",
+    "email": "joachim.hartwig@example.net",
+    "location": "Hamburg, Germany",
+    "summary": "Fourteen years in quality engineering across automotive and logistics. I define automation strategy, choose tools, and build frameworks that run unattended in release pipelines. Deeply interested in test design techniques, model-based testing and metrics that reflect real risk. I publish talks on test design and give internal training on automation patterns. Colleagues know me for structured thinking and dry humour.",
+    "skills": [
+      "Python",
+      "pytest",
+      "Robot Framework",
+      "Selenium Grid",
+      "Appium",
+      "Model-based testing",
+      "GitLab CI",
+      "Docker Compose",
+      "Grafana dashboards",
+      "Mutation testing",
+      "Test strategy",
+      "Requirements review",
+      "Test metrics",
+      "Exploratory testing"
+    ],
+    "experience": [
+      {
+        "role": "Test Automation Architect",
+        "company": "Elbe Logistik Software",
+        "period": "2018 – Present",
+        "bullets": [
+          "Defined a company-wide automation strategy and test pyramid adopted by nine teams.",
+          "Built a pytest framework with parallel execution on Selenium Grid and Docker Compose.",
+          "Introduced mutation testing to evaluate unit test quality.",
+          "Created dashboards showing escaped defects and test stability per release.",
+          "Chair the testing guild and run quarterly workshops on test design and flakiness analysis."
+        ]
+      },
+      {
+        "role": "Senior QA Engineer",
+        "company": "Autoteil Systeme",
+        "period": "2012 – 2018",
+        "bullets": [
+          "Automated hardware-in-the-loop checks for infotainment units with Robot Framework.",
+          "Developed Appium tests for the companion mobile app.",
+          "Integrated nightly regression runs into GitLab pipelines.",
+          "Reduced regression execution time by 60% through selective test running based on changed modules.",
+          "Mentored four engineers who later became team leads."
+        ]
+      },
+      {
+        "role": "Test Analyst",
+        "company": "Hansa Prüftechnik",
+        "period": "2010 – 2012",
+        "bullets": [
+          "Designed test cases from requirements using equivalence classes and boundary analysis.",
+          "Learned requirements analysis and test case design in a rigorous safety-critical environment.",
+          "Wrote documentation for test procedures audited by an external certifier.",
+          "Designed test cases using equivalence classes, boundary values and decision tables for warehouse management software.",
+          "Reviewed requirements with engineers and flagged ambiguous or contradicting statements before coding."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom-Informatiker (thesis on test case generation from state machine models)",
+        "institution": "Technische Hochschule Nordmark",
+        "period": "2004 – 2010"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "ISTQB Test Manager",
+      "Safety-critical software testing seminar"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "pt",
+    "misleading": false,
+    "name": "Gonçalo Pestana Albuquerque",
+    "headline": "Engenheiro de Automação de Testes",
+    "email": "goncalo.albuquerque@example.com",
+    "location": "Coimbra, Portugal",
+    "summary": "Engenheiro de automação de testes com seis anos de experiência em software bancário. Desenho frameworks de testes de API e interface, integro verificações automáticas nas pipelines de entrega e ajudo as equipas a detetar falhas mais cedo. Sou metódico, gosto de simplificar e valorizo equipas onde qualidade é responsabilidade de todos. Nos tempos livres escrevo pequenos artigos técnicos sobre testes. Prefiro equipas pequenas e feedback frequente.",
+    "skills": [
+      "Playwright",
+      "TypeScript",
+      "RestAssured",
+      "Azure DevOps",
+      "Docker",
+      "SQL",
+      "Cucumber",
+      "k6",
+      "Testes exploratórios",
+      "Jira",
+      "Selenium",
+      "Java",
+      "Testes de regressão",
+      "Gherkin",
+      "Testes de API",
+      "Gestão de defeitos",
+      "Agile"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro de Automação de Testes",
+        "company": "Mondego Banca Digital",
+        "period": "2020 – Atual",
+        "bullets": [
+          "Construí uma framework em Playwright que cobre 85% dos fluxos críticos de pagamentos.",
+          "Integrei os testes nas pipelines do Azure DevOps, bloqueando versões com falhas.",
+          "Introduzi testes de carga com k6 antes de campanhas de elevado tráfego.",
+          "Ensinei programadores a escrever testes de API estáveis.",
+          "Acompanho métricas de estabilidade dos testes e removo casos redundantes todos os meses."
+        ]
+      },
+      {
+        "role": "Analista de Testes",
+        "company": "Choupal Consultores",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Executei testes funcionais manuais e automatizei casos de regressão em Selenium.",
+          "Documentei cenários em Gherkin com a equipa de negócio.",
+          "Reportei e acompanhei mais de 400 defeitos.",
+          "Apoiei a migração de testes manuais antigos para scripts reutilizáveis.",
+          "Preparei relatórios de qualidade para a direção de tecnologia."
+        ]
+      },
+      {
+        "role": "Estagiário de Testes",
+        "company": "Pinhal Software",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Executei casos de teste manuais e registei evidências para auditoria interna.",
+          "Escrevi os meus primeiros scripts de automação em Java e Selenium.",
+          "Participei em sessões de revisão de requisitos com analistas funcionais.",
+          "Redigi relatórios diários de execução e destaquei riscos para os gestores de projeto.",
+          "Aprendi SQL para validar dados nas bases de testes e investigar discrepâncias."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática (tese sobre qualidade de software em instituições financeiras)",
+        "institution": "Universidade do Baixo Mondego",
+        "period": "2013 – 2018"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": [
+      "ISTQB Foundation Level"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Nnamdi Eze-Whitcombe",
+    "headline": "SDET",
+    "email": "nnamdi.eze@example.org",
+    "location": "Toronto, Canada",
+    "summary": "Software development engineer in test with eight years of experience building tooling that lets developers ship with confidence. I write production-quality code for test infrastructure, favour fast feedback and treat test failures as product bugs. I enjoy architecture conversations, working alongside developers and writing code that others can extend. I volunteer teaching programming to newcomers. I like short feedback loops and clear ownership. I enjoy debugging.",
+    "skills": [
+      "C#",
+      ".NET",
+      "NUnit",
+      "SpecFlow",
+      "Playwright",
+      "Azure DevOps",
+      "WireMock",
+      "Service virtualisation",
+      "SonarQube",
+      "API testing",
+      "Performance testing (JMeter)",
+      "Postman",
+      "Page object pattern",
+      "Test reporting",
+      "Code review",
+      "Test architecture",
+      "Mentoring",
+      "Agile",
+      "Git",
+      "Docker",
+      "Git",
+      "Continuous testing",
+      "Test data builders"
+    ],
+    "experience": [
+      {
+        "role": "SDET",
+        "company": "Maple Ridge Payments",
+        "period": "2020 – Present",
+        "bullets": [
+          "Built a .NET test harness with service virtualisation so teams can test without shared environments.",
+          "Cut average pull request feedback from 40 to 9 minutes by sharding tests.",
+          "Added JMeter load profiles that exposed a database lock issue before launch.",
+          "Maintain an internal library of test helpers used by eight teams, with semantic versioning and release notes.",
+          "Investigate flaky failures weekly and publish root causes to the engineering channel."
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "company": "Huron Freight Tech",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Automated 600 regression scenarios in SpecFlow and Selenium.",
+          "Introduced code coverage gates with SonarQube.",
+          "Partnered with developers to refactor untestable legacy modules.",
+          "Mentored two co-op students.",
+          "Built reusable page objects and data builders that shortened new test creation by half."
+        ]
+      },
+      {
+        "role": "QA Analyst",
+        "company": "Niagara Retail Systems",
+        "period": "2014 – 2016",
+        "bullets": [
+          "Created manual test plans and ran release sign-off checks.",
+          "Learned exploratory techniques and structured reporting under a strong test lead.",
+          "Supported production releases with checklist-based verification.",
+          "Wrote test reports for stakeholders and tracked defects through to release.",
+          "Learned SQL and API testing basics with Postman collections."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Software Engineering (capstone: automated grading platform)",
+        "institution": "Lakeshore Polytechnic University",
+        "period": "2010 – 2014"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (conversational)",
+      "French (B1)"
+    ],
+    "certifications": [
+      "Microsoft Azure DevOps training course"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": true,
+    "name": "Hildegard Vanterpool",
+    "headline": "QA Engineer",
+    "email": "hildegard.vanterpool@example.net",
+    "location": "Rotterdam, Netherlands",
+    "summary": "QA engineer of nine years focused on manual and exploratory testing of web forms and reporting tools. I also maintain a small set of Selenium checks. I like understanding how the whole delivery process fits together, from requirements through to release. Outside work I run a hobby blog about testing heuristics and enjoy puzzle-solving, which suits finding the odd corner cases in reports.",
+    "skills": [
+      "Manual testing",
+      "Exploratory testing",
+      "Test case design",
+      "Selenium IDE",
+      "Postman",
+      "Jira",
+      "TestRail",
+      "SQL",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Jenkins",
+      "AWS",
+      "Azure",
+      "Agile",
+      "DevOps culture",
+      "Regression testing",
+      "Bug reporting",
+      "Test planning",
+      "Excel"
+    ],
+    "experience": [
+      {
+        "role": "QA Engineer",
+        "company": "Maasland Reporting Software",
+        "period": "2018 – Present",
+        "bullets": [
+          "Write and execute test plans for a financial reporting product with 60 report types.",
+          "Maintain around 40 Selenium IDE recordings for smoke checks.",
+          "Our platform team uses Kubernetes and Terraform with CI/CD, which I have read about to follow their release notes.",
+          "Triage defects with developers and verify fixes in staging.",
+          "Document test coverage by report type so product owners see risks before every release."
+        ]
+      },
+      {
+        "role": "Test Analyst",
+        "company": "Delta Insurance IT",
+        "period": "2014 – 2018",
+        "bullets": [
+          "Prepared test data and executed regression suites by hand.",
+          "Reported 500 defects with clear reproduction steps.",
+          "Helped introduce TestRail to replace spreadsheet tracking.",
+          "Created a test data catalogue shared by the three QA engineers.",
+          "Helped define release checklists that reduced late-found defects by around a quarter."
+        ]
+      },
+      {
+        "role": "Support Analyst",
+        "company": "Rijn Helpdesk Services",
+        "period": "2012 – 2014",
+        "bullets": [
+          "Handled customer tickets and escalated software faults.",
+          "Learned to read logs and database records to help developers pinpoint faults.",
+          "Handled around 40 tickets a week with a high customer satisfaction score.",
+          "Documented known issues and workarounds on the shared support wiki.",
+          "Learned the basics of the product's data model so I could explain faults to developers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Information Management (thesis on usability of business software)",
+        "institution": "Hogeschool Noordwijk",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "Dutch (native)",
+      "English (C1)",
+      "German (B1)"
+    ],
+    "certifications": [
+      "ISTQB Foundation Level",
+      "Agile testing short course"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Saoirse Callanan-Dube",
+    "headline": "Mobile Test Automation Engineer",
+    "email": "saoirse.callanan@example.com",
+    "location": "Cork, Ireland",
+    "summary": "Mobile-focused automation engineer with five years testing iOS and Android apps. I build device-farm based suites, investigate flaky UI tests and care about performance on older handsets. I mentor junior testers, publish short write-ups on device quirks, and enjoy hunting down intermittent issues that only appear on one phone model. I like small teams and honest retrospectives.",
+    "skills": [
+      "Appium",
+      "Kotlin",
+      "Swift basics",
+      "Espresso",
+      "XCUITest",
+      "BrowserStack-style device clouds",
+      "Fastlane",
+      "Bitrise",
+      "Charles Proxy",
+      "Detox",
+      "Crash analytics",
+      "Crash log analysis",
+      "Performance profiling",
+      "Bug triage",
+      "Test planning",
+      "Agile",
+      "Git"
+    ],
+    "experience": [
+      {
+        "role": "Mobile Test Automation Engineer",
+        "company": "Lee Valley Apps",
+        "period": "2021 – Present",
+        "bullets": [
+          "Created an Appium suite running on forty real devices nightly.",
+          "Wrote Espresso tests alongside Android developers, covering login and payment screens.",
+          "Diagnosed a memory leak that caused crashes on older phones, fixed in the next release.",
+          "Ran release verification across beta tracks.",
+          "Maintain a device matrix based on analytics so the lab always covers the models customers really use."
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "company": "Shandon Games",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Tested game builds on a range of Android devices and reported compatibility issues.",
+          "Automated onboarding checks with Appium and Python.",
+          "Tracked crash-free session rate and flagged regressions to the team.",
+          "Built tooling to collect logs and screenshots automatically after each failed UI test.",
+          "Coordinated beta tester feedback and turned it into reproducible bug reports."
+        ]
+      },
+      {
+        "role": "Support and Test Assistant",
+        "company": "Kinsale Mobile Studio",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Tested early builds of a tourism app on personal and loaned phones during university summers.",
+          "Documented issues with screenshots and short screen recordings for developers.",
+          "Helped prepare store listings and release notes.",
+          "Shared findings in weekly demos and helped designers understand how interface choices affect low-end phones.",
+          "Learned to read crash logs from both Android and iOS devices."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computing (final project: an automated mobile app testing tool)",
+        "institution": "Munster Technological Institute",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B2)"
+    ],
+    "certifications": [
+      "Mobile testing certificate course"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "pt",
+    "misleading": false,
+    "name": "Ícaro Bezerra Nogueira",
+    "headline": "Analista de Qualidade e Automação",
+    "email": "icaro.bezerra@example.org",
+    "location": "Porto Alegre, Brasil",
+    "summary": "Analista de qualidade com sete anos de experiência, dos quais quatro em automação. Atuo em testes de API e de interface, defino critérios de aceite com o time de produto e mantenho suítes estáveis integradas ao fluxo de entrega contínua. Gosto de compartilhar conhecimento e organizo um grupo de estudos sobre qualidade de software na minha cidade. Busco continuamente reduzir retrabalho e falhas em produção.",
+    "skills": [
+      "Cypress",
+      "Robot Framework",
+      "Python",
+      "Postman",
+      "GitLab CI",
+      "BDD",
+      "JMeter",
+      "Jira",
+      "Xray",
+      "SQL",
+      "BDD",
+      "Cypress",
+      "Qualidade de software",
+      "Gestão de defeitos"
+    ],
+    "experience": [
+      {
+        "role": "Analista de Qualidade Sênior",
+        "company": "Guaíba Logística Digital",
+        "period": "2020 – Atual",
+        "bullets": [
+          "Automatizei 350 cenários de regressão com Cypress, reduzindo o ciclo de testes de dois dias para quatro horas.",
+          "Configurei execuções agendadas no GitLab CI com relatórios por squad.",
+          "Conduzi workshops de BDD com analistas de negócio.",
+          "Criei testes de performance em JMeter para o módulo de roteirização.",
+          "Mantenho relatórios semanais de qualidade com taxa de defeitos escapados e tempo de correção por equipe."
+        ]
+      },
+      {
+        "role": "Analista de Testes Pleno",
+        "company": "Pampa Sistemas",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Escrevi planos de teste e executei validações manuais em sistemas ERP.",
+          "Iniciei a automação de APIs com Postman e scripts em Python.",
+          "Acompanhei defeitos junto aos desenvolvedores até o fechamento.",
+          "Treinei analistas manuais em Python básico e boas práticas de automação.",
+          "Participei de homologações com clientes e consolidei feedback nos critérios de aceite."
+        ]
+      },
+      {
+        "role": "Estagiário de Testes",
+        "company": "Sul Software",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Executei casos de teste e registrei evidências.",
+          "Aprendi a escrever casos de teste claros e a relatar defeitos com evidências.",
+          "Apoiei a equipe em ciclos de homologação de fim de mês.",
+          "Participei de reuniões com clientes para entender fluxos de negócio de logística.",
+          "Aprendi SQL para conferir dados nas bases de homologação."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Tecnologia em Análise e Desenvolvimento de Sistemas (trabalho final: sistema de controle de estoque)",
+        "institution": "Instituto Federal do Pampa Gaúcho",
+        "period": "2014 – 2017"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B1)"
+    ],
+    "certifications": [
+      "CTFL (ISTQB)"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Wojciech Przybylski",
+    "headline": "Lead QA Engineer",
+    "email": "wojciech.przybylski@example.net",
+    "location": "Kraków, Poland",
+    "summary": "Lead QA engineer, thirteen years of experience. I run a team of six testers and automation engineers on an e-commerce platform. Strong on test strategy, release readiness and building a culture where developers own quality. Hands-on with Java and Selenide. I coach people more than I code these days, but I keep my hands dirty in the framework. I enjoy structured retrospectives and clear metrics. I like transparent planning and honest retrospectives.",
+    "skills": [
+      "Java",
+      "Selenide",
+      "JUnit 5",
+      "REST-assured",
+      "Allure",
+      "Jenkins",
+      "Test management",
+      "Risk-based testing",
+      "Team leadership",
+      "SQL",
+      "Postman",
+      "Test planning",
+      "Defect triage",
+      "Metrics reporting",
+      "Stakeholder management",
+      "Release management",
+      "Agile"
+    ],
+    "experience": [
+      {
+        "role": "Lead QA Engineer",
+        "company": "Wisła Marketplace",
+        "period": "2017 – Present",
+        "bullets": [
+          "Lead six QA engineers across three feature teams.",
+          "Grew automated coverage of checkout and search from 30% to 78% in two years.",
+          "Introduced risk-based test planning, reducing release candidate cycle by 35%.",
+          "Hold quarterly retrospectives on escaped defects.",
+          "Report quality indicators to the director of engineering every month and plan capacity for peak seasons."
+        ]
+      },
+      {
+        "role": "Senior QA Engineer",
+        "company": "Tatra Online Services",
+        "period": "2013 – 2017",
+        "bullets": [
+          "Built Selenide suites for a travel booking portal.",
+          "Ran load tests ahead of seasonal peaks.",
+          "Managed relationships with an outsourced test team.",
+          "Introduced a buddy system where developers pair with testers on the riskiest features.",
+          "Negotiated tooling licences and chose the team's reporting platform."
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "company": "Podhale Software House",
+        "period": "2011 – 2013",
+        "bullets": [
+          "Executed functional and regression tests, documented results.",
+          "Wrote regression checklists and learned domain knowledge in travel pricing.",
+          "Supported releases during weekends when needed.",
+          "Recorded manual test cases in a shared tool and reviewed them weekly with analysts.",
+          "Learned SQL and log analysis to investigate order processing errors."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science (thesis on software reliability metrics)",
+        "institution": "Jagiellonian Technical College",
+        "period": "2006 – 2011"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "ISTQB Advanced Test Manager",
+      "Agile Leadership Foundations course",
+      "Certified Scrum Master"
+    ]
+  },
+  {
+    "archetype": "qa_automation",
+    "language": "en",
+    "misleading": false,
+    "name": "Amara Okonkwo-Pryce",
+    "headline": "Junior Test Automation Engineer",
+    "email": "amara.okonkwo@example.org",
+    "location": "London, United Kingdom",
+    "summary": "Junior automation engineer with two years of experience after a maths degree. I write Python tests for web and API layers, keep tests tidy and love finding edge cases others miss. I am proud of how quickly I picked up testing practice: I read widely, ask questions, and keep a small public repository of examples that I update weekly with new patterns I learn. I welcome feedback and work well in small teams.",
+    "skills": [
+      "Python",
+      "pytest",
+      "Requests",
+      "Selenium",
+      "Behave",
+      "Git",
+      "GitHub Actions",
+      "JSON schema validation",
+      "Linux command line",
+      "JSON",
+      "Postman",
+      "Bug reporting",
+      "Pandas",
+      "Agile",
+      "Debugging",
+      "Test design"
+    ],
+    "experience": [
+      {
+        "role": "Junior Test Automation Engineer",
+        "company": "Thamesbank Software",
+        "period": "2023 – Present",
+        "bullets": [
+          "Developed 150 pytest API tests for a customer account service.",
+          "Added schema validation catching three breaking response changes.",
+          "Set up scheduled test runs in GitHub Actions with Slack notifications.",
+          "Refactored duplicated test code into fixtures, shortening the suite by around 20% and making failures easier to read.",
+          "Review developer pull requests for testability and suggest missing assertions."
+        ]
+      },
+      {
+        "role": "Graduate QA Analyst",
+        "company": "Southwark Data Systems",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Followed test scripts and recorded results.",
+          "Wrote first automation scripts for report exports using Selenium.",
+          "Learned Git workflow and code review practices.",
+          "Wrote a short onboarding page that explains how to run the suite locally.",
+          "Paired with a senior engineer on a performance script for the payments API."
+        ]
+      },
+      {
+        "role": "Data Analyst Intern",
+        "company": "Peckham Insights",
+        "period": "Summer 2021",
+        "bullets": [
+          "Cleaned and validated survey data sets with Python and spreadsheets, spotting inconsistencies others missed.",
+          "Wrote scripts to check data files automatically before they were loaded into reports.",
+          "Presented findings to a small team in a ten-minute talk.",
+          "Learned pandas and SQL through hands-on exercises, which now helps with test data preparation.",
+          "Volunteered to prepare slides and speak at the end-of-summer showcase."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Mathematics (dissertation on statistical modelling of software defects)",
+        "institution": "University of Eastern Fenland",
+        "period": "2019 – 2022"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (basic)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "ux_designer",
+    "language": "en",
+    "misleading": false,
+    "name": "Isolde Verhoeven-Adeyinka",
+    "headline": "Senior Product Designer",
+    "email": "isolde.verhoeven@example.com",
+    "location": "Amsterdam, Netherlands",
+    "summary": "Product designer with twelve years of experience across fintech and travel. I lead discovery, run usability studies and shape design systems. I work best when research, data and craft inform each decision, and I enjoy coaching designers early in their careers. I speak at design conferences on research-led product work and sit on a panel hiring designers. Clarity and empathy guide how I work.",
+    "skills": [
+      "User research",
+      "Interaction design",
+      "Figma",
+      "Design systems",
+      "Prototyping",
+      "Usability testing",
+      "Journey mapping",
+      "Information architecture",
+      "A/B test design",
+      "Accessibility",
+      "Workshop facilitation",
+      "Design critique",
+      "Stakeholder management",
+      "Prototyping tools"
+    ],
+    "experience": [
+      {
+        "role": "Senior Product Designer",
+        "company": "Grachtenpay",
+        "period": "2018 – Present",
+        "bullets": [
+          "Led redesign of the mobile payments flow; task success rose from 71% to 92% in usability tests.",
+          "Built and maintain a design system of 120 components shared with eight engineers.",
+          "Run monthly research sprints with five to eight customer interviews each.",
+          "Coach three junior designers through portfolio reviews and critique sessions.",
+          "Partner with data analysts to connect usability findings to funnel metrics, helping leadership prioritise the roadmap."
+        ]
+      },
+      {
+        "role": "UX Designer",
+        "company": "Wanderlijn Travel",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Redesigned the booking funnel, increasing completed bookings by 14%.",
+          "Conducted card sorting to restructure site navigation.",
+          "Created wireframes and interactive prototypes for stakeholder reviews.",
+          "Introduced design critique rituals and a shared research library used across the company.",
+          "Collaborated with marketing on consistent visual language for a rebrand."
+        ]
+      },
+      {
+        "role": "Graphic Designer",
+        "company": "Tulp Studio",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Produced brand identities and print layouts for small businesses.",
+          "Learned typography, layout and client communication on small projects.",
+          "Presented concepts to clients and handled feedback rounds on tight deadlines.",
+          "Participated in client pitches and prepared quick concept boards to support them.",
+          "Learned to estimate design work and agree deliverables with account managers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MA Interaction Design (thesis on trust in digital payment interfaces)",
+        "institution": "Academy of Design Utrecht Bay",
+        "period": "2008 – 2010"
+      }
+    ],
+    "languages": [
+      "Dutch (native)",
+      "English (C2)",
+      "Yoruba (basic)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "ux_designer",
+    "language": "en",
+    "misleading": false,
+    "name": "Sebastián Aldecoa-Frey",
+    "headline": "UX/UI Designer",
+    "email": "sebastian.aldecoa@example.net",
+    "location": "Madrid, Spain",
+    "summary": "UX and UI designer with five years of experience making complex business tools feel simple. I move fluidly from sketches to high-fidelity screens, and I validate ideas with quick tests before handing over to developers. I am detail-oriented, enjoy pairing with developers and like to learn from every usability session. In my free time I take illustration classes to keep my visual skills sharp. I value feedback and small, cross-functional teams.",
+    "skills": [
+      "Figma",
+      "FigJam",
+      "Wireframing",
+      "Visual design",
+      "Prototyping",
+      "Usability testing",
+      "Design tokens",
+      "Motion design",
+      "Developer handoff",
+      "Heuristic evaluation",
+      "Illustration",
+      "Adobe Illustrator",
+      "Typography",
+      "Design critique",
+      "Agile",
+      "User flows"
+    ],
+    "experience": [
+      {
+        "role": "UX/UI Designer",
+        "company": "Meseta Software",
+        "period": "2021 – Present",
+        "bullets": [
+          "Redesigned the invoicing module; support tickets about it dropped by 33%.",
+          "Produced component specifications and design tokens used by the front-end team.",
+          "Run guerrilla usability tests with five users per iteration.",
+          "Present design rationale to product owners every sprint.",
+          "Maintain a living style guide with usage notes so new designers can contribute quickly."
+        ]
+      },
+      {
+        "role": "Junior UI Designer",
+        "company": "Retiro Digital Agency",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Designed landing pages and email templates for retail clients.",
+          "Assisted senior designers with user flows and prototype building.",
+          "Created icon sets and illustrations.",
+          "Worked closely with account managers to align designs with client branding.",
+          "Learned motion principles and delivered micro-interactions for hover and loading states."
+        ]
+      },
+      {
+        "role": "Design Intern",
+        "company": "Chamberí Creativos",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Created social media assets and simple banners following brand guidelines.",
+          "Assisted designers with user flow diagrams and collected feedback on mockups.",
+          "Learned to prepare files for developer handoff with clear naming and exports.",
+          "Joined client calls to understand requirements and took clear notes afterwards.",
+          "Practised preparing handoff files with naming conventions and exported assets for developers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Grado en Diseño Gráfico (final project: signage system for a university campus)",
+        "institution": "Escuela Superior de Diseño de la Meseta",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "Google UX Design Certificate",
+      "Intensive course on design systems"
+    ]
+  },
+  {
+    "archetype": "ux_designer",
+    "language": "en",
+    "misleading": false,
+    "name": "Ngozi Whitlock-Ramanathan",
+    "headline": "UX Researcher and Designer",
+    "email": "ngozi.whitlock@example.org",
+    "location": "Birmingham, United Kingdom",
+    "summary": "Researcher-designer working in healthcare and public services for nine years. I specialise in qualitative research with hard-to-reach users, service blueprints and plain-language content design. Evidence first, opinions second. I teach research methods to colleagues, volunteer reviewing charity websites for clarity and believe good services begin by listening carefully to the people who use them. I like cross-functional teams and short feedback loops.",
+    "skills": [
+      "Qualitative research",
+      "Contextual inquiry",
+      "Service design",
+      "Service blueprints",
+      "Content design",
+      "Surveys",
+      "Affinity mapping",
+      "Sketch",
+      "Figma",
+      "Accessibility audits",
+      "Stakeholder workshops",
+      "Thematic analysis",
+      "Research ethics",
+      "Participant recruitment",
+      "Report writing",
+      "Agile",
+      "Mixed methods"
+    ],
+    "experience": [
+      {
+        "role": "Lead UX Researcher",
+        "company": "Midlands Care Network",
+        "period": "2019 – Present",
+        "bullets": [
+          "Conducted 90 interviews with patients and carers to reshape the appointment journey.",
+          "Produced service blueprints adopted by three hospital trusts.",
+          "Rewrote letters and web forms in plain language, reducing missed appointments by 11%.",
+          "Manage a team of two researchers and a content designer.",
+          "Present research insights to the executive board and track whether recommendations are implemented."
+        ]
+      },
+      {
+        "role": "UX Designer",
+        "company": "Severn Civic Digital",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Designed online forms for council tax and housing benefit services.",
+          "Ran usability sessions with older adults and people using screen readers.",
+          "Documented findings in short, shareable reports.",
+          "Created a recruitment panel of 300 residents who take part in short studies throughout the year.",
+          "Led a series of design sprints with frontline staff."
+        ]
+      },
+      {
+        "role": "Research Assistant",
+        "company": "University of Central Meadows",
+        "period": "2013 – 2015",
+        "bullets": [
+          "Supported studies on digital inclusion.",
+          "Learned participant recruitment, consent procedures and careful note-taking.",
+          "Co-authored a paper on older adults and online public services.",
+          "Transcribed focus groups and drew out themes about trust in health services.",
+          "Learned statistical basics for survey analysis and presented clear charts to supervisors."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Human-Computer Interaction (dissertation on older adults and digital health services)",
+        "institution": "University of Central Meadows",
+        "period": "2011 – 2013"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (conversational)"
+    ],
+    "certifications": [
+      "Content Design London course",
+      "Service design foundation workshop"
+    ]
+  },
+  {
+    "archetype": "ux_designer",
+    "language": "pt",
+    "misleading": false,
+    "name": "Margarida Telo Santa-Rita",
+    "headline": "Designer de UX/UI",
+    "email": "margarida.telo@example.com",
+    "location": "Lisboa, Portugal",
+    "summary": "Designer de UX/UI com sete anos de experiência em produtos digitais para banca e retalho. Gosto de transformar problemas complexos em fluxos simples, trabalhar com equipas de engenharia e testar ideias com utilizadores reais antes de as lançar. Dou formações sobre design centrado no utilizador e colaboro com comunidades de design em Lisboa. Procuro sempre decisões baseadas em evidência.",
+    "skills": [
+      "Figma",
+      "Design de interação",
+      "Prototipagem",
+      "Testes de usabilidade",
+      "Sistemas de design",
+      "Arquitetura de informação",
+      "Investigação com utilizadores",
+      "Acessibilidade",
+      "Workshops de co-criação",
+      "Design thinking",
+      "Miro",
+      "Design de conteúdos",
+      "Prototipos de alta fidelidade"
+    ],
+    "experience": [
+      {
+        "role": "Designer de Produto",
+        "company": "Tejo Banca Móvel",
+        "period": "2020 – Atual",
+        "bullets": [
+          "Redesenhei a aplicação móvel, aumentando a avaliação nas lojas de 3,8 para 4,6.",
+          "Criei um sistema de design com 90 componentes usado por seis equipas.",
+          "Realizo sessões de testes de usabilidade a cada duas semanas.",
+          "Facilito workshops de priorização com a equipa de produto.",
+          "Acompanho métricas de utilização e converto-as em hipóteses de melhoria para o roadmap."
+        ]
+      },
+      {
+        "role": "Designer UX",
+        "company": "Alfama Retalho Online",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Desenhei o fluxo de checkout, diminuindo o abandono de carrinho em 16%.",
+          "Elaborei wireframes e protótipos clicáveis para validação.",
+          "Colaborei com programadores na entrega de especificações.",
+          "Participei em entrevistas de contratação de novos designers.",
+          "Introduzi uma biblioteca partilhada de investigação com resumos de estudos anteriores."
+        ]
+      },
+      {
+        "role": "Designer Gráfica Júnior",
+        "company": "Estúdio Calçada",
+        "period": "2016 – 2017",
+        "bullets": [
+          "Produzi materiais de comunicação e interfaces simples para web.",
+          "Aprendi tipografia, composição e preparação de ficheiros para impressão e web.",
+          "Apresentei propostas a clientes e recolhi feedback em reuniões semanais.",
+          "Ajudei a preparar maquetes e apresentações para reuniões com clientes.",
+          "Aprendi a organizar ficheiros e bibliotecas de forma clara para os colegas."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Design de Comunicação (projeto final: sinalética para um festival de música)",
+        "institution": "Escola Superior de Artes do Atlântico",
+        "period": "2012 – 2016"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Francês (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "ux_designer",
+    "language": "pt",
+    "misleading": false,
+    "name": "Vinícius Albuquerque Tavares",
+    "headline": "Designer de Produto Pleno",
+    "email": "vinicius.tavares@example.org",
+    "location": "Belo Horizonte, Brasil",
+    "summary": "Designer de produto com seis anos de atuação em startups. Combino pesquisa rápida, prototipação e métricas para melhorar a experiência de aplicativos de saúde e educação. Valorizo colaboração próxima com desenvolvedores e clareza visual. Sou colaborativo e curioso, gosto de mentoria e participo de comunidades de design em Belo Horizonte. Busco sempre ligar decisões de design a resultados claros para as pessoas usuárias.",
+    "skills": [
+      "Figma",
+      "Pesquisa com usuários",
+      "Design system",
+      "Prototipação",
+      "Testes A/B",
+      "Mapeamento de jornada",
+      "UX writing",
+      "Acessibilidade",
+      "Miro",
+      "Métricas de produto",
+      "Design thinking",
+      "Prototipação rápida",
+      "Pesquisa qualitativa"
+    ],
+    "experience": [
+      {
+        "role": "Designer de Produto Pleno",
+        "company": "Serra Saúde Digital",
+        "period": "2021 – Atual",
+        "bullets": [
+          "Redesenhei o agendamento de consultas, elevando a taxa de conclusão em 22%.",
+          "Conduzi 40 entrevistas com pacientes e profissionais de saúde.",
+          "Estruturei o design system e a documentação de uso.",
+          "Defini métricas de sucesso junto ao time de produto.",
+          "Dou suporte a desenvolvedores durante a implementação para garantir fidelidade visual e comportamento correto."
+        ]
+      },
+      {
+        "role": "Designer de UX",
+        "company": "Edu Mineiro",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Desenhei a jornada de alunos em um app de reforço escolar.",
+          "Testei protótipos com professores e ajustei a navegação.",
+          "Escrevi microtextos claros para mensagens de erro e confirmação.",
+          "Facilitei oficinas de design com professores para descobrir novas oportunidades.",
+          "Criei e documentei um conjunto de ícones e componentes reutilizáveis."
+        ]
+      },
+      {
+        "role": "Designer Júnior",
+        "company": "Estúdio Pampulha",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Desenhei peças gráficas e interfaces simples para pequenos negócios locais.",
+          "Aprendi com designers sêniores a organizar arquivos e componentes no Figma.",
+          "Apoiei sessões de teste de usabilidade tomando notas e gravando observações.",
+          "Aprendi a documentar decisões de design e a sincronizar arquivos entre a equipe.",
+          "Ajudei a organizar eventos de design da universidade com cerca de cem participantes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bacharelado em Design Digital (trabalho final: aplicativo de apoio escolar)",
+        "institution": "Universidade Estadual das Gerais",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": [
+      "Curso de UX writing"
+    ]
+  },
+  {
+    "archetype": "ux_designer",
+    "language": "en",
+    "misleading": false,
+    "name": "Rohan Bhattacharjee-Doyle",
+    "headline": "Junior UX Designer",
+    "email": "rohan.bhattacharjee@example.net",
+    "location": "Edinburgh, United Kingdom",
+    "summary": "Junior designer in my second year, coming from a psychology background. I enjoy user interviews, sketching flows on paper and turning them into clickable prototypes. Eager to learn design systems and work with engineers. I am quiet in meetings but thorough in my notes, and I volunteer running design workshops with local school children. I want to keep building craft in a team that gives frequent feedback.",
+    "skills": [
+      "Figma",
+      "Paper prototyping",
+      "User interviews",
+      "Usability testing",
+      "Wireframes",
+      "Miro",
+      "Affinity diagrams",
+      "Basic HTML and CSS",
+      "Thematic analysis",
+      "Survey design",
+      "Research ethics"
+    ],
+    "experience": [
+      {
+        "role": "Junior UX Designer",
+        "company": "Firth Studio",
+        "period": "2023 – Present",
+        "bullets": [
+          "Support senior designers with interview synthesis and wireframes for an energy-tariff app.",
+          "Designed the onboarding screens, tested with eight users and iterated twice.",
+          "Maintain the team's research repository.",
+          "Present research findings to the team each sprint and update the shared backlog of usability issues.",
+          "Learned to run remote moderated sessions and prepare consent forms."
+        ]
+      },
+      {
+        "role": "UX Intern",
+        "company": "Leith Health Tech",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Recruited participants and took notes during usability sessions.",
+          "Produced a heuristic evaluation of the patient messaging screens.",
+          "Built small prototypes in Figma for internal demos.",
+          "Drafted interview guides, ran pilot sessions and refined questions before the main study.",
+          "Shadowed the product designer during stakeholder workshops."
+        ]
+      },
+      {
+        "role": "Research Assistant",
+        "company": "University of the Lothians",
+        "period": "2020 – 2021",
+        "bullets": [
+          "Coded interview transcripts and summarised themes about technology use among students.",
+          "Designed short surveys and analysed responses with spreadsheets.",
+          "Presented results in a final-year poster session.",
+          "Created short summaries of research for lecturers and received positive feedback on clarity.",
+          "Learned basic statistical tests and chart design for presenting survey results."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc UX Design (conversion course) (dissertation on attention and mobile interfaces)",
+        "institution": "Edinburgh College of Design and Technology",
+        "period": "2021 – 2022"
+      },
+      {
+        "degree": "BSc Psychology",
+        "institution": "University of the Lothians",
+        "period": "2018 – 2021"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Bengali (conversational)"
+    ],
+    "certifications": [
+      "Interaction Design Foundation course"
+    ]
+  }
+]

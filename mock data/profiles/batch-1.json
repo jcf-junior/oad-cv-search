@@ -1,0 +1,2019 @@
+[
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Oluwaseun Adebanjo",
+    "headline": "Senior Platform Engineer",
+    "email": "oluwaseun.adebanjo@example.com",
+    "location": "Manchester, United Kingdom",
+    "summary": "Senior platform engineer with twelve years in infrastructure, the last six building internal platforms on AWS. I care about golden paths that let product teams ship without filing tickets. Most of my time goes to EKS clusters, Pulumi programs and GitOps workflows, with a strong interest in cost visibility and developer experience. Outside work I run a small study group for engineers preparing cloud certifications and contribute documentation fixes to open-source tools I rely on.",
+    "skills": [
+      "AWS",
+      "EKS",
+      "k8s operators",
+      "Pulumi (TypeScript)",
+      "ArgoCD",
+      "GitOps",
+      "Helm charts",
+      "Prometheus",
+      "Grafana",
+      "Istio",
+      "Python",
+      "Go",
+      "Linux"
+    ],
+    "experience": [
+      {
+        "role": "Senior Platform Engineer",
+        "company": "Brightwell Logistics",
+        "period": "2020 – Present",
+        "bullets": [
+          "Run a fleet of nine EKS clusters serving 140 microservices; cut node spend by 31% through bin-packing and spot capacity.",
+          "Replaced hand-built environments with Pulumi stacks written in TypeScript, shrinking new-environment lead time from two weeks to forty minutes.",
+          "Introduced ArgoCD and a GitOps repository layout; deployments went from weekly to roughly 60 a day with automated rollback on failed health checks.",
+          "Mentor four engineers and chair the platform guild.",
+          "Defined a cost-allocation tagging scheme and a weekly report so every squad sees what its workloads cost.",
+          "Partnered with the security team on admission rules, image signing and short-lived credentials for all clusters."
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "company": "Calderfield Retail",
+        "period": "2016 – 2020",
+        "bullets": [
+          "Containerised a monolithic e-commerce stack and moved it from bare-metal hosts to a managed container service.",
+          "Wrote Jenkins shared libraries used by 30 teams for build, scan and release automation.",
+          "Built the first on-call rota and runbooks; mean time to recovery fell from 95 to 22 minutes.",
+          "Taught developers to read dashboards and trace requests, which reduced escalations to the infrastructure team by about a quarter.",
+          "Piloted service mesh traffic shifting for safer releases of the checkout service."
+        ]
+      },
+      {
+        "role": "Systems Administrator",
+        "company": "Northgate Hosting",
+        "period": "2013 – 2016",
+        "bullets": [
+          "Looked after 400 Linux servers, patching, monitoring with Nagios and scripting routine work in Bash and Python.",
+          "Automated provisioning with Puppet, removing most manual server builds.",
+          "Built a small internal wiki of recurring fixes that cut repeat tickets noticeably."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Systems",
+        "institution": "University of Northmere",
+        "period": "2009 – 2013"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Yoruba (fluent)"
+    ],
+    "certifications": [
+      "AWS Certified DevOps Engineer – Professional",
+      "Certified Argo Practitioner"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Fionnuala Brannigan",
+    "headline": "Site Reliability Engineer",
+    "email": "fionnuala.brannigan@example.org",
+    "location": "Cork, Ireland",
+    "summary": "SRE focused on reliability targets, observability and boring, repeatable operations. I have spent eight years moving teams from heroics to SLOs. Day to day I work on GKE, OpenTofu modules and GitLab pipelines, and I enjoy writing blameless postmortems more than I probably should. I am equally comfortable in front of a dashboard at 3am and in a room explaining reliability trade-offs to product managers, and I mentor junior engineers on incident response.",
+    "skills": [
+      "GCP",
+      "GKE",
+      "OpenTofu",
+      "GitLab CI",
+      "SLOs and error budgets",
+      "OpenTelemetry",
+      "Prometheus",
+      "Loki",
+      "Go",
+      "Python",
+      "Cloud Run",
+      "PagerDuty"
+    ],
+    "experience": [
+      {
+        "role": "Site Reliability Engineer",
+        "company": "Harrowgate Payments",
+        "period": "2021 – Present",
+        "bullets": [
+          "Defined SLOs for 25 customer-facing services and introduced error-budget reviews that cut paging noise by 45%.",
+          "Maintain the GKE estate (autopilot and standard) and a library of OpenTofu modules shared across six squads.",
+          "Own the GitLab CI templates that build, scan, sign and promote container images to production.",
+          "Led a zero-downtime migration of the primary database to a regional replica topology.",
+          "Introduced load-testing before major launches; found a connection pool limit that would have caused an outage during the spring promotion.",
+          "Wrote the incident response playbook, with clear roles for commander, scribe and communications lead."
+        ]
+      },
+      {
+        "role": "Infrastructure Engineer",
+        "company": "Maple & Quay Software",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Managed VM fleets on GCP and later moved workloads to GKE with Helm charts.",
+          "Built reusable infrastructure-as-code modules for networks and IAM, later ported to OpenTofu.",
+          "Set up centralised logging and dashboards that the support team still uses.",
+          "Reduced alert volume by consolidating 300 rules into 90 symptom-based ones.",
+          "Trained eight developers to carry their own pager for the services they own."
+        ]
+      },
+      {
+        "role": "Junior Systems Engineer",
+        "company": "Corrib Data Services",
+        "period": "2016 – 2018",
+        "bullets": [
+          "Handled tickets, patching and backups for managed hosting customers.",
+          "Wrote monitoring checks and a first set of Ansible playbooks.",
+          "Wrote Python scripts that checked backup integrity and reported failures to chat."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computing",
+        "institution": "Lough Mhor Institute of Technology",
+        "period": "2012 – 2016"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (conversational)"
+    ],
+    "certifications": [
+      "Google Cloud Professional Cloud Architect"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Tomasz Wierzbicki",
+    "headline": "DevOps Engineer",
+    "email": "tomasz.wierzbicki@example.net",
+    "location": "Wroclaw, Poland",
+    "summary": "DevOps engineer, nine years in on-premises and hybrid environments. I automate whatever a team does twice. Strongest with Jenkins, Ansible and OpenShift; comfortable reading other people's legacy scripts and gradually replacing them with something testable. My preference is for simple, observable automation that new colleagues can understand on their first day, and I regularly present lunch-and-learn sessions on shell scripting, containers and secure defaults for the wider IT department.",
+    "skills": [
+      "Jenkins",
+      "Ansible",
+      "OpenShift",
+      "Docker",
+      "Nexus",
+      "SonarQube",
+      "Bash",
+      "Python",
+      "Groovy",
+      "Vault",
+      "RHEL",
+      "Zabbix",
+      "Git"
+    ],
+    "experience": [
+      {
+        "role": "DevOps Engineer",
+        "company": "Vistula Insurance Group",
+        "period": "2019 – Present",
+        "bullets": [
+          "Operate the OpenShift platform (three clusters, about 70 namespaces) and onboard development teams.",
+          "Maintain 120 Jenkins pipelines; introduced pipeline-as-code and cut average build time by a third.",
+          "Wrote Ansible roles for hardening and patching 300 RHEL hosts, passing two external audits without findings.",
+          "Integrated HashiCorp Vault for secrets, removing credentials from repositories.",
+          "Created a shared base image catalogue, patched monthly, which removed dozens of vulnerable images from production.",
+          "Defined naming and tagging conventions for projects and routes so billing and ownership are always clear."
+        ]
+      },
+      {
+        "role": "Build and Release Engineer",
+        "company": "Odra Telecom Solutions",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Managed release calendars for a billing platform, with manual deployments gradually replaced by scripted ones.",
+          "Set up Nexus and SonarQube and enforced quality gates before artefacts could be promoted.",
+          "Trained developers on Git branching and code review.",
+          "Reduced release windows from four hours to forty minutes by scripting database migration checks and smoke tests.",
+          "Maintained a change log that auditors praised as the clearest they had seen."
+        ]
+      },
+      {
+        "role": "System Administrator",
+        "company": "Silesia Retail Sp. z o.o.",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Administered Linux servers, Apache and Tomcat stacks.",
+          "Wrote Bash tooling for backups and log rotation.",
+          "Learned to monitor everything with Zabbix and to document alerts properly."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Wroclaw University of Applied Technology",
+        "period": "2010 – 2012"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)",
+      "German (A2)"
+    ],
+    "certifications": [
+      "Red Hat Certified Engineer"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Priyanka Venkataraghavan",
+    "headline": "Cloud Engineer",
+    "email": "priyanka.venkataraghavan@example.com",
+    "location": "Bengaluru, India",
+    "summary": "Cloud engineer working on Azure for seven years. I design landing zones, write Bicep, and look after AKS workloads for a banking client. I like clear documentation, tagging standards and anything that makes audits easier. I enjoy working with security and finance colleagues to balance control and speed, and I volunteer as a mentor in a women-in-technology programme that supports early-career engineers in Bengaluru.",
+    "skills": [
+      "Azure",
+      "AKS",
+      "Bicep",
+      "ARM templates",
+      "Azure DevOps Pipelines",
+      "Azure Policy",
+      "Defender for Cloud",
+      "PowerShell",
+      "Azure Monitor",
+      "Log Analytics",
+      "Docker",
+      "Linux"
+    ],
+    "experience": [
+      {
+        "role": "Cloud Engineer",
+        "company": "Sagarmatha Bank Technology",
+        "period": "2020 – Present",
+        "bullets": [
+          "Built a multi-subscription landing zone with management groups, policy guardrails and hub-and-spoke networking, all in Bicep.",
+          "Operate AKS clusters hosting 35 workloads; handled version upgrades with no customer-visible downtime.",
+          "Authored Azure DevOps release pipelines with approval gates, vulnerability scanning and automated smoke tests.",
+          "Reduced idle cloud cost by 22% with schedule-based scaling and right-sizing reports.",
+          "Implemented private endpoints, managed identities and key vault integration across production workloads.",
+          "Prepared quarterly cost and compliance reports for the risk committee, based on policy compliance data.",
+          "Run monthly game-day exercises with application owners to rehearse failover between regions and refine recovery runbooks.",
+          "Coordinate with the security operations centre on alert tuning so only actionable findings reach the on-call engineer."
+        ]
+      },
+      {
+        "role": "Associate Cloud Engineer",
+        "company": "Lotus Digital Consulting",
+        "period": "2017 – 2020",
+        "bullets": [
+          "Migrated 60 virtual machines from a private data centre to Azure IaaS.",
+          "Scripted resource deployment with ARM templates and PowerShell.",
+          "Supported three client teams during weekend cutovers.",
+          "Documented a repeatable migration approach, including dependency mapping and rollback plans.",
+          "Trained the support team on Azure Monitor alerts and runbook automation.",
+          "Prepared training material and hands-on labs that onboarded twelve new consultants to the Azure estate within a quarter."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech Information Technology",
+        "institution": "Deccan Institute of Engineering",
+        "period": "2013 – 2017"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Tamil (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator Associate",
+      "Microsoft Azure DevOps Engineer Expert"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Lars Ostergaard-Weiss",
+    "headline": "Infrastructure Engineer",
+    "email": "lars.ostergaard-weiss@example.org",
+    "location": "Aarhus, Denmark",
+    "summary": "Infrastructure engineer, five years of experience, mostly on AWS with CloudFormation and Helm. Quiet but thorough. I like small pull requests, good dashboards and sleeping through the night. Outside of work I maintain a small open-source tool for tidying unused AWS resources, and I like cycling to the office whenever the Danish weather allows.",
+    "skills": [
+      "AWS",
+      "CloudFormation",
+      "CDK",
+      "Helm",
+      "EKS",
+      "GitHub Actions",
+      "Docker",
+      "CloudWatch",
+      "Datadog",
+      "Python",
+      "Bash",
+      "IAM",
+      "Route 53"
+    ],
+    "experience": [
+      {
+        "role": "Infrastructure Engineer",
+        "company": "Fjordline Software",
+        "period": "2021 – Present",
+        "bullets": [
+          "Own the AWS accounts for a SaaS product with 90 employees; every resource is defined in CloudFormation or CDK.",
+          "Deploy workloads to EKS using Helm charts and GitHub Actions workflows with environment protection rules.",
+          "Introduced Datadog monitors tied to service ownership, reducing unowned alerts to zero.",
+          "Ran the migration from a single shared account to separate accounts per environment.",
+          "Created a reusable template for new services covering load balancer, autoscaling, alarms and dashboards, now used by all teams.",
+          "Rotated all long-lived access keys to short-lived roles via federation.",
+          "Review pull requests from developers who change infrastructure, offering guidance on least privilege and sensible defaults.",
+          "Schedule quarterly disaster recovery rehearsals and publish short summaries of what we learned and what we will change."
+        ]
+      },
+      {
+        "role": "Junior DevOps Engineer",
+        "company": "Kattegat Commerce",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Maintained build servers and moved nightly builds to hosted runners.",
+          "Wrote Python scripts for AWS cost reports and unused-resource clean-up.",
+          "Took part in the on-call rota with a senior colleague.",
+          "Wrote runbooks for the five most common incidents and used them to train two new colleagues.",
+          "Reduced hosted runner minutes by 35% with smarter caching and path filters.",
+          "Participated in architecture reviews and helped choose managed services instead of self-hosted components where it reduced maintenance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Software Engineering",
+        "institution": "Aarhus School of Technology",
+        "period": "2015 – 2019"
+      }
+    ],
+    "languages": [
+      "Danish (native)",
+      "English (fluent)",
+      "German (B1)"
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect – Associate"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Chidinma Okwuosa",
+    "headline": "Junior DevOps Engineer",
+    "email": "chidinma.okwuosa@example.net",
+    "location": "Lagos, Nigeria",
+    "summary": "Two years into my career after a bootcamp and a computer science degree. I support the infrastructure team with deployments, monitoring and documentation, and I am learning cluster operations and infrastructure as code from excellent mentors. I document what I learn on a personal blog, mentor secondary school students in a coding club on weekends, and keep a home lab where I practise cluster failures and recovery.",
+    "skills": [
+      "Docker",
+      "k8s basics",
+      "Ansible",
+      "GitHub Actions",
+      "Linux",
+      "Bash",
+      "Python",
+      "Nginx",
+      "Prometheus",
+      "Grafana",
+      "AWS EC2",
+      "Git"
+    ],
+    "experience": [
+      {
+        "role": "Junior DevOps Engineer",
+        "company": "Eko Fintech Labs",
+        "period": "2023 – Present",
+        "bullets": [
+          "Maintain GitHub Actions workflows for five services, adding caching that made builds about 40% faster.",
+          "Help operate a small k8s cluster on a managed cloud service; handle routine upgrades and certificate renewals under supervision.",
+          "Wrote Ansible playbooks to configure Nginx and monitoring agents on 25 virtual machines.",
+          "Keep runbooks current and join the on-call rota as secondary responder.",
+          "Created an onboarding checklist and a glossary for new team members, which cut first-week questions significantly.",
+          "Set up uptime checks and Grafana panels for the customer-facing API and shared the results at the weekly meeting.",
+          "Pair weekly with a senior engineer to review incidents, read logs together and practise safe rollbacks in a staging environment.",
+          "Contribute small fixes to internal tooling, including a script that rotates log files and alerts when disks reach 80% usage."
+        ]
+      },
+      {
+        "role": "IT Support Intern",
+        "company": "Niger Bridge Telecom",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Resolved internal tickets, set up laptops and managed user accounts.",
+          "Automated a weekly disk-usage report with a Bash script that the team now uses every Monday.",
+          "Learned the company's deployment process in three weeks and was trusted with production releases by month five.",
+          "Completed an internal training programme on Linux fundamentals, networking and basic security hygiene, finishing at the top of the cohort."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Ibadan Heights",
+        "period": "2018 – 2022"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Igbo (native)",
+      "Yoruba (conversational)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Callum Pettigrew",
+    "headline": "Senior Site Reliability Engineer",
+    "email": "callum.pettigrew@example.com",
+    "location": "Edinburgh, United Kingdom",
+    "summary": "I have spent fourteen years keeping production systems alive, first as a sysadmin, then as a DevOps engineer and now as an SRE at a streaming business. My toolbox these days: AKS, Pulumi in Python, ArgoCD, Azure Pipelines and a lot of Grafana. Away from the keyboard I am a volunteer lifeboat crew member, which has taught me more about calm leadership under pressure than any course.",
+    "skills": [
+      "Azure",
+      "AKS",
+      "Pulumi (Python)",
+      "ArgoCD",
+      "Azure Pipelines",
+      "Grafana",
+      "Mimir",
+      "Tempo",
+      "KEDA",
+      "Linkerd",
+      "Chaos engineering",
+      "Python",
+      "Bash",
+      "Linux internals"
+    ],
+    "experience": [
+      {
+        "role": "Senior Site Reliability Engineer",
+        "company": "Glenmorrow Media Streaming",
+        "period": "2019 – Present",
+        "bullets": [
+          "Responsible for the availability of a video delivery platform peaking at 2.3 million concurrent viewers; delivered 99.95% over the last four years.",
+          "Operate AKS node pools with KEDA autoscaling for bursty encoding jobs, saving roughly 180,000 pounds a year.",
+          "Describe all cloud resources in Pulumi (Python) and review every change through pull requests.",
+          "Run quarterly game days and chaos experiments; found and fixed eleven hidden single points of failure.",
+          "Interview and onboard new SREs.",
+          "Wrote a capacity model that predicts encoding demand from the release calendar and has been within 6% for two years.",
+          "Cut mean time to detect from 11 minutes to under 3 through better symptom-based alerts and synthetic probes."
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "company": "Stirling Gaming Ltd",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Brought the build, test and release process of four game backends into one set of pipelines in Jenkins and later Azure DevOps.",
+          "Containerised services and introduced rolling deployments on a container orchestration platform.",
+          "Implemented central metrics collection and alert routing.",
+          "Created self-service tooling that lets developers create test environments on demand and tear them down automatically.",
+          "Presented the migration case study at two regional conferences."
+        ]
+      },
+      {
+        "role": "Systems Administrator",
+        "company": "Tay Valley Council",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Supported 800 users and 60 Windows and Linux servers.",
+          "Managed VMware hosts, backups and a small Cisco network.",
+          "Learned to write clear incident reports and to keep calm on the phone with angry users."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Electronic and Software Engineering",
+        "institution": "University of Forthbridge",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Scottish Gaelic (basic)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Ananya Raghunathan",
+    "headline": "Platform Engineer",
+    "email": "ananya.raghunathan@example.org",
+    "location": "Pune, India",
+    "summary": "Platform engineer building internal developer tooling. I treat the platform as a product: user research, roadmaps and measured adoption. Technically I work with Crossplane, Backstage, GKE and Tekton, and I like pairing with application teams to remove friction. I write regularly on the engineering blog, give talks at the local platform meetup in Pune, and mentor two junior colleagues who are moving from application development into infrastructure.",
+    "skills": [
+      "Backstage",
+      "Crossplane",
+      "GKE",
+      "Tekton",
+      "Flux",
+      "Helm",
+      "Open Policy Agent",
+      "TypeScript",
+      "Go",
+      "Cloud Build",
+      "Pulumi",
+      "Prometheus"
+    ],
+    "experience": [
+      {
+        "role": "Platform Engineer",
+        "company": "Orchid Mobility Technologies",
+        "period": "2021 – Present",
+        "bullets": [
+          "Launched a Backstage-based developer portal with software templates; new services now reach production in two days instead of three weeks.",
+          "Provide self-service databases and queues through Crossplane compositions on GCP.",
+          "Operate GKE clusters managed with Flux, with admission policies written in Open Policy Agent.",
+          "Run monthly developer surveys; satisfaction score rose from 6.1 to 8.4.",
+          "Established a service catalogue with ownership metadata, which allowed incident responders to find the right team in seconds.",
+          "Introduced golden-path templates for APIs, workers and scheduled jobs, with security scanning built in.",
+          "Pair with application teams during their first deployments to understand where the platform confuses people, then fix the root cause.",
+          "Publish a quarterly platform roadmap and changelog so teams can plan around deprecations and new capabilities."
+        ]
+      },
+      {
+        "role": "Software Engineer, Tooling",
+        "company": "Kaveri Cloud Systems",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Wrote command-line tools in Go for the internal support team.",
+          "Maintained Tekton pipelines for twelve repositories.",
+          "Documented onboarding steps and recorded short training videos.",
+          "Added cost visibility in the portal so that teams can see monthly spend per service.",
+          "Rolled out a deprecation process for old tooling with clear dates and migration guides.",
+          "Ran internal workshops on declarative configuration and on reading cluster events when something goes wrong."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Engineering",
+        "institution": "Sahyadri College of Engineering",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Marathi (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": [
+      "Google Cloud Professional Cloud DevOps Engineer"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Dieter Hollenbeck",
+    "headline": "Systems Engineer",
+    "email": "dieter.hollenbeck@example.net",
+    "location": "Stuttgart, Germany",
+    "summary": "Systems engineer for sixteen years, with a steady move from physical servers to software-defined infrastructure. Currently I design and run a private cloud on OpenStack with Ansible, Nomad and Consul for a manufacturer. Pragmatic, security-minded and fond of reproducible builds. I am a long-time contributor on a regional Linux user group and maintain a handful of Ansible roles that I have published for others to reuse.",
+    "skills": [
+      "OpenStack",
+      "Ansible",
+      "Nomad",
+      "Consul",
+      "Packer",
+      "GitLab CI",
+      "Prometheus",
+      "Alertmanager",
+      "Ceph",
+      "Linux",
+      "Bash",
+      "Python",
+      "WireGuard"
+    ],
+    "experience": [
+      {
+        "role": "Senior Systems Engineer",
+        "company": "Schwarzwald Maschinenbau AG",
+        "period": "2018 – Present",
+        "bullets": [
+          "Run a private cloud with 1,200 vCPUs for plant analytics, supporting 14 internal teams.",
+          "Automate every host with Ansible and Packer images; a full rebuild of the control plane takes under two hours.",
+          "Schedule workloads with Nomad and Consul service discovery; roll out new versions with canary releases from GitLab CI.",
+          "Led the hardening effort for an ISO 27001 audit.",
+          "Replaced manual quarterly patching with scheduled, rolling maintenance that never drops production lines.",
+          "Implemented WireGuard tunnels for secure connections between the plants and the central private cloud.",
+          "Maintain a documented disaster recovery plan, including offline copies of configuration, keys and images stored in a separate fire zone.",
+          "Coordinate with plant electricians on power and cooling upgrades for the server rooms."
+        ]
+      },
+      {
+        "role": "Systems Engineer",
+        "company": "Neckar Software GmbH",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Operated KVM virtualisation clusters and Ceph storage.",
+          "Introduced configuration management with Puppet, later Ansible.",
+          "Built monitoring around Nagios and subsequently Prometheus.",
+          "Built an image pipeline with Packer, producing signed golden images every week.",
+          "Set up Prometheus federation across three sites with alert routing by ownership.",
+          "Rolled out centralised logging with Loki and a small set of dashboards used by the factory support desk."
+        ]
+      },
+      {
+        "role": "IT Administrator",
+        "company": "Fildern Handels GmbH",
+        "period": "2010 – 2013",
+        "bullets": [
+          "Maintained Linux and Windows servers, mail and backups for 120 staff.",
+          "Gained deep experience with RAID, backup and disaster recovery on commodity hardware."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom Informatik (FH)",
+        "institution": "Hochschule Rheinbach-Süd",
+        "period": "2005 – 2010"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "LPIC-3 Enterprise"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Marisol Quintanilla-Ruiz",
+    "headline": "Cloud Engineer",
+    "email": "marisol.quintanilla-ruiz@example.com",
+    "location": "Madrid, Spain",
+    "summary": "Cloud engineer with six years on Google Cloud. I build secure, cost-aware environments for data and web teams. Fan of Cloud Run, Config Connector and tidy IAM. I speak at local meetups about FinOps. Beyond engineering I coordinate a monthly FinOps meetup in Madrid and enjoy translating cloud pricing into language that finance teams find useful.",
+    "skills": [
+      "GCP",
+      "GKE",
+      "Cloud Run",
+      "Config Connector",
+      "Deployment Manager",
+      "Cloud Build",
+      "Artifact Registry",
+      "BigQuery administration",
+      "IAM",
+      "VPC Service Controls",
+      "Python",
+      "Bash"
+    ],
+    "experience": [
+      {
+        "role": "Cloud Engineer",
+        "company": "Sierra Nevada Analytics",
+        "period": "2020 – Present",
+        "bullets": [
+          "Designed the organisation hierarchy, networking and IAM model for 40 GCP projects.",
+          "Provision infrastructure declaratively with Config Connector and reusable blueprints.",
+          "Moved 18 stateless services to Cloud Run with Cloud Build triggers, shortening release cycles from days to hours.",
+          "Cut monthly spend by 28% through committed use discounts, labels and weekly cost reviews.",
+          "Implemented organisation policies that block public buckets and enforce regional restrictions.",
+          "Introduced a landing-zone checklist and baseline for every new project so that security reviews take hours, not weeks.",
+          "Introduced budgets and alerts per project, plus weekly anomaly notifications that caught a runaway query costing several thousand euros.",
+          "Run quarterly access reviews and remove unused service accounts and permissions.",
+          "Run a monthly review with data teams to retire unused datasets, buckets and idle clusters, reporting savings to engineering managers."
+        ]
+      },
+      {
+        "role": "Junior Cloud Engineer",
+        "company": "Tajo Soluciones TI",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Supported customers migrating workloads to GCP.",
+          "Prepared Deployment Manager templates and migration checklists.",
+          "Handled first-line incidents for cloud customers.",
+          "Built a cost dashboard in BigQuery for engineering managers, which led to three major clean-up campaigns.",
+          "Mentored two graduate engineers during their first year.",
+          "Prepared workshops for customers on identity, networking and cost control on Google Cloud, attended by around 60 people."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Grado en Ingeniería Informática",
+        "institution": "Universidad Politécnica de Castelmar",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "English (C1)",
+      "Catalan (B2)"
+    ],
+    "certifications": [
+      "Google Cloud Professional Cloud Architect"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Bartholomew Achterberg",
+    "headline": "Staff Platform Engineer",
+    "email": "bartholomew.achterberg@example.org",
+    "location": "Amsterdam, Netherlands",
+    "summary": "Staff platform engineer with seventeen years in infrastructure. I set technical direction for a platform group of 22 people and still write code weekly. Kubernetes, Terraform and CI/CD are the core of what we provide; reliability, security and cost are what we are judged on. I spend as much time on people and priorities as on code: hiring, writing design documents and saying no to shiny things that would not help our users. I speak regularly at European infrastructure conferences.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "Go",
+      "Cilium",
+      "Argo CD",
+      "Vault",
+      "Crossplane",
+      "Prometheus",
+      "Thanos",
+      "Linux",
+      "Architecture"
+    ],
+    "experience": [
+      {
+        "role": "Staff Platform Engineer",
+        "company": "Tulpen Marketplace",
+        "period": "2018 – Present",
+        "bullets": [
+          "Architected a multi-region Kubernetes platform running 600 services and 4,000 pods at peak.",
+          "Maintain 300 Terraform modules with automated testing and a registry that every team consumes.",
+          "Designed the company-wide CI/CD standard, reducing median lead time for change from nine days to under four hours.",
+          "Drove the adoption of Cilium and eBPF-based observability.",
+          "Coach senior engineers and write the platform roadmap.",
+          "Defined the on-call policy and training path, reducing out-of-hours pages per engineer by 60% over two years.",
+          "Negotiated cloud commitments with finance and saved roughly 1.2 million euros annually."
+        ]
+      },
+      {
+        "role": "Senior DevOps Engineer",
+        "company": "Grachten Booking BV",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Led the move from data-centre hosting to AWS for a travel booking site.",
+          "Introduced Terraform and replaced manual change tickets with reviewed pull requests.",
+          "Built early Docker-based deployment tooling.",
+          "Mentored three engineers into senior roles.",
+          "Built a deployment dashboard showing lead time, change failure rate and recovery time per team."
+        ]
+      },
+      {
+        "role": "Systems Engineer",
+        "company": "Zuiderzee Hosting",
+        "period": "2009 – 2013",
+        "bullets": [
+          "Ran shared hosting and virtual private servers on Linux.",
+          "Automated provisioning with Puppet and Bash.",
+          "Learned the value of boring technology and written runbooks."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Technische Universiteit Oostmark",
+        "period": "2007 – 2009"
+      }
+    ],
+    "languages": [
+      "Dutch (native)",
+      "English (fluent)",
+      "German (B2)"
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator",
+      "HashiCorp Certified: Terraform Associate"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Siobhan Gallagher-Doyle",
+    "headline": "DevOps Engineer",
+    "email": "siobhan.gallagher-doyle@example.com",
+    "location": "Dublin, Ireland",
+    "summary": "DevOps engineer, eight years. Hands-on with Terraform, Kubernetes and CI/CD for a healthcare software company, where compliance matters as much as speed. I like clear change records and fast feedback loops. I enjoy working with clinical and compliance colleagues, translating requirements into controls that engineers can actually follow, and I take pride in audit-ready, well-documented systems.",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "CI/CD",
+      "Azure",
+      "GitHub Actions",
+      "Helm",
+      "SonarQube",
+      "Trivy",
+      "Python",
+      "PowerShell",
+      "Grafana",
+      "Linux"
+    ],
+    "experience": [
+      {
+        "role": "DevOps Engineer",
+        "company": "Liffey Health Systems",
+        "period": "2019 – Present",
+        "bullets": [
+          "Provision Azure environments with Terraform and keep state in locked, versioned storage.",
+          "Run Kubernetes workloads for a patient scheduling product; zero unplanned downtime in the last 18 months.",
+          "Standardised CI/CD workflows in GitHub Actions with static analysis, container scanning and signed releases.",
+          "Prepare evidence for HIPAA-style and ISO audits straight from pipeline logs.",
+          "Introduced secret scanning, dependency checks and branch protection across 60 repositories.",
+          "Implemented encrypted backups and disaster recovery tests twice a year, meeting a four-hour recovery objective.",
+          "Run quarterly disaster recovery exercises and record recovery times against agreed objectives.",
+          "Work with the data protection officer to map technical controls to regulatory requirements and keep the mapping current.",
+          "Provide guidance to developers on safe configuration of cloud storage, network rules and access roles, with clear examples in the wiki.",
+          "Handle on-call escalations for the scheduling product one week in four, with documented handovers."
+        ]
+      },
+      {
+        "role": "Build Engineer",
+        "company": "Boyne Valley Software",
+        "period": "2016 – 2019",
+        "bullets": [
+          "Maintained Jenkins build farm and artefact storage.",
+          "Introduced automated regression runs that ran on every merge.",
+          "Supported 40 developers across three offices.",
+          "Reduced pipeline time from 35 to 14 minutes with caching, parallel jobs and selective test runs.",
+          "Mentored two apprentices.",
+          "Wrote scripts that generate environment inventories and flag drift between declared and actual configuration."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Information Systems",
+        "institution": "Corrib University College",
+        "period": "2012 – 2016"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B1)"
+    ],
+    "certifications": [
+      "HashiCorp Certified: Terraform Associate",
+      "Microsoft Azure Administrator Associate"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Emeka Nwankwo-Lindqvist",
+    "headline": "Site Reliability Engineer",
+    "email": "emeka.nwankwo-lindqvist@example.net",
+    "location": "Stockholm, Sweden",
+    "summary": "SRE with ten years of experience across Nigeria and Sweden. I focus on resilience, capacity planning and incident response for payment systems. Kubernetes and Terraform are daily tools; I write most of my automation in Go. I am comfortable with Swedish and English documentation and bridge teams across Nigeria and Sweden, and I enjoy sharing lessons about resilient payment systems at industry meetups.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Go",
+      "Prometheus",
+      "Grafana",
+      "Jaeger",
+      "Kafka operations",
+      "AWS",
+      "PostgreSQL",
+      "Linux",
+      "Incident command"
+    ],
+    "experience": [
+      {
+        "role": "Site Reliability Engineer",
+        "company": "Nordlys Pay AB",
+        "period": "2019 – Present",
+        "bullets": [
+          "Own reliability of the card authorisation path handling 1,500 transactions per second.",
+          "Operate Kubernetes clusters in two regions with Terraform-managed networking and node groups.",
+          "Maintain CI/CD pipelines with progressive delivery and automatic rollback.",
+          "Led 30 incident reviews and drove the action items to closure.",
+          "Introduced chaos drills against the authorisation path to prove failover works before peak season.",
+          "Wrote capacity forecasts based on seasonal traffic; Black Friday ran without manual intervention for the first time.",
+          "Define and track service level objectives with product owners, and report monthly on reliability, latency and error budgets.",
+          "Coordinate with the security team on certificate rotation, key management and audit evidence for payment standards."
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "company": "Lagoon Commerce Ltd",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Automated deployment of e-commerce services and monitoring.",
+          "Introduced centralised logging with the ELK stack.",
+          "Wrote a Go service that reconciled payment status across providers.",
+          "Implemented distributed tracing across 40 services to find latency hotspots.",
+          "Trained support analysts to read dashboards and triage alerts.",
+          "Maintained Linux hosts, load balancers and database replicas, and handled capacity requests during shopping peaks."
+        ]
+      },
+      {
+        "role": "Network and Systems Engineer",
+        "company": "Delta Connect Nigeria",
+        "period": "2013 – 2015",
+        "bullets": [
+          "Administered Linux servers and branch networks for an ISP.",
+          "Learned about operating in constrained networks, which shaped my interest in resilience."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BEng Computer Engineering",
+        "institution": "University of Port Harcourt Federal",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Swedish (B2)",
+      "Igbo (native)"
+    ],
+    "certifications": [
+      "Certified Kubernetes Application Developer"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Gareth Penhaligon",
+    "headline": "Cloud Engineer",
+    "email": "gareth.penhaligon@example.org",
+    "location": "Bristol, United Kingdom",
+    "summary": "Cloud engineer in my third year, working on Terraform and Kubernetes for a small agency. I enjoy learning, writing things down and pairing with senior colleagues. Currently studying for the CKA. I am quick to ask for help, keen to take on on-call responsibilities as I grow, and I run a small home lab where I rebuild clusters from scratch every few weekends to practise recovery.",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Docker",
+      "GitLab",
+      "Bash",
+      "Python",
+      "Nginx",
+      "Grafana"
+    ],
+    "experience": [
+      {
+        "role": "Cloud Engineer",
+        "company": "Severn Digital Agency",
+        "period": "2023 – Present",
+        "bullets": [
+          "Manage AWS accounts for 12 client websites with Terraform modules I helped create.",
+          "Deploy client applications to a shared Kubernetes cluster and handle routine upgrades.",
+          "Maintain CI/CD pipelines in GitLab, including preview environments for every merge request.",
+          "Produce monthly uptime and cost summaries for account managers.",
+          "Wrote documentation and short screencasts so account managers can request new environments without engineering help.",
+          "Added automated TLS certificate renewals and expiry alerts, eliminating certificate incidents.",
+          "Review upgrade notes for new versions before every change, and test upgrades in a copy of the cluster before touching production.",
+          "Collaborate with front-end developers to speed up deployments of static sites using cached builds and a content delivery network.",
+          "Keep a personal learning log and share one new technique with the team every fortnight.",
+          "Support a small team of three developers and one designer, joining stand-ups and helping estimate infrastructure work."
+        ]
+      },
+      {
+        "role": "Support Engineer",
+        "company": "Avon Web Hosting",
+        "period": "2022 – 2023",
+        "bullets": [
+          "Answered hosting tickets, restored backups and debugged slow WordPress sites.",
+          "Wrote shell scripts for repetitive customer requests.",
+          "Helped migrate three WordPress clients to containers with managed databases.",
+          "Wrote clear, step-by-step answers for customers and learned to prioritise urgent incidents calmly.",
+          "Took part in weekend maintenance work with senior colleagues and practised safe rollbacks."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Westbridge",
+        "period": "2019 – 2022"
+      }
+    ],
+    "languages": [
+      "English (native)"
+    ],
+    "certifications": [
+      "AWS Certified Cloud Practitioner"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Kavitha Subramaniam",
+    "headline": "Infrastructure Engineer",
+    "email": "kavitha.subramaniam@example.com",
+    "location": "Singapore",
+    "summary": "Infrastructure engineer, eleven years, specialising in reliable hybrid environments for financial services. I work with Terraform, Kubernetes and Jenkins CI/CD, and I am happiest when change is boring. I lead by writing things down, running blameless reviews and keeping change small, and I have mentored a number of junior engineers who have since moved into cloud roles at other firms.",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "CI/CD",
+      "Jenkins",
+      "VMware",
+      "Ansible",
+      "AWS",
+      "Vault",
+      "Splunk",
+      "Python",
+      "Linux",
+      "ITIL"
+    ],
+    "experience": [
+      {
+        "role": "Senior Infrastructure Engineer",
+        "company": "Merlion Capital Partners",
+        "period": "2018 – Present",
+        "bullets": [
+          "Lead a team of five running hybrid infrastructure across two data centres and AWS.",
+          "Codify networks, security groups and clusters in Terraform with peer-reviewed plans.",
+          "Operate on-premises Kubernetes for trading analytics; capacity planning keeps utilisation at 70%.",
+          "Standardise CI/CD on Jenkins with approval gates required for regulated systems.",
+          "Reduced unplanned outages by 40% over three years through patch automation, capacity reviews and failover testing.",
+          "Documented infrastructure standards used as the basis for the firm's regulatory resilience submissions.",
+          "Chair the weekly change advisory meeting and review risks, rollback plans and test evidence for each submitted change.",
+          "Coordinate capacity planning with business units twice a year using utilisation trends and growth forecasts."
+        ]
+      },
+      {
+        "role": "Infrastructure Engineer",
+        "company": "Raffles Data Centre Services",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Managed VMware and storage for 300 hosts.",
+          "Introduced Ansible for patching and compliance checks.",
+          "Handled incident escalations on a 24x7 rota.",
+          "Planned and executed a data centre exit for two environments over a single weekend.",
+          "Reviewed vendor contracts and negotiated better support terms.",
+          "Maintained detailed runbooks for storage, network and virtualisation failures, and ran incident drills with the operations team."
+        ]
+      },
+      {
+        "role": "Systems Analyst",
+        "company": "Orchard Logistics Pte",
+        "period": "2011 – 2013",
+        "bullets": [
+          "Supported ERP servers and database backups.",
+          "Learned a great deal about change control in regulated settings."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Information Technology",
+        "institution": "Nanyang Coastal University",
+        "period": "2007 – 2011"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Tamil (native)",
+      "Mandarin (basic)"
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "en",
+    "misleading": false,
+    "name": "Jasper Vandenbroucke",
+    "headline": "Platform Engineer",
+    "email": "jasper.vandenbroucke@example.net",
+    "location": "Ghent, Belgium",
+    "summary": "Platform engineer who came over from backend development. Four years building paved roads: Kubernetes, Terraform and CI/CD templates that other teams can adopt in an afternoon. I still enjoy writing Java when the platform needs a custom controller. In my spare time I contribute to a small open-source Kubernetes operator project and mentor developers who want to learn more about infrastructure.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Java",
+      "Kotlin",
+      "Helm",
+      "Argo Workflows",
+      "GCP",
+      "Prometheus",
+      "Kustomize",
+      "Docker"
+    ],
+    "experience": [
+      {
+        "role": "Platform Engineer",
+        "company": "Leie Mobility Group",
+        "period": "2022 – Present",
+        "bullets": [
+          "Build and maintain the internal Kubernetes platform used by 15 product teams.",
+          "Provide reusable Terraform modules and CI/CD templates; adoption reached 90% of services in a year.",
+          "Wrote a Kotlin operator that automates namespace creation, quotas and network policies.",
+          "Support teams during onboarding through office hours and short workshops.",
+          "Introduced policy checks in pipelines to enforce resource limits, labels and image provenance.",
+          "Improved cluster costs by 25% by right-sizing node pools and introducing autoscaling.",
+          "Maintain a documentation site with tutorials, reference pages and a changelog, reviewed by product teams every quarter.",
+          "Run a fortnightly office hour where teams bring problems, and track recurring questions to decide what to automate next.",
+          "Investigate production incidents together with developers and propose platform improvements that prevent a repeat."
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "company": "Scheldt Software",
+        "period": "2019 – 2022",
+        "bullets": [
+          "Developed Java services for a logistics API.",
+          "Started the first Docker-based deployments and pipelines for the team.",
+          "Wrote integration tests and improved build times.",
+          "Reduced average build time by 40% with caching and a modular build structure.",
+          "Learned how to design for both developers and operators through close collaboration with colleagues.",
+          "Designed REST endpoints and background workers in Java, with attention to timeouts, retries and graceful shutdown.",
+          "Participated in code reviews and wrote migration scripts for relational databases."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Software Engineering",
+        "institution": "Universiteit Flandria",
+        "period": "2017 – 2019"
+      }
+    ],
+    "languages": [
+      "Dutch (native)",
+      "English (fluent)",
+      "French (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "pt",
+    "misleading": false,
+    "name": "Duarte Calheiros Brandão",
+    "headline": "Engenheiro DevOps",
+    "email": "duarte.calheiros@example.com",
+    "location": "Braga, Portugal",
+    "summary": "Engenheiro DevOps com nove anos de experiência, sobretudo em ambientes de banca e seguros. Trabalho com OpenShift, Ansible e Jenkins, e gosto de transformar processos manuais em automatização fiável. Sou pragmático, documento tudo e procuro reduzir o risco em cada alteração. Fora do trabalho organizo encontros mensais de DevOps em Braga e dou formação interna a programadores sobre contentores, segredos e boas práticas de entrega.",
+    "skills": [
+      "OpenShift",
+      "Ansible",
+      "Jenkins",
+      "Docker",
+      "Helm",
+      "ArgoCD",
+      "Vault",
+      "Bash",
+      "Python",
+      "Prometheus",
+      "RHEL",
+      "SonarQube"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro DevOps",
+        "company": "Minho Seguros Digital",
+        "period": "2019 – Presente",
+        "bullets": [
+          "Gestão de dois clusters OpenShift com cerca de 50 aplicações; as atualizações passaram a ser feitas sem paragem de serviço.",
+          "Mantenho pipelines em Jenkins e ArgoCD para entrega contínua, com testes automáticos e aprovações por ambiente.",
+          "Escrevi roles de Ansible para configurar e proteger 200 servidores, o que reduziu o tempo de preparação de um dia para uma hora.",
+          "Introduzi o Vault para gestão de segredos.",
+          "Criação de um catálogo de imagens base atualizadas todos os meses, o que reduziu vulnerabilidades críticas em produção.",
+          "Definição de normas de nomes e etiquetas para projetos, facilitando a faturação e a identificação de responsáveis."
+        ]
+      },
+      {
+        "role": "Engenheiro de Sistemas",
+        "company": "Atlântico Banking Services",
+        "period": "2015 – 2019",
+        "bullets": [
+          "Administração de servidores Linux e AIX para sistemas de pagamentos.",
+          "Automatização de rotinas de deploy com scripts Bash e Ansible.",
+          "Participação na escala de piquete e na resolução de incidentes críticos.",
+          "Documentação de todos os procedimentos de recuperação de desastre e realização de testes semestrais.",
+          "Redução do tempo de lançamento de quatro horas para quarenta minutos através de verificações automáticas."
+        ]
+      },
+      {
+        "role": "Técnico de Infraestruturas",
+        "company": "Cávado Informática Lda.",
+        "period": "2012 – 2015",
+        "bullets": [
+          "Suporte a servidores e redes de clientes empresariais.",
+          "Instalação e monitorização de máquinas virtuais.",
+          "Aprendizagem profunda de Linux, redes e armazenamento em ambiente crítico."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade do Alto Cávado",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Espanhol (B1)"
+    ],
+    "certifications": [
+      "Red Hat Certified Specialist in OpenShift"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "pt",
+    "misleading": false,
+    "name": "Larissa Fontenele Albuquerque",
+    "headline": "Engenheira de Plataforma",
+    "email": "larissa.fontenele@example.org",
+    "location": "Lisboa, Portugal",
+    "summary": "Engenheira de plataforma com sete anos de experiência em produtos digitais. Constrói e opera plataformas internas para equipas de desenvolvimento, com foco em experiência do programador, segurança e custos. Trabalho diariamente com EKS, Pulumi, GitOps e GitHub Actions. Dou palestras em encontros de engenharia de plataforma em Lisboa e acompanho duas pessoas juniores que estão a fazer a transição de desenvolvimento para infraestrutura.",
+    "skills": [
+      "AWS",
+      "EKS",
+      "Pulumi",
+      "GitOps",
+      "Flux",
+      "GitHub Actions",
+      "Helm",
+      "Backstage",
+      "Datadog",
+      "TypeScript",
+      "Python",
+      "Linux"
+    ],
+    "experience": [
+      {
+        "role": "Engenheira de Plataforma",
+        "company": "Tejo Mobilidade Digital",
+        "period": "2021 – Presente",
+        "bullets": [
+          "Operação de clusters EKS partilhados por 18 equipas, com políticas de rede e quotas por equipa.",
+          "Defino toda a infraestrutura em Pulumi com TypeScript e revisão obrigatória por pull request.",
+          "Implementei fluxos GitOps com Flux; o tempo médio entre merge e produção caiu para 12 minutos.",
+          "Lançamento de um portal interno em Backstage, com modelos para novos serviços.",
+          "Criação de um catálogo de serviços com informação de responsáveis, o que acelerou a resposta a incidentes.",
+          "Introdução de verificação de segurança e assinatura de imagens em todos os fluxos de entrega.",
+          "Mantenho documentação, tutoriais e um registo de alterações da plataforma, revistos com as equipas todos os trimestres.",
+          "Organizo sessões quinzenais de dúvidas em que as equipas apresentam problemas e decido o que automatizar a seguir."
+        ]
+      },
+      {
+        "role": "Engenheira DevOps",
+        "company": "Sado Software Studio",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Migração de aplicações de servidores dedicados para contentores na cloud.",
+          "Criação de pipelines GitHub Actions para build, testes e publicação de imagens.",
+          "Configuração de dashboards e alertas no Datadog.",
+          "Medição de custos por serviço com relatórios semanais enviados às equipas.",
+          "Redução de 30% nos custos de computação com redimensionamento e instâncias spot.",
+          "Participei em revisões de arquitetura e ajudei a escolher serviços geridos em vez de componentes alojados internamente."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia de Software",
+        "institution": "Universidade da Margem Sul",
+        "period": "2016 – 2018"
+      },
+      {
+        "degree": "Licenciatura em Informática",
+        "institution": "Instituto Politécnico de Setúbal Oriental",
+        "period": "2013 – 2016"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect – Associate"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "pt",
+    "misleading": false,
+    "name": "Tiago Vasconcelos Peixoto",
+    "headline": "Engenheiro SRE",
+    "email": "tiago.vasconcelos@example.net",
+    "location": "Porto, Portugal",
+    "summary": "Engenheiro SRE com dez anos de carreira, atualmente responsável pela fiabilidade de uma plataforma de comércio eletrónico. Uso Kubernetes, Terraform e CI/CD no dia a dia e dou muita importância a SLOs, observabilidade e análises pós-incidente sem culpa. Fora do trabalho dou formação em fiabilidade a equipas de desenvolvimento e escrevo no blogue interno sobre incidentes que correram mal e o que aprendemos com eles.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "GCP",
+      "Prometheus",
+      "Grafana",
+      "OpenTelemetry",
+      "Go",
+      "Python",
+      "Linux",
+      "PagerDuty"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro SRE",
+        "company": "Douro Marketplace",
+        "period": "2018 – Presente",
+        "bullets": [
+          "Definição de SLOs para 30 serviços e criação de relatórios mensais de fiabilidade.",
+          "Gestão de clusters Kubernetes em duas regiões, descritos em Terraform.",
+          "Evolução da plataforma de CI/CD usada por 60 programadores, com deploys progressivos e rollback automático.",
+          "Coordenação de resposta a incidentes e formação de novos elementos da escala.",
+          "Introdução de testes de carga antes das campanhas, o que evitou uma falha de base de dados na Black Friday.",
+          "Redução do volume de alertas em 50% através da consolidação de regras baseadas em sintomas.",
+          "Realizo revisões trimestrais de capacidade com as equipas de produto, com base em tendências de utilização e previsões de crescimento.",
+          "Mantenho livros de procedimentos para os dez incidentes mais frequentes e atualizo-os depois de cada análise pós-incidente."
+        ]
+      },
+      {
+        "role": "Engenheiro DevOps",
+        "company": "Aveiro Tech Solutions",
+        "period": "2014 – 2018",
+        "bullets": [
+          "Automatização de deploys e monitorização de aplicações web.",
+          "Introdução de Docker e de ambientes de teste temporários.",
+          "Suporte a produção em regime de piquete.",
+          "Criação de um painel com métricas de entrega: frequência de deploys, taxa de falhas e tempo de recuperação.",
+          "Formação de dez programadores para operarem os seus próprios serviços.",
+          "Participei em exercícios de recuperação de desastres e na migração de bases de dados entre centros de dados."
+        ]
+      },
+      {
+        "role": "Administrador de Sistemas",
+        "company": "Gaia Telecom Serviços",
+        "period": "2012 – 2014",
+        "bullets": [
+          "Administração de servidores Linux e bases de dados MySQL.",
+          "Aprendizagem de otimização de MySQL e Linux em grande escala."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade do Douro Litoral",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (fluente)"
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ]
+  },
+  {
+    "archetype": "platform_devops",
+    "language": "pt",
+    "misleading": false,
+    "name": "Rosário Canelas Teodoro",
+    "headline": "Engenheira Cloud",
+    "email": "rosario.canelas@example.com",
+    "location": "Coimbra, Portugal",
+    "summary": "Engenheira cloud com cinco anos de experiência em Azure. Desenho ambientes seguros e económicos e automatizo a sua criação com Terraform. Também apoio equipas com Kubernetes e pipelines de CI/CD. Gosto de partilhar o que aprendo em sessões internas. Gosto de trabalhar com equipas de segurança e de finanças para equilibrar controlo e velocidade, e participo em encontros de comunidade cloud em Coimbra.",
+    "skills": [
+      "Azure",
+      "Terraform",
+      "Kubernetes",
+      "CI/CD",
+      "Azure DevOps",
+      "Docker",
+      "PowerShell",
+      "Azure Monitor",
+      "Linux",
+      "Bash"
+    ],
+    "experience": [
+      {
+        "role": "Engenheira Cloud",
+        "company": "Mondego Energia Digital",
+        "period": "2022 – Presente",
+        "bullets": [
+          "Defini a estrutura de subscrições e redes em Azure e descrevi-a em módulos Terraform reutilizáveis.",
+          "Gestão de um cluster Kubernetes para aplicações de análise de consumos.",
+          "Evolução das pipelines de CI/CD no Azure DevOps, com análise de vulnerabilidades em cada build.",
+          "Redução de 20% nos custos mensais com ajuste de dimensionamento e desligamento automático de ambientes de teste.",
+          "Implementação de endpoints privados e de gestão de identidades para eliminar credenciais em código.",
+          "Elaboração de relatórios mensais de conformidade e custos para a direção.",
+          "Revejo notas de versão antes de cada atualização do cluster e testo as alterações num ambiente de pré-produção.",
+          "Colaboro com equipas de programação para acelerar os lançamentos e simplificar os ambientes de teste.",
+          "Participo em reuniões semanais com a equipa de aplicações para planear mudanças e avaliar riscos antes de cada entrega."
+        ]
+      },
+      {
+        "role": "Técnica de Infraestruturas",
+        "company": "Beira Alta Sistemas",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Migração de 25 máquinas virtuais para a cloud.",
+          "Manutenção de servidores Windows e Linux de clientes.",
+          "Elaboração de documentação técnica e procedimentos de recuperação.",
+          "Criação de um guia de migração com mapeamento de dependências e plano de reversão.",
+          "Formação da equipa de suporte sobre alertas e procedimentos de resposta.",
+          "Participei em intervenções de fim de semana com colegas mais experientes e aprendi a fazer reversões seguras."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Universidade de Coimbra Nova",
+        "period": "2017 – 2020"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": [
+      "Microsoft Azure Administrator Associate"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "en",
+    "misleading": false,
+    "name": "Winston Abernethy-Cole",
+    "headline": "Senior Systems Administrator",
+    "email": "winston.abernethy-cole@example.net",
+    "location": "Leeds, United Kingdom",
+    "summary": "Systems administrator with eighteen years looking after Windows and Linux servers for mid-sized organisations. Reliable, calm during outages and thorough with documentation. I prefer well-tested backups over clever tricks. Outside work I coach a youth football team and restore old radios, which probably explains my patience with legacy hardware. I mentor apprentices and enjoy sharing practical lessons from years of keeping services running.",
+    "skills": [
+      "Windows Server",
+      "Active Directory",
+      "Group Policy",
+      "VMware vSphere",
+      "Veeam",
+      "Exchange",
+      "Red Hat Linux",
+      "PowerShell",
+      "Cisco switching",
+      "Nagios",
+      "DNS and DHCP"
+    ],
+    "experience": [
+      {
+        "role": "Senior Systems Administrator",
+        "company": "Pennine Building Society",
+        "period": "2014 – Present",
+        "bullets": [
+          "Run 140 virtual servers on VMware with replication to a secondary site; tested recovery twice a year.",
+          "Administer Active Directory, Group Policy and Exchange for 1,100 staff.",
+          "Lead patching cycles and maintain a change calendar approved by the service desk.",
+          "Replaced tape backups with Veeam, shortening restore times from hours to minutes.",
+          "Documented every system in a configuration database, including owners, dependencies and recovery priorities.",
+          "Migrated mailboxes from on-premises Exchange to a hosted mail service over four weekends with no lost messages.",
+          "Chair the monthly change meeting, review risks and rollback plans, and keep the business informed of planned outages.",
+          "Negotiate hardware and support renewals with suppliers and maintain a lifecycle plan covering servers, storage and network."
+        ]
+      },
+      {
+        "role": "Systems Administrator",
+        "company": "Aire Engineering Group",
+        "period": "2008 – 2014",
+        "bullets": [
+          "Maintained file servers, print servers and Linux web servers.",
+          "Managed firewall rules and VPN access for remote workers.",
+          "Built a patching schedule that reduced the number of emergency fixes by around a third.",
+          "Introduced a clear asset register and hardware refresh plan.",
+          "Ran disaster recovery tests with business owners and documented the lessons learned for management."
+        ]
+      },
+      {
+        "role": "IT Technician",
+        "company": "Calder Office Supplies",
+        "period": "2006 – 2008",
+        "bullets": [
+          "Desktop support and hardware repairs for 80 users.",
+          "Learned the foundations of support, including hardware, networks and printers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "HND Computing",
+        "institution": "Leeds Northern College",
+        "period": "2004 – 2006"
+      }
+    ],
+    "languages": [
+      "English (native)"
+    ],
+    "certifications": [
+      "MCSA Windows Server 2016",
+      "VMware Certified Professional"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "en",
+    "misleading": false,
+    "name": "Ngozi Eze-Hartmann",
+    "headline": "IT Administrator",
+    "email": "ngozi.eze-hartmann@example.org",
+    "location": "Hamburg, Germany",
+    "summary": "IT administrator for a logistics company with several warehouses. I handle servers, networks, user accounts and, when needed, a screwdriver. Strong on backups, patching and keeping people productive. I work well with warehouse supervisors, drivers and managers alike, and I enjoy translating technical constraints into plain language. In my spare time I volunteer teaching basic IT skills at a community centre.",
+    "skills": [
+      "Windows Server",
+      "Hyper-V",
+      "Microsoft 365 administration",
+      "Linux (Debian)",
+      "Synology NAS",
+      "pfSense",
+      "VLANs",
+      "Acronis",
+      "Bash",
+      "PowerShell"
+    ],
+    "experience": [
+      {
+        "role": "IT Administrator",
+        "company": "Elbe Spedition GmbH",
+        "period": "2017 – Present",
+        "bullets": [
+          "Administer 25 servers, two Hyper-V clusters and network equipment across four sites.",
+          "Introduced nightly offsite backups with Acronis and quarterly restore drills.",
+          "Manage Microsoft 365 licences, mailboxes and multi-factor authentication for 380 users.",
+          "Set up warehouse Wi-Fi and barcode scanner connectivity; downtime on scanning fell by more than half.",
+          "Replaced ageing switches in two warehouses and documented the cabling, which cut fault-finding time.",
+          "Implemented a simple ticketing system and published response targets for the business.",
+          "Coordinate with external suppliers for internet lines, telephony and printers, and keep contract renewals on a shared calendar.",
+          "Document network layouts, server roles and passwords in a secured vault so that cover during holidays is straightforward.",
+          "Run monthly patching on Saturdays outside peak dispatch times.",
+          "Evaluate small tools for inventory and remote support and recommend the best value option to management."
+        ]
+      },
+      {
+        "role": "Junior IT Administrator",
+        "company": "Nordhafen Handel",
+        "period": "2014 – 2017",
+        "bullets": [
+          "First- and second-line support for 150 users.",
+          "Maintained printers, thin clients and telephony.",
+          "Wrote PowerShell scripts for account creation.",
+          "Wrote an onboarding guide for new starters and a short cyber-awareness session for staff.",
+          "Standardised workstation images to speed up replacements.",
+          "Introduced a standard laptop image and a simple hardware loan pool for new employees.",
+          "Handled user questions politely in German and English at all four sites."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Business Informatics",
+        "institution": "Hochschule Nordhafen",
+        "period": "2010 – 2014"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "German (C1)",
+      "Igbo (native)"
+    ],
+    "certifications": [
+      "CompTIA Server+"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "en",
+    "misleading": false,
+    "name": "Piotr Zalewski",
+    "headline": "Network and Systems Administrator",
+    "email": "piotr.zalewski@example.com",
+    "location": "Gdansk, Poland",
+    "summary": "Administrator with a networking background. I enjoy tidy racks, accurate diagrams and predictable maintenance windows. Eleven years supporting infrastructure in education and public sector. I like documenting networks and keeping maintenance windows predictable. I also teach a short evening course on Linux administration for local adults retraining in IT.",
+    "skills": [
+      "Cisco IOS",
+      "Juniper",
+      "Linux (Ubuntu, CentOS)",
+      "Proxmox",
+      "Samba",
+      "OpenLDAP",
+      "Bacula",
+      "Zabbix",
+      "FreeRADIUS",
+      "Bash"
+    ],
+    "experience": [
+      {
+        "role": "Network and Systems Administrator",
+        "company": "Baltic City University Services",
+        "period": "2016 – Present",
+        "bullets": [
+          "Manage the campus network of 90 switches and 300 access points.",
+          "Run a Proxmox cluster hosting 60 virtual machines and keep Bacula backups to disk and tape.",
+          "Operate authentication with OpenLDAP and RADIUS for students and staff.",
+          "Keep Zabbix monitoring and an up-to-date network diagram.",
+          "Planned and executed a campus-wide VLAN redesign that improved isolation between student, staff and guest traffic.",
+          "Introduced a change calendar and a post-maintenance review for each major activity.",
+          "Write procedures for network changes, rollbacks and fault escalation, and train the two junior technicians to follow them.",
+          "Evaluate new equipment and prepare technical specifications for public tenders, including support and warranty terms.",
+          "Maintain a small lab to test firmware upgrades before they reach production switches.",
+          "Provide on-call cover for the network during exam periods, when availability matters most to students and lecturers.",
+          "Report monthly on bandwidth use, uptime and outstanding tickets to the IT director."
+        ]
+      },
+      {
+        "role": "Systems Technician",
+        "company": "Gdansk Regional Office",
+        "period": "2013 – 2016",
+        "bullets": [
+          "Supported 200 workstations and local servers.",
+          "Configured VPN and mail relays.",
+          "Built a monitoring dashboard on wall screens in the IT office so problems are visible as they happen.",
+          "Implemented 802.1X authentication across wired ports.",
+          "Replaced an ageing mail relay with a better-filtered setup and improved spam handling.",
+          "Kept an inventory of workstations, licences and warranties for audit purposes."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Telecommunications",
+        "institution": "Gdansk Technical Academy",
+        "period": "2010 – 2013"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "CCNA"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "en",
+    "misleading": false,
+    "name": "Deepak Ranganathan",
+    "headline": "Systems Administrator",
+    "email": "deepak.ranganathan@example.net",
+    "location": "Chennai, India",
+    "summary": "Systems administrator with six years of experience handling servers, backups and user support in a manufacturing group. I like checklists, clear tickets and doing the dull things properly. I enjoy working directly with plant managers to understand which systems matter most to production and plan maintenance around shifts. I am studying for a cloud fundamentals certification in my evenings.",
+    "skills": [
+      "Windows Server 2019",
+      "Active Directory",
+      "VMware ESXi",
+      "Veeam",
+      "Linux",
+      "Fortinet firewalls",
+      "SCCM",
+      "Zabbix",
+      "SQL Server backups"
+    ],
+    "experience": [
+      {
+        "role": "Systems Administrator",
+        "company": "Coromandel Auto Components",
+        "period": "2020 – Present",
+        "bullets": [
+          "Look after 45 servers across two plants; maintain 99% availability for production planning systems.",
+          "Patch servers monthly using SCCM and a documented rollback plan.",
+          "Support Active Directory, shared drives and printing for 600 users.",
+          "Review backup reports daily and perform quarterly restore tests.",
+          "Prepared and tested a disaster recovery plan for the production planning database, with recovery in under two hours.",
+          "Replaced an ageing firewall pair with a managed high-availability setup, with a planned cutover at a weekend.",
+          "Coordinate maintenance windows with production supervisors so that updates happen during planned stoppages.",
+          "Monitor server health, disk growth and backup success using Zabbix dashboards and daily checks.",
+          "Manage user accounts, mailbox quotas and permissions through documented request and approval steps.",
+          "Prepare monthly availability and incident reports for the plant IT manager and track improvement actions to closure."
+        ]
+      },
+      {
+        "role": "Support Engineer",
+        "company": "Marina IT Services",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Resolved desktop and server tickets for several clients.",
+          "Installed and configured firewalls and switches during office moves.",
+          "Learned scripting and wrote a few small PowerShell tools to report on stale accounts and disk usage.",
+          "Documented network diagrams for both plants.",
+          "Replaced faulty hardware, reinstalled operating systems and supported users by phone and remote tools.",
+          "Kept a simple knowledge base of fixes that colleagues could follow."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. Computer Science",
+        "institution": "Madras Coastal College",
+        "period": "2015 – 2018"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Tamil (native)"
+    ],
+    "certifications": [
+      "Microsoft Certified: Windows Server Hybrid Administrator"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "en",
+    "misleading": false,
+    "name": "Bronagh McAlinden",
+    "headline": "Head of IT Operations",
+    "email": "bronagh.mcalinden@example.org",
+    "location": "Belfast, United Kingdom",
+    "summary": "Twenty-two years in IT operations, starting on the service desk and now managing a small team that runs infrastructure for a law firm. Hands-on when needed, focused on continuity, security and good relationships with the business. I enjoy building teams and mentoring people who are starting out in IT; two of my former service desk staff are now senior engineers. I sit on the firm's risk committee as the technology representative.",
+    "skills": [
+      "Windows Server",
+      "VMware",
+      "Microsoft 365",
+      "Active Directory",
+      "Backup and DR planning",
+      "Cisco Meraki",
+      "ITIL",
+      "Vendor management",
+      "Budgeting",
+      "Cyber Essentials"
+    ],
+    "experience": [
+      {
+        "role": "Head of IT Operations",
+        "company": "Lagan & Sloan Solicitors",
+        "period": "2015 – Present",
+        "bullets": [
+          "Manage a team of four administrators and an outsourced security provider.",
+          "Led a data centre exit to a colocation facility and a refreshed virtual environment, completed over a weekend with no data loss.",
+          "Own the disaster recovery plan, tested annually with partners.",
+          "Achieved Cyber Essentials Plus certification for three consecutive years.",
+          "Managed an annual budget of 1.4 million pounds and negotiated vendor contracts that saved 12% year on year.",
+          "Introduced a clear incident and change process aligned with ITIL, cutting repeat incidents by a third.",
+          "Report quarterly to the partners on availability, incidents, security posture and project progress.",
+          "Select and manage managed-service partners, with clear service levels and regular reviews."
+        ]
+      },
+      {
+        "role": "Senior Systems Administrator",
+        "company": "Antrim Retail Holdings",
+        "period": "2008 – 2015",
+        "bullets": [
+          "Administered servers, email and point-of-sale back-office systems.",
+          "Introduced centralised patching and imaging for 300 PCs.",
+          "Planned and led a major email platform migration for 900 users with minimal disruption.",
+          "Wrote the firm's information security policies and ran awareness training.",
+          "Supervised a team of six on the helpdesk and server support, with weekly coaching sessions."
+        ]
+      },
+      {
+        "role": "Service Desk Analyst",
+        "company": "Belfast Council IT",
+        "period": "2004 – 2008",
+        "bullets": [
+          "Handled 40 tickets a day and escalated server issues.",
+          "Learned how a service desk works in a large public body, including escalation and customer care."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Information Technology",
+        "institution": "Ulster Lakes University",
+        "period": "2000 – 2004"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (A2)"
+    ],
+    "certifications": [
+      "ITIL 4 Foundation"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "en",
+    "misleading": false,
+    "name": "Henrik Strandberg",
+    "headline": "Linux Systems Administrator",
+    "email": "henrik.strandberg@example.com",
+    "location": "Gothenburg, Sweden",
+    "summary": "Linux administrator, thirteen years. I keep mail, web and database servers running for a hosting provider and enjoy scripting my way out of repetitive work. Keen on security hardening and clean documentation. Outside work I tinker with old computers, brew beer and take part in a local amateur radio club. I enjoy mentoring new technicians and write short guides for the support team.",
+    "skills": [
+      "Debian",
+      "RHEL",
+      "KVM",
+      "Postfix and Dovecot",
+      "MariaDB",
+      "Nginx",
+      "Bash",
+      "Perl",
+      "Nagios",
+      "iptables",
+      "LVM",
+      "rsync"
+    ],
+    "experience": [
+      {
+        "role": "Linux Systems Administrator",
+        "company": "Gota Web Hosting AB",
+        "period": "2012 – Present",
+        "bullets": [
+          "Administer 250 physical and virtual servers hosting 9,000 customer sites.",
+          "Run mail infrastructure handling 2 million messages a day, with spam filtering and blacklist monitoring.",
+          "Tune MariaDB replicas and schedule consistent backups verified weekly.",
+          "Wrote Bash and Perl tools for account provisioning that saved support about 15 hours a week.",
+          "Hardened servers against brute-force attacks with fail2ban, key-only logins and automated updates.",
+          "Managed a migration of 1,500 websites between data centres in a single month with minimal downtime.",
+          "Provide third-line support to the customer care team and work through complex mail delivery and database performance cases.",
+          "Take part in an on-call rota every sixth week and write post-incident summaries.",
+          "Run quarterly restore tests on randomly chosen customer accounts and record the results.",
+          "Contribute to hiring by interviewing candidates for technician roles and preparing practical Linux troubleshooting exercises.",
+          "Keep configuration files under version control with Git and review changes with a colleague before deployment."
+        ]
+      },
+      {
+        "role": "IT Technician",
+        "company": "Skagerrak Shipping Services",
+        "period": "2010 – 2012",
+        "bullets": [
+          "Maintained Linux servers and desktop support for office staff.",
+          "Documented server builds and recovery steps in a wiki used by the whole team.",
+          "Handled server installs, cabling and rack work in the data centre.",
+          "Set up the first centralised log server for the support team."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Higher Vocational Diploma, Network Administration",
+        "institution": "Gothenburg Technical Institute",
+        "period": "2008 – 2010"
+      }
+    ],
+    "languages": [
+      "Swedish (native)",
+      "English (fluent)"
+    ],
+    "certifications": [
+      "LPIC-2"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "pt",
+    "misleading": false,
+    "name": "Aurélio Bettencourt Maia",
+    "headline": "Administrador de Sistemas",
+    "email": "aurelio.bettencourt@example.net",
+    "location": "Ponta Delgada, Portugal",
+    "summary": "Administrador de sistemas com catorze anos de experiência em ambientes Windows e Linux. Cuido de servidores, redes, backups e apoio a utilizadores numa empresa do setor hoteleiro. Valorizo a estabilidade, os procedimentos escritos e a comunicação clara com a gestão. Fora do trabalho sou voluntário numa associação local de apoio informático a idosos e gosto de ensinar utilizadores a protegerem-se de fraudes e de phishing.",
+    "skills": [
+      "Windows Server",
+      "Active Directory",
+      "VMware",
+      "Veeam",
+      "Linux",
+      "Fortinet",
+      "Microsoft 365",
+      "Zabbix",
+      "PowerShell",
+      "Redes e VLANs"
+    ],
+    "experience": [
+      {
+        "role": "Administrador de Sistemas",
+        "company": "Atlântida Hotéis e Resorts",
+        "period": "2015 – Presente",
+        "bullets": [
+          "Administração de 35 servidores virtuais e da rede de seis unidades hoteleiras.",
+          "Implementação de cópias de segurança com Veeam e testes de recuperação trimestrais.",
+          "Gestão de contas, correio e autenticação multifator para 700 colaboradores.",
+          "Coordenação de intervenções fora de horas para não afetar a reserva de quartos.",
+          "Substituição de equipamento de rede em todas as unidades, com documentação atualizada e esquemas de cablagem.",
+          "Implementação de um sistema de pedidos de suporte com tempos de resposta definidos.",
+          "Coordeno fornecedores de ligações à Internet, telefones e impressoras e mantenho um calendário de renovações de contratos.",
+          "Documento a rede, as funções de cada servidor e as credenciais de emergência num cofre protegido.",
+          "Realizo a aplicação mensal de atualizações aos sábados, fora dos períodos de maior ocupação."
+        ]
+      },
+      {
+        "role": "Técnico de Informática",
+        "company": "Insular Comércio, S.A.",
+        "period": "2010 – 2015",
+        "bullets": [
+          "Suporte a postos de trabalho e servidores de ficheiros.",
+          "Configuração de firewalls e ligações VPN entre lojas.",
+          "Gestão de inventário de equipamento.",
+          "Formação de colegas sobre segurança, palavras-passe e boas práticas no uso do correio eletrónico.",
+          "Elaboração do orçamento anual de equipamento informático.",
+          "Introdução de uma imagem padrão para portáteis e de um processo simples para novos colaboradores."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Informática de Gestão",
+        "institution": "Universidade dos Açores Atlântico",
+        "period": "2006 – 2010"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": [
+      "Microsoft Certified: Windows Server Hybrid Administrator"
+    ]
+  },
+  {
+    "archetype": "sysadmin",
+    "language": "pt",
+    "misleading": false,
+    "name": "Gisela Pimenta Cardoso",
+    "headline": "Técnica de Sistemas e Redes",
+    "email": "gisela.pimenta@example.org",
+    "location": "Leiria, Portugal",
+    "summary": "Técnica de sistemas e redes com quatro anos de experiência numa autarquia. Faço manutenção de servidores, gestão de utilizadores e apoio técnico. Sou organizada, aprendo depressa e gosto de deixar tudo documentado para quem vier a seguir. Estou a preparar-me para a certificação de Linux e participo em formações da autarquia sobre cibersegurança e proteção de dados.",
+    "skills": [
+      "Windows Server",
+      "Active Directory",
+      "Hyper-V",
+      "Linux Ubuntu",
+      "Cisco",
+      "Backups",
+      "Zabbix",
+      "Bash",
+      "Apoio ao utilizador"
+    ],
+    "experience": [
+      {
+        "role": "Técnica de Sistemas e Redes",
+        "company": "Município da Serra Verde",
+        "period": "2022 – Presente",
+        "bullets": [
+          "Administração de 15 servidores e da rede de dez edifícios municipais.",
+          "Gestão de utilizadores, permissões e correio eletrónico para 450 pessoas.",
+          "Reformulação do plano de cópias de segurança, com cópia externa semanal.",
+          "Monitorização com Zabbix e abertura de pedidos a fornecedores.",
+          "Criação de um inventário de equipamentos e licenças que ajudou a planear renovações.",
+          "Apoio à implementação de autenticação multifator no correio eletrónico dos serviços municipais.",
+          "Acompanho fornecedores externos na manutenção de equipamentos e confirmo que as intervenções ficam bem registadas.",
+          "Mantenho documentação de rede, listas de contactos e procedimentos de emergência para quem estiver de serviço.",
+          "Realizo atualizações mensais de sistemas em horário acordado com os serviços."
+        ]
+      },
+      {
+        "role": "Técnica de Apoio Informático",
+        "company": "Leiria Digital Serviços",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Apoio a clientes empresariais em instalação de postos de trabalho.",
+          "Substituição de equipamento de rede e configuração de Wi-Fi.",
+          "Registo de intervenções num sistema de tickets.",
+          "Elaboração de guias rápidos para os utilizadores e de uma lista de verificação para novas contas.",
+          "Participação em ações de formação em cibersegurança.",
+          "Atendimento por telefone e presencial a utilizadores com dúvidas sobre computadores, impressoras e correio eletrónico.",
+          "Aprendizagem de boas práticas de segurança e de gestão de contas."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Instituto Politécnico do Oeste Central",
+        "period": "2017 – 2020"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B1)"
+    ],
+    "certifications": [
+      "Cisco CCNA"
+    ]
+  }
+]

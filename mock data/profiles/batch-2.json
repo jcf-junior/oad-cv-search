@@ -1,0 +1,1749 @@
+[
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Bartosz Nowaczyk",
+    "headline": "Principal Backend Engineer",
+    "email": "bartosz.nowaczyk@example.com",
+    "location": "Warsaw, Poland",
+    "summary": "Backend engineer with sixteen years of experience, the last nine mostly in Go. I design high-throughput payment and ledger services, mentor teams on API design and care a lot about observability and boring, maintainable code. I regularly speak at local meetups about Go concurrency pitfalls, and I have reviewed well over two thousand pull requests, which taught me to value small changes and precise commit messages.",
+    "skills": [
+      "Go",
+      "gRPC",
+      "Protocol Buffers",
+      "PostgreSQL",
+      "Kafka",
+      "Redis",
+      "Domain-driven design",
+      "Prometheus",
+      "OpenTelemetry",
+      "Event sourcing",
+      "Docker",
+      "Distributed systems",
+      "Go generics",
+      "Chaos testing",
+      "Technical leadership"
+    ],
+    "experience": [
+      {
+        "role": "Principal Engineer",
+        "company": "Brightledger Payments",
+        "period": "2020 – Present",
+        "bullets": [
+          "Designed an event-sourced ledger in Go processing 12,000 transactions per second with p99 latency under 40 ms, working closely with product owners and risk analysts so that every change to settlement rules was agreed, modelled and tested before it went live in any market.",
+          "Led the migration from a PHP monolith to 14 Go services, cutting incident volume by 60%.",
+          "Defined gRPC API guidelines adopted by five squads.",
+          "Mentor six engineers; run the weekly architecture review.",
+          "Introduced contract tests between services, catching 30 breaking changes before they reached staging."
+        ]
+      },
+      {
+        "role": "Senior Backend Developer",
+        "company": "Nordvik Telecom Systems",
+        "period": "2015 – 2020",
+        "bullets": [
+          "Built billing and rating services first in Java, then in Go after a successful pilot, while coordinating the cutover with three external vendors and keeping a written rollback plan for each weekend release.",
+          "Introduced Kafka-based integration between charging and CRM, removing nightly batch jobs.",
+          "Tuned PostgreSQL queries and partitioning for a 3 TB usage table.",
+          "Ran a six-month programme to teach Go to twelve Java developers, with weekly code katas.",
+          "Wrote the internal guide on error handling, retries and idempotency still used by new hires."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Kolarz Software House",
+        "period": "2010 – 2015",
+        "bullets": [
+          "Developed Java web applications for logistics clients.",
+          "Wrote integration tests and maintained the build server.",
+          "Shipped REST APIs consumed by mobile apps.",
+          "Contributed to the team's coding standards and led interview panels for two hires.",
+          "Presented a conference talk on lessons learned from the first Go rollout in the company."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Computer Science",
+        "institution": "Warsaw Institute of Applied Informatics",
+        "period": "2005 – 2010"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (C1)",
+      "German (A2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Adaeze Okonkwo-Reyes",
+    "headline": "Go Developer",
+    "email": "adaeze.okonkwo.reyes@example.org",
+    "location": "Lisbon, Portugal",
+    "summary": "Mid-level developer who enjoys building clean, well-tested HTTP and gRPC services. Moved from Node.js to Go four years ago and have not looked back. I like small interfaces, table-driven tests and clear runbooks. Outside work I mentor career-changers learning Go through a community bootcamp, and I write short blog posts on testing patterns. I am comfortable working in distributed, remote-first teams across several time zones.",
+    "skills": [
+      "Go",
+      "REST",
+      "gRPC",
+      "PostgreSQL",
+      "sqlc",
+      "Chi router",
+      "RabbitMQ",
+      "Testcontainers",
+      "GitHub Actions",
+      "OpenAPI",
+      "Docker",
+      "SQL migrations",
+      "Clean architecture",
+      "Code review",
+      "Idempotent APIs"
+    ],
+    "experience": [
+      {
+        "role": "Go Developer",
+        "company": "Tagus Mobility",
+        "period": "2022 – Present",
+        "bullets": [
+          "Own the booking service handling 2 million requests a day for a ride-sharing app, which meant weekly conversations with drivers' support staff to understand real failure cases and turn them into automated regression tests.",
+          "Replaced hand-written SQL scanning with sqlc, removing a class of runtime errors.",
+          "Wrote contract tests with OpenAPI so mobile teams could mock the API.",
+          "Added structured logging and tracing; mean time to diagnose incidents halved.",
+          "Pair weekly with a junior colleague and facilitate our fortnightly retrospective for the squad."
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "company": "Lagos Fintech Collective",
+        "period": "2019 – 2022",
+        "bullets": [
+          "Built wallet and transfer APIs in Node.js, later rewrote the hot path in Go, handling currency conversion, regulatory limits and reconciliation exports that finance teams reviewed every month.",
+          "Integrated three payment gateways with idempotent retries.",
+          "Maintained a RabbitMQ topology for notifications.",
+          "Reduced duplicate transfers to nearly zero by adding idempotency keys to every write endpoint.",
+          "Documented API error codes so that support staff could resolve customer questions without escalation."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Ibadan Digital Studio",
+        "period": "2017 – 2019",
+        "bullets": [
+          "Built REST endpoints and small admin tools for e-commerce clients in Node.js and Express.",
+          "Learned relational modelling by designing the order schema for a grocery delivery start-up.",
+          "Handled customer bug reports and released fixes within agreed response times.",
+          "Gained early experience with SQL schema design, background jobs and third-party payment APIs.",
+          "Joined a volunteer team building a booking tool for a local clinic."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Engineering",
+        "institution": "University of Ibadan Polytechnic",
+        "period": "2013 – 2018"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Portuguese (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Ruairi Fennelly",
+    "headline": "Junior Backend Engineer",
+    "email": "ruairi.fennelly@example.net",
+    "location": "Cork, Ireland",
+    "summary": "Junior engineer, two years into my first role, working in Go. Keen learner who enjoys reading standard library code. Looking to grow towards system design and performance work. I am active in the local Go user group, where I have given a lightning talk, and I am currently working through a book on concurrency to deepen my fundamentals.",
+    "skills": [
+      "Go",
+      "net/http",
+      "PostgreSQL",
+      "Gin",
+      "Docker",
+      "Git",
+      "Unit testing",
+      "JSON APIs",
+      "Linux",
+      "SQL",
+      "Debugging",
+      "Agile (Scrum)",
+      "Technical documentation"
+    ],
+    "experience": [
+      {
+        "role": "Junior Backend Engineer",
+        "company": "Harbourview Retail Tech",
+        "period": "2024 – Present",
+        "bullets": [
+          "Maintain inventory APIs in Go used by 120 shops, and I now review small changes from newer colleagues too, which has taught me how much clear naming and good commit messages matter in a shared codebase.",
+          "Fixed a goroutine leak that had caused weekly restarts.",
+          "Wrote table-driven tests that lifted coverage from 41% to 78%.",
+          "Pair with a senior colleague on code reviews.",
+          "Improved error messages and request validation, which cut support tickets about failed stock updates by a quarter."
+        ]
+      },
+      {
+        "role": "Software Intern",
+        "company": "Corkline Analytics",
+        "period": "2023 – 2024",
+        "bullets": [
+          "Built a small CSV import tool in Go, learning to estimate honestly, ask for help early and present short demos to the shop managers who used the tools every day.",
+          "Helped write SQL reports for the finance team.",
+          "Wrote a dashboard query set that finance still uses for weekly stock reports, saving about two hours of manual work.",
+          "Documented the import tool so that colleagues could run it without my help."
+        ]
+      },
+      {
+        "role": "Part-time Support Technician",
+        "company": "Cork Computer Repairs",
+        "period": "2021 – 2023",
+        "bullets": [
+          "Diagnosed hardware and software faults for home customers during university studies.",
+          "Kept an inventory spreadsheet and ordered parts for repairs.",
+          "Explained technical problems to non-technical customers in plain language.",
+          "Developed patience and communication skills dealing with anxious customers and unclear problem descriptions.",
+          "Used the job to save for my degree and learn to prioritise tasks."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Software Development",
+        "institution": "Munster Technical University",
+        "period": "2020 – 2024"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Kavya Raghunathan",
+    "headline": "Software Engineer II, Backend",
+    "email": "kavya.raghunathan@example.com",
+    "location": "Bengaluru, India",
+    "summary": "I build search and recommendation backends in Go. Comfortable with concurrency patterns, profiling and capacity planning. Prefer measurable outcomes and write design notes before code. I enjoy teaching and have run internal workshops on profiling, and I like partnering with product managers to turn vague ranking ideas into measurable experiments.",
+    "skills": [
+      "Go",
+      "Elasticsearch",
+      "gRPC",
+      "Redis",
+      "Kafka",
+      "pprof",
+      "Prometheus",
+      "MongoDB",
+      "Concurrency patterns",
+      "Benchmarking",
+      "Helm charts",
+      "Python",
+      "A/B testing",
+      "Capacity planning",
+      "Mentoring"
+    ],
+    "experience": [
+      {
+        "role": "Software Engineer II",
+        "company": "Tarang Commerce",
+        "period": "2021 – Present",
+        "bullets": [
+          "Rewrote the product search gateway in Go, lowering CPU use by 45% and p95 latency from 220 ms to 90 ms, partnering with data scientists and product managers to run weekly experiments, with every ranking change measured against click-through and conversion before a wider launch.",
+          "Introduced worker pools and backpressure to protect Elasticsearch during sales events.",
+          "Packaged services as Helm charts and handed them to the platform team, who run the k8s clusters.",
+          "Built a latency dashboard per endpoint and added alerts that now page on regressions before customers notice.",
+          "Mentor two engineers on concurrency design and review their pull requests every week."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Kaveri Logistics",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Built tracking APIs in Python, later ported to Go, in a team of six where I was the first engineer to introduce benchmarks and load tests into the release checklist.",
+          "Wrote Kafka consumers processing 30 million events daily.",
+          "Created load-testing scripts for release sign-off.",
+          "Reduced nightly index rebuild time from five hours to ninety minutes by parallelising the pipeline.",
+          "Collaborated with data scientists to expose ranking models behind a stable gRPC interface."
+        ]
+      },
+      {
+        "role": "Associate Engineer",
+        "company": "Mysore Software Services",
+        "period": "2016 – 2018",
+        "bullets": [
+          "Maintained Java and Python utilities for a travel booking client.",
+          "Wrote automated regression tests and fixed production defects.",
+          "Learned Git workflows and code review practice.",
+          "Took part in hackathons and won an internal prize for a fast address-matching prototype.",
+          "Supported release nights and learned the value of runbooks and rollback plans."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BE Information Science",
+        "institution": "Visvesha Institute of Technology",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Kannada (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Lukas Brandtner",
+    "headline": "Senior Software Engineer",
+    "email": "lukas.brandtner@example.net",
+    "location": "Munich, Germany",
+    "summary": "Twelve years in backend development for automotive and industrial software, currently focused on Go microservices that collect vehicle telemetry. Pragmatic, test-first, allergic to over-engineering. I have supervised several thesis students and enjoy explaining embedded constraints to web-minded colleagues. Reliability in the field matters more to me than elegant abstractions.",
+    "skills": [
+      "Go",
+      "MQTT",
+      "TimescaleDB",
+      "gRPC",
+      "NATS",
+      "Protobuf",
+      "TDD",
+      "Linux",
+      "C++ (legacy)",
+      "Grafana",
+      "SQL",
+      "Systems thinking",
+      "Technical leadership",
+      "Incident response"
+    ],
+    "experience": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "Alpenmotor Connected",
+        "period": "2019 – Present",
+        "bullets": [
+          "Lead a four-person team building the telemetry ingestion service in Go, 80,000 messages per second, across test benches, prototype vehicles and customer fleets, which required careful versioning of message formats and strict backwards compatibility for older vehicle software.",
+          "Replaced a C++ ingestion daemon, simplifying on-call for the whole team.",
+          "Designed retention and downsampling policies in TimescaleDB, saving 35% storage.",
+          "Review all schema and API changes.",
+          "Introduced replay tooling that lets us reproduce a vehicle's data stream locally, shortening bug analysis from days to hours."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Isarwerk Automation",
+        "period": "2013 – 2019",
+        "bullets": [
+          "Wrote C++ and later Go gateways for factory sensors, including long on-site commissioning trips where we debugged protocols directly with electricians and mechanical engineers.",
+          "Implemented an OPC UA bridge.",
+          "Supported customers during commissioning on site.",
+          "Wrote diagnostic dashboards in Grafana for the support team.",
+          "Shared responsibility for 24x7 escalation during the product launch."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Bavaria Datensysteme",
+        "period": "2011 – 2013",
+        "bullets": [
+          "Maintained Java reporting tools.",
+          "Wrote SQL for monthly exports.",
+          "Learned to write fast, safe network code and shared this knowledge in an internal talk.",
+          "Wrote an acceptance test harness simulating one thousand sensors.",
+          "Learned SQL, unit testing and version control habits that I still apply every day."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom-Informatiker (FH)",
+        "institution": "Hochschule Oberland",
+        "period": "2006 – 2011"
+      },
+      {
+        "degree": "Certificate in Embedded Linux Development",
+        "institution": "Bavarian Technical Academy",
+        "period": "2012 – 2012"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "Professional Scrum Developer course, Scrum training provider",
+      "Functional safety fundamentals workshop for automotive software teams"
+    ]
+  },
+  {
+    "archetype": "backend_go",
+    "language": "pt",
+    "misleading": false,
+    "name": "Beatriz Calheiros",
+    "headline": "Engenheira de Software Backend",
+    "email": "beatriz.calheiros@example.com",
+    "location": "Porto, Portugal",
+    "summary": "Engenheira backend com cinco anos de experiência, sobretudo em Go. Gosto de código simples, bem testado e de APIs documentadas. Trabalho bem em equipas pequenas e valorizo a revisão de código. Fora do trabalho, participo em comunidades de Go em Portugal e ajudo a organizar encontros mensais. Gosto de aprender com colegas mais experientes e de explicar conceitos a quem está a começar.",
+    "skills": [
+      "Go",
+      "gRPC",
+      "REST",
+      "PostgreSQL",
+      "Redis",
+      "Kafka",
+      "Testes unitários",
+      "Docker",
+      "OpenAPI",
+      "SQL",
+      "Git",
+      "Logs estruturados",
+      "Revisão de código",
+      "Metodologias ágeis",
+      "Documentação técnica"
+    ],
+    "experience": [
+      {
+        "role": "Engenheira de Software",
+        "company": "Douro Seguros Digitais",
+        "period": "2022 – Presente",
+        "bullets": [
+          "Desenvolvo serviços de simulação de apólices em Go, com 500 mil pedidos por dia, trabalhando de perto com a equipa de atuários e com o produto para validar cada regra de cálculo com exemplos reais antes de cada entrega.",
+          "Reduzi o tempo de resposta de 300 ms para 110 ms com cache em Redis.",
+          "Escrevi testes de integração que correm no pipeline da equipa.",
+          "Documentei as APIs em OpenAPI para os parceiros externos.",
+          "Implementei limites de taxa por parceiro e alertas simples que evitaram dois incidentes de sobrecarga."
+        ]
+      },
+      {
+        "role": "Programadora Backend",
+        "company": "Invicta Soluções Web",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Migrei endpoints de PHP para Go, numa equipa de quatro pessoas onde tive responsabilidade direta pelo desenho dos endpoints e pelo contacto com clientes externos.",
+          "Implementei autenticação com tokens JWT.",
+          "Acompanhei estagiários em tarefas de backend.",
+          "Escrevi documentação de arquitetura para novos colegas, reduzindo o tempo de integração de três para duas semanas.",
+          "Criei scripts para carregar dados de teste realistas."
+        ]
+      },
+      {
+        "role": "Estagiária de Desenvolvimento",
+        "company": "Porto Código Aberto",
+        "period": "2019 – 2020",
+        "bullets": [
+          "Participei no desenvolvimento de uma aplicação web em Python e PostgreSQL.",
+          "Corrigi pequenos erros e escrevi testes automáticos.",
+          "Aprendi práticas de controlo de versões e de revisão de código.",
+          "Colaborei com colegas seniores em revisões de código e aprendi a escrever pull requests pequenas e claras.",
+          "Apresentei o projeto final à equipa de engenharia no fim do estágio."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Instituto Superior de Tecnologia do Norte",
+        "period": "2016 – 2019"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "pt",
+    "misleading": false,
+    "name": "Diogo Alvarenga",
+    "headline": "Engenheiro Backend Sénior",
+    "email": "diogo.alvarenga@example.org",
+    "location": "Braga, Portugal",
+    "summary": "Mais de catorze anos a desenhar sistemas distribuídos. Nos últimos sete trabalho essencialmente com Go em plataformas de pagamentos. Orientado a resultados e à clareza técnica; gosto de mentoria e de documentar decisões. Costumo fazer a ponte entre equipas de produto e de engenharia, traduzindo requisitos de negócio em decisões técnicas simples. Dou formação interna sobre Go e consistência de dados.",
+    "skills": [
+      "Go",
+      "Sistemas distribuídos",
+      "gRPC",
+      "Kafka",
+      "PostgreSQL",
+      "CockroachDB",
+      "Observabilidade",
+      "Prometheus",
+      "Arquitetura hexagonal",
+      "Mentoria",
+      "Docker",
+      "Consistência de dados",
+      "Liderança técnica",
+      "Gestão de incidentes"
+    ],
+    "experience": [
+      {
+        "role": "Engenheiro Backend Sénior",
+        "company": "Minho Pay",
+        "period": "2019 – Presente",
+        "bullets": [
+          "Desenhei o motor de processamento de transferências SEPA em Go, com disponibilidade de 99,98%, em estreita colaboração com as equipas de risco, conformidade e operações, de modo a garantir que cada alteração era auditável e reversível.",
+          "Coordeno a migração de PostgreSQL para uma base distribuída, sem paragem de serviço.",
+          "Defini métricas e alertas de negócio com Prometheus.",
+          "Faço mentoria a quatro engenheiros mais novos.",
+          "Criei testes de caos controlados que revelaram três pontos únicos de falha antes da entrada em produção."
+        ]
+      },
+      {
+        "role": "Programador Sénior",
+        "company": "Cávado Sistemas de Informação",
+        "period": "2012 – 2019",
+        "bullets": [
+          "Desenvolvi aplicações Java para banca de retalho, num projeto com mais de quarenta pessoas, onde coordenei integrações com bancos parceiros e fornecedores de serviços de pagamento.",
+          "Introduzi testes automáticos e revisão por pares.",
+          "Liderei a integração com a rede Multibanco.",
+          "Reduzi os custos de licenciamento em 40% substituindo componentes proprietários por soluções abertas.",
+          "Ensinei boas práticas de testes automáticos a vinte colegas."
+        ]
+      },
+      {
+        "role": "Programador",
+        "company": "Bracara Software",
+        "period": "2010 – 2012",
+        "bullets": [
+          "Manutenção de aplicações web em PHP e MySQL.",
+          "Participei em turnos de suporte e escrevi manuais de operação para a equipa.",
+          "Aprendi a trabalhar com requisitos regulatórios do setor bancário.",
+          "Aprendi a trabalhar com clientes exigentes e a cumprir prazos curtos em ambientes de produção.",
+          "Frequentei formação interna sobre segurança no desenvolvimento de software."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia Informática",
+        "institution": "Universidade do Alto Minho Aplicada",
+        "period": "2005 – 2010"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Espanhol (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": true,
+    "name": "Elias Haraldsen",
+    "headline": "Backend Developer",
+    "email": "elias.haraldsen@example.net",
+    "location": "Oslo, Norway",
+    "summary": "Backend developer building Go APIs for a municipal booking platform. Four years of experience. Interested in clean architecture and in learning more about modern infrastructure and cloud topics. In my spare time I contribute small fixes to open-source Go libraries and follow talks on cloud technology to widen my horizon. My day-to-day work is application code and its tests.",
+    "skills": [
+      "Go",
+      "REST",
+      "PostgreSQL",
+      "Gorilla Mux",
+      "Unit testing",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "Azure",
+      "Jenkins",
+      "Ansible",
+      "Helm",
+      "Prometheus",
+      "Grafana",
+      "ArgoCD",
+      "Istio",
+      "Vault",
+      "Linux",
+      "Communication",
+      "Agile (Scrum)",
+      "Technical documentation"
+    ],
+    "experience": [
+      {
+        "role": "Backend Developer",
+        "company": "Fjordkommune IT",
+        "period": "2022 – Present",
+        "bullets": [
+          "Develop and maintain booking and payment APIs in Go for 40 municipalities, discussing edge cases for municipal rules such as holiday closures and age restrictions with caseworkers, and then turning them into clear test scenarios.",
+          "Wrote the audit-log module and its unit tests.",
+          "Attended a one-day Kubernetes and Terraform workshop; the infrastructure team handles all cloud setup, and I am familiar with CI/CD concepts only.",
+          "Support the helpdesk with application-level bug fixing.",
+          "Collaborate with product owners to refine requirements and estimate tasks for each two-week sprint."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Nordlys Webbyrå",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Built Go and JavaScript features for client web shops, including a rewrite of the notification module that needed careful handling of Norwegian characters and time zones.",
+          "Fixed bugs and wrote SQL for reports.",
+          "Took part in daily stand-ups and sprint planning.",
+          "Delivered a customer-facing booking widget backend within a tight deadline for a regional festival.",
+          "Handled day-to-day questions from clients and documented the answers in a shared knowledge base."
+        ]
+      },
+      {
+        "role": "Student Assistant",
+        "company": "Oslo University College IT Office",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Supported lecturers with classroom equipment and software installs.",
+          "Created small scripts in Python to generate student lists.",
+          "Answered helpdesk tickets from staff and students.",
+          "Learned basic Python scripting and kept a tidy spreadsheet of recurring tickets.",
+          "Developed the habit of documenting solutions for the next person on shift."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Informatics",
+        "institution": "Oslo Metropolitan College of Technology",
+        "period": "2016 – 2020"
+      }
+    ],
+    "languages": [
+      "Norwegian (native)",
+      "English (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Mateusz Gorecki",
+    "headline": "Junior Go Developer",
+    "email": "mateusz.gorecki@example.org",
+    "location": "Gdansk, Poland",
+    "summary": "Junior developer with 18 months in a product team writing Go. I enjoy turning requirements into small, readable services and learning from code reviews. In my free time I build small tools in Go, such as a command-line budget tracker, and I take part in coding challenges to keep my fundamentals sharp. I welcome direct feedback.",
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "Docker Compose",
+      "Git",
+      "REST",
+      "Testify",
+      "Swagger",
+      "Linux basics",
+      "SQL",
+      "Debugging",
+      "Agile (Scrum)",
+      "Code review"
+    ],
+    "experience": [
+      {
+        "role": "Junior Go Developer",
+        "company": "Baltic Parcel Services",
+        "period": "2025 – Present",
+        "bullets": [
+          "Implemented parcel status endpoints in Go used by two mobile apps, which gave me early exposure to production traffic, real data quality issues and the discipline of writing code that other people have to maintain after me.",
+          "Added pagination and filtering to the tracking API.",
+          "Wrote tests with Testify and mocks for external carriers.",
+          "Learning to profile services using pprof.",
+          "Joined the on-call rota as a shadow and learned how to read logs and metrics during incidents."
+        ]
+      },
+      {
+        "role": "Trainee Developer",
+        "company": "Gdansk Software Lab",
+        "period": "2024 – 2025",
+        "bullets": [
+          "Built a small admin panel backend, where my mentor taught me to read stack traces calmly, split large tasks and write meaningful commit messages.",
+          "Fixed bugs in a Java legacy reporting tool.",
+          "Wrote documentation for onboarding.",
+          "Contributed a bug fix to an internal library after finding a race condition in a unit test.",
+          "Presented a short demo of the tracking API to non-technical colleagues."
+        ]
+      },
+      {
+        "role": "Summer Intern",
+        "company": "Gdansk Port Technology",
+        "period": "2023 – 2023",
+        "bullets": [
+          "Built a small tool to compare shipping schedules from spreadsheets.",
+          "Learned how to write clear tickets and commit messages.",
+          "Observed the operations team during a busy season.",
+          "Wrote small utilities in Python to clean spreadsheet data.",
+          "Shadowed a senior engineer and learned how production support works day to day."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Pomeranian University of Technology",
+        "period": "2021 – 2024"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "Go fundamentals online course, completed with distinction",
+      "Workshop on testing and code review practices"
+    ]
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Priyanka Deshmukh",
+    "headline": "Staff Software Engineer",
+    "email": "priyanka.deshmukh@example.com",
+    "location": "Pune, India",
+    "summary": "Staff-level engineer with 14 years in backend systems, eight of them building Go services for logistics marketplaces. I look after reliability of the critical path and help teams decide between simple and clever. I am happiest when a complex system becomes boring and predictable. I mentor engineers up to senior level, write the design reviews others copy, and enjoy hiring for potential, not pedigree.",
+    "skills": [
+      "Go",
+      "gRPC",
+      "Kafka",
+      "PostgreSQL",
+      "Cassandra",
+      "Domain events",
+      "Load testing",
+      "SLO design",
+      "Tracing",
+      "Rust (basic)",
+      "Python",
+      "Technical writing",
+      "Technical leadership",
+      "Architecture reviews",
+      "Hiring"
+    ],
+    "experience": [
+      {
+        "role": "Staff Software Engineer",
+        "company": "Sahyadri Freight Exchange",
+        "period": "2018 – Present",
+        "bullets": [
+          "Architected the dispatch and pricing core in Go handling 9 million shipments a year, partnering with operations leads and finance to translate commercial rules into explicit domain models, and publishing runbooks that new engineers could follow on their first on-call week.",
+          "Defined SLOs and error budgets; incidents with customer impact dropped 70% in two years.",
+          "Led a Cassandra-to-PostgreSQL consolidation that saved roughly 25% of database spend.",
+          "Run an internal Go guild with monthly talks.",
+          "Introduced a design review template and decision log, now used by more than forty engineers."
+        ]
+      },
+      {
+        "role": "Senior Engineer",
+        "company": "Deccan Retail Systems",
+        "period": "2014 – 2018",
+        "bullets": [
+          "Developed order management services in Java and Python, a period when the company grew threefold and I helped the team keep delivery predictable through clear ownership and small releases.",
+          "Built a carrier integration layer used by 30 partners.",
+          "Led the rewrite of the rating engine that doubled throughput in peak season.",
+          "Taught internal workshops on SQL tuning and transaction isolation.",
+          "Trained a new team of five engineers during a reorganisation."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Konkan Infotech",
+        "period": "2012 – 2014",
+        "bullets": [
+          "Worked on telecom provisioning tools in Java.",
+          "Wrote stored procedures and batch jobs.",
+          "Delivered on-site support for customers during go-lives and negotiated scope with business stakeholders.",
+          "Created monitoring scripts that were adopted across the department.",
+          "Built nightly reconciliation jobs and wrote the runbook still used by the support team."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BTech Computer Engineering",
+        "institution": "Western Ghats Institute of Technology",
+        "period": "2008 – 2012"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Marathi (native)",
+      "Hindi (fluent)"
+    ],
+    "certifications": [
+      "Certified Cloud Practitioner (foundational)"
+    ]
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Oisin Callaghan",
+    "headline": "Backend Engineer",
+    "email": "oisin.callaghan@example.org",
+    "location": "Galway, Ireland",
+    "summary": "Backend engineer, seven years of experience across healthcare and IoT, now writing Go. I like pairing, keeping APIs backwards compatible and watching dashboards after a release. I enjoy health-tech because the quality bar is high and the impact is visible. I participate in on-call, write blameless post-mortems and like pairing with junior colleagues.",
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "MQTT",
+      "REST",
+      "GraphQL (gqlgen)",
+      "Redis",
+      "Docker",
+      "GitLab CI",
+      "Datadog",
+      "Testing",
+      "Python",
+      "SQL",
+      "Privacy by design",
+      "Pair programming",
+      "Incident response"
+    ],
+    "experience": [
+      {
+        "role": "Backend Engineer",
+        "company": "Salthill Health Systems",
+        "period": "2021 – Present",
+        "bullets": [
+          "Built appointment and referral services in Go for 15 hospitals, working with clinicians and compliance officers so that every data flow was documented, access controlled and traceable, which shaped how I think about privacy by design.",
+          "Introduced GraphQL gateway with gqlgen, simplifying three client apps.",
+          "Set up GitLab CI jobs for linting and tests on every merge request.",
+          "Cut flaky tests from 30 to 2 by isolating database fixtures.",
+          "Set up consumer-driven contracts with two partner vendors so interface changes could be released safely."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Connacht Devices",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Wrote Python services for sensor data, where I learned to deal with intermittent connectivity, strange device firmware and customers who needed answers quickly.",
+          "Ported a device registry to Go.",
+          "Supported field engineers with logs and diagnostics.",
+          "Rewrote the referral workflow, shortening average hospital processing time by two days.",
+          "Documented every public API with examples that frontend teams use directly."
+        ]
+      },
+      {
+        "role": "Graduate Developer",
+        "company": "Atlantic Code Works",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Worked on web forms and SQL reports.",
+          "Led a small proof of concept for sensor data buffering when connectivity drops.",
+          "Joined a hackathon team that placed second with a medication reminder prototype.",
+          "Wrote scripts for importing legacy data and learned the importance of careful validation.",
+          "Attended customer meetings to understand daily workflows."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computing",
+        "institution": "Western Atlantic University College",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (C1)"
+    ],
+    "certifications": [
+      "Health data privacy and GDPR awareness training"
+    ]
+  },
+  {
+    "archetype": "backend_go",
+    "language": "en",
+    "misleading": false,
+    "name": "Carmen Idoate",
+    "headline": "Software Engineer",
+    "email": "carmen.idoate@example.net",
+    "location": "Bilbao, Spain",
+    "summary": "Software engineer with nine years of experience in retail and energy, writing Go for the last five. I favour explicit code, good logging and pragmatic testing; happy to be hands-on in on-call rotations. I like pragmatic engineering: few dependencies, explicit error handling and honest estimates. I co-organise a Go meetup in the Basque Country and have taught a university module on backend development.",
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "gRPC",
+      "NATS",
+      "Redis",
+      "Prometheus",
+      "Grafana",
+      "Wire (DI)",
+      "Docker",
+      "Bash",
+      "SQL",
+      "OpenAPI",
+      "Feature flags",
+      "Technical writing",
+      "Code review"
+    ],
+    "experience": [
+      {
+        "role": "Software Engineer",
+        "company": "Ibaizabal Energía Digital",
+        "period": "2021 – Present",
+        "bullets": [
+          "Built meter-reading ingestion services in Go processing 4 million readings an hour, and I regularly speak with the operations team to understand how readings arrive in practice, which helped us catch malformed data long before it reached billing.",
+          "Replaced polling with NATS subscriptions, reducing load on the database by half.",
+          "Deployed services via the platform team's k8s templates; I only edit the service manifests.",
+          "Participate in on-call and write post-incident reviews.",
+          "Created a replay tool that reprocesses stored readings after bug fixes, avoiding manual corrections and customer disputes."
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "company": "Kantabria Retail Group",
+        "period": "2017 – 2021",
+        "bullets": [
+          "Developed stock APIs in Java and later Go, where the team was small, so I took on design, implementation, testing and support for the stock services.",
+          "Added caching that sped up catalogue pages by 3x.",
+          "Mentored two interns.",
+          "Implemented rate-limited public APIs for franchise partners.",
+          "Introduced feature flags for gradual rollouts, which prevented a failed release reaching all stores."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Euskadi Soluciones",
+        "period": "2015 – 2017",
+        "bullets": [
+          "Maintained PHP intranet applications.",
+          "Supported a larger team by fixing bugs and writing small features in Java.",
+          "Learned code review, branching strategies and release routines.",
+          "Learned version control, code review and basic testing from a patient team lead.",
+          "Helped customers by phone when intranet pages failed, which taught me to listen first."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Grado en Ingeniería Informática",
+        "institution": "Universidad Técnica del Cantábrico",
+        "period": "2011 – 2015"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "Basque (B2)",
+      "English (C1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Gunther Ahlfeld",
+    "headline": "Senior Java Architect",
+    "email": "gunther.ahlfeld@example.com",
+    "location": "Hamburg, Germany",
+    "summary": "Java developer and architect with eighteen years in insurance and logistics software. I specialise in modernising large Spring systems and keeping teams productive while doing it. Calm in incidents, direct in design reviews. I like to combine hands-on coding with architectural governance and have given talks at regional Java user groups. I appreciate teams that write down decisions and share failures openly.",
+    "skills": [
+      "Java 21",
+      "Spring Boot",
+      "Hibernate",
+      "Oracle",
+      "PostgreSQL",
+      "JMS",
+      "Maven",
+      "Domain-driven design",
+      "Microservices",
+      "JUnit",
+      "SonarQube",
+      "Modular monolith",
+      "Architecture governance",
+      "Mentoring",
+      "Performance tuning"
+    ],
+    "experience": [
+      {
+        "role": "Senior Java Architect",
+        "company": "Elbtor Versicherung IT",
+        "period": "2016 – Present",
+        "bullets": [
+          "Led decomposition of a 2-million-line monolith into a modular system with eight deployable services, coordinating five teams and a dozen stakeholders, and protecting delivery by agreeing explicit module boundaries, interface contracts and regular joint integration tests.",
+          "Introduced architecture tests that stopped dependency drift between modules.",
+          "Upgraded the estate from Java 8 to 21 with no customer downtime.",
+          "Release packaging handed over to the operations team's pipeline; I only maintain the Maven build.",
+          "Facilitated monthly architecture reviews, producing a lightweight decision record for every significant change."
+        ]
+      },
+      {
+        "role": "Java Developer",
+        "company": "Hanse Logistiksysteme",
+        "period": "2009 – 2016",
+        "bullets": [
+          "Built shipment tracking on JEE and later Spring, where I also became the person colleagues approached for difficult SQL and transaction problems across several departments.",
+          "Tuned Oracle queries for the customs module.",
+          "Trained new colleagues on testing.",
+          "Trained thirty developers on Spring and testing practices, and established coding conventions for the department.",
+          "Lead on-site workshops with business departments to clarify the claims domain."
+        ]
+      },
+      {
+        "role": "Developer",
+        "company": "Alster Datenverarbeitung",
+        "period": "2007 – 2009",
+        "bullets": [
+          "Wrote Java Swing clients for warehouse staff.",
+          "Supported the migration of customs forms to a new regulatory format.",
+          "Designed a reusable address validation library shared across projects.",
+          "Maintained desktop tools for warehouse staff and learned how users actually work with software.",
+          "Wrote user manuals and ran small training sessions."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diplom-Wirtschaftsinformatiker",
+        "institution": "Hochschule Nordstadt",
+        "period": "2002 – 2007"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C1)"
+    ],
+    "certifications": [
+      "Oracle Certified Professional, Java SE"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Chidinma Eze",
+    "headline": "Software Developer (.NET)",
+    "email": "chidinma.eze@example.org",
+    "location": "Lagos, Nigeria",
+    "summary": "Mid-level .NET developer with six years of experience in banking and payments. I work mostly with ASP.NET Core APIs and SQL Server, and enjoy clean architecture and meaningful unit tests. Beyond coding, I enjoy mentoring new graduates and presenting at our developer community in Lagos. I am comfortable with stakeholders from compliance and operations and take security seriously.",
+    "skills": [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "SQL Server",
+      "Dapper",
+      "xUnit",
+      "Azure DevOps",
+      "Service Bus",
+      "REST",
+      "MediatR",
+      "Swagger",
+      "Clean architecture",
+      "Code review",
+      "Secure coding"
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Eko Payments Gateway",
+        "period": "2022 – Present",
+        "bullets": [
+          "Develop card settlement APIs in ASP.NET Core serving 400,000 transactions a day, working with fraud analysts and compliance officers to ensure that every settlement rule was documented, tested and explainable to auditors in plain language.",
+          "Introduced MediatR and vertical slices, reducing merge conflicts between squads.",
+          "Wrote xUnit suites covering reconciliation rules; defects in production fell by a third.",
+          "Use Azure DevOps boards and pipelines supplied by the team.",
+          "Reviewed pull requests daily and coached two junior developers on clean architecture and test design."
+        ]
+      },
+      {
+        "role": "Junior .NET Developer",
+        "company": "Naija Microfinance Tech",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Built loan application screens and APIs, where I learned to build maintainable APIs under pressure while serving branch staff in several Nigerian cities.",
+          "Optimised SQL Server stored procedures.",
+          "Fixed defects raised by branch staff.",
+          "Cut nightly settlement runtime from four hours to forty minutes by rewriting stored procedures and indexing.",
+          "Helped the compliance team by implementing audit trails for sensitive operations."
+        ]
+      },
+      {
+        "role": "Intern",
+        "company": "Lekki Software Hub",
+        "period": "2019 – 2020",
+        "bullets": [
+          "Supported a team building ASP.NET MVC portals.",
+          "Fixed reported defects and wrote unit tests for the loan calculation module.",
+          "Attended product demos with the business team to understand customer needs.",
+          "Gained first experience of ASP.NET MVC, SQL queries and agile teamwork.",
+          "Presented a final demo to the engineering manager and received a full-time offer."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Lagos Central University",
+        "period": "2014 – 2018"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Igbo (native)"
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "pt",
+    "misleading": false,
+    "name": "Rafael Quintanilha",
+    "headline": "Programador Java",
+    "email": "rafael.quintanilha@example.net",
+    "location": "Coimbra, Portugal",
+    "summary": "Programador Java com seis anos de experiência em sistemas de saúde e educação. Prefiro soluções simples e testadas, e gosto de trabalhar próximo dos utilizadores finais. Participo em grupos de utilizadores Java e gosto de aprender com a comunidade. Tenho experiência em trabalhar com equipas clínicas, ouvindo as suas necessidades antes de escrever código.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "PostgreSQL",
+      "REST",
+      "JUnit",
+      "Mockito",
+      "Angular (básico)",
+      "Maven",
+      "Docker",
+      "Git",
+      "SQL",
+      "Metodologias ágeis",
+      "Revisão de código",
+      "Modelação de dados"
+    ],
+    "experience": [
+      {
+        "role": "Programador Java",
+        "company": "Mondego Saúde Digital",
+        "period": "2021 – Presente",
+        "bullets": [
+          "Desenvolvo o serviço de marcação de consultas para 60 centros de saúde, em contacto frequente com médicos e administrativos, o que me ensinou a validar requisitos com protótipos simples antes de implementar as funcionalidades completas.",
+          "Melhorei consultas SQL lentas, reduzindo o tempo de carregamento de 8 s para 2 s.",
+          "Escrevo testes com JUnit e Mockito para as regras de negócio.",
+          "Participo na revisão de código semanal.",
+          "Contribuí para a migração da base de dados antiga, validando mais de dois milhões de registos de pacientes."
+        ]
+      },
+      {
+        "role": "Programador",
+        "company": "Universidade Digital Conimbriga",
+        "period": "2019 – 2021",
+        "bullets": [
+          "Mantive o sistema de gestão de matrículas, onde também apoiei colegas menos experientes e ajudei a definir convenções de código para a equipa.",
+          "Criei relatórios para os serviços académicos.",
+          "Apoiei os utilizadores internos.",
+          "Escrevi relatórios para a direção académica e automatizei exportações que antes demoravam um dia.",
+          "Dei formação a colaboradores sobre a nova aplicação."
+        ]
+      },
+      {
+        "role": "Estagiário de Programação",
+        "company": "Beira Software Lab",
+        "period": "2018 – 2019",
+        "bullets": [
+          "Participei no desenvolvimento de uma aplicação web em Java e JSF.",
+          "Escrevi testes e documentação técnica.",
+          "Aprendi a trabalhar em equipa com metodologias ágeis.",
+          "Participei em reuniões diárias de equipa e aprendi a dividir tarefas em partes pequenas.",
+          "Apresentei uma demonstração do projeto final aos responsáveis pelo departamento."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura em Engenharia Informática",
+        "institution": "Instituto Politécnico do Centro",
+        "period": "2015 – 2018"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (B2)"
+    ],
+    "certifications": [
+      "Curso de Spring Boot avançado, certificado de conclusão"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Hannah Pickersgill",
+    "headline": "Junior .NET Developer",
+    "email": "hannah.pickersgill@example.com",
+    "location": "Leeds, United Kingdom",
+    "summary": "Junior developer with two years in a small product team working with C# and ASP.NET Core. Eager to learn, comfortable asking questions and keen on testing. I came into software through an apprenticeship and I value learning by doing. I write tests for the code I touch, ask questions early and like turning feedback into small improvements.",
+    "skills": [
+      "C#",
+      "ASP.NET Core",
+      "Blazor",
+      "SQL Server",
+      "Entity Framework",
+      "NUnit",
+      "Git",
+      "REST APIs",
+      "Razor Pages",
+      "Postman",
+      "Debugging",
+      "Agile (Scrum)",
+      "Communication"
+    ],
+    "experience": [
+      {
+        "role": "Junior .NET Developer",
+        "company": "Pennine Property Software",
+        "period": "2024 – Present",
+        "bullets": [
+          "Build and fix features for a lettings management portal in ASP.NET Core and Blazor, learning how to break work into small pieces, discuss trade-offs with colleagues and release changes safely at the end of each sprint.",
+          "Added NUnit tests to untested services.",
+          "Implemented export to PDF and CSV for landlords.",
+          "Triage support tickets with the senior developer.",
+          "Took ownership of a small reporting module end to end, from requirements through release."
+        ]
+      },
+      {
+        "role": "Apprentice Developer",
+        "company": "Aire Valley Digital",
+        "period": "2023 – 2024",
+        "bullets": [
+          "Worked on a customer portal with Razor Pages, where mentors showed me how to debug methodically and how to write readable commit messages and pull request descriptions.",
+          "Wrote SQL queries for dashboards.",
+          "Learned code review practice.",
+          "Added input validation to forms, reducing support calls about incorrect rent figures by about a fifth.",
+          "Learned to read production logs and reproduce customer bugs locally."
+        ]
+      },
+      {
+        "role": "Retail Assistant",
+        "company": "Leeds Bookshop Collective",
+        "period": "2019 – 2020",
+        "bullets": [
+          "Served customers and managed stock in a busy independent shop.",
+          "Built a small spreadsheet-based stock tracker that the team continued to use.",
+          "Developed communication skills in a fast-paced environment.",
+          "Developed teamwork, time management and customer communication skills.",
+          "Taught myself HTML, CSS and C# through online courses in the evenings."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computing",
+        "institution": "Yorkshire Metropolitan College",
+        "period": "2020 – 2023"
+      }
+    ],
+    "languages": [
+      "English (native)"
+    ],
+    "certifications": [
+      "Level 4 Software Developer apprenticeship standard, completed",
+      "Online course in advanced C# and unit testing"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Vikram Chaudhry",
+    "headline": "Lead Java Engineer",
+    "email": "vikram.chaudhry@example.org",
+    "location": "Pune, India",
+    "summary": "Lead engineer with thirteen years building trading and risk systems in Java. Strong on concurrency, low-latency design and performance tuning. I lead a team of seven and still write code daily. I like systems where microseconds matter and where correctness is non-negotiable. I regularly run deep-dive sessions on the Java memory model and enjoy teaching engineers to read profiler output.",
+    "skills": [
+      "Java",
+      "JVM tuning",
+      "Concurrency",
+      "Spring",
+      "Kafka",
+      "Aeron",
+      "Oracle",
+      "Redis",
+      "JMH",
+      "gRPC",
+      "Multithreading",
+      "FIX protocol",
+      "Latency engineering",
+      "Technical leadership",
+      "Capacity planning"
+    ],
+    "experience": [
+      {
+        "role": "Lead Java Engineer",
+        "company": "Sahyadri Capital Markets Tech",
+        "period": "2018 – Present",
+        "bullets": [
+          "Lead the team behind a pre-trade risk engine with 150 microsecond median latency, working directly with traders and quantitative researchers, who set demanding latency targets that we verified through repeatable benchmarks and production replays.",
+          "Cut garbage collection pauses by 90% through allocation profiling and object pooling.",
+          "Designed the market data distribution layer on Kafka.",
+          "Hire and mentor engineers.",
+          "Created a performance regression suite executed before every release, preventing three slowdowns from reaching production."
+        ]
+      },
+      {
+        "role": "Senior Developer",
+        "company": "Indus Brokerage Systems",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Developed order routing and FIX gateways, where I also introduced weekly performance reviews and a shared checklist for safe changes during trading hours.",
+          "Created benchmarks with JMH for release gates.",
+          "Supported production during market hours.",
+          "Led capacity planning for market-open spikes and introduced load-shedding rules for downstream consumers.",
+          "Interviewed and hired seven engineers over four years."
+        ]
+      },
+      {
+        "role": "Developer",
+        "company": "Pune Infosoft",
+        "period": "2011 – 2013",
+        "bullets": [
+          "Wrote Java back-office tools for settlement.",
+          "Maintained Java services for order confirmations.",
+          "Learned market structure and fixed production incidents during trading hours.",
+          "Worked on settlement reports and learned SQL tuning on a large Oracle database.",
+          "Took part in release nights and learned how to roll back safely."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BE Computer Engineering",
+        "institution": "Maharashtra Technical Institute",
+        "period": "2007 – 2011"
+      },
+      {
+        "degree": "Postgraduate Diploma in Quantitative Finance",
+        "institution": "Pune School of Financial Studies",
+        "period": "2014 – 2016"
+      }
+    ],
+    "languages": [
+      "English (fluent)",
+      "Hindi (native)",
+      "Marathi (fluent)"
+    ],
+    "certifications": [
+      "Advanced Java concurrency and performance training course",
+      "Internal certification in electronic trading risk controls"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "pt",
+    "misleading": false,
+    "name": "Ines Montenegro",
+    "headline": "Engenheira de Software .NET",
+    "email": "ines.montenegro@example.com",
+    "location": "Braga, Portugal",
+    "summary": "Engenheira .NET com onze anos de experiência em software de gestão e faturação. Trabalho com C#, SQL Server e Azure. Valorizo a clareza do domínio e a comunicação com a equipa de negócio. Gosto de trabalhar próximo das equipas financeiras para garantir que o software respeita a legislação fiscal portuguesa. Sou apoiante de revisões de código curtas e de testes automáticos.",
+    "skills": [
+      "C#",
+      ".NET",
+      "ASP.NET Core",
+      "SQL Server",
+      "Entity Framework",
+      "Azure Functions",
+      "Service Bus",
+      "xUnit",
+      "Domain-driven design",
+      "Azure DevOps",
+      "Redis",
+      "REST",
+      "Mentoria",
+      "Domínio fiscal",
+      "Revisão de código"
+    ],
+    "experience": [
+      {
+        "role": "Engenheira de Software Sénior",
+        "company": "Fatura Mais Software",
+        "period": "2018 – Presente",
+        "bullets": [
+          "Lidero o módulo de faturação eletrónica, usado por 9 000 empresas, colaborando com contabilistas e consultores fiscais para garantir que cada alteração legislativa era refletida no software dentro do prazo e com testes de aceitação.",
+          "Migrei uma aplicação .NET Framework para .NET 8, reduzindo custos de alojamento em 30%.",
+          "Introduzi Azure Functions para tarefas assíncronas.",
+          "Faço mentoria a dois programadores juniores.",
+          "Implementei a comunicação de faturas à Autoridade Tributária com tratamento robusto de falhas e reenvios."
+        ]
+      },
+      {
+        "role": "Programadora .NET",
+        "company": "Gestão Minho Sistemas",
+        "period": "2013 – 2018",
+        "bullets": [
+          "Desenvolvi módulos de contabilidade em C# e WinForms, em projetos para pequenas e médias empresas, onde aprendi a explicar problemas técnicos a utilizadores sem formação informática.",
+          "Escrevi procedimentos armazenados em SQL Server.",
+          "Prestei apoio a clientes.",
+          "Dei formação a equipas de suporte sobre o novo módulo, reduzindo chamadas repetidas.",
+          "Melhorei o desempenho de relatórios mensais de vinte minutos para menos de um minuto."
+        ]
+      },
+      {
+        "role": "Estagiária",
+        "company": "Bracara Informática",
+        "period": "2012 – 2013",
+        "bullets": [
+          "Apoio ao desenvolvimento de aplicações web.",
+          "Participei em testes de aceitação com clientes e documentei os erros encontrados.",
+          "Aprendi SQL avançado e modelação de dados.",
+          "Apoiei a equipa de desenvolvimento com testes manuais e documentação de funcionalidades.",
+          "Aprendi a trabalhar com bases de dados relacionais e controlo de versões."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Mestrado em Engenharia de Sistemas de Informação",
+        "institution": "Universidade do Minho Aplicada",
+        "period": "2007 – 2012"
+      }
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (C1)",
+      "Francês (B1)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": true,
+    "name": "Szymon Przybylski",
+    "headline": "Java Developer",
+    "email": "szymon.przybylski@example.net",
+    "location": "Krakow, Poland",
+    "summary": "Java developer focused on insurance back-office applications. Five years of experience in Spring Boot and relational databases. Always looking to improve my cloud and DevOps knowledge. Outside work I contribute to a small Java open-source library and follow tech blogs about the wider industry. At work my responsibility is application code, domain rules and tests.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "PostgreSQL",
+      "JUnit",
+      "Maven",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "AWS",
+      "Docker",
+      "Jenkins",
+      "Ansible",
+      "Helm",
+      "ArgoCD",
+      "Prometheus",
+      "Grafana",
+      "Azure",
+      "GitHub Actions",
+      "Linux",
+      "Refactoring",
+      "Agile (Scrum)",
+      "Technical documentation"
+    ],
+    "experience": [
+      {
+        "role": "Java Developer",
+        "company": "Wisla Ubezpieczenia IT",
+        "period": "2022 – Present",
+        "bullets": [
+          "Implement policy and claims features in a Spring Boot application, sitting with claims handlers to observe real workflows, which helped me to remove several confusing steps and to simplify the screens they use every day.",
+          "Wrote JUnit tests for pricing rules.",
+          "Our team description mentions Kubernetes, Terraform and CI/CD, but these are managed by a separate operations group; I have only seen them in demos.",
+          "Fix defects reported by the claims department.",
+          "Work with business analysts to clarify claims rules and write acceptance criteria for each user story."
+        ]
+      },
+      {
+        "role": "Junior Java Developer",
+        "company": "Krakow Softworks",
+        "period": "2020 – 2022",
+        "bullets": [
+          "Built CRUD screens and REST endpoints, where I learned the basics of relational design, version control and writing automated tests for business rules.",
+          "Wrote SQL migrations.",
+          "Learned Hibernate performance tuning.",
+          "Learned to refactor legacy code safely using characterisation tests.",
+          "Helped migrate data from an old mainframe export into PostgreSQL."
+        ]
+      },
+      {
+        "role": "Support Analyst",
+        "company": "Krakow Insurance Brokers",
+        "period": "2018 – 2020",
+        "bullets": [
+          "Handled first-line support for an internal policy system and wrote simple SQL queries.",
+          "Documented recurring problems and proposed fixes to developers.",
+          "Studied part-time and moved into development.",
+          "Answered user questions by phone and e-mail and noticed patterns in recurring defects.",
+          "Wrote small SQL scripts to correct bad data safely."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "Lesser Poland University of Applied Sciences",
+        "period": "2016 – 2020"
+      }
+    ],
+    "languages": [
+      "Polish (native)",
+      "English (B2)"
+    ],
+    "certifications": []
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Declan Moriarty",
+    "headline": "Senior .NET Engineer",
+    "email": "declan.moriarty@example.net",
+    "location": "Dublin, Ireland",
+    "summary": "Senior .NET engineer with fifteen years of experience in fintech and gaming back ends. I like domain modelling, event-driven systems and teaching others to write testable code. Delivery-focused, numbers-driven. I like systems that stay correct under heavy load, and I have a track record of leading small teams through risky rewrites. I mentor engineers and enjoy writing clear technical proposals.",
+    "skills": [
+      "C#",
+      ".NET",
+      "ASP.NET Core",
+      "SQL Server",
+      "Cosmos DB",
+      "RabbitMQ",
+      "MassTransit",
+      "Event-driven design",
+      "xUnit",
+      "Polly",
+      "Azure",
+      "Octopus Deploy",
+      "Technical leadership",
+      "Mentoring",
+      "Domain modelling"
+    ],
+    "experience": [
+      {
+        "role": "Senior .NET Engineer",
+        "company": "Liffey Gaming Platform",
+        "period": "2017 – Present",
+        "bullets": [
+          "Rebuilt the wallet service handling 1.2 billion bets a year; zero reconciliation errors in 18 months, while working closely with traders, compliance and customer support to keep rules consistent, auditable and easy to explain to regulators in each licensed market.",
+          "Adopted MassTransit sagas for multi-step payouts, reducing manual interventions by 80%.",
+          "Cut build time from 40 to 12 minutes by splitting solutions.",
+          "Release management done with Octopus Deploy alongside the operations team.",
+          "Mentor four engineers and lead the interview process for .NET roles."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Emerald Trading Tech",
+        "period": "2011 – 2017",
+        "bullets": [
+          "Developed .NET order management for retail brokers, including a major platform migration that we completed over a single weekend with a staged rollout and a rehearsed rollback plan.",
+          "Moved batch processes to message queues.",
+          "Introduced unit testing practices.",
+          "Led the rewrite of the order management system, which processed over 50,000 orders a day.",
+          "Designed an audit trail meeting regulatory reporting requirements."
+        ]
+      },
+      {
+        "role": "Developer",
+        "company": "Celtic Business Software",
+        "period": "2009 – 2011",
+        "bullets": [
+          "Built WinForms and ASP.NET Web Forms applications.",
+          "Delivered training sessions on object-oriented design for new graduates.",
+          "Maintained customer portals and fixed defects.",
+          "Learned object-oriented design, database programming and customer communication.",
+          "Took part in on-site installations and trained users."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Applications",
+        "institution": "Dublin Institute of Computing",
+        "period": "2005 – 2009"
+      }
+    ],
+    "languages": [
+      "English (native)",
+      "Irish (B1)"
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Alejandro Rueda",
+    "headline": "Junior Java Developer",
+    "email": "alejandro.rueda@example.org",
+    "location": "Valencia, Spain",
+    "summary": "Recent graduate with one year of professional experience in Java and Spring. Enthusiastic about learning clean code, testing and good API design. I am a curious, quick learner who enjoys solving concrete problems. I like working in a team, asking for code reviews and understanding the business behind every task. During my degree I completed a final-year project on a reservation system and I am now looking to grow into a solid backend engineer within a supportive team.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "JPA",
+      "MySQL",
+      "JUnit",
+      "Maven",
+      "REST",
+      "Git",
+      "Thymeleaf",
+      "SQL",
+      "Debugging",
+      "Agile (Scrum)",
+      "Code review"
+    ],
+    "experience": [
+      {
+        "role": "Junior Java Developer",
+        "company": "Turia Servicios Digitales",
+        "period": "2025 – Present",
+        "bullets": [
+          "Develop REST endpoints for a municipal permit application, where I learned how real users describe problems differently from developers and how important small, testable increments are for delivering with confidence.",
+          "Wrote unit tests with JUnit and Mockito.",
+          "Fixed bugs reported by internal users.",
+          "Learning from weekly code reviews.",
+          "Added validation rules and error messages for the permit forms, which reduced rejected applications."
+        ]
+      },
+      {
+        "role": "Intern",
+        "company": "Levante Consulting",
+        "period": "2024 – 2025",
+        "bullets": [
+          "Built a small web application using Spring and Thymeleaf, gaining first experience of agile practices, version control workflows and giving short demos to non-technical stakeholders.",
+          "Wrote documentation for the final project.",
+          "Helped migrate data from spreadsheets to MySQL.",
+          "Took part in agile ceremonies and learned to estimate small tasks.",
+          "Worked on a cinema reservation project during my degree, which won an internal prize."
+        ]
+      },
+      {
+        "role": "Part-time Developer",
+        "company": "Valencia Student Union",
+        "period": "2023 – 2024",
+        "bullets": [
+          "Developed a simple event registration site for student societies using Java and MySQL.",
+          "Collected feedback from users and delivered small improvements each month.",
+          "Learned to document features and maintain a project backlog.",
+          "Wrote documentation and short video tutorials for volunteer organisers.",
+          "Learned how to prioritise requests from several student groups."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Grado en Ingeniería Informática",
+        "institution": "Universidad Politécnica del Turia",
+        "period": "2020 – 2024"
+      }
+    ],
+    "languages": [
+      "Spanish (native)",
+      "Valencian (native)",
+      "English (B2)"
+    ],
+    "certifications": [
+      "Spring Framework online course, completed with certificate",
+      "Java programming fundamentals course, certificate of completion",
+      "Workshop on agile methods and teamwork"
+    ]
+  },
+  {
+    "archetype": "backend_java_dotnet",
+    "language": "en",
+    "misleading": false,
+    "name": "Sabine Oltmanns",
+    "headline": "Software Engineer, .NET",
+    "email": "sabine.oltmanns@example.com",
+    "location": "Cologne, Germany",
+    "summary": "Mid-level .NET developer with seven years in healthcare IT. I build HL7 and FHIR integrations as well as web APIs. I care about data privacy, careful error handling and readable code. Data protection and clinical safety guide my engineering choices. I enjoy working with clinicians, translating their needs into reliable interfaces, and I like debugging unusual message flows.",
+    "skills": [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "FHIR",
+      "HL7",
+      "SQL Server",
+      "Entity Framework",
+      "xUnit",
+      "Azure DevOps",
+      "Docker",
+      "WCF (legacy)",
+      "Serilog",
+      "Data protection (GDPR)",
+      "Clinical safety",
+      "Incident response"
+    ],
+    "experience": [
+      {
+        "role": "Software Engineer",
+        "company": "Rheinklinik Informatik",
+        "period": "2021 – Present",
+        "bullets": [
+          "Develop FHIR APIs connecting 12 hospital systems, in close cooperation with clinicians, privacy officers and vendors, so that every interface had documented message examples and a clear owner on both sides.",
+          "Reworked error handling and Serilog logging, shortening troubleshooting from hours to minutes.",
+          "Wrote migration scripts for patient master data.",
+          "Apps are deployed to containers by the infrastructure group via Azure DevOps.",
+          "Joined the incident rota and wrote post-incident reports that led to better retry logic for messages."
+        ]
+      },
+      {
+        "role": "Developer",
+        "company": "Domstadt Medizinsoftware",
+        "period": "2018 – 2021",
+        "bullets": [
+          "Maintained WCF services and HL7 interfaces, where I also trained colleagues in careful error handling, data validation and how to read integration logs without panic.",
+          "Ported modules to .NET Core.",
+          "Held workshops on unit testing.",
+          "Implemented role-based access and audit logging to satisfy hospital privacy officers.",
+          "Reduced interface message failures by 65% through validation and clearer error responses."
+        ]
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Kölsch Digital",
+        "period": "2017 – 2018",
+        "bullets": [
+          "Built internal web forms in ASP.NET MVC.",
+          "Worked with nurses to design a handover summary screen that became the most-used feature in the product.",
+          "Learned HL7 messaging on the job.",
+          "Built internal web forms and learned unit testing and database design.",
+          "Supported colleagues in the radiology department with small tooling requests."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Medical Informatics",
+        "institution": "Rhenish University of Applied Sciences",
+        "period": "2012 – 2017"
+      }
+    ],
+    "languages": [
+      "German (native)",
+      "English (C1)",
+      "Turkish (A2)"
+    ],
+    "certifications": [
+      "HL7 FHIR fundamentals certificate"
+    ]
+  }
+]
