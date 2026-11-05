@@ -40,7 +40,7 @@ services:
     restart: "no"
 
   migrate:
-    image: migrate/migrate
+    image: migrate/migrate:v4.18.3
     volumes:
       - ./migrations:/migrations
     command:

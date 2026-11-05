@@ -26,7 +26,7 @@ services:
       retries: 10
 
   migrate:
-    image: migrate/migrate
+    image: migrate/migrate:v4.18.3
     volumes:
       - ./migrations:/migrations:ro
     command:
