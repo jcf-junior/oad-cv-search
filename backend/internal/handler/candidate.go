@@ -66,6 +66,17 @@ func (h *CandidateHandler) Upload(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusCreated, candidate)
 }
 
+func (h *CandidateHandler) Count(w http.ResponseWriter, r *http.Request) {
+	count, err := h.service.Count(r.Context())
+	if err != nil {
+		log.Printf("count candidates: %v", err)
+		writeError(w, http.StatusInternalServerError, "internal error")
+		return
+	}
+
+	writeJSON(w, http.StatusOK, map[string]int{"count": count})
+}
+
 func (h *CandidateHandler) Get(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("id")
 	if !uuidPattern.MatchString(id) {

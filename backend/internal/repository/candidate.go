@@ -39,6 +39,12 @@ func (r *CandidateRepository) Create(ctx context.Context, name, fileName, conten
 	return candidate, nil
 }
 
+func (r *CandidateRepository) Count(ctx context.Context) (int, error) {
+	var count int
+	err := r.pool.QueryRow(ctx, `SELECT count(*) FROM candidates`).Scan(&count)
+	return count, err
+}
+
 func (r *CandidateRepository) GetByID(ctx context.Context, id string) (model.Candidate, error) {
 	var candidate model.Candidate
 

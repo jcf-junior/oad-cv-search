@@ -92,6 +92,14 @@ curl -X POST http://localhost:8080/search/keyword \
 
 Usa full-text search do PostgreSQL (configuração `simple`). Todas as palavras da query têm de existir no CV. Resposta (200): lista ordenada por `rank` (`ts_rank`). Serve de comparação com a pesquisa semântica.
 
+### Número de CVs na base
+
+```
+curl http://localhost:8080/candidates/count
+```
+
+Resposta (200): `{"count": 147}`.
+
 ### Detalhe de um candidato
 
 ```

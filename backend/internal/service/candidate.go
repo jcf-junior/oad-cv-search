@@ -35,6 +35,10 @@ func (s *CandidateService) Upload(ctx context.Context, fileName string, file io.
 	return s.repo.Create(ctx, name, fileName, content, embedding)
 }
 
+func (s *CandidateService) Count(ctx context.Context) (int, error) {
+	return s.repo.Count(ctx)
+}
+
 func (s *CandidateService) Get(ctx context.Context, id string) (model.Candidate, error) {
 	return s.repo.GetByID(ctx, id)
 }

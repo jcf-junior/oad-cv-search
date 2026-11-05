@@ -44,6 +44,17 @@ h3 {
   font-size: 1rem;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.count {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 nav {
   display: flex;
   gap: 8px;

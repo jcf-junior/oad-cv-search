@@ -5,6 +5,7 @@ import "net/http"
 func NewRouter(candidates *CandidateHandler, frontendDir string) http.Handler {
 	mux := http.NewServeMux()
 	mux.HandleFunc("POST /candidates", candidates.Upload)
+	mux.HandleFunc("GET /candidates/count", candidates.Count)
 	mux.HandleFunc("GET /candidates/{id}", candidates.Get)
 	mux.HandleFunc("POST /search", candidates.Search)
 	mux.HandleFunc("POST /search/keyword", candidates.SearchKeyword)

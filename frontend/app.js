@@ -9,6 +9,16 @@ async function request(path, options) {
   return data;
 }
 
+async function loadCount() {
+  const element = document.getElementById("cv-count");
+  try {
+    const data = await request("/candidates/count");
+    element.textContent = `${data.count} ${data.count === 1 ? "CV" : "CVs"} na base`;
+  } catch {
+    element.textContent = "";
+  }
+}
+
 function createElement(tag, className, text) {
   const element = document.createElement(tag);
   if (className) element.className = className;
@@ -129,6 +139,7 @@ function setupUpload() {
       content.textContent = candidate.content;
       resultBox.hidden = false;
       setStatus(status, "CV guardado.");
+      loadCount();
     } catch (error) {
       setStatus(status, error.message, true);
     } finally {
@@ -155,3 +166,4 @@ setupTabs();
 setupSearch({ prefix: "semantic", path: "/search", toItems: semanticItems });
 setupSearch({ prefix: "keyword", path: "/search/keyword", toItems: keywordItems });
 setupUpload();
+loadCount();
