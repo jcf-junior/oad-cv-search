@@ -1,28 +1,40 @@
 name: Deploy
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       version:
+        description: Image tag to deploy (for example v0.1.7)
         type: string
         required: true
-      image:
-        type: string
-        required: true
-    secrets:
-      POSTGRES_PASSWORD:
-        required: true
+        default: latest
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: read
 
 jobs:
   deploy:
     runs-on: [self-hosted, linux]
-    permissions:
-      contents: read
-      packages: read
-    env:
-      API_IMAGE: ${{ inputs.image }}:${{ inputs.version }}
     steps:
+      - name: Resolve image
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          if ! [[ "$VERSION" =~ ^(latest|v[0-9]+\.[0-9]+\.[0-9]+)$ ]]; then
+            echo "invalid version: $VERSION"
+            exit 1
+          fi
+          echo "API_IMAGE=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/cv-search:${VERSION}" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.version == 'latest' && github.event.repository.default_branch || inputs.version }}
 
       - name: Prepare deploy directory
         env:
