@@ -472,7 +472,7 @@
       "Secure design reviews",
       "Supply chain security (SBOM, SCA)",
       "Container image scanning",
-      "Admission policies for k8s clusters",
+      "Admission policies for Kubernetes clusters",
       "Dependency management",
       "Fuzzing",
       "Go",
@@ -488,7 +488,7 @@
         "bullets": [
           "Created hardened service templates adopted by 70 microservices, with authentication and logging enabled by default.",
           "Set up SBOM generation and dependency scanning, shortening patch time for critical libraries from 30 days to 6.",
-          "Wrote admission policies for our k8s clusters that reject unsigned or root containers.",
+          "Wrote admission policies for our Kubernetes clusters that reject unsigned or root containers.",
           "Reviewed 100+ architecture proposals and documented recurring abuse cases in an internal wiki.",
           "Introduced a lightweight security review checklist that fits inside pull request templates and takes under ten minutes. Run a monthly office hour where any developer can bring a design question."
         ]

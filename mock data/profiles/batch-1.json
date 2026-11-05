@@ -11,7 +11,7 @@
     "skills": [
       "AWS",
       "EKS",
-      "k8s operators",
+      "Kubernetes operators",
       "Pulumi (TypeScript)",
       "ArgoCD",
       "GitOps",
@@ -379,7 +379,7 @@
     "summary": "Two years into my career after a bootcamp and a computer science degree. I support the infrastructure team with deployments, monitoring and documentation, and I am learning cluster operations and infrastructure as code from excellent mentors. I document what I learn on a personal blog, mentor secondary school students in a coding club on weekends, and keep a home lab where I practise cluster failures and recovery.",
     "skills": [
       "Docker",
-      "k8s basics",
+      "Kubernetes basics",
       "Ansible",
       "GitHub Actions",
       "Linux",
@@ -398,7 +398,7 @@
         "period": "2023 – Present",
         "bullets": [
           "Maintain GitHub Actions workflows for five services, adding caching that made builds about 40% faster.",
-          "Help operate a small k8s cluster on a managed cloud service; handle routine upgrades and certificate renewals under supervision.",
+          "Help operate a small Kubernetes cluster on a managed cloud service; handle routine upgrades and certificate renewals under supervision.",
           "Wrote Ansible playbooks to configure Nginx and monitoring agents on 25 virtual machines.",
           "Keep runbooks current and join the on-call rota as secondary responder.",
           "Created an onboarding checklist and a glossary for new team members, which cut first-week questions significantly.",

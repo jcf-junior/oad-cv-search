@@ -262,7 +262,7 @@
         "bullets": [
           "Rewrote the product search gateway in Go, lowering CPU use by 45% and p95 latency from 220 ms to 90 ms, partnering with data scientists and product managers to run weekly experiments, with every ranking change measured against click-through and conversion before a wider launch.",
           "Introduced worker pools and backpressure to protect Elasticsearch during sales events.",
-          "Packaged services as Helm charts and handed them to the platform team, who run the k8s clusters.",
+          "Packaged services as Helm charts and handed them to the platform team, who run the Kubernetes clusters.",
           "Built a latency dashboard per endpoint and added alerts that now page on regressions before customers notice.",
           "Mentor two engineers on concurrency design and review their pull requests every week."
         ]
@@ -900,7 +900,7 @@
         "bullets": [
           "Built meter-reading ingestion services in Go processing 4 million readings an hour, and I regularly speak with the operations team to understand how readings arrive in practice, which helped us catch malformed data long before it reached billing.",
           "Replaced polling with NATS subscriptions, reducing load on the database by half.",
-          "Deployed services via the platform team's k8s templates; I only edit the service manifests.",
+          "Deployed services via the platform team's Kubernetes templates; I only edit the service manifests.",
           "Participate in on-call and write post-incident reviews.",
           "Created a replay tool that reprocesses stored readings after bug fixes, avoiding manual corrections and customer disputes."
         ]

@@ -646,7 +646,7 @@
           "Designed a config-driven ingestion framework: onboarding a new source went from two weeks to two days.",
           "Processed 800 million clickstream events daily on EMR with Spark Structured Streaming.",
           "Built a PySpark unit testing library with fixtures for common transformations.",
-          "Deployed batch jobs on the shared platform's k8s cluster using Helm charts supplied by the platform team.",
+          "Deployed batch jobs on the shared platform's Kubernetes cluster using Helm charts supplied by the platform team.",
           "Collaborated with data scientists to deliver feature tables for recommendation models, with documented freshness guarantees."
         ]
       },
@@ -1300,7 +1300,7 @@
     "headline": "Staff ML Engineer",
     "email": "wolfgang.staudinger@example.com",
     "location": "Munich, Germany",
-    "summary": "Staff engineer bridging data science and production systems for a mobility company. Fourteen years of experience; I own model serving, monitoring and the team's engineering standards. I deploy to the shared k8s platform maintained by colleagues. I enjoy mentoring, writing design docs, and reviewing code for the whole group. My preference is small, testable services, strong observability and engineering practices that scientists find easy to follow.",
+    "summary": "Staff engineer bridging data science and production systems for a mobility company. Fourteen years of experience; I own model serving, monitoring and the team's engineering standards. I deploy to the shared Kubernetes platform maintained by colleagues. I enjoy mentoring, writing design docs, and reviewing code for the whole group. My preference is small, testable services, strong observability and engineering practices that scientists find easy to follow.",
     "skills": [
       "PyTorch",
       "Model serving",
@@ -1324,7 +1324,7 @@
           "Built the ETA prediction service handling 4,000 requests per second at p99 under 40 ms, and wrote the migration guide that the other teams followed during their own rollout.",
           "Standardised model packaging and registry workflow with MLflow across eight teams, with automatic rollback if latency or error rates crossed agreed thresholds.",
           "Introduced shadow deployments and drift alerts; two regressions were caught before launch, and documented the trade-offs openly so that new engineers could challenge them.",
-          "Release services onto the internal k8s platform via templates from the platform team.",
+          "Release services onto the internal Kubernetes platform via templates from the platform team.",
           "Mentor six engineers and chair the model review board before any launch."
         ]
       },

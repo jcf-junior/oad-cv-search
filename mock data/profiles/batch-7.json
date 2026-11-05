@@ -1,0 +1,67 @@
+[
+ {
+  "archetype": "platform_devops", "language": "en", "misleading": false,
+  "name": "Tobias Wenlock-Aird", "headline": "Platform Engineer",
+  "email": "tobias.wenlock-aird@example.com", "location": "Leeds, United Kingdom",
+  "summary": "Platform engineer with twelve years in infrastructure, the last six building internal developer platforms. I run production Kubernetes clusters on Azure, own the infrastructure as code repositories and keep deployment pipelines boring and reliable. I prefer small, well-documented building blocks that product teams can adopt without asking for help.",
+  "skills": ["Kubernetes", "AKS", "Bicep", "Azure DevOps", "ArgoCD", "Helm", "Prometheus", "Grafana", "Linux", "Bash", "Go"],
+  "experience": [
+   {"role": "Senior Platform Engineer", "company": "Harrowgate Retail Systems", "period": "2020 – Present", "bullets": [
+    "Operate 6 Kubernetes clusters on AKS serving 140 microservices, with zero unplanned control plane outages in three years.",
+    "Built a self-service golden path: a team scaffolds a service and gets Bicep modules, Helm chart and pipeline in under 20 minutes.",
+    "Moved release process to GitOps with ArgoCD, cutting average deployment lead time from 2 days to 40 minutes.",
+    "Introduced cost dashboards and node pool right-sizing, saving 31% on monthly cloud spend."]},
+   {"role": "DevOps Engineer", "company": "Calderbrook Logistics", "period": "2015 – 2020", "bullets": [
+    "Migrated a fleet of Windows and Linux VMs to containers and a first Kubernetes cluster on-premises.",
+    "Wrote Ansible roles and Jenkins pipelines used by 12 development teams.",
+    "Carried the on-call rota and wrote the incident runbooks the team still uses."]},
+   {"role": "Systems Administrator", "company": "Pennine Software Ltd", "period": "2012 – 2015", "bullets": [
+    "Managed Linux servers, backups and monitoring for a 60-person software house.",
+    "Automated server builds with shell scripts and Puppet."]}
+  ],
+  "education": [{"degree": "BSc Computer Networks", "institution": "University of Eastmoor", "period": "2008 – 2012"}],
+  "languages": ["English (native)", "French (A2)"],
+  "certifications": ["Azure Administrator Associate", "Certified Kubernetes Administrator"]
+ },
+ {
+  "archetype": "platform_devops", "language": "pt", "misleading": false,
+  "name": "Dulce Caramelo Vasconcellos", "headline": "Engenheira de Plataforma",
+  "email": "dulce.vasconcellos@example.org", "location": "Braga, Portugal",
+  "summary": "Engenheira de plataforma com oito anos de experiência em cloud e automação. Desenho e opero clusters Kubernetes em AWS, defino a infraestrutura em código com Terraform e mantenho pipelines de entrega contínua para equipas de produto. Valorizo observabilidade, segurança por defeito e documentação clara.",
+  "skills": ["Kubernetes", "AWS", "EKS", "Terraform", "GitLab CI", "Helm", "Datadog", "Python", "Docker", "Linux"],
+  "experience": [
+   {"role": "Engenheira de Plataforma", "company": "Lusomira Pagamentos", "period": "2021 – Presente", "bullets": [
+    "Gestão de clusters Kubernetes em EKS com mais de 90 serviços, com upgrades trimestrais sem downtime.",
+    "Infraestrutura em código com Terraform, organizada em módulos reutilizáveis e revistos por pares.",
+    "Pipelines GitLab CI com testes, análise de vulnerabilidades em imagens e promoção automática entre ambientes.",
+    "Definição de SLOs e alertas no Datadog, reduzindo o ruído de alertas em 45%."]},
+   {"role": "Engenheira DevOps", "company": "Atlântida Digital", "period": "2018 – 2021", "bullets": [
+    "Migração de aplicações monolíticas para contentores Docker e Kubernetes.",
+    "Automatização de ambientes de teste com scripts Python e Terraform.",
+    "Apoio às equipas de desenvolvimento na resolução de incidentes em produção."]}
+  ],
+  "education": [{"degree": "Mestrado em Engenharia Informática", "institution": "Universidade do Alto Cávado", "period": "2016 – 2018"}, {"degree": "Licenciatura em Engenharia Informática", "institution": "Universidade do Alto Cávado", "period": "2013 – 2016"}],
+  "languages": ["Português (nativo)", "Inglês (C1)", "Espanhol (B1)"],
+  "certifications": ["AWS Solutions Architect Associate"]
+ },
+ {
+  "archetype": "platform_devops", "language": "en", "misleading": false,
+  "name": "Kwabena Asamoah-Tetteh", "headline": "Cloud Platform Engineer",
+  "email": "kwabena.asamoah-tetteh@example.net", "location": "Dublin, Ireland",
+  "summary": "Junior cloud engineer, two years in the field after a graduate programme. I help run a Kubernetes platform on Google Cloud, write Terraform for new environments and fix pipeline failures. Eager to learn, comfortable with on-call shadowing and keen on reliability work.",
+  "skills": ["Kubernetes", "GKE", "Terraform", "GitHub Actions", "Docker", "Python", "Bash", "Cloud Monitoring", "Git"],
+  "experience": [
+   {"role": "Cloud Platform Engineer", "company": "Liffeyside Data Services", "period": "2023 – Present", "bullets": [
+    "Support a Kubernetes platform on GKE used by 25 engineers: namespace onboarding, resource quotas and access requests.",
+    "Write Terraform changes for new projects and networks, reviewed by senior engineers.",
+    "Maintain GitHub Actions workflows that build, scan and publish container images.",
+    "Resolved 60+ support tickets from development teams in the first year."]},
+   {"role": "Graduate Infrastructure Engineer", "company": "Corribwell Technologies", "period": "2022 – 2023", "bullets": [
+    "Rotated through the networking, cloud and monitoring teams.",
+    "Built a Python tool that reports unused cloud resources every week."]}
+  ],
+  "education": [{"degree": "BSc Computer Science", "institution": "Western Shannon University", "period": "2018 – 2022"}],
+  "languages": ["English (fluent)", "Twi (native)"],
+  "certifications": ["Google Associate Cloud Engineer"]
+ }
+]
